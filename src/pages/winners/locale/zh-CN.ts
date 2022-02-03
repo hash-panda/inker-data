@@ -1,0 +1,18 @@
+export default {
+  'menu.winners': '中奖信息',
+  'workplace.welcome': '欢迎回来！',
+  'winners.endRoundTime': '开奖时间',
+  'winners.totalDeposit': '总存款金额',
+  'winners.currentRound': '当前期数',
+  'winners.currentTotalPrizeAmount': '当前奖池',
+  'winners.history': '历史中奖记录',
+  'winners.historyWinners.rank': '排名',
+  'winners.historyWinners.address': '地址',
+  'winners.historyWinners.prize': '中奖金额(ust)',
+  'winners.historyWinners.deposit': '存款金额(ust)',
+  'winners.historyWinners.isClaimed': '是否领取',
+  'winners.historyWinners.claimed': '已领取',
+  'winners.historyWinners.notClaimed': '未领取',
+  'winners.historyWinners.totalDepositSnapshot': '总存款金额快照(ust)',
+  'winners.historyWinners.height': '高度',
+};

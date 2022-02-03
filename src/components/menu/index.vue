@@ -8,14 +8,12 @@ import {
   RouteRecordNormalized,
 } from 'vue-router';
 import { useAppStore } from '@/store';
-import usePermission from '@/hooks/permission';
 
 export default defineComponent({
   emit: ['collapse'],
   setup() {
     const { t } = useI18n();
     const appStore = useAppStore();
-    const permission = usePermission();
     const router = useRouter();
     const route = useRoute();
     const collapsed = ref(false);
@@ -29,11 +27,6 @@ export default defineComponent({
       function travel(_routes: RouteRecordRaw[], layer: number) {
         if (!_routes) return null;
         const collector: any = _routes.map((element) => {
-          // no access
-          if (!permission.accessRouter(element)) {
-            return null;
-          }
-
           // leaf node
           if (!element.children) {
             return element;
@@ -69,10 +62,8 @@ export default defineComponent({
     watch(
       route,
       (newVal) => {
-        if (newVal.meta.requiresAuth) {
-          const key = newVal.matched[2]?.name as string;
-          selectedKey.value = [key];
-        }
+        const key = newVal.matched[1]?.name as string;
+        selectedKey.value = [key];
       },
       {
         immediate: true,
@@ -91,30 +82,21 @@ export default defineComponent({
       appStore.updateSettings({ menuCollapse: val });
     };
 
-    const renderSubMenu = () => {
+    const renderMenu = () => {
       function travel(_route: RouteRecordRaw[], nodes = []) {
         if (_route) {
           _route.forEach((element) => {
-            // This is demo, modify nodes as needed
-            if (!permission.accessRouter(element)) return;
             const icon = element?.meta?.icon ? `<${element?.meta?.icon}/>` : ``;
             const r = (
-              <a-sub-menu
-                key={element?.name}
+              <a-menu-item
+                key={element.name}
                 v-slots={{
-                  title: () =>
-                    h(compile(`${icon}${t(element?.meta?.locale || '')}`)),
+                  icon: () => h(compile(`${icon}`)),
                 }}
+                onClick={() => goto(element)}
               >
-                {element?.children?.map((elem) => {
-                  return (
-                    <a-menu-item key={elem.name} onClick={() => goto(elem)}>
-                      {t(elem?.meta?.locale || '')}
-                      {travel(elem.children ?? [])}
-                    </a-menu-item>
-                  );
-                })}
-              </a-sub-menu>
+                {t(element?.meta?.locale || '')}
+              </a-menu-item>
             );
             nodes.push(r as never);
           });
@@ -134,7 +116,7 @@ export default defineComponent({
         style="height: 100%"
         onCollapse={setCollapse}
       >
-        {renderSubMenu()}
+        {renderMenu()}
       </a-menu>
     );
   },

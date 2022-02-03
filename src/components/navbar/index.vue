@@ -2,27 +2,24 @@
   <div class="navbar">
     <div class="left-side">
       <a-space>
-        <img
-          alt="logo"
-          src="//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/dfdba5317c0c20ce20e64fac803d52bc.svg~tplv-49unhts6dw-image.image"
-        />
+        <img alt="logo" width="30" :src="inkerLogo" />
         <a-typography-title
           :style="{ margin: 0, fontSize: '18px' }"
           :heading="5"
+          type="primary"
         >
-          Arco Pro
+          INKer Data
         </a-typography-title>
       </a-space>
     </div>
     <ul class="right-side">
       <li>
-        <a-tooltip :content="$t('settings.search')">
-          <a-button class="nav-btn" type="outline" :shape="'circle'">
-            <template #icon>
-              <icon-search />
-            </template>
-          </a-button>
-        </a-tooltip>
+        <a-button type="text" @click="gotoInkProtocol">
+          <template #icon>
+            <icon-tags />
+          </template>
+          ink protocol
+        </a-button>
       </li>
       <li>
         <a-tooltip :content="$t('settings.language')">
@@ -71,88 +68,6 @@
           </a-button>
         </a-tooltip>
       </li>
-      <li>
-        <a-tooltip :content="$t('settings.navbar.alerts')">
-          <div class="message-box-trigger">
-            <a-badge :count="9" dot>
-              <a-button
-                class="nav-btn"
-                type="outline"
-                :shape="'circle'"
-                @click="setPopoverVisible"
-              >
-                <icon-notification />
-              </a-button>
-            </a-badge>
-          </div>
-        </a-tooltip>
-        <a-popover
-          trigger="click"
-          :arrow-style="{ display: 'none' }"
-          :content-style="{ padding: 0, minWidth: '400px' }"
-          content-class="message-popover"
-        >
-          <div ref="refBtn" class="ref-btn"></div>
-          <template #content>
-            <message-box />
-          </template>
-        </a-popover>
-      </li>
-      <li>
-        <a-tooltip :content="$t('settings.title')">
-          <a-button
-            class="nav-btn"
-            type="outline"
-            :shape="'circle'"
-            @click="setVisible"
-          >
-            <template #icon>
-              <icon-settings />
-            </template>
-          </a-button>
-        </a-tooltip>
-      </li>
-      <li>
-        <a-dropdown trigger="click">
-          <a-avatar :size="32" :style="{ marginRight: '8px' }">
-            <img alt="avatar" :src="avatar" />
-          </a-avatar>
-          <template #content>
-            <a-doption>
-              <a-space @click="switchRoles">
-                <icon-tag />
-                <span>
-                  {{ $t('messageBox.switchRoles') }}
-                </span>
-              </a-space>
-            </a-doption>
-            <a-doption>
-              <a-space @click="$router.push({ name: 'info' })">
-                <icon-user />
-                <span>
-                  {{ $t('messageBox.userCenter') }}
-                </span>
-              </a-space>
-            </a-doption>
-            <a-doption>
-              <a-space @click="$router.push({ name: 'setting' })">
-                <icon-settings />
-                <span>
-                  {{ $t('messageBox.userSettings') }}
-                </span>
-              </a-space>
-            </a-doption>
-            <a-doption>
-              <a-space @click="handleLogout">
-                <icon-export />
-                <span>
-                  {{ $t('messageBox.logout') }}
-                </span>
-              </a-space>
-            </a-doption>
-          </template>
-        </a-dropdown>
-      </li>
     </ul>
   </div>
 </template>
@@ -165,11 +80,12 @@ import { useAppStore, useUserStore } from '@/store';
 import { LOCALE_OPTIONS } from '@/locale';
 import useLocale from '@/hooks/locale';
 import useUser from '@/hooks/user';
-import MessageBox from '../message-box/index.vue';
+import inkerLogo from '@/assets/images/inker-logo.png';
+// import MessageBox from '../message-box/index.vue';
 
 export default defineComponent({
   components: {
-    MessageBox,
+    // MessageBox,
   },
   setup() {
     const appStore = useAppStore();
@@ -223,6 +139,9 @@ export default defineComponent({
       const res = await userStore.switchRoles();
       Message.success(res as string);
     };
+    const gotoInkProtocol = () => {
+      window.open('https://inkprotocol.finance/', '_blank');
+    };
     return {
       locales,
       theme,
@@ -236,6 +155,8 @@ export default defineComponent({
       handleLogout,
       setDropDownVisible,
       switchRoles,
+      gotoInkProtocol,
+      inkerLogo,
     };
   },
 });
