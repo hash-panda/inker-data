@@ -225,14 +225,6 @@ export default defineComponent({
         handleDeleteClick();
       }
     };
-    const handleFormAdd = () => {
-      form.value.posts.push({
-        value: '',
-      });
-    };
-    const handleFormDelete = (index: number) => {
-      form.value.posts.splice(index, 1);
-    };
 
     const handleAddAccountClick = () => {
       addAccountVisible.value = true;
@@ -258,8 +250,6 @@ export default defineComponent({
       handleDeleteOk,
       handleDeleteCancel,
       deleteVisible,
-      handleFormAdd,
-      handleFormDelete,
       addAccountVisible,
       handleAddAccountClick,
       handleAddAccountOk,

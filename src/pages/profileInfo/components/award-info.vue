@@ -23,29 +23,16 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, ref } from 'vue';
 import useLoading from '@/hooks/loading';
 
 export default defineComponent({
   setup(props) {
     const { loading } = useLoading();
-    const account = [
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      //   { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
+    const account = ref();
+    account.value = [
+      { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
+      { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
     ];
     return {
       loading,
