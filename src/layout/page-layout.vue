@@ -22,7 +22,20 @@
         </a-layout-sider>
         <a-layout class="layout-content" :style="paddingStyle">
           <a-layout-content>
-            <router-view />
+            <router-view v-slot="{ Component }">
+              <keep-alive>
+                <component
+                  :is="Component"
+                  :key="route.name"
+                  v-if="route.meta.keepAlive"
+                />
+              </keep-alive>
+              <component
+                :is="Component"
+                :key="route.name"
+                v-if="!route.meta.keepAlive"
+              />
+            </router-view>
           </a-layout-content>
           <Footer v-if="footer" />
         </a-layout>
@@ -32,7 +45,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed, watch } from 'vue';
+import { defineComponent, computed, watch, ref, provide, nextTick } from 'vue';
 import { useRouter, useRoute } from 'vue-router';
 import { useAppStore, useUserStore } from '@/store';
 import NavBar from '@/components/navbar/index.vue';
@@ -79,6 +92,7 @@ export default defineComponent({
           router.push({ name: 'notFound' });
       }
     );
+
     return {
       navbar,
       menu,
@@ -87,6 +101,7 @@ export default defineComponent({
       paddingStyle,
       collapse,
       setCollapsed,
+      route,
     };
   },
 });

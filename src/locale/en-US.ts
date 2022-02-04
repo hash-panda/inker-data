@@ -16,6 +16,7 @@ import localeSettings from './en-US/settings';
 export default {
   'menu.dashboard': 'Dashboard',
   'navbar.action.locale': 'Switch to English',
+  'http.error': 'The server is busy. Refresh or re-enter the information',
   ...localeSettings,
   ...localeMessageBox,
   ...localeWinners,

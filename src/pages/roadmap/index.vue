@@ -6,6 +6,7 @@
           <a-space direction="vertical">
             <a-typography>
               <a-typography-title :heading="3"> 路线图 </a-typography-title>
+              <a-divider />
               <a-typography-title :heading="6" delete>
                 <a-checkbox :default-checked="true" disabled></a-checkbox>
                 多账号汇总查看自己的账户存款信息

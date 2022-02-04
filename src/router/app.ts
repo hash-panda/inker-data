@@ -5,9 +5,7 @@ export default [
     component: () => import('@/pages/dashboard/index.vue'),
     meta: {
       locale: 'menu.dashboard',
-      requiresAuth: true,
       icon: 'icon-dashboard',
-      role: ['*'],
     },
   },
   {
@@ -16,9 +14,7 @@ export default [
     component: () => import('@/pages/profile/index.vue'),
     meta: {
       locale: 'menu.profile',
-      requiresAuth: true,
       icon: 'icon-apps',
-      role: ['*'],
     },
   },
   {
@@ -27,9 +23,8 @@ export default [
     component: () => import('@/pages/profileInfo/checkAccount/index.vue'),
     meta: {
       locale: 'menu.profileInfo.checkAccount',
-      requiresAuth: true,
       icon: 'icon-align-center',
-      role: ['*'],
+      keepAlive: true,
     },
   },
   {
@@ -38,9 +33,8 @@ export default [
     component: () => import('@/pages/profileInfo/checkProfile/index.vue'),
     meta: {
       locale: 'menu.profileInfo.checkProfile',
-      requiresAuth: true,
       icon: 'icon-user',
-      role: ['*'],
+      keepAlive: true,
     },
   },
   {
@@ -49,9 +43,8 @@ export default [
     component: () => import('@/pages/winners/index.vue'),
     meta: {
       locale: 'menu.winners',
-      requiresAuth: true,
       icon: 'icon-code-square',
-      role: ['*'],
+      keepAlive: true,
     },
   },
   {
@@ -60,9 +53,7 @@ export default [
     component: () => import('@/pages/faq/index.vue'),
     meta: {
       locale: 'menu.faq',
-      requiresAuth: true,
       icon: 'icon-question-circle',
-      role: ['*'],
     },
   },
   {
@@ -71,9 +62,7 @@ export default [
     component: () => import('@/pages/roadmap/index.vue'),
     meta: {
       locale: 'menu.roadmap',
-      requiresAuth: true,
       icon: 'icon-cloud',
-      role: ['*'],
     },
   },
   {
@@ -82,9 +71,7 @@ export default [
     component: () => import('@/pages/donate/index.vue'),
     meta: {
       locale: 'menu.donate',
-      requiresAuth: true,
       icon: 'icon-gift',
-      role: ['*'],
     },
   },
 ];

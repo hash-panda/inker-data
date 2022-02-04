@@ -73,7 +73,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed, ref } from 'vue';
+import { defineComponent, computed, ref, inject } from 'vue';
 import { Message } from '@arco-design/web-vue';
 import { useDark, useToggle } from '@vueuse/core';
 import { useAppStore, useUserStore } from '@/store';
@@ -81,6 +81,7 @@ import { LOCALE_OPTIONS } from '@/locale';
 import useLocale from '@/hooks/locale';
 import useUser from '@/hooks/user';
 import inkerLogo from '@/assets/images/inker-logo.png';
+import { gotoInkProtocol } from '@/utils';
 // import MessageBox from '../message-box/index.vue';
 
 export default defineComponent({
@@ -139,9 +140,7 @@ export default defineComponent({
       const res = await userStore.switchRoles();
       Message.success(res as string);
     };
-    const gotoInkProtocol = () => {
-      window.open('https://inkprotocol.finance/', '_blank');
-    };
+
     return {
       locales,
       theme,

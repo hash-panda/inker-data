@@ -15,7 +15,7 @@
                 placeholder="Please select profile ..."
               >
                 <a-option>Beijing</a-option>
-                <a-option>Shanghai7487482374823748</a-option>
+                <a-option>abc</a-option>
                 <template #footer>
                   <div style="padding: 6px 0; text-align: center">
                     <a-button type="primary">Manage Profile</a-button>
@@ -36,15 +36,15 @@
             </a-col>
           </a-row>
         </a-card>
-        <div class="panel"><award-info /> </div>
-        <div class="panel"><account-info /> </div>
+        <div><award-info :accounts="accounts" :useStore="true" /> </div>
+        <div><account-info :accounts="accounts" :useStore="true" /> </div>
       </a-space>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, ref } from 'vue';
 import AccountInfo from '../components/account-info.vue';
 import AwardInfo from '../components/award-info.vue';
 import DataOverview from '../components/data-overview.vue';
@@ -56,7 +56,19 @@ export default defineComponent({
     DataOverview,
   },
   setup() {
-    //
+    // test data
+    const accounts = ref([
+      'terra1xh2e6tmmnrdu6vy0kev62xvlrxmwz9mxr43n4a',
+      'terra1kwppcxznvydujtpvfjnj8jx2pu7s43uwtvylm8',
+      // 'terra1jqfjc7f3lwkywjp97w4c2ljfgwd879dcq8c4ks',
+      // 'terra12f9g97jv2g8smn0qhnem5t5p0v6eaalx4q8agw',
+      // 'terra1vw22kuvjdcppj9ah28r4tw7mm9chyzh2g7ly9n',
+      // 'terra1dywpvspya60alrkhjg2rtlq8p6tst5c405a55f',
+      // 'terra1xs8hc0drmesxv9jeh793fv5ncwuw0hrzuawc3d',
+    ]);
+    return {
+      accounts,
+    };
   },
 });
 </script>

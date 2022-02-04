@@ -18,7 +18,12 @@
           :gutters="20"
           class="my-project-item"
         >
-          <a-card title="Arco Card" :bordered="true" :hoverable="true">
+          <a-card
+            title="Arco Card"
+            :bordered="true"
+            :hoverable="true"
+            class="card-animation"
+          >
             <template #extra>
               <a-space>
                 <a-button type="primary" shape="round" size="mini"
@@ -289,5 +294,8 @@ export default defineComponent({
       padding-right: 0;
     }
   }
+}
+.card-animation:hover {
+  transform: translateY(-4px);
 }
 </style>

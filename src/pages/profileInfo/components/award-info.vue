@@ -1,42 +1,169 @@
 <template>
-  <a-spin :loading="loading" style="width: 100%">
-    <a-card
-      class="general-card"
-      :header-style="{ paddingBottom: '0' }"
-      :body-style="{ padding: '17px 20px 21px 20px' }"
-    >
-      <template #title> 中奖信息 </template>
+  <!-- <a-spin :loading="loading" style="width: 100%"> -->
+  <a-card class="general-card" :bordered="false">
+    <template #title> {{ $t('profileInfo.awardInfo') }} </template>
 
-      <a-table
-        :data="account"
-        :pagination="false"
-        :bordered="false"
-        :split="false"
-      >
-        <template #columns>
-          <a-table-column title="序号" data-index="index"> </a-table-column>
-          <a-table-column title="账号" data-index="address"> </a-table-column>
-        </template>
-      </a-table>
-    </a-card>
-  </a-spin>
+    <a-table
+      :data="accountAwardsInfo"
+      :pagination="false"
+      :split="false"
+      :loading="loading"
+    >
+      <template #columns>
+        <a-table-column
+          :title="$t('winners.historyWinners.address')"
+          data-index="winner.address"
+        >
+        </a-table-column>
+        <a-table-column
+          :title="$t('profileInfo.awardInfo.round')"
+          data-index="round"
+        >
+          <template #cell="{ record }">
+            <span class="round-icon">#{{ record.round }}</span>
+          </template>
+        </a-table-column>
+        <a-table-column
+          :title="$t('winners.historyWinners.prize')"
+          data-index="awardAmount"
+        >
+          <template #cell="{ record }">
+            {{ formatAmount(record.winner.award.amount) }}
+            <!-- {{ getCoin(record.winner.award.info.native_token.denom) }} -->
+          </template>
+        </a-table-column>
+        <a-table-column
+          :title="$t('winners.historyWinners.deposit')"
+          data-index="winner.deposit_snapshot"
+        >
+          <template #cell="{ record }">
+            {{ formatAmount(record.winner.deposit_snapshot) }}
+          </template>
+        </a-table-column>
+        <a-table-column
+          :title="$t('winners.historyWinners.isClaimed')"
+          data-index="winner.is_claimed"
+        >
+          <template #cell="{ record }">
+            <a-tag
+              v-if="record.winner.is_claimed"
+              size="small"
+              color="purple"
+              >{{ $t('winners.historyWinners.claimed') }}</a-tag
+            >
+            <span v-else>
+              <a-space>
+                <a-tag size="small" color="#8C36E7">{{
+                  $t('winners.historyWinners.notClaimed')
+                }}</a-tag>
+                <span
+                  ><a-tooltip :content="$t('profileInfo.awardInfo.gotoClaim')"
+                    ><icon-tag
+                      strokeWidth="2"
+                      @click="gotoInkProtocol" /></a-tooltip
+                ></span>
+              </a-space>
+            </span>
+          </template>
+        </a-table-column>
+        <a-table-column
+          :title="$t('profileInfo.dataOverview.totalDeposit')"
+          data-index="total_deposit_snapshot.amount"
+        >
+          <template #cell="{ record }">
+            {{ formatAmount(record.total_deposit_snapshot.amount) }}
+          </template>
+        </a-table-column>
+      </template>
+    </a-table>
+  </a-card>
+  <!-- </a-spin> -->
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent, ref, watch } from 'vue';
 import useLoading from '@/hooks/loading';
+import { queryPlayerAwards } from '@/api/profile-info';
+import {
+  formatAmount,
+  getCoin,
+  gotoInkProtocol,
+  getActualAmount,
+} from '@/utils';
+import { useProfileInfoState } from '@/store';
 
 export default defineComponent({
+  props: {
+    accounts: {
+      type: Array,
+      default: [] as string[],
+    },
+    useStore: {
+      type: Boolean,
+      default: false,
+    },
+  },
   setup(props) {
-    const { loading } = useLoading();
-    const account = ref();
-    account.value = [
-      { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak' },
-    ];
+    const { loading, setLoading } = useLoading(false);
+    const accountAwardsInfo = ref([] as any);
+    const profileInfoState = useProfileInfoState();
+    const totalAwards = ref(0);
+    const setProfileInfoState = (info: any) => {
+      if (props.useStore) {
+        profileInfoState.setInfo(info);
+      }
+    };
+    const fetchData = async (address: string) => {
+      try {
+        const playerAwardsRes = await queryPlayerAwards(address);
+        accountAwardsInfo.value = [
+          ...accountAwardsInfo.value,
+          ...playerAwardsRes?.data?.result?.player_awards,
+        ];
+      } catch (e) {
+        setLoading(false);
+      }
+    };
+    const reset = () => {
+      accountAwardsInfo.value = [];
+      totalAwards.value = 0;
+    };
+    watch(
+      () => props.accounts,
+      (newVal) => {
+        setLoading(true);
+        reset();
+        newVal.forEach((item) => {
+          fetchData(item as string);
+        });
+        setLoading(false);
+      },
+      {
+        immediate: true,
+      }
+    );
+    watch(
+      () => accountAwardsInfo.value,
+      () => {
+        let total = 0;
+        accountAwardsInfo.value.forEach((item) => {
+          total += getActualAmount(item.winner.award.amount);
+        });
+        setProfileInfoState({
+          totalAwards: total,
+          awardCount: accountAwardsInfo.value.length,
+        });
+      },
+      {
+        immediate: true,
+      }
+    );
     return {
       loading,
-      account,
+      accountAwardsInfo,
+      formatAmount,
+      getCoin,
+      gotoInkProtocol,
     };
   },
 });
@@ -45,6 +172,9 @@ export default defineComponent({
 <style scoped lang="less">
 .general-card {
   min-height: 188px;
+}
+.round-icon {
+  color: rgb(var(--primary-6));
 }
 :deep(.arco-table-tr) {
   height: 44px;

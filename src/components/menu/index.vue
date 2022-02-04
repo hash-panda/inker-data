@@ -108,7 +108,7 @@ export default defineComponent({
     return () => (
       <a-menu
         v-model:collapsed={collapsed.value}
-        show-collapse-button
+        show-collapse-button={false}
         auto-open={false}
         selected-keys={selectedKey.value}
         auto-open-selected={true}

@@ -6,6 +6,7 @@
           <a-space direction="vertical" :size="10">
             <a-typography>
               <a-typography-title :heading="3"> 常见问题 </a-typography-title>
+              <a-divider />
               <a-typography-title :heading="5">
                 这是官方的么？
               </a-typography-title>

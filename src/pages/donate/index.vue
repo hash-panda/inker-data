@@ -6,6 +6,7 @@
           <a-space direction="vertical">
             <a-typography>
               <a-typography-title :heading="3"> 捐赠 </a-typography-title>
+              <a-divider />
               <a-typography-paragraph>
                 你的打赏，是作者持续输出的动力！
               </a-typography-paragraph>

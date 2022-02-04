@@ -16,6 +16,7 @@ import localeSettings from './zh-CN/settings';
 export default {
   'menu.dashboard': '仪表盘',
   'navbar.action.locale': '切换为中文',
+  'http.error': '服务器繁忙，请刷新或者重新输入信息',
   ...localeSettings,
   ...localeMessageBox,
   ...localeWinners,

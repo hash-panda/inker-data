@@ -48,54 +48,63 @@ import { defineComponent, computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import useLoading from '@/hooks/loading';
 import useThemes from '@/hooks/themes';
+import { useProfileInfoState } from '@/store';
 
 export default defineComponent({
   setup() {
     const { t } = useI18n();
     const { loading, setLoading } = useLoading(false);
+    const profileInfoState = useProfileInfoState();
     const { isDark } = useThemes();
-    const renderData = computed(() => [
-      {
-        title: t('profileInfo.dataOverview.totalDeposit'),
-        value: 19092,
-        precision: 2,
-        prefix: {
-          icon: 'icon-fire',
-          background: isDark.value ? '#593E2F' : '#FFE4BA',
-          iconColor: isDark.value ? '#F29A43' : '#F77234',
+
+    const renderData = computed(() => {
+      console.log(
+        'data-overview profileInfoState.totalDeposit',
+        profileInfoState.totalDeposit
+      );
+      return [
+        {
+          title: t('profileInfo.dataOverview.totalDeposit'),
+          value: profileInfoState.totalDeposit,
+          precision: 2,
+          prefix: {
+            icon: 'icon-fire',
+            background: isDark.value ? '#593E2F' : '#FFE4BA',
+            iconColor: isDark.value ? '#F29A43' : '#F77234',
+          },
         },
-      },
-      {
-        title: t('profileInfo.dataOverview.totalAwards'),
-        value: 2445,
-        precision: 2,
-        prefix: {
-          icon: 'icon-gift',
-          background: isDark.value ? '#3D5A62' : '#E8FFFB',
-          iconColor: isDark.value ? '#6ED1CE' : '#33D1C9',
+        {
+          title: t('profileInfo.dataOverview.totalAwards'),
+          value: profileInfoState.totalAwards,
+          precision: 2,
+          prefix: {
+            icon: 'icon-gift',
+            background: isDark.value ? '#3D5A62' : '#E8FFFB',
+            iconColor: isDark.value ? '#6ED1CE' : '#33D1C9',
+          },
         },
-      },
-      {
-        title: t('profileInfo.dataOverview.awardCount'),
-        value: 4,
-        precision: 0,
-        prefix: {
-          icon: 'icon-heart',
-          background: isDark.value ? '#354276' : '#E8F3FF',
-          iconColor: isDark.value ? '#4A7FF7' : '#165DFF',
+        {
+          title: t('profileInfo.dataOverview.awardCount'),
+          value: profileInfoState.awardCount,
+          precision: 0,
+          prefix: {
+            icon: 'icon-heart',
+            background: isDark.value ? '#354276' : '#E8F3FF',
+            iconColor: isDark.value ? '#4A7FF7' : '#165DFF',
+          },
         },
-      },
-      {
-        title: t('profileInfo.dataOverview.accountCount'),
-        value: 12,
-        precision: 0,
-        prefix: {
-          icon: 'icon-user',
-          background: isDark.value ? '#3F385E' : '#F5E8FF',
-          iconColor: isDark.value ? '#8558D3' : '#722ED1',
+        {
+          title: t('profileInfo.dataOverview.accountCount'),
+          value: profileInfoState.accountCount,
+          precision: 0,
+          prefix: {
+            icon: 'icon-user',
+            background: isDark.value ? '#3F385E' : '#F5E8FF',
+            iconColor: isDark.value ? '#8558D3' : '#722ED1',
+          },
         },
-      },
-    ]);
+      ];
+    });
 
     return {
       loading,

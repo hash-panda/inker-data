@@ -6,30 +6,46 @@
           class="general-card"
           :header-style="{ paddingBottom: '0' }"
           :body-style="{ padding: '30px' }"
+          :bordered="false"
         >
           <a-row>
             <a-col :flex="3"></a-col>
             <a-col :flex="6">
               <a-input-search
                 :style="{ width: '100%' }"
-                placeholder="Please enter account..."
-                button-text="Search"
+                :placeholder="$t('profileInfo.searchPlaceholder')"
+                :button-text="$t('profileInfo.searchBtn')"
                 size="large"
+                allow-clear
+                :loading="loading"
                 search-button
+                @press-enter="pressEnterSearchAccount"
+                @search="searchAccount"
               />
             </a-col>
             <a-col :flex="3"></a-col>
           </a-row>
         </a-card>
-        <div class="panel"><award-info /> </div>
-        <div class="panel"><account-info /> </div>
+        <a-card>
+          <template #title>{{ searchedTerraAddress }} </template>
+          <template #extra
+            ><a-button type="text" @click="gotoFinder"
+              >ET Finder</a-button
+            ></template
+          >
+          <a-space direction="vertical" size="large" fill>
+            <award-info :accounts="searchedTerraAddress" :useStore="false" />
+            <account-info :accounts="searchedTerraAddress" :useStore="false" />
+          </a-space>
+        </a-card>
       </a-space>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, ref, watch } from 'vue';
+import useLoading from '@/hooks/loading';
 import AccountInfo from '../components/account-info.vue';
 import AwardInfo from '../components/award-info.vue';
 
@@ -39,7 +55,54 @@ export default defineComponent({
     AwardInfo,
   },
   setup() {
-    //
+    const { loading, setLoading } = useLoading(false);
+    const searchedTerraAddress = ref([] as string[]);
+    // test data
+    // const accounts = ref([
+    //   'terra1xh2e6tmmnrdu6vy0kev62xvlrxmwz9mxr43n4a',
+    //   'terra1kwppcxznvydujtpvfjnj8jx2pu7s43uwtvylm8',
+    //   'terra1jqfjc7f3lwkywjp97w4c2ljfgwd879dcq8c4ks',
+    //   'terra12f9g97jv2g8smn0qhnem5t5p0v6eaalx4q8agw',
+    //   'terra1vw22kuvjdcppj9ah28r4tw7mm9chyzh2g7ly9n',
+    //   'terra1dywpvspya60alrkhjg2rtlq8p6tst5c405a55f',
+    //   'terra1xs8hc0drmesxv9jeh793fv5ncwuw0hrzuawc3d',
+    // ]);
+    const searchAddress = ref('');
+    const setSearchAccount = () => {
+      if (searchAddress.value) {
+        searchedTerraAddress.value = [searchAddress.value.trim()];
+      }
+    };
+    const searchAccount = (account: string) => {
+      setLoading(true);
+      searchAddress.value = account;
+      setSearchAccount();
+      setLoading(false);
+    };
+    const pressEnterSearchAccount = (e: any) => {
+      setLoading(true);
+      // eslint-disable-next-line
+      searchAddress.value = e.target._value;
+      setSearchAccount();
+      setLoading(false);
+    };
+
+    const gotoFinder = () => {
+      let url = '';
+      if (searchedTerraAddress.value[0]) {
+        url = `https://finder.extraterrestrial.money/mainnet/address/${searchedTerraAddress.value[0]}`;
+      } else {
+        url = 'https://finder.extraterrestrial.money';
+      }
+      window.open(url, '_blank');
+    };
+    return {
+      loading,
+      searchAccount,
+      searchedTerraAddress,
+      pressEnterSearchAccount,
+      gotoFinder,
+    };
   },
 });
 </script>
@@ -57,9 +120,10 @@ export default defineComponent({
 }
 
 .panel {
-  background-color: var(--color-bg-2);
-  border-radius: 4px;
-  overflow: auto;
+  // background-color: var(--color-bg-2);
+  // border-radius: 4px;
+  // border: none;
+  // overflow: auto;
 }
 :deep(.panel-border) {
   margin-bottom: 0;

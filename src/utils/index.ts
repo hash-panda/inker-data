@@ -11,3 +11,15 @@ export function formatAmount(amount: string | number) {
   const ret = intSum + dot;
   return ret;
 }
+
+export function getCoin(coin: string) {
+  let actualCoin = '';
+  if (coin === 'uusd') {
+    actualCoin = 'ust';
+  }
+  return actualCoin;
+}
+
+export function gotoInkProtocol() {
+  window.open('https://app.inkprotocol.finance/', '_blank');
+}

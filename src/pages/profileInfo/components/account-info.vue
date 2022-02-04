@@ -1,43 +1,103 @@
 <template>
-  <a-spin :loading="loading" style="width: 100%">
-    <a-card
-      class="general-card"
-      :header-style="{ paddingBottom: '0' }"
-      :body-style="{ padding: '17px 20px 21px 20px' }"
+  <a-card class="general-card" :bordered="false">
+    <template #title> {{ $t('profileInfo.depositInfo') }} </template>
+    <a-table
+      :data="accountInfo"
+      :pagination="false"
+      :split="false"
+      :loading="loading"
     >
-      <template #title> 账户信息 </template>
-
-      <a-table
-        :data="account"
-        :pagination="false"
-        :bordered="false"
-        :split="false"
-      >
-        <template #columns>
-          <a-table-column title="序号" data-index="index"> </a-table-column>
-          <a-table-column title="账号" data-index="address"> </a-table-column>
-        </template>
-      </a-table>
-    </a-card>
-  </a-spin>
+      <template #columns>
+        <a-table-column
+          :title="$t('winners.historyWinners.address')"
+          data-index="address"
+        >
+        </a-table-column>
+        <a-table-column
+          :title="$t('winners.historyWinners.deposit')"
+          data-index="amount"
+        >
+        </a-table-column>
+      </template>
+    </a-table>
+  </a-card>
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent, watch, ref } from 'vue';
 import useLoading from '@/hooks/loading';
+import { queryDepositInfo } from '@/api/profile-info';
+import { formatAmount, getActualAmount, getCoin } from '@/utils';
+import { useProfileInfoState } from '@/store';
 
 export default defineComponent({
+  props: {
+    accounts: {
+      type: Array,
+      default: [] as string[],
+    },
+    // 只有当 check profile 时 使用 store 记录汇总数据
+    useStore: {
+      type: Boolean,
+      default: false,
+    },
+  },
   setup(props) {
-    const { loading } = useLoading();
-    const account = ref();
-    account.value = [
-      { index: 1, address: '4729874283fahfjkahfkjfkjflkjfak1' },
-      { index: 2, address: '4729874283fahfjkahfkjfkjflkjfak' },
-      { index: 3, address: '4729874283fahfjkahfkjfkjflkjfak' },
-    ];
+    const { loading, setLoading } = useLoading(false);
+    const accountInfo = ref([] as any);
+    const totalDeposit = ref(0);
+    const profileInfoState = useProfileInfoState();
+
+    const setProfileInfoState = (info: any) => {
+      if (props.useStore) {
+        profileInfoState.setInfo(info);
+      }
+    };
+    const fetchData = async (address: string) => {
+      try {
+        const accountInfoRes = await queryDepositInfo(address);
+        const handleAccountInfo = {
+          amount: formatAmount(accountInfoRes.data?.result?.asset?.amount),
+          denom: getCoin(
+            accountInfoRes.data?.result?.asset?.info?.native_token?.denom
+          ),
+          address,
+        };
+        totalDeposit.value += getActualAmount(
+          accountInfoRes.data?.result?.asset?.amount
+        );
+        setProfileInfoState({
+          totalDeposit: totalDeposit.value,
+        });
+        accountInfo.value.push(handleAccountInfo);
+      } catch (e) {
+        setLoading(false);
+      }
+    };
+    const reset = () => {
+      accountInfo.value = [];
+      totalDeposit.value = 0;
+    };
+    watch(
+      () => props.accounts,
+      (newVal) => {
+        setLoading(true);
+        reset();
+        newVal.forEach((item) => {
+          fetchData(item as string);
+        });
+        setProfileInfoState({
+          accountCount: newVal.length,
+        });
+        setLoading(false);
+      },
+      {
+        immediate: true,
+      }
+    );
     return {
       loading,
-      account,
+      accountInfo,
     };
   },
 });
