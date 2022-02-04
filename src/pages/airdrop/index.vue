@@ -5,22 +5,16 @@
         <a-col :offset="6" :span="12">
           <a-space direction="vertical">
             <a-typography>
-              <a-typography-title :heading="3"> 捐赠 </a-typography-title>
+              <a-typography-title :heading="3"> 关于空投 </a-typography-title>
               <a-divider />
               <a-typography-paragraph>
-                你的打赏，是作者持续输出的动力！
-              </a-typography-paragraph>
-              <a-typography-title :heading="5">
-                Terra Wallet Address
-              </a-typography-title>
-              <a-typography-paragraph type="primary" copyable>
-                terra1waxjvmkyu8rr6qk55ahw6kz9hrmyx5evyld6ra
+                通过披露的路线图，发现可能有空投的机会！
               </a-typography-paragraph>
             </a-typography>
-            <a-button type="outline" @click="gotoTerraStation"
-              >Open Terra Station</a-button
+            <a-button type="outline" @click="gotoInkProtocolDocs"
+              >Open Ink-Protocol Docs</a-button
             >
-            <a-image width="200" :src="terraAddressQrCode" />
+            <a-image width="600" :src="airdropInfo" />
           </a-space>
         </a-col>
       </a-row>
@@ -30,14 +24,14 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import terraAddressQrCode from '@/assets/images/terra-address.png';
-import { gotoTerraStation } from '@/utils';
+import airdropInfo from '@/assets/images/airdrop-info.png';
+import { gotoInkProtocolDocs } from '@/utils';
 
 export default defineComponent({
   setup() {
     return {
-      gotoTerraStation,
-      terraAddressQrCode,
+      gotoInkProtocolDocs,
+      airdropInfo,
     };
   },
 });

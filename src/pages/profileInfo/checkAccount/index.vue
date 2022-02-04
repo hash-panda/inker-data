@@ -27,7 +27,7 @@
           </a-row>
         </a-card>
         <a-card>
-          <template #title>{{ searchedTerraAddress }} </template>
+          <!-- <template #title>{{ searchedTerraAddress }} </template> -->
           <template #extra
             ><a-button type="text" @click="gotoFinder"
               >ET Finder</a-button

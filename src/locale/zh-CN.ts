@@ -4,6 +4,7 @@ import localeProfileInfo from '@/pages/profileInfo/locale/zh-CN';
 import localeDonate from '@/pages/donate/locale/zh-CN';
 import localeRoadmap from '@/pages/roadmap/locale/zh-CN';
 import localeFaq from '@/pages/faq/locale/zh-CN';
+import localeAirdrop from '@/pages/airdrop/locale/zh-CN';
 
 import localeMessageBox from '@/components/message-box/locale/zh-CN';
 
@@ -25,6 +26,7 @@ export default {
   ...localeDonate,
   ...localeRoadmap,
   ...localeFaq,
+  ...localeAirdrop,
   ...locale403,
   ...locale404,
   ...locale500,

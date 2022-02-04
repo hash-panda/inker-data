@@ -66,6 +66,15 @@ export default [
     },
   },
   {
+    path: 'airdrop',
+    name: 'airdrop',
+    component: () => import('@/pages/airdrop/index.vue'),
+    meta: {
+      locale: 'menu.airdrop',
+      icon: 'icon-heart',
+    },
+  },
+  {
     path: 'donate',
     name: 'donate',
     component: () => import('@/pages/donate/index.vue'),

@@ -23,3 +23,11 @@ export function getCoin(coin: string) {
 export function gotoInkProtocol() {
   window.open('https://app.inkprotocol.finance/', '_blank');
 }
+
+export function gotoInkProtocolDocs() {
+  window.open('https://docs.inkprotocol.finance/', '_blank');
+}
+
+export function gotoTerraStation() {
+  window.open('https://station.terra.money/send?token=uusd', '_blank');
+}

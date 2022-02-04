@@ -19,7 +19,7 @@
             :key="totalRound - item + 1"
             :value="totalRound - item + 1"
           >
-            Round {{ totalRound - item + 1 }}
+            #{{ totalRound - item + 1 }}
           </a-radio>
         </a-radio-group>
         <a-divider style="margin-top: 0" />

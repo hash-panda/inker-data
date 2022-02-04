@@ -4,7 +4,7 @@ import localeProfileInfo from '@/pages/profileInfo/locale/en-US';
 import localeDonate from '@/pages/donate/locale/en-US';
 import localeRoadmap from '@/pages/roadmap/locale/en-US';
 import localeFaq from '@/pages/faq/locale/en-US';
-
+import localeAirdrop from '@/pages/airdrop/locale/en-US';
 import localeMessageBox from '@/components/message-box/locale/en-US';
 
 import locale403 from '@/pages/exception/403/locale/en-US';
@@ -25,6 +25,7 @@ export default {
   ...localeDonate,
   ...localeRoadmap,
   ...localeFaq,
+  ...localeAirdrop,
   ...locale403,
   ...locale404,
   ...locale500,
