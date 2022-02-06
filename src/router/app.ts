@@ -6,34 +6,6 @@ export default [
     meta: {
       locale: 'menu.dashboard',
       icon: 'icon-dashboard',
-    },
-  },
-  {
-    path: 'profile',
-    name: 'profile',
-    component: () => import('@/pages/profile/index.vue'),
-    meta: {
-      locale: 'menu.profile',
-      icon: 'icon-apps',
-    },
-  },
-  {
-    path: 'check-account',
-    name: 'checkAccount',
-    component: () => import('@/pages/profileInfo/checkAccount/index.vue'),
-    meta: {
-      locale: 'menu.profileInfo.checkAccount',
-      icon: 'icon-align-center',
-      keepAlive: true,
-    },
-  },
-  {
-    path: 'check-profile',
-    name: 'checkProfile',
-    component: () => import('@/pages/profileInfo/checkProfile/index.vue'),
-    meta: {
-      locale: 'menu.profileInfo.checkProfile',
-      icon: 'icon-user',
       keepAlive: true,
     },
   },
@@ -47,6 +19,35 @@ export default [
       keepAlive: true,
     },
   },
+  // {
+  //   path: 'profile',
+  //   name: 'profile',
+  //   component: () => import('@/pages/profile/index.vue'),
+  //   meta: {
+  //     locale: 'menu.profile',
+  //     icon: 'icon-apps',
+  //   },
+  // },
+  {
+    path: 'check-account',
+    name: 'checkAccount',
+    component: () => import('@/pages/profileInfo/checkAccount/index.vue'),
+    meta: {
+      locale: 'menu.profileInfo.checkAccount',
+      icon: 'icon-align-center',
+      keepAlive: true,
+    },
+  },
+  // {
+  //   path: 'check-profile',
+  //   name: 'checkProfile',
+  //   component: () => import('@/pages/profileInfo/checkProfile/index.vue'),
+  //   meta: {
+  //     locale: 'menu.profileInfo.checkProfile',
+  //     icon: 'icon-user',
+  //     keepAlive: true,
+  //   },
+  // },
   {
     path: 'faq',
     name: 'faq',

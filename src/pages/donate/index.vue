@@ -5,10 +5,12 @@
         <a-col :offset="6" :span="12">
           <a-space direction="vertical">
             <a-typography>
-              <a-typography-title :heading="3"> 捐赠 </a-typography-title>
+              <a-typography-title :heading="3">
+                {{ $t('menu.donate') }}
+              </a-typography-title>
               <a-divider />
               <a-typography-paragraph>
-                你的打赏，是作者持续输出的动力！
+                {{ $t('donate.graph') }}
               </a-typography-paragraph>
               <a-typography-title :heading="5">
                 Terra Wallet Address

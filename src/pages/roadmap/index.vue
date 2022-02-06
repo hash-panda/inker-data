@@ -5,31 +5,33 @@
         <a-col :offset="6" :span="12">
           <a-space direction="vertical">
             <a-typography>
-              <a-typography-title :heading="3"> 路线图 </a-typography-title>
+              <a-typography-title :heading="3">
+                {{ $t('menu.roadmap') }}
+              </a-typography-title>
               <a-divider />
               <a-typography-title :heading="6" delete>
                 <a-checkbox :default-checked="true" disabled></a-checkbox>
-                多账号汇总查看自己的账户存款信息
+                {{ $t('roadmap.graph1') }}
               </a-typography-title>
               <a-typography-title :heading="6" delete>
                 <a-checkbox :default-checked="true" disabled></a-checkbox>
-                多账号汇总查看是否已中奖
+                {{ $t('roadmap.graph2') }}
               </a-typography-title>
               <a-typography-title :heading="6" delete>
                 <a-checkbox :default-checked="true" disabled></a-checkbox>
-                INKer 存款信息分析图表
+                {{ $t('roadmap.graph3') }}
               </a-typography-title>
               <a-typography-title :heading="6">
                 <a-checkbox :default-checked="false" disabled></a-checkbox>
-                更新 UI / UX
+                {{ $t('roadmap.graph4') }}
               </a-typography-title>
               <a-typography-title :heading="6">
                 <a-checkbox :default-checked="false" disabled></a-checkbox>
-                团队参与中奖信息分析图表
+                {{ $t('roadmap.graph5') }}
               </a-typography-title>
               <a-typography-title :heading="6">
                 <a-checkbox :default-checked="false" disabled></a-checkbox>
-                ink-protocol 团队增加跳转入口
+                {{ $t('roadmap.graph6') }}
               </a-typography-title>
             </a-typography>
           </a-space>

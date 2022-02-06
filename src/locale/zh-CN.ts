@@ -1,3 +1,4 @@
+import localeDashboard from '@/pages/dashboard/locale/zh-CN';
 import localeWinners from '@/pages/winners/locale/zh-CN';
 import localeProfile from '@/pages/profile/locale/zh-CN';
 import localeProfileInfo from '@/pages/profileInfo/locale/zh-CN';
@@ -15,11 +16,11 @@ import locale500 from '@/pages/exception/500/locale/zh-CN';
 import localeSettings from './zh-CN/settings';
 
 export default {
-  'menu.dashboard': '仪表盘',
   'navbar.action.locale': '切换为中文',
   'http.error': '服务器繁忙，请刷新或者重新输入信息',
   ...localeSettings,
   ...localeMessageBox,
+  ...localeDashboard,
   ...localeWinners,
   ...localeProfile,
   ...localeProfileInfo,

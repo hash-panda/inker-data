@@ -5,47 +5,44 @@
         <a-col :offset="6" :span="12">
           <a-space direction="vertical" :size="10">
             <a-typography>
-              <a-typography-title :heading="3"> 常见问题 </a-typography-title>
+              <a-typography-title :heading="3">
+                {{ $t('menu.faq') }}
+              </a-typography-title>
               <a-divider />
               <a-typography-title :heading="5">
-                这是官方的么？
+                {{ $t('faq.title1') }}
               </a-typography-title>
               <a-typography-paragraph>
-                这是 INKer 自发开发的，非官方的。
+                {{ $t('faq.graph1') }}
               </a-typography-paragraph>
               <a-typography-title :heading="5">
-                这个网站主要是干什么的？
+                {{ $t('faq.title2') }}
               </a-typography-title>
               <a-typography-paragraph>
-                该网站是 INKer 自发开发的，针对 ink-protocol
-                无损彩票协议的数据分析平台。
+                {{ $t('faq.graph2') }}
               </a-typography-paragraph>
+              <a-typography-paragraph> </a-typography-paragraph>
+              <a-typography-title :heading="5">
+                {{ $t('faq.title3') }}
+              </a-typography-title>
               <a-typography-paragraph>
-                在这里，你可以管理你的多个账户，可以查看目前 INKer 的投资情况。
+                {{ $t('faq.graph3') }}
               </a-typography-paragraph>
               <a-typography-title :heading="5">
-                网站的 UI 可以再设计一下么？
+                {{ $t('faq.title4') }}
               </a-typography-title>
               <a-typography-paragraph>
-                如果你是 UI 设计人员，非常感谢你能给网站设计一套简约大方的 UI。
-              </a-typography-paragraph>
-              <a-typography-title :heading="5">
-                发现了问题如何上报？
-              </a-typography-title>
-              <a-typography-paragraph>
-                在这里登记你发现的问题。<a-button
-                  type="text"
-                  @click="gotoBugReport"
+                {{ $t('faq.graph4') }}
+                <a-button type="text" @click="gotoBugReport"
                   >Bug Report <template #icon> <icon-bug /> </template
                 ></a-button>
               </a-typography-paragraph>
               <a-typography-title :heading="5">
-                想让团队上新的功能，如何通知团队？
+                {{ $t('faq.title5') }}
               </a-typography-title>
               <a-typography-paragraph>
-                在这里上报你想要的功能。<a-button
-                  type="text"
-                  @click="gotoSuggestion"
+                {{ $t('faq.graph5') }}
+                <a-button type="text" @click="gotoSuggestion"
                   >Please Add <template #icon> <icon-edit /> </template
                 ></a-button>
               </a-typography-paragraph>

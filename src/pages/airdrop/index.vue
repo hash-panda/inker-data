@@ -5,10 +5,12 @@
         <a-col :offset="6" :span="12">
           <a-space direction="vertical">
             <a-typography>
-              <a-typography-title :heading="3"> 关于空投 </a-typography-title>
+              <a-typography-title :heading="3">
+                {{ $t('menu.airdrop') }}
+              </a-typography-title>
               <a-divider />
               <a-typography-paragraph>
-                通过披露的路线图，发现可能有空投的机会！
+                {{ $t('airdrop.graph') }}
               </a-typography-paragraph>
             </a-typography>
             <a-button type="outline" @click="gotoInkProtocolDocs"
