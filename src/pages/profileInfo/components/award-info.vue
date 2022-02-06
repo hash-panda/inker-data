@@ -146,7 +146,7 @@ export default defineComponent({
       () => accountAwardsInfo.value,
       () => {
         let total = 0;
-        accountAwardsInfo.value.forEach((item) => {
+        accountAwardsInfo.value.forEach((item: any) => {
           total += getActualAmount(item.winner.award.amount);
         });
         setProfileInfoState({

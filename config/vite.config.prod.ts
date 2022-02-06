@@ -3,10 +3,20 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import vueJsx from '@vitejs/plugin-vue-jsx';
 import svgLoader from 'vite-svg-loader';
+import copy from 'rollup-plugin-copy';
 
 export default defineConfig({
   mode: 'production',
-  plugins: [vue(), vueJsx(), svgLoader({ svgoConfig: {} })],
+  plugins: [
+    vue(),
+    vueJsx(),
+    svgLoader({ svgoConfig: {} }),
+    copy({
+      targets: [
+        { src: '../src/assets/favicon.ico', dest: '../dist/' }, //执行拷贝
+      ],
+    }),
+  ],
   resolve: {
     alias: [
       {
