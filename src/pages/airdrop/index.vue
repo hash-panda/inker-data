@@ -17,6 +17,7 @@
               >Open Ink-Protocol Docs</a-button
             >
             <a-image width="600" :src="airdropInfo" />
+            <a-image width="600" :src="miniDeposit" />
           </a-space>
         </a-col>
       </a-row>
@@ -27,6 +28,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import airdropInfo from '@/assets/images/airdrop-info.png';
+import miniDeposit from '@/assets/images/mini-deposit.png';
 import { gotoInkProtocolDocs } from '@/utils';
 
 export default defineComponent({
@@ -34,6 +36,7 @@ export default defineComponent({
     return {
       gotoInkProtocolDocs,
       airdropInfo,
+      miniDeposit,
     };
   },
 });

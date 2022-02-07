@@ -3,7 +3,11 @@
     <div class="left-side">
       <a-space direction="vertical" fill>
         <div class="panel">
-          <DataPanel :playersCount="players.length" />
+          <DataPanel
+            :playersCount="playersCount"
+            :effective-players="effectivePlayers"
+            :blackAmount="blackAmount"
+          />
         </div>
         <div class="panel">
           <ContentChart :chart-data="chart1" />
@@ -14,8 +18,9 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
-import { queryPlayers, Player } from '@/api/dashboard';
+import { defineComponent, ref, computed } from 'vue';
+import { queryPlayers, Player, queryBlacklistAddress } from '@/api/dashboard';
+import { queryDepositInfo } from '@/api/profile-info';
 import { getActualAmount } from '@/utils';
 import DataPanel from './components/data-panel.vue';
 import ContentChart from './components/content-chart.vue';
@@ -32,6 +37,11 @@ export default defineComponent({
     }
 
     const players = ref([] as Player[]);
+    const playersCount = ref(0);
+    const effectivePlayers = ref(0);
+    const blacklistAddressCount = ref(0);
+    // const averageDeposit = ref(0);
+    const blackAmount = ref(0);
     const sortPlayers = ref([] as PlayerAmountNumber[]);
     const isGetAllPlayer = ref(false);
     const chart1 = ref({});
@@ -129,6 +139,8 @@ export default defineComponent({
         amount7.length,
         amount8.length,
       ];
+      // console.log(players.)
+      effectivePlayers.value = allPlayer.length - amount1.length;
       chart1.value = { x, amounts, count };
     };
     const convertPlayersData = (players: Player[]) => {
@@ -145,6 +157,8 @@ export default defineComponent({
           tempPlayers[0]?.address === startAddress
         ) {
           isGetAllPlayer.value = true;
+          playersCount.value = players.value.length;
+
           convertPlayersData(players.value);
           return;
         }
@@ -162,8 +176,27 @@ export default defineComponent({
 
     fetchData(null);
 
+    const fetchBlacklistAddressData = async () => {
+      try {
+        const blacklistAddress = await queryBlacklistAddress();
+        blackAmount.value = 0;
+        blacklistAddressCount.value =
+          blacklistAddress.data?.result?.addresses.length;
+        blacklistAddress.data?.result?.addresses.forEach(async (item) => {
+          const depositInfo = await queryDepositInfo(item);
+          blackAmount.value += getActualAmount(
+            depositInfo.data?.result?.asset?.amount
+          );
+        });
+      } catch (e) {
+        console.log('fetchBlacklistAddressData err', e);
+      }
+    };
+    fetchBlacklistAddressData();
     return {
-      players,
+      effectivePlayers,
+      blackAmount,
+      playersCount,
       chart1,
     };
   },

@@ -11,19 +11,34 @@
           <a-row>
             <a-col :flex="3"></a-col>
             <a-col :flex="6">
-              <a-input-search
-                :style="{ width: '100%' }"
-                :placeholder="$t('profileInfo.searchPlaceholder')"
-                :button-text="$t('profileInfo.searchBtn')"
-                size="large"
-                allow-clear
-                :loading="loading"
-                search-button
-                @press-enter="pressEnterSearchAccount"
-                @search="searchAccount"
-              />
+              <a-space direction="vertical" fill>
+                <a-input-search
+                  :style="{ width: '100%' }"
+                  :placeholder="$t('profileInfo.searchPlaceholder')"
+                  :button-text="$t('profileInfo.searchBtn')"
+                  size="large"
+                  :error="searchError"
+                  allow-clear
+                  :loading="loading"
+                  search-button
+                  @press-enter="pressEnterSearchAccount"
+                  @search="searchAccount"
+                />
+                <a-alert closable>{{ $t('profileInfo.search.tips') }}</a-alert>
+              </a-space>
             </a-col>
             <a-col :flex="3"></a-col>
+          </a-row>
+        </a-card>
+        <a-card
+          class="general-card"
+          :header-style="{ paddingBottom: '0' }"
+          :body-style="{ padding: '30px' }"
+        >
+          <a-row>
+            <a-col :flex="1">
+              <DataOverview />
+            </a-col>
           </a-row>
         </a-card>
         <a-card>
@@ -34,8 +49,8 @@
             ></template
           >
           <a-space direction="vertical" size="large" fill>
-            <award-info :accounts="searchedTerraAddress" :useStore="false" />
-            <account-info :accounts="searchedTerraAddress" :useStore="false" />
+            <award-info :accounts="searchedTerraAddress" :useStore="true" />
+            <account-info :accounts="searchedTerraAddress" :useStore="true" />
           </a-space>
         </a-card>
       </a-space>
@@ -45,18 +60,22 @@
 
 <script lang="ts">
 import { defineComponent, ref, watch } from 'vue';
+import { Message } from '@arco-design/web-vue';
 import useLoading from '@/hooks/loading';
 import AccountInfo from '../components/account-info.vue';
 import AwardInfo from '../components/award-info.vue';
+import DataOverview from '../components/data-overview.vue';
 
 export default defineComponent({
   components: {
     AccountInfo,
     AwardInfo,
+    DataOverview,
   },
   setup() {
     const { loading, setLoading } = useLoading(false);
     const searchedTerraAddress = ref([] as string[]);
+    const searchError = ref(false);
     // test data
     // const accounts = ref([
     //   'terra1xh2e6tmmnrdu6vy0kev62xvlrxmwz9mxr43n4a',
@@ -69,14 +88,22 @@ export default defineComponent({
     // ]);
     const searchAddress = ref('');
     const setSearchAccount = () => {
-      if (searchAddress.value) {
-        searchedTerraAddress.value = [searchAddress.value.trim()];
+      if (searchAddress.value && searchAddress.value.startsWith('terra1')) {
+        const addresses = searchAddress.value.trim().split(',');
+        searchError.value = false;
+        searchedTerraAddress.value = addresses;
+      } else {
+        Message.error({
+          content: 'There is something wrong with your Terra Wallet Address!',
+        });
+        searchError.value = true;
       }
     };
     const searchAccount = (account: string) => {
       setLoading(true);
       searchAddress.value = account;
       setSearchAccount();
+
       setLoading(false);
     };
     const pressEnterSearchAccount = (e: any) => {
@@ -102,6 +129,7 @@ export default defineComponent({
       searchedTerraAddress,
       pressEnterSearchAccount,
       gotoFinder,
+      searchError,
     };
   },
 });
@@ -119,12 +147,6 @@ export default defineComponent({
   overflow: auto;
 }
 
-.panel {
-  // background-color: var(--color-bg-2);
-  // border-radius: 4px;
-  // border: none;
-  // overflow: auto;
-}
 :deep(.panel-border) {
   margin-bottom: 0;
   border-bottom: 1px solid rgb(var(--gray-2));

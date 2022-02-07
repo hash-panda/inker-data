@@ -20,7 +20,7 @@
           </a-statistic>
         </a-space>
       </a-col>
-      <a-col class="panel-col" :span="5">
+      <a-col class="panel-col" :span="6">
         <a-space>
           <a-avatar :size="54" class="col-avatar">
             <img
@@ -29,14 +29,18 @@
             />
           </a-avatar>
           <a-statistic
-            :title="$t('winners.currentRound')"
-            :value="currentRound"
+            :value="effectivePlayers"
             :value-from="0"
             animation
             show-group-separator
           >
-            <template #prefix>
-              <span class="unit">#</span>
+            <template #title>
+              {{ $t('dashboard.dataPanel.effectivePlayers') }}
+              <a-tooltip
+                :content="$t('dashboard.dataPanel.effectivePlayers.tips')"
+                background-color="#722ED1"
+                ><icon-info-circle
+              /></a-tooltip>
             </template>
           </a-statistic>
         </a-space>
@@ -63,7 +67,7 @@
           </a-statistic>
         </a-space>
       </a-col>
-      <a-col class="panel-col" :span="7">
+      <a-col class="panel-col" :span="6">
         <a-space>
           <a-avatar :size="54" class="col-avatar">
             <img
@@ -72,10 +76,23 @@
             />
           </a-avatar>
           <a-statistic
-            :title="$t('winners.endRoundTime')"
-            :value="endRoundTime"
-            format="MM-DD HH:mm"
+            :value="averageDepositAmount"
+            :precision="2"
+            :value-from="0"
+            animation
+            show-group-separator
           >
+            <template #title>
+              {{ $t('dashboard.dataPanel.averageDepositAmount') }}
+              <a-tooltip
+                :content="$t('dashboard.dataPanel.averageDepositAmount.tips')"
+                background-color="#722ED1"
+                ><icon-info-circle
+              /></a-tooltip>
+            </template>
+            <template #suffix>
+              <span class="unit">ust</span>
+            </template>
           </a-statistic>
         </a-space>
       </a-col>
@@ -85,7 +102,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent, ref, computed } from 'vue';
 import { queryStrategy } from '@/api/winners';
 import { getActualAmount } from '@/utils';
 import dayjs from 'dayjs';
@@ -96,13 +113,29 @@ export default defineComponent({
       type: Number,
       default: 0,
     },
+    effectivePlayers: {
+      type: Number,
+      default: 0,
+    },
+    blackAmount: {
+      type: Number,
+      default: 0,
+    },
   },
-  setup() {
+  setup(props) {
     const lastRound = ref(0);
     const height = ref(0);
     const endRoundTime = ref(new Date());
     const totalDeposit = ref(0);
     const currentRound = ref(0);
+    const averageDepositAmount = computed(() => {
+      return Number(
+        (
+          (totalDeposit.value - props.blackAmount) /
+          props.effectivePlayers
+        ).toFixed(2)
+      );
+    });
     const fetchStrategyData = async () => {
       try {
         const strategyRes = await queryStrategy();
@@ -122,6 +155,7 @@ export default defineComponent({
     };
     fetchStrategyData();
     return {
+      averageDepositAmount,
       lastRound,
       currentRound,
       endRoundTime,

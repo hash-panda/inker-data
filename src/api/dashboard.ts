@@ -36,3 +36,28 @@ export function queryPlayers(startAddress: string | null) {
     requestParams
   );
 }
+
+export interface BlacklistAddressRes {
+  height: string;
+  result: {
+    addresses: string[];
+  };
+}
+
+export function queryBlacklistAddress() {
+  const queryMsg = {
+    blacklist_addresses: {
+      sid: 0,
+    },
+  };
+  const encodeQueryMsg = JSON.stringify(queryMsg);
+  const requestParams = {
+    params: {
+      query_msg: encodeQueryMsg,
+    },
+  };
+  return axios.get<BlacklistAddressRes>(
+    'https://lcd.terra.dev/wasm/contracts/terra1nlsfl8djet3z70xu2cj7s9dn7kzyzzfz5z2sd9/store',
+    requestParams
+  );
+}

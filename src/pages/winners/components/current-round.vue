@@ -15,7 +15,9 @@
               :precision="2"
               animation
               :style="{ color: '#ef1f8d' }"
-              ><template #prefix> $ </template></a-statistic
+              ><template #suffix>
+                <span class="unit">ust</span>
+              </template></a-statistic
             >
             <!-- <a-typography-text bold type="primary" style="font-size: 24px">
               {{ currentPrize1.amount }} ust
@@ -39,7 +41,9 @@
               animation
               :style="{ color: '#f45d59' }"
             >
-              <template #prefix> $ </template>
+              <template #suffix>
+                <span class="unit">ust</span>
+              </template>
             </a-statistic>
             <!-- <a-typography-text type="primary" style="font-size: 18px">
               {{ item.amount }} ust
@@ -69,7 +73,9 @@
               :precision="2"
               animation
             >
-              <template #prefix> $ </template>
+              <template #suffix>
+                <span class="unit">ust</span>
+              </template>
             </a-statistic>
           </a-space>
         </a-col>
@@ -82,7 +88,9 @@
               :precision="2"
               animation
             >
-              <template #prefix> $ </template>
+              <template #suffix>
+                <span class="unit">ust</span>
+              </template>
             </a-statistic>
           </a-space>
         </a-col>

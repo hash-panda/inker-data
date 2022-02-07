@@ -36,8 +36,8 @@
             </a-col>
           </a-row>
         </a-card>
-        <div><award-info :accounts="accounts" :useStore="true" /> </div>
-        <div><account-info :accounts="accounts" :useStore="true" /> </div>
+        <div><award-info :accounts="accounts" :useStore="false" /> </div>
+        <div><account-info :accounts="accounts" :useStore="false" /> </div>
       </a-space>
     </div>
   </div>

@@ -9,6 +9,8 @@ export default {
   'profileInfo.depositInfo': 'Deposit Info',
   'profileInfo.searchBtn': 'Search',
   'profileInfo.searchPlaceholder': 'Please enter your Terra wallet address...',
+  'profileInfo.search.tips':
+    'Wallet addresses are separated by commas, and multiple accounts can be queried at one time.',
   'profileInfo.awardInfo.round': 'Round',
   'profileInfo.awardInfo.gotoClaim': 'Go to Claim Awards',
 };

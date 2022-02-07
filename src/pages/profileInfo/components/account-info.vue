@@ -8,6 +8,11 @@
       :loading="loading"
     >
       <template #columns>
+        <a-table-column title="Index" data-index="key">
+          <template #cell="{ rowIndex }">
+            {{ rowIndex + 1 }}
+          </template>
+        </a-table-column>
         <a-table-column
           :title="$t('winners.historyWinners.address')"
           data-index="address"
@@ -53,10 +58,11 @@ export default defineComponent({
         profileInfoState.setInfo(info);
       }
     };
-    const fetchData = async (address: string) => {
+    const fetchData = async (address: string, index: number) => {
       try {
         const accountInfoRes = await queryDepositInfo(address);
         const handleAccountInfo = {
+          key: index + 1,
           amount: formatAmount(accountInfoRes.data?.result?.asset?.amount),
           denom: getCoin(
             accountInfoRes.data?.result?.asset?.info?.native_token?.denom
@@ -83,8 +89,8 @@ export default defineComponent({
       (newVal) => {
         setLoading(true);
         reset();
-        newVal.forEach((item) => {
-          fetchData(item as string);
+        newVal.forEach((item, index) => {
+          fetchData(item as string, index);
         });
         setProfileInfoState({
           accountCount: newVal.length,

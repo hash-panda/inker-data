@@ -47,14 +47,6 @@ export default defineComponent({
             },
           },
         },
-        toolbox: {
-          feature: {
-            dataView: { show: true, readOnly: false },
-            magicType: { show: true, type: ['bar'] },
-            restore: { show: true },
-            saveAsImage: { show: true },
-          },
-        },
         legend: {
           data: ['Deposit(ust)', 'Players'],
           textStyle: { color: '#8D4EDA' },
