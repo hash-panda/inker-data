@@ -1,45 +1,20 @@
 <template>
   <a-spin :loading="loading" style="width: 100%">
     <a-col :span="24" class="panel">
-      <a-row :gutter="20" :style="{ marginBottom: '20px' }">
-        <a-col :span="8" :offset="8">
-          <a-space
+      <a-grid :cols="5" :colGap="12" :rowGap="16">
+        <a-grid-item v-for="(item, index) in sortPrize" :key="index"
+          ><a-space
             direction="vertical"
             style="display: flex; align-items: center"
           >
-            <a-image width="80" :src="currentPrize1.icon" />
-            <a-statistic
-              title=""
-              :value="currentPrize1.amount"
-              show-group-separator
-              :precision="2"
-              animation
-              :style="{ color: '#ef1f8d' }"
-              ><template #suffix>
-                <span class="unit">ust</span>
-              </template></a-statistic
-            >
-            <!-- <a-typography-text bold type="primary" style="font-size: 24px">
-              {{ currentPrize1.amount }} ust
-            </a-typography-text> -->
-          </a-space>
-        </a-col>
-      </a-row>
-      <a-row :gutter="20" :style="{ marginBottom: '20px' }">
-        <a-col :span="4"> </a-col>
-        <a-col v-for="(item, index) in currentPrize2" :key="index" :span="4">
-          <a-space
-            direction="vertical"
-            style="display: flex; align-items: center"
-          >
-            <a-image width="40" :src="item.icon" />
+            <a-image :width="item.width" :src="item.icon" />
             <a-statistic
               title=""
               :value="item.amount"
               show-group-separator
               :precision="2"
               animation
-              :style="{ color: '#f45d59' }"
+              :style="item.style"
             >
               <template #suffix>
                 <span class="unit">ust</span>
@@ -48,9 +23,9 @@
             <!-- <a-typography-text type="primary" style="font-size: 18px">
               {{ item.amount }} ust
             </a-typography-text> -->
-          </a-space>
-        </a-col>
-      </a-row>
+          </a-space></a-grid-item
+        >
+      </a-grid>
     </a-col>
     <a-divider class="panel-border" />
     <a-col :span="24" class="panel">
@@ -115,6 +90,7 @@ import { defineComponent, ref, watch, toRef } from 'vue';
 import useLoading from '@/hooks/loading';
 import currentFirstIcon from '@/assets/images/currentFirst.png';
 import currentSecondIcon from '@/assets/images/currentSecond.png';
+import gold from '@/assets/images/gold.png';
 import { formatAmount, getActualAmount } from '@/utils';
 import { queryCurrentAward } from '@/api/winners';
 
@@ -141,8 +117,14 @@ export default defineComponent({
     const height = toRef(props, 'height');
     const totalDeposit = toRef(props, 'totalDeposit');
     const currentTotalPrizeAmount = ref(0);
-    const currentPrize1 = ref({ icon: currentFirstIcon, amount: 0 });
+    const currentPrize1 = ref({
+      icon: gold,
+      amount: 0,
+      style: { color: '#ef1f8d' },
+      width: '80',
+    });
     const currentPrize2 = ref();
+    const sortPrize = ref();
 
     const fetchData = async (block: number) => {
       try {
@@ -160,13 +142,18 @@ export default defineComponent({
         };
         const currentPrize2List = winnerAwards.splice(1);
         currentPrize1.value.amount = convertActualAwardAmount(winnerAward1);
-        currentPrize2.value = currentPrize2List.map((item, index) => {
+        sortPrize.value = currentPrize2List.map((item, index) => {
           return {
-            icon: currentSecondIcon,
+            span: 4,
+            // offset: index ===0 ? 6
+            style: { color: '#f45d59' },
+            width: 40,
+            icon: gold,
             amount: convertActualAwardAmount(item.amount),
           };
         });
-        console.log('currentPrize2', currentPrize2.value);
+        sortPrize.value.splice(2, 0, currentPrize1.value);
+        console.log('sortPrize', sortPrize.value, sortPrize.value);
       } catch (e) {
         // catch err
       } finally {
@@ -182,6 +169,7 @@ export default defineComponent({
       currentPrize1,
       currentPrize2,
       formatAmount,
+      sortPrize,
     };
   },
 });
@@ -199,6 +187,9 @@ export default defineComponent({
     color: rgb(var(--color-text-1));
     font-weight: normal;
   }
+}
+:deep(.arco-grid-item) {
+  align-self: end;
 }
 .arco-col.panel {
   margin-bottom: 0;

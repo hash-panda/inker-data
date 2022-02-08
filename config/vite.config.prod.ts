@@ -13,8 +13,12 @@ export default defineConfig({
     svgLoader({ svgoConfig: {} }),
     copy({
       targets: [
-        { src: '../src/assets/favicon.ico', dest: '../dist/' }, //执行拷贝
+        {
+          src: 'src/assets/favicon.ico',
+          dest: 'dist/',
+        }, //执行拷贝
       ],
+      hook: 'writeBundle',
     }),
   ],
   resolve: {

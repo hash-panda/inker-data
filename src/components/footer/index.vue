@@ -1,11 +1,26 @@
 <template>
-  <a-layout-footer class="footer">INKer Data</a-layout-footer>
+  <a-layout-footer class="footer"
+    >INKer Data
+
+    <a-button type="text" @click="openTelegram"
+      >Telegram</a-button
+    ></a-layout-footer
+  >
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 
-export default defineComponent({});
+export default defineComponent({
+  setup() {
+    const openTelegram = () => {
+      window.open('https://t.me/+0t3Wsaa3F1IyZTE9', '_blank');
+    };
+    return {
+      openTelegram,
+    };
+  },
+});
 </script>
 
 <style lang="less" scoped>
