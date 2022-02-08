@@ -1,7 +1,7 @@
 <template>
   <a-col :span="24" class="panel">
     <a-row>
-      <a-col class="panel-col" :span="5">
+      <a-col class="panel-col" :span="8">
         <a-space>
           <a-avatar :size="54" class="col-avatar">
             <img
@@ -20,7 +20,7 @@
           </a-statistic>
         </a-space>
       </a-col>
-      <a-col class="panel-col" :span="6">
+      <a-col class="panel-col" :span="8">
         <a-space>
           <a-avatar :size="54" class="col-avatar">
             <img
@@ -45,29 +45,7 @@
           </a-statistic>
         </a-space>
       </a-col>
-      <a-col class="panel-col" :span="7">
-        <a-space>
-          <a-avatar :size="54" class="col-avatar">
-            <img
-              alt="avatar"
-              src="//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/77d74c9a245adeae1ec7fb5d4539738d.svg~tplv-49unhts6dw-image.image"
-            />
-          </a-avatar>
-          <a-statistic
-            :title="$t('winners.totalDeposit')"
-            :value="totalDeposit"
-            :precision="2"
-            :value-from="0"
-            animation
-            show-group-separator
-          >
-            <template #suffix>
-              <span class="unit">ust</span>
-            </template>
-          </a-statistic>
-        </a-space>
-      </a-col>
-      <a-col class="panel-col" :span="6">
+      <a-col class="panel-col" :span="8">
         <a-space>
           <a-avatar :size="54" class="col-avatar">
             <img
@@ -90,6 +68,75 @@
                 ><icon-info-circle
               /></a-tooltip>
             </template>
+            <template #suffix>
+              <span class="unit">ust</span>
+            </template>
+          </a-statistic>
+        </a-space>
+      </a-col>
+    </a-row>
+    <a-divider class="panel-border" />
+    <a-row style="padding-top: 16px">
+      <a-col class="panel-col" :span="8">
+        <a-space>
+          <a-avatar :size="54" class="col-avatar">
+            <img
+              alt="avatar"
+              src="//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/77d74c9a245adeae1ec7fb5d4539738d.svg~tplv-49unhts6dw-image.image"
+            />
+          </a-avatar>
+          <a-statistic
+            :title="$t('winners.totalDeposit')"
+            :value="totalDeposit"
+            :precision="2"
+            :value-from="0"
+            animation
+            show-group-separator
+          >
+            <template #suffix>
+              <span class="unit">ust</span>
+            </template>
+          </a-statistic>
+        </a-space>
+      </a-col>
+      <a-col class="panel-col" :span="8">
+        <a-space>
+          <a-avatar :size="54" class="col-avatar">
+            <img
+              alt="avatar"
+              src="//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/77d74c9a245adeae1ec7fb5d4539738d.svg~tplv-49unhts6dw-image.image"
+            />
+          </a-avatar>
+          <a-statistic
+            :title="$t('dashboard.dataPanel.blackAmount')"
+            :value="blackAmount"
+            :precision="2"
+            :value-from="0"
+            animation
+            show-group-separator
+          >
+            <template #suffix>
+              <span class="unit">ust</span>
+            </template>
+          </a-statistic>
+        </a-space>
+      </a-col>
+      <a-col class="panel-col" :span="8">
+        <a-space>
+          <a-avatar :size="54" class="col-avatar">
+            <img
+              alt="avatar"
+              src="//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/77d74c9a245adeae1ec7fb5d4539738d.svg~tplv-49unhts6dw-image.image"
+            />
+          </a-avatar>
+          <a-statistic
+            :title="$t('dashboard.dataPanel.playerDeposit')"
+            :value="playerDeposit"
+            :precision="2"
+            :value-from="0"
+            animation
+            show-group-separator
+          >
             <template #suffix>
               <span class="unit">ust</span>
             </template>
@@ -136,6 +183,9 @@ export default defineComponent({
         ).toFixed(2)
       );
     });
+    const playerDeposit = computed(() => {
+      return Number(totalDeposit.value - props.blackAmount);
+    });
     const fetchStrategyData = async () => {
       try {
         const strategyRes = await queryStrategy();
@@ -156,6 +206,7 @@ export default defineComponent({
     fetchStrategyData();
     return {
       averageDepositAmount,
+      playerDeposit,
       lastRound,
       currentRound,
       endRoundTime,
@@ -169,7 +220,7 @@ export default defineComponent({
 <style lang="less" scoped>
 .arco-col.panel {
   margin-bottom: 0;
-  padding: 16px 20px 0 20px;
+  padding: 16px 20px 5px 20px;
 }
 .panel-col {
   padding-left: 43px;

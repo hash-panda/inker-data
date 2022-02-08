@@ -3,6 +3,8 @@ export default {
   'dashboard.playersCount': 'Total Players',
   'dashboard.chartTitle': 'INKer Deposit Analysis',
   'dashboard.dataPanel.effectivePlayers': 'Effective Players',
+  'dashboard.dataPanel.blackAmount': "Sponsor's Deposit",
+  'dashboard.dataPanel.playerDeposit': 'Player Deposit',
   'dashboard.dataPanel.effectivePlayers.tips':
     'The number of players with a deposit amount greater than 11ust (the official document specifies that the minimum deposit amount is 11ust)',
   'dashboard.dataPanel.averageDepositAmount': 'Average Deposit',

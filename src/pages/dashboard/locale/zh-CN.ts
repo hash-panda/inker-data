@@ -3,6 +3,8 @@ export default {
   'dashboard.playersCount': '总玩家数',
   'dashboard.chartTitle': 'INKer 存款分析图表',
   'dashboard.dataPanel.effectivePlayers': '有效玩家数',
+  'dashboard.dataPanel.blackAmount': '赞助商金额',
+  'dashboard.dataPanel.playerDeposit': '玩家存款金额',
   'dashboard.dataPanel.effectivePlayers.tips':
     '存款金额大于11ust的玩家数量（官方文档明确最小存款金额为11ust）',
   'dashboard.dataPanel.averageDepositAmount': '平均存款金额',
