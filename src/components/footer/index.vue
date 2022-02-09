@@ -2,10 +2,9 @@
   <a-layout-footer class="footer"
     >INKer Data
 
-    <a-button type="text" @click="openTelegram"
-      >Telegram</a-button
-    ></a-layout-footer
-  >
+    <a-button type="text" @click="openTelegram">Telegram</a-button
+    ><a-button type="text" @click="openTwitter">geekdao.eth@Twitter</a-button>
+  </a-layout-footer>
 </template>
 
 <script lang="ts">
@@ -16,8 +15,12 @@ export default defineComponent({
     const openTelegram = () => {
       window.open('https://t.me/+0t3Wsaa3F1IyZTE9', '_blank');
     };
+    const openTwitter = () => {
+      window.open('hhttps://twitter.com/mr7s1990', '_blank');
+    };
     return {
       openTelegram,
+      openTwitter,
     };
   },
 });
