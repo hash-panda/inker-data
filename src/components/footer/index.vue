@@ -2,8 +2,9 @@
   <a-layout-footer class="footer"
     >INKer Data
 
-    <a-button type="text" @click="openTelegram">Telegram</a-button
-    ><a-button type="text" @click="openTwitter">geekdao.eth@Twitter</a-button>
+    <a-button type="text" @click="openTelegram">Telegram</a-button>
+    <a-button type="text" @click="openWeibo">geekDAO@Weibo</a-button>
+    <a-button type="text" @click="openTwitter">geekdao.eth@Twitter</a-button>
   </a-layout-footer>
 </template>
 
@@ -18,9 +19,13 @@ export default defineComponent({
     const openTwitter = () => {
       window.open('hhttps://twitter.com/mr7s1990', '_blank');
     };
+    const openWeibo = () => {
+      window.open('https://weibo.com/u/7565123862', '_blank');
+    };
     return {
       openTelegram,
       openTwitter,
+      openWeibo,
     };
   },
 });

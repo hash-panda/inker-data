@@ -115,7 +115,7 @@ export default defineComponent({
     };
     const fetchData = async (address: string) => {
       try {
-        const playerAwardsRes = await queryPlayerAwards(address);
+        const playerAwardsRes = await queryPlayerAwards(address.trim());
         accountAwardsInfo.value = [
           ...accountAwardsInfo.value,
           ...playerAwardsRes?.data?.result?.player_awards,

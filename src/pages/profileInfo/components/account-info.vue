@@ -60,7 +60,7 @@ export default defineComponent({
     };
     const fetchData = async (address: string, index: number) => {
       try {
-        const accountInfoRes = await queryDepositInfo(address);
+        const accountInfoRes = await queryDepositInfo(address.trim());
         const handleAccountInfo = {
           key: index + 1,
           amount: formatAmount(accountInfoRes.data?.result?.asset?.amount),
