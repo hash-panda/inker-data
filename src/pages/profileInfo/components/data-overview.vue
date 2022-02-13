@@ -53,11 +53,12 @@ import { useProfileInfoState } from '@/store';
 export default defineComponent({
   setup() {
     const { t } = useI18n();
-    const { loading, setLoading } = useLoading(false);
+    const { loading } = useLoading(false);
     const profileInfoState = useProfileInfoState();
     const { isDark } = useThemes();
 
     const renderData = computed(() => {
+      /* eslint-disable no-console */
       console.log(
         'data-overview profileInfoState.totalDeposit',
         profileInfoState.totalDeposit

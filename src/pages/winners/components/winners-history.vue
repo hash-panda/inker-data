@@ -134,6 +134,7 @@ export default defineComponent({
       }
     };
     watch(totalRound, (totalRound) => {
+      /* eslint-disable no-console */
       console.log(totalRound);
       if (totalRound > 0) {
         round.value = totalRound;

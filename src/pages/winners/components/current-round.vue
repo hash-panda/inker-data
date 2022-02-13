@@ -1,7 +1,7 @@
 <template>
   <a-spin :loading="loading" style="width: 100%">
     <a-col :span="24" class="panel">
-      <a-grid :cols="5" :colGap="12" :rowGap="16">
+      <a-grid :cols="5" :col-gap="12" :row-gap="16">
         <a-grid-item v-for="(item, index) in sortPrize" :key="index"
           ><a-space
             direction="vertical"
@@ -88,8 +88,8 @@
 <script lang="ts">
 import { defineComponent, ref, watch, toRef } from 'vue';
 import useLoading from '@/hooks/loading';
-import currentFirstIcon from '@/assets/images/currentFirst.png';
-import currentSecondIcon from '@/assets/images/currentSecond.png';
+// import currentFirstIcon from '@/assets/images/currentFirst.png';
+// import currentSecondIcon from '@/assets/images/currentSecond.png';
 import gold from '@/assets/images/gold.png';
 import { formatAmount, getActualAmount } from '@/utils';
 import { queryCurrentAward } from '@/api/winners';
@@ -142,7 +142,7 @@ export default defineComponent({
         };
         const currentPrize2List = winnerAwards.splice(1);
         currentPrize1.value.amount = convertActualAwardAmount(winnerAward1);
-        sortPrize.value = currentPrize2List.map((item, index) => {
+        sortPrize.value = currentPrize2List.map((item) => {
           return {
             span: 4,
             // offset: index ===0 ? 6
@@ -153,6 +153,7 @@ export default defineComponent({
           };
         });
         sortPrize.value.splice(2, 0, currentPrize1.value);
+        /* eslint-disable no-console */
         console.log('sortPrize', sortPrize.value, sortPrize.value);
       } catch (e) {
         // catch err

@@ -59,7 +59,7 @@
                 <span
                   ><a-tooltip :content="$t('profileInfo.awardInfo.gotoClaim')"
                     ><icon-tag
-                      strokeWidth="2"
+                      stroke-width="2"
                       @click="gotoInkProtocol" /></a-tooltip
                 ></span>
               </a-space>
