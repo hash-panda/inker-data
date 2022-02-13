@@ -4,9 +4,9 @@
       <a-space direction="vertical" fill>
         <div class="panel">
           <DataPanel
-            :playersCount="playersCount"
+            :players-count="playersCount"
             :effective-players="effectivePlayers"
-            :blackAmount="blackAmount"
+            :black-amount="blackAmount"
           />
         </div>
         <div class="panel">
@@ -18,7 +18,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref, computed } from 'vue';
+import { defineComponent, ref } from 'vue';
 import { queryPlayers, Player, queryBlacklistAddress } from '@/api/dashboard';
 import { queryDepositInfo } from '@/api/profile-info';
 import { getActualAmount } from '@/utils';
@@ -170,6 +170,7 @@ export default defineComponent({
         isGetAllPlayer.value = false;
         fetchData(tempPlayers[tempPlayers.length - 1].address);
       } catch (e) {
+        /* eslint-disable no-console */
         console.log('dashboard err', e);
       }
     };
@@ -189,6 +190,7 @@ export default defineComponent({
           );
         });
       } catch (e) {
+        /* eslint-disable no-console */
         console.log('fetchBlacklistAddressData err', e);
       }
     };

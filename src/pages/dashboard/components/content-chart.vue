@@ -17,7 +17,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref, toRef, watch } from 'vue';
+import { defineComponent, toRef, watch } from 'vue';
 import useLoading from '@/hooks/loading';
 import { Chart1 } from '@/api/dashboard';
 import useChartOption from '@/hooks/chart-option';
@@ -32,8 +32,8 @@ export default defineComponent({
   setup(props) {
     const { loading, setLoading } = useLoading(true);
     const chartData = toRef(props, 'chartData');
-    const xAxis = ref<number[]>([]);
-    const chartsData = ref<number[]>([]);
+    // const xAxis = ref<number[]>([]);
+    // const chartsData = ref<number[]>([]);
 
     const { chartOption } = useChartOption(() => {
       return {
@@ -100,6 +100,8 @@ export default defineComponent({
     watch(
       () => props.chartData,
       (newVal) => {
+        /* eslint-disable no-console */
+        console.log('current value', newVal);
         setLoading(false);
       }
     );

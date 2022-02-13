@@ -26,14 +26,14 @@
               <keep-alive>
                 <component
                   :is="Component"
-                  :key="route.name"
                   v-if="route.meta.keepAlive"
+                  :key="route.name"
                 />
               </keep-alive>
               <component
                 :is="Component"
-                :key="route.name"
                 v-if="!route.meta.keepAlive"
+                :key="route.name"
               />
             </router-view>
           </a-layout-content>
@@ -45,7 +45,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed, watch, ref, provide, nextTick } from 'vue';
+import { defineComponent, computed, watch } from 'vue';
 import { useRouter, useRoute } from 'vue-router';
 import { useAppStore, useUserStore } from '@/store';
 import NavBar from '@/components/navbar/index.vue';

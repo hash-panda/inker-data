@@ -1,10 +1,12 @@
 import { RouteLocationNormalized, RouteRecordRaw } from 'vue-router';
-import { useUserStore } from '@/store';
+// import { useUserStore } from '@/store';
 
 export default function usePermission() {
-  const userStore = useUserStore();
+  // const userStore = useUserStore();
   return {
     accessRouter(route: RouteLocationNormalized | RouteRecordRaw) {
+      /* eslint-disable no-console */
+      console.log('route', route);
       return true;
     },
     findFirstPermissionRoute(_routers: any, role = 'admin') {

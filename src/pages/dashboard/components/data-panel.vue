@@ -200,6 +200,7 @@ export default defineComponent({
           .toDate();
       } catch (e) {
         // print error
+        /* eslint-disable no-console */
         console.log(e);
       }
     };

@@ -73,7 +73,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed, ref, inject } from 'vue';
+import { defineComponent, computed, ref } from 'vue';
 import { Message } from '@arco-design/web-vue';
 import { useDark, useToggle } from '@vueuse/core';
 import { useAppStore, useUserStore } from '@/store';
