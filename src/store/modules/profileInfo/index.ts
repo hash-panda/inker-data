@@ -1,4 +1,4 @@
-import { defineStore } from 'pinia';
+import { defineStore, acceptHMRUpdate } from 'pinia';
 import { ProfileInfoState } from './types';
 
 export const useProfileInfoState = defineStore('profileInfoState', {
@@ -21,3 +21,7 @@ export const useProfileInfoState = defineStore('profileInfoState', {
     },
   },
 });
+
+if (import.meta.hot) {
+  import.meta.hot.accept(acceptHMRUpdate(useProfileInfoState, import.meta.hot));
+}

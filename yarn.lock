@@ -4364,6 +4364,13 @@ pify@^4.0.0, pify@^4.0.1:
   resolved "https://registry.npmmirror.com/pify/-/pify-4.0.1.tgz"
   integrity sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==
 
+pinia-plugin-persist@^0.0.93:
+  version "0.0.93"
+  resolved "https://registry.npmmirror.com/pinia-plugin-persist/-/pinia-plugin-persist-0.0.93.tgz#cc4a7626128ec002852f33825bcb2d27aed91a28"
+  integrity sha512-ARHTYDMFTikIyywVnuJK859q3B8gjW8vy/E722why4ER9Obrdf5bK7H9/lYztJHuPHhfN46oDv0ab7S/2SfccQ==
+  dependencies:
+    vue-demi "^0.11.4"
+
 pinia@^2.0.9:
   version "2.0.11"
   resolved "https://registry.npmmirror.com/pinia/-/pinia-2.0.11.tgz"
@@ -6175,6 +6182,11 @@ vue-demi@*, vue-demi@^0.12.1:
   version "0.12.1"
   resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.12.1.tgz"
   integrity sha512-QL3ny+wX8c6Xm1/EZylbgzdoDolye+VpCXRhI2hug9dJTP3OUJ3lmiKN3CsVV3mOJKwFi0nsstbgob0vG7aoIw==
+
+vue-demi@^0.11.4:
+  version "0.11.4"
+  resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.11.4.tgz#6101992fe4724cf5634018a16e953f3052e94e2a"
+  integrity sha512-/3xFwzSykLW2HiiLie43a+FFgNOcokbBJ+fzvFXd0r2T8MYohqvphUyDQ8lbAwzQ3Dlcrb1c9ykifGkhSIAk6A==
 
 vue-echarts@^6.0.0:
   version "6.0.2"

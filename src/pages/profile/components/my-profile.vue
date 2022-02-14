@@ -2,7 +2,7 @@
   <div>
     <a-card class="general-card" :title="$t('userInfo.myProfiles')">
       <template #extra>
-        <a-button type="primary" shape="round" @click="handleClick">
+        <a-button type="primary" shape="round" @click="handleAddProfileClick">
           <template #icon>
             <icon-plus />
           </template>
@@ -12,14 +12,14 @@
       </template>
       <a-row :gutter="16">
         <a-col
-          v-for="(project, index) in projectList"
-          :key="index"
+          v-for="profile in profileStore.profiles"
+          :key="profile.key"
           :span="12"
           :gutters="20"
           class="my-project-item"
         >
           <a-card
-            title="Arco Card"
+            :title="profile.name"
             :bordered="true"
             :hoverable="true"
             class="card-animation"
@@ -33,18 +33,26 @@
                   type="outline"
                   shape="round"
                   size="mini"
-                  @click="handleAddAccountClick"
+                  @click="handleAddAccountClick(profile.key)"
                   >Add Account</a-button
                 >
                 <a-dropdown @select="handleDropdown">
                   <icon-more-vertical size="18" />
                   <template #content>
                     <a-doption
-                      :value="{ key: 1, name: 'Arco Card', action: 'Edit' }"
+                      :value="{
+                        key: profile.key,
+                        name: profile.name,
+                        action: 'Edit',
+                      }"
                       >Edit</a-doption
                     >
                     <a-doption
-                      :value="{ key: 1, name: 'Arco Card', action: 'Delete' }"
+                      :value="{
+                        key: profile.key,
+                        name: profile.name,
+                        action: 'Delete',
+                      }"
                       >Delete</a-doption
                     >
                   </template>
@@ -52,7 +60,9 @@
               </a-space>
             </template>
             <a-list :max-height="300" :bordered="false">
-              <a-list-item v-for="(item, aIndex) in data" :key="aIndex"
+              <a-list-item
+                v-for="(address, aIndex) in profile.address"
+                :key="aIndex"
                 ><a-row>
                   <a-col :span="2"
                     ><a-avatar
@@ -63,7 +73,7 @@
                   >
                   <a-col :span="20">
                     <a-space align="center">
-                      <span>{{ item.address }}</span>
+                      <span>{{ address }}</span>
                       <a-button type="text">
                         <template #icon>
                           <icon-tags />
@@ -72,7 +82,10 @@
                     </a-space>
                   </a-col>
                   <a-col :span="2"
-                    ><a-popconfirm content="Are you sure you want to delete?">
+                    ><a-popconfirm
+                      content="Are you sure you want to delete?"
+                      @ok="deleteAccount(profile.key, aIndex)"
+                    >
                       <a-button type="text">
                         <template #icon>
                           <icon-delete />
@@ -87,47 +100,58 @@
         </a-col>
       </a-row>
     </a-card>
-    <a-modal
-      v-model:visible="addProfileVisible"
-      :width="700"
-      @ok="handleOk"
-      @cancel="handleCancel"
-    >
+    <a-modal v-model:visible="addProfileVisible" :width="700" :footer="false">
       <template #title> Edit Profile </template>
       <div>
         <a-row>
-          <a-col :span="18" :offset="3">
-            <a-form :model="form" :style="{ width: '100%', height: '100%' }">
-              <a-form-item field="name" label="Profile Name">
+          <a-col :span="20" :offset="3">
+            <a-form
+              ref="addProfileFormRef"
+              :model="addProfileFormData"
+              :style="{ width: '100%', height: '100%' }"
+            >
+              <a-form-item
+                field="name"
+                label="Profile Name"
+                :rules="[{ required: true, message: 'name is required' }]"
+                :validate-trigger="['change', 'input']"
+              >
                 <a-input
-                  v-model="form.name"
+                  v-model="addProfileFormData.name"
                   placeholder="please enter your profile name..."
                 />
+              </a-form-item>
+              <a-form-item>
+                <a-button @click="handleAddProfileOk">Submit</a-button>
               </a-form-item>
             </a-form>
           </a-col>
         </a-row>
       </div>
     </a-modal>
-    <a-modal
-      v-model:visible="addAccountVisible"
-      :width="700"
-      @ok="handleAddAccountOk"
-      @cancel="handleAddAccountCancel"
-    >
+    <a-modal v-model:visible="addAccountVisible" :width="700" :footer="false">
       <template #title> Add Account </template>
       <div>
         <a-row>
           <a-col :span="18" :offset="3">
             <a-form
+              ref="addAccountFormRef"
               :model="accountForm"
               :style="{ width: '100%', height: '100%' }"
             >
-              <a-form-item field="account" label="Account">
+              <a-form-item
+                field="account"
+                label="Account"
+                :rules="[{ required: true, message: 'account is required' }]"
+                :validate-trigger="['change', 'input']"
+              >
                 <a-input
                   v-model="accountForm.account"
                   placeholder="please enter your account address..."
                 />
+              </a-form-item>
+              <a-form-item>
+                <a-button @click="handleAddAccountOk">Submit</a-button>
               </a-form-item>
             </a-form>
           </a-col>
@@ -146,112 +170,115 @@
 
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
-import { queryMyProjectList, MyProjectRecord } from '@/api/user-center';
-import useRequest from '@/hooks/request';
+import { FormInstance } from '@arco-design/web-vue/es/form';
+import { useProfileStore } from '@/store';
 
 export default defineComponent({
   setup() {
-    const defaultValue = Array(1).fill({} as MyProjectRecord);
-    const { loading, response: projectList } = useRequest<MyProjectRecord[]>(
-      queryMyProjectList,
-      defaultValue
-    );
+    const profileStore = useProfileStore();
     const addProfileVisible = ref(false);
     const addAccountVisible = ref(false);
     const deleteVisible = ref(false);
-    const form = ref({
+    const addProfileFormRef = ref<FormInstance>();
+    const addAccountFormRef = ref<FormInstance>();
+    const editProfileKey = ref(0);
+    const action = ref('');
+    const addProfileFormData = ref({
       name: '',
     });
     const accountForm = ref({
       account: '',
     });
-    const data = [
-      {
-        key: '1',
-        address: 'terra1dfu88cvcrx7tq646500zudjgyw4r9gg0s9m6jn23',
-      },
-      {
-        key: '2',
-        address: 'terra1dfu88cvcrx7tq646500zudjgyw4r9gg0s9m6jn',
-      },
-      {
-        key: '3',
-        address: 'terra1dfu88cvcrx7tq646500zudjgyw4r9gg0s9m6jn232',
-      },
-      {
-        key: '4',
-        address: 'terra1dfu88cvcrx7tq646500zudjgyw4r9gg0s9m6jn1',
-      },
-      {
-        key: '5',
-        address: 'terra1dfu88cvcrx7tq646500zudjgyw4r9gg0s9m6jn',
-      },
-      {
-        key: '6',
-        address: 'terra1dfu88cvcrx7tq646500zudjgyw4r9gg0s9m6jn',
-      },
-      {
-        key: '7',
-        address: 'terra1dfu88cvcrx7tq646500zudjgyw4r9gg0s9m6jn',
-      },
-      {
-        key: '8',
-        address: 'terra1dfu88cvcrx7tq646500zudjgyw4r9gg0s9m6jn',
-      },
-      {
-        key: '9',
-        address: 'terra1dfu88cvcrx7tq646500zudjgyw4r9gg0s9m6jn',
-      },
-    ];
-    const handleClick = () => {
+    const addresses = ref([] as string[]);
+
+    const resetEditProfileKey = () => {
+      editProfileKey.value = 0;
+    };
+    const handleAddProfileClick = async () => {
+      resetEditProfileKey();
+      action.value = 'Add';
+      await addProfileFormRef.value?.resetFields();
       addProfileVisible.value = true;
     };
-    const handleOk = () => {
-      addProfileVisible.value = false;
-    };
-    const handleCancel = () => {
-      addProfileVisible.value = false;
+    const handleAddProfileOk = async () => {
+      const res = await addProfileFormRef.value?.validate();
+      if (!res) {
+        if (action.value === 'Edit') {
+          profileStore.editProfileName(
+            editProfileKey.value,
+            addProfileFormData.value.name
+          );
+          resetEditProfileKey();
+        } else if (action.value === 'Add') {
+          profileStore.addProfile(addProfileFormData.value.name);
+        }
+        addProfileVisible.value = false;
+      }
     };
     const handleDeleteClick = () => {
       deleteVisible.value = true;
     };
     const handleDeleteOk = () => {
+      profileStore.removeProfile(editProfileKey.value);
+      resetEditProfileKey();
       deleteVisible.value = false;
     };
     const handleDeleteCancel = () => {
       deleteVisible.value = false;
     };
 
+    const setEditProfileInfo = async (key: number, name: string) => {
+      await addProfileFormRef.value?.resetFields();
+      action.value = 'Edit';
+      editProfileKey.value = key;
+      addProfileFormData.value.name = name;
+    };
     const handleDropdown = (v: any) => {
       console.log(v);
       if (v.action === 'Edit') {
-        handleClick();
+        setEditProfileInfo(v.key, v.name);
+        addProfileVisible.value = true;
       } else if (v.action === 'Delete') {
+        editProfileKey.value = v.key;
         handleDeleteClick();
       }
     };
 
-    const handleAddAccountClick = () => {
+    const handleAddAccountClick = async (key: number) => {
+      await addAccountFormRef.value?.resetFields();
+      editProfileKey.value = key;
       addAccountVisible.value = true;
     };
-    const handleAddAccountOk = () => {
-      addAccountVisible.value = false;
+    const handleAddAccountOk = async () => {
+      const res = await addAccountFormRef.value?.validate();
+      if (!res) {
+        profileStore.addAddress(
+          editProfileKey.value,
+          accountForm.value.account
+        );
+
+        addAccountVisible.value = false;
+      }
     };
     const handleAddAccountCancel = () => {
       addAccountVisible.value = false;
     };
 
+    const deleteAccount = (profileKey: number, index: number) => {
+      profileStore.removeAddress(profileKey, index);
+    };
+
     return {
-      loading,
-      projectList,
-      data,
-      form,
+      profileStore,
+      addresses,
+      addProfileFormRef,
+      addProfileFormData,
       accountForm,
+      addAccountFormRef,
       addProfileVisible,
       handleDropdown,
-      handleClick,
-      handleOk,
-      handleCancel,
+      handleAddProfileClick,
+      handleAddProfileOk,
       handleDeleteOk,
       handleDeleteCancel,
       deleteVisible,
@@ -259,6 +286,7 @@ export default defineComponent({
       handleAddAccountClick,
       handleAddAccountOk,
       handleAddAccountCancel,
+      deleteAccount,
     };
   },
 });
@@ -294,8 +322,5 @@ export default defineComponent({
       padding-right: 0;
     }
   }
-}
-.card-animation:hover {
-  transform: translateY(-4px);
 }
 </style>

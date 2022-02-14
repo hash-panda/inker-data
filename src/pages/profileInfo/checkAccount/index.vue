@@ -77,15 +77,7 @@ export default defineComponent({
     const searchedTerraAddress = ref([] as string[]);
     const searchError = ref(false);
     // test data
-    const accounts = ref([
-      'terra1xh2e6tmmnrdu6vy0kev62xvlrxmwz9mxr43n4a',
-      'terra1kwppcxznvydujtpvfjnj8jx2pu7s43uwtvylm8',
-      'terra1jqfjc7f3lwkywjp97w4c2ljfgwd879dcq8c4ks',
-      'terra12f9g97jv2g8smn0qhnem5t5p0v6eaalx4q8agw',
-      'terra1vw22kuvjdcppj9ah28r4tw7mm9chyzh2g7ly9n',
-      'terra1dywpvspya60alrkhjg2rtlq8p6tst5c405a55f',
-      'terra1xs8hc0drmesxv9jeh793fv5ncwuw0hrzuawc3d',
-    ]);
+    const accounts = ref([]);
     const searchAddress = ref('');
     const setSearchAccount = () => {
       if (searchAddress.value && searchAddress.value.startsWith('terra1')) {
