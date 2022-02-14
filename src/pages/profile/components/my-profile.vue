@@ -26,7 +26,11 @@
           >
             <template #extra>
               <a-space>
-                <a-button type="primary" shape="round" size="mini"
+                <a-button
+                  type="primary"
+                  shape="round"
+                  size="mini"
+                  @click="openCheckProfile(profile.key)"
                   >Check Awards</a-button
                 >
                 <a-button
@@ -172,9 +176,11 @@
 import { defineComponent, ref } from 'vue';
 import { FormInstance } from '@arco-design/web-vue/es/form';
 import { useProfileStore } from '@/store';
+import { useRouter } from 'vue-router';
 
 export default defineComponent({
   setup() {
+    const router = useRouter();
     const profileStore = useProfileStore();
     const addProfileVisible = ref(false);
     const addAccountVisible = ref(false);
@@ -268,6 +274,13 @@ export default defineComponent({
       profileStore.removeAddress(profileKey, index);
     };
 
+    const openCheckProfile = (key: number) => {
+      profileStore.setCurrentProfileKey(key);
+      router.push({
+        name: 'checkProfile',
+      });
+    };
+
     return {
       profileStore,
       addresses,
@@ -287,6 +300,7 @@ export default defineComponent({
       handleAddAccountOk,
       handleAddAccountCancel,
       deleteAccount,
+      openCheckProfile,
     };
   },
 });

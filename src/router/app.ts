@@ -45,7 +45,6 @@ export default [
     meta: {
       locale: 'menu.profileInfo.checkProfile',
       icon: 'icon-user',
-      keepAlive: true,
     },
   },
   {
