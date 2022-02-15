@@ -78,11 +78,11 @@
                   <a-col :span="20">
                     <a-space align="center">
                       <span>{{ address }}</span>
-                      <a-button type="text">
+                      <!-- <a-button type="text">
                         <template #icon>
                           <icon-tags />
                         </template>
-                      </a-button>
+                      </a-button> -->
                     </a-space>
                   </a-col>
                   <a-col :span="2"
@@ -146,7 +146,24 @@
               <a-form-item
                 field="account"
                 label="Account"
-                :rules="[{ required: true, message: 'account is required' }]"
+                :rules="[
+                  { required: true, message: 'account is required' },
+                  {
+                    length: 44,
+                    message: 'must be 44 characters, maybe there are spaces',
+                  },
+                  {
+                    validator: (value, cb) => {
+                      if (value.startsWith('terra')) {
+                        cb();
+                      } else {
+                        cb(
+                          'address must be a terra account address, maybe there are spaces'
+                        );
+                      }
+                    },
+                  },
+                ]"
                 :validate-trigger="['change', 'input']"
               >
                 <a-input

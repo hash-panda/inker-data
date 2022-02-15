@@ -49,24 +49,37 @@ import { useI18n } from 'vue-i18n';
 import useLoading from '@/hooks/loading';
 import useThemes from '@/hooks/themes';
 import { useProfileInfoState } from '@/store';
+import { useAccountInfoState } from '@/store';
 
 export default defineComponent({
-  setup() {
+  props: {
+    checkProfile: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  setup(props) {
     const { t } = useI18n();
     const { loading } = useLoading(false);
     const profileInfoState = useProfileInfoState();
+    const accountInfoState = useAccountInfoState();
+
     const { isDark } = useThemes();
 
     const renderData = computed(() => {
       /* eslint-disable no-console */
       console.log(
         'data-overview profileInfoState.totalDeposit',
-        profileInfoState.totalDeposit
+        props.checkProfile
+          ? profileInfoState.totalDeposit
+          : accountInfoState.totalDeposit
       );
       return [
         {
           title: t('profileInfo.dataOverview.totalDeposit'),
-          value: profileInfoState.totalDeposit,
+          value: props.checkProfile
+            ? profileInfoState.totalDeposit
+            : accountInfoState.totalDeposit,
           precision: 2,
           prefix: {
             icon: 'icon-fire',
@@ -76,7 +89,9 @@ export default defineComponent({
         },
         {
           title: t('profileInfo.dataOverview.totalAwards'),
-          value: profileInfoState.totalAwards,
+          value: props.checkProfile
+            ? profileInfoState.totalAwards
+            : accountInfoState.totalAwards,
           precision: 2,
           prefix: {
             icon: 'icon-gift',
@@ -86,7 +101,9 @@ export default defineComponent({
         },
         {
           title: t('profileInfo.dataOverview.awardCount'),
-          value: profileInfoState.awardCount,
+          value: props.checkProfile
+            ? profileInfoState.awardCount
+            : accountInfoState.awardCount,
           precision: 0,
           prefix: {
             icon: 'icon-heart',
@@ -96,7 +113,9 @@ export default defineComponent({
         },
         {
           title: t('profileInfo.dataOverview.accountCount'),
-          value: profileInfoState.accountCount,
+          value: props.checkProfile
+            ? profileInfoState.accountCount
+            : accountInfoState.accountCount,
           precision: 0,
           prefix: {
             icon: 'icon-user',

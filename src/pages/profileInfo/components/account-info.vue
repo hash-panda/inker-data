@@ -34,6 +34,7 @@ import useLoading from '@/hooks/loading';
 import { queryDepositInfo } from '@/api/profile-info';
 import { formatAmount, getActualAmount, getCoin } from '@/utils';
 import { useProfileInfoState } from '@/store';
+import { useAccountInfoState } from '@/store';
 
 export default defineComponent({
   props: {
@@ -41,8 +42,8 @@ export default defineComponent({
       type: Array,
       default: [] as string[],
     },
-    // 只有当 check profile 时 使用 store 记录汇总数据
-    useStore: {
+    // 只有当 check profile 和 check account 使用的 store 不同
+    checkProfile: {
       type: Boolean,
       default: false,
     },
@@ -52,10 +53,13 @@ export default defineComponent({
     const accountInfo = ref([] as any);
     const totalDeposit = ref(0);
     const profileInfoState = useProfileInfoState();
+    const accountInfoState = useAccountInfoState();
 
     const setProfileInfoState = (info: any) => {
-      if (props.useStore) {
+      if (props.checkProfile) {
         profileInfoState.setInfo(info);
+      } else {
+        accountInfoState.setInfo(info);
       }
     };
     const fetchData = async (address: string, index: number) => {
@@ -94,6 +98,7 @@ export default defineComponent({
         });
         setProfileInfoState({
           accountCount: newVal.length,
+          totalDeposit: totalDeposit.value,
         });
         setLoading(false);
       },

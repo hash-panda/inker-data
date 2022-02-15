@@ -4,9 +4,16 @@ import { useAppStore } from './modules/app';
 import { useUserStore } from './modules/user';
 import { useProfileInfoState } from './modules/profileInfo';
 import { useProfileStore } from './modules/profile';
+import { useAccountInfoState } from './modules/accountInfo';
 
 const pinia = createPinia();
 pinia.use(piniaPluginPersist);
 
-export { useAppStore, useUserStore, useProfileInfoState, useProfileStore };
+export {
+  useAppStore,
+  useUserStore,
+  useProfileInfoState,
+  useProfileStore,
+  useAccountInfoState,
+};
 export default pinia;

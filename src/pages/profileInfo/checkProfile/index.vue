@@ -15,6 +15,7 @@
                     :bordered="true"
                     allow-clear
                     placeholder="Please select profile ..."
+                    @change="setCurrentProfile"
                   >
                     <a-option
                       v-for="item in profileStore.profiles"
@@ -42,12 +43,22 @@
         >
           <a-row>
             <a-col :flex="1">
-              <DataOverview />
+              <DataOverview :checkProfile="true" />
             </a-col>
           </a-row>
         </a-card>
-        <div><award-info :accounts="accounts" :useStore="false" /> </div>
-        <div><account-info :accounts="accounts" :useStore="false" /> </div>
+        <div
+          ><award-info
+            :accounts="profileStore.currentProfile?.address ?? []"
+            :checkProfile="true"
+          />
+        </div>
+        <div
+          ><account-info
+            :accounts="profileStore.currentProfile?.address ?? []"
+            :checkProfile="true"
+          />
+        </div>
       </a-space>
     </div>
   </div>
@@ -55,7 +66,7 @@
 
 <script lang="ts">
 import { useProfileStore } from '@/store';
-import { defineComponent, ref } from 'vue';
+import { defineComponent, ref, watch } from 'vue';
 import { useRouter } from 'vue-router';
 import AccountInfo from '../components/account-info.vue';
 import AwardInfo from '../components/award-info.vue';
@@ -71,15 +82,25 @@ export default defineComponent({
     const router = useRouter();
     const profileStore = useProfileStore();
     const accounts = ref([]);
+    watch(
+      () => profileStore.currentProfileIndex,
+      () => {
+        accounts.value = profileStore.currentProfile;
+      }
+    );
     const openProfile = () => {
       router.push({
         name: 'profile',
       });
     };
+    const setCurrentProfile = (key) => {
+      profileStore.setCurrentProfileKey(key);
+    };
     return {
       profileStore,
       accounts,
       openProfile,
+      setCurrentProfile,
     };
   },
 });

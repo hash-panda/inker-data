@@ -37,7 +37,7 @@
         >
           <a-row>
             <a-col :flex="1">
-              <DataOverview />
+              <DataOverview :checkProfile="false" />
             </a-col>
           </a-row>
         </a-card>
@@ -49,8 +49,14 @@
             ></template
           >
           <a-space direction="vertical" size="large" fill>
-            <award-info :accounts="searchedTerraAddress" :use-store="true" />
-            <account-info :accounts="searchedTerraAddress" :use-store="true" />
+            <award-info
+              :accounts="searchedTerraAddress"
+              :checkProfile="false"
+            />
+            <account-info
+              :accounts="searchedTerraAddress"
+              :checkProfile="false"
+            />
           </a-space>
         </a-card>
       </a-space>

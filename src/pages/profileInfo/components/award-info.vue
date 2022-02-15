@@ -91,6 +91,7 @@ import {
   getActualAmount,
 } from '@/utils';
 import { useProfileInfoState } from '@/store';
+import { useAccountInfoState } from '@/store';
 
 export default defineComponent({
   props: {
@@ -98,7 +99,7 @@ export default defineComponent({
       type: Array,
       default: [] as string[],
     },
-    useStore: {
+    checkProfile: {
       type: Boolean,
       default: false,
     },
@@ -107,10 +108,13 @@ export default defineComponent({
     const { loading, setLoading } = useLoading(false);
     const accountAwardsInfo = ref([] as any);
     const profileInfoState = useProfileInfoState();
+    const accountInfoState = useAccountInfoState();
     const totalAwards = ref(0);
     const setProfileInfoState = (info: any) => {
-      if (props.useStore) {
+      if (props.checkProfile) {
         profileInfoState.setInfo(info);
+      } else {
+        accountInfoState.setInfo(info);
       }
     };
     const fetchData = async (address: string) => {
