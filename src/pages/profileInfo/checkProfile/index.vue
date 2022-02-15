@@ -82,18 +82,12 @@ export default defineComponent({
     const router = useRouter();
     const profileStore = useProfileStore();
     const accounts = ref([]);
-    watch(
-      () => profileStore.currentProfileIndex,
-      () => {
-        accounts.value = profileStore.currentProfile;
-      }
-    );
     const openProfile = () => {
       router.push({
         name: 'profile',
       });
     };
-    const setCurrentProfile = (key) => {
+    const setCurrentProfile = (key: number) => {
       profileStore.setCurrentProfileKey(key);
     };
     return {

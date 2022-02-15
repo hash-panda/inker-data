@@ -153,7 +153,7 @@
                     message: 'must be 44 characters, maybe there are spaces',
                   },
                   {
-                    validator: (value, cb) => {
+                    validator: (value:string, cb:Function) => {
                       if (value.startsWith('terra')) {
                         cb();
                       } else {
