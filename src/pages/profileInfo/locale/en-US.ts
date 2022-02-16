@@ -13,4 +13,6 @@ export default {
     'Wallet addresses are separated by commas, and multiple accounts can be queried at one time.',
   'profileInfo.awardInfo.round': 'Round',
   'profileInfo.awardInfo.gotoClaim': 'Go to Claim Awards',
+  'profileInfo.checkProfile.manageProfile': 'Manage Profile',
+  'profileInfo.checkProfile.placeholder': 'Please select profile ...',
 };

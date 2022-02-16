@@ -19,7 +19,7 @@
           class="my-project-item"
         >
           <a-card
-            :title="profile.name"
+            :title="`${profile.name}(${profile.address?.length ?? 0})`"
             :bordered="true"
             :hoverable="true"
             class="card-animation"
@@ -31,14 +31,14 @@
                   shape="round"
                   size="mini"
                   @click="openCheckProfile(profile.key)"
-                  >Check Awards</a-button
+                  >{{ $t('myProfiles.profileCard.checkAwards') }}</a-button
                 >
                 <a-button
                   type="outline"
                   shape="round"
                   size="mini"
                   @click="handleAddAccountClick(profile.key)"
-                  >Add Account</a-button
+                  >{{ $t('myProfiles.profileCard.addAccount') }}</a-button
                 >
                 <a-dropdown @select="handleDropdown">
                   <icon-more-vertical size="18" />
@@ -49,7 +49,7 @@
                         name: profile.name,
                         action: 'Edit',
                       }"
-                      >Edit</a-doption
+                      >{{ $t('myProfiles.dropdown.optoin.edit') }}</a-doption
                     >
                     <a-doption
                       :value="{
@@ -57,7 +57,7 @@
                         name: profile.name,
                         action: 'Delete',
                       }"
-                      >Delete</a-doption
+                      >{{ $t('myProfiles.dropdown.optoin.delete') }}</a-doption
                     >
                   </template>
                 </a-dropdown>
@@ -76,7 +76,7 @@
                     ></a-col
                   >
                   <a-col :span="20">
-                    <a-space align="center">
+                    <a-space align="center" style="margin-top: 5px">
                       <span>{{ address }}</span>
                       <!-- <a-button type="text">
                         <template #icon>
@@ -87,7 +87,9 @@
                   </a-col>
                   <a-col :span="2"
                     ><a-popconfirm
-                      content="Are you sure you want to delete?"
+                      :ok-text="$t('myProfiles.modal.ok')"
+                      :cancel-text="$t('myProfiles.modal.cancel')"
+                      :content="$t('myProfiles.popconfirm.content')"
                       @ok="deleteAccount(profile.key, aIndex)"
                     >
                       <a-button type="text">
@@ -105,7 +107,9 @@
       </a-row>
     </a-card>
     <a-modal v-model:visible="addProfileVisible" :width="700" :footer="false">
-      <template #title> Edit Profile </template>
+      <template #title>
+        {{ $t('myProfiles.modal.editProfile.title') }}
+      </template>
       <div>
         <a-row>
           <a-col :span="20" :offset="3">
@@ -116,17 +120,26 @@
             >
               <a-form-item
                 field="name"
-                label="Profile Name"
-                :rules="[{ required: true, message: 'name is required' }]"
+                :label="$t('myProfiles.modal.editProfile.name')"
+                :rules="[
+                  {
+                    required: true,
+                    message: $t('myProfiles.modal.addProfile.rule.required'),
+                  },
+                ]"
                 :validate-trigger="['change', 'input']"
               >
                 <a-input
                   v-model="addProfileFormData.name"
-                  placeholder="please enter your profile name..."
+                  :placeholder="
+                    $t('myProfiles.modal.addProfile.placehoder.profileName')
+                  "
                 />
               </a-form-item>
               <a-form-item>
-                <a-button @click="handleAddProfileOk">Submit</a-button>
+                <a-button @click="handleAddProfileOk">{{
+                  $t('myProfiles.modal.editProfile.submit')
+                }}</a-button>
               </a-form-item>
             </a-form>
           </a-col>
@@ -134,7 +147,7 @@
       </div>
     </a-modal>
     <a-modal v-model:visible="addAccountVisible" :width="700" :footer="false">
-      <template #title> Add Account </template>
+      <template #title>{{ $t('myProfiles.profileCard.addAccount') }}</template>
       <div>
         <a-row>
           <a-col :span="18" :offset="3">
@@ -145,20 +158,19 @@
             >
               <a-form-item
                 field="account"
-                label="Account"
+                :label="$t('myProfiles.modal.addAccount.label')"
                 :rules="[
-                  { required: true, message: 'account is required' },
+                  { required: true, message: $t('myProfiles.modal.addAccount.rule.required') },
                   {
                     length: 44,
-                    message: 'must be 44 characters, maybe there are spaces',
+                    message: $t('myProfiles.modal.addAccount.rule2.required'),
                   },
                   {
                     validator: (value:string, cb:Function) => {
                       if (value.startsWith('terra')) {
                         cb();
                       } else {
-                        cb(
-                          'address must be a terra account address, maybe there are spaces'
+                        cb($t('myProfiles.modal.addAccount.rule3.required')
                         );
                       }
                     },
@@ -168,11 +180,15 @@
               >
                 <a-input
                   v-model="accountForm.account"
-                  placeholder="please enter your account address..."
+                  :placeholder="
+                    $t('myProfiles.modal.addProfile.placehoder.account')
+                  "
                 />
               </a-form-item>
               <a-form-item>
-                <a-button @click="handleAddAccountOk">Submit</a-button>
+                <a-button @click="handleAddAccountOk">{{
+                  $t('myProfiles.modal.editProfile.submit')
+                }}</a-button>
               </a-form-item>
             </a-form>
           </a-col>
@@ -181,10 +197,12 @@
     </a-modal>
     <a-modal
       v-model:visible="deleteVisible"
+      :ok-text="$t('myProfiles.modal.ok')"
+      :cancel-text="$t('myProfiles.modal.cancel')"
       @ok="handleDeleteOk"
       @cancel="handleDeleteCancel"
     >
-      <div>是否删除？</div>
+      <div>{{ $t('myProfiles.isDelete') }}</div>
     </a-modal>
   </div>
 </template>

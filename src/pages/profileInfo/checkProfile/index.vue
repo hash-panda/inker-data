@@ -14,7 +14,7 @@
                     size="large"
                     :bordered="true"
                     allow-clear
-                    placeholder="Please select profile ..."
+                    :placeholder="$t('profileInfo.checkProfile.placeholder')"
                     @change="setCurrentProfile"
                   >
                     <a-option
@@ -27,9 +27,9 @@
                 >
                 <a-col :span="12"
                   ><div style="text-align: center">
-                    <a-button type="primary" @click="openProfile"
-                      >Manage Profile</a-button
-                    >
+                    <a-button type="primary" @click="openProfile">{{
+                      $t('profileInfo.checkProfile.manageProfile')
+                    }}</a-button>
                   </div></a-col
                 >
               </a-row>

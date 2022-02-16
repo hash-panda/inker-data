@@ -1,7 +1,11 @@
 <template>
   <!-- <a-spin :loading="loading" style="width: 100%"> -->
   <a-card class="general-card" :bordered="false">
-    <template #title> {{ $t('profileInfo.awardInfo') }} </template>
+    <template #title>
+      {{ $t('profileInfo.awardInfo') }}({{
+        accountAwardsInfo?.length ?? 0
+      }})</template
+    >
 
     <a-table
       :data="accountAwardsInfo"

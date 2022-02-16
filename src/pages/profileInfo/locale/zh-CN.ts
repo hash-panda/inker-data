@@ -12,4 +12,6 @@ export default {
   'profileInfo.search.tips': '钱包地址使用英文逗号分隔可以一次查询多个账号情况',
   'profileInfo.awardInfo.round': '期数',
   'profileInfo.awardInfo.gotoClaim': '去领取奖励',
+  'profileInfo.checkProfile.manageProfile': '管理 Profile',
+  'profileInfo.checkProfile.placeholder': '请选择你的 Profile...',
 };

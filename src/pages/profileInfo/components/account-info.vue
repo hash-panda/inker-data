@@ -1,6 +1,8 @@
 <template>
   <a-card class="general-card" :bordered="false">
-    <template #title> {{ $t('profileInfo.depositInfo') }} </template>
+    <template #title>
+      {{ $t('profileInfo.depositInfo') }}({{ accountInfo?.length ?? 0 }})
+    </template>
     <a-table
       :data="accountInfo"
       :pagination="false"

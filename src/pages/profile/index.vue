@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <UserInfoHeader />
+    <!-- <UserInfoHeader /> -->
     <div class="content">
       <div class="content-left">
         <a-space direction="vertical" :size="16" fill>
@@ -19,7 +19,7 @@ import MyProfile from './components/my-profile.vue';
 
 export default defineComponent({
   components: {
-    UserInfoHeader,
+    // UserInfoHeader,
     MyProfile,
   },
 });
@@ -36,7 +36,6 @@ export default defineComponent({
 
   &-left {
     flex: 1;
-    margin-right: 16px;
     overflow: hidden;
     // background-color: var(--color-bg-2);
 

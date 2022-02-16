@@ -88,9 +88,9 @@
 <script lang="ts">
 import { defineComponent, ref, watch, toRef } from 'vue';
 import useLoading from '@/hooks/loading';
-// import currentFirstIcon from '@/assets/images/currentFirst.png';
-// import currentSecondIcon from '@/assets/images/currentSecond.png';
-import gold from '@/assets/images/gold.png';
+import currentFirstIcon from '@/assets/images/currentFirst.png';
+import currentSecondIcon from '@/assets/images/currentSecond.png';
+// import gold from '@/assets/images/gold.png';
 import { formatAmount, getActualAmount } from '@/utils';
 import { queryCurrentAward } from '@/api/winners';
 
@@ -118,7 +118,7 @@ export default defineComponent({
     const totalDeposit = toRef(props, 'totalDeposit');
     const currentTotalPrizeAmount = ref(0);
     const currentPrize1 = ref({
-      icon: gold,
+      icon: currentFirstIcon,
       amount: 0,
       style: { color: '#ef1f8d' },
       width: '80',
@@ -148,7 +148,7 @@ export default defineComponent({
             // offset: index ===0 ? 6
             style: { color: '#f45d59' },
             width: 40,
-            icon: gold,
+            icon: currentSecondIcon,
             amount: convertActualAwardAmount(item.amount),
           };
         });
@@ -179,13 +179,13 @@ export default defineComponent({
 <style lang="less" scoped>
 :deep(.arco-statistic) {
   .arco-statistic-title {
-    color: rgb(var(--gray-10));
+    // color: rgb(var(--gray-10));
     // font-weight: bold;
   }
   .arco-statistic-value {
     display: flex;
     align-items: center;
-    color: rgb(var(--color-text-1));
+    color: rgb(var(--color-text-3));
     font-weight: normal;
   }
 }
