@@ -1,5 +1,23 @@
 export default [
   {
+    path: 'profile',
+    name: 'profile',
+    component: () => import('@/pages/profile/index.vue'),
+    meta: {
+      locale: 'menu.profile',
+      icon: 'icon-apps',
+    },
+  },
+  {
+    path: 'check-profile',
+    name: 'checkProfile',
+    component: () => import('@/pages/profileInfo/checkProfile/index.vue'),
+    meta: {
+      locale: 'menu.profileInfo.checkProfile',
+      icon: 'icon-user',
+    },
+  },
+  {
     path: 'dashboard',
     name: 'dashboard',
     component: () => import('@/pages/dashboard/index.vue'),
@@ -20,12 +38,13 @@ export default [
     },
   },
   {
-    path: 'profile',
-    name: 'profile',
-    component: () => import('@/pages/profile/index.vue'),
+    path: 'party',
+    name: 'party',
+    component: () => import('@/pages/party/index.vue'),
     meta: {
-      locale: 'menu.profile',
-      icon: 'icon-apps',
+      locale: 'menu.party',
+      icon: 'icon-code-square',
+      keepAlive: true,
     },
   },
   {
@@ -36,15 +55,6 @@ export default [
       locale: 'menu.profileInfo.checkAccount',
       icon: 'icon-align-center',
       keepAlive: true,
-    },
-  },
-  {
-    path: 'check-profile',
-    name: 'checkProfile',
-    component: () => import('@/pages/profileInfo/checkProfile/index.vue'),
-    meta: {
-      locale: 'menu.profileInfo.checkProfile',
-      icon: 'icon-user',
     },
   },
   {

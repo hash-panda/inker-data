@@ -1,4 +1,5 @@
 import localeDashboard from '@/pages/dashboard/locale/zh-CN';
+import localeParty from '@/pages/party/locale/zh-CN';
 import localeWinners from '@/pages/winners/locale/zh-CN';
 import localeProfile from '@/pages/profile/locale/zh-CN';
 import localeProfileInfo from '@/pages/profileInfo/locale/zh-CN';
@@ -21,6 +22,7 @@ export default {
   ...localeSettings,
   ...localeMessageBox,
   ...localeDashboard,
+  ...localeParty,
   ...localeWinners,
   ...localeProfile,
   ...localeProfileInfo,

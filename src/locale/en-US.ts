@@ -1,4 +1,5 @@
 import localeDashboard from '@/pages/dashboard/locale/en-US';
+import localeParty from '@/pages/party/locale/en-US';
 import localeWinners from '@/pages/winners/locale/en-US';
 import localeProfile from '@/pages/profile/locale/en-US';
 import localeProfileInfo from '@/pages/profileInfo/locale/en-US';
@@ -19,6 +20,7 @@ export default {
   'http.error': 'The server is busy. Refresh or re-enter the information',
   ...localeSettings,
   ...localeMessageBox,
+  ...localeParty,
   ...localeDashboard,
   ...localeWinners,
   ...localeProfile,
