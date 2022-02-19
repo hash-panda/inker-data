@@ -2,7 +2,7 @@
   <!-- <a-spin :loading="loading" style="width: 100%"> -->
   <a-card class="general-card" :bordered="false">
     <template #title>
-      {{ $t('profileInfo.awardInfo') }}({{
+      {{ $t('profileInfo.awardInfo') }} ({{
         accountAwardsInfo?.length ?? 0
       }})</template
     >
@@ -23,6 +23,11 @@
           :title="$t('winners.historyWinners.address')"
           data-index="winner.address"
         >
+          <template #cell="{ record }">
+            <a-typography-paragraph copyable :copy-text="record.winner.address">
+              {{ encodeAddress(record.winner.address) }}
+            </a-typography-paragraph>
+          </template>
         </a-table-column>
         <a-table-column
           :title="$t('profileInfo.awardInfo.round')"
@@ -98,6 +103,7 @@ import {
   getCoin,
   gotoInkProtocol,
   getActualAmount,
+  encodeAddress,
 } from '@/utils';
 import { useProfileInfoState } from '@/store';
 import { useAccountInfoState } from '@/store';
@@ -177,6 +183,7 @@ export default defineComponent({
       formatAmount,
       getCoin,
       gotoInkProtocol,
+      encodeAddress,
     };
   },
 });

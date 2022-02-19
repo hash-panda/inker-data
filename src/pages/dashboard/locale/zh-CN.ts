@@ -1,5 +1,5 @@
 export default {
-  'menu.dashboard': '仪表盘',
+  'menu.dashboard': '统计分析',
   'dashboard.playersCount': '总玩家数',
   'dashboard.chartTitle': 'INKer 存款分析图表',
   'dashboard.dataPanel.effectivePlayers': '有效玩家数',

@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export interface PartyMemberDeposit {
   address: string;
-  amount: string;
+  amount: string | number;
   last_deposit_time: number;
 }
 
@@ -33,11 +33,11 @@ export interface PartyRes {
   };
 }
 
-export function queryPartyList() {
+export function queryPartyList(startAfter: number | null) {
   const queryMsg = {
     parties_with_deposits: {
-      start_after: null,
-      limit: 10000,
+      start_after: startAfter,
+      limit: 50,
       is_ascending: true,
     },
   };

@@ -1,7 +1,7 @@
 <template>
   <a-card class="general-card" :bordered="false">
     <template #title>
-      {{ $t('profileInfo.depositInfo') }}({{ accountInfo?.length ?? 0 }})
+      {{ $t('profileInfo.depositInfo') }} ({{ accountInfo?.length ?? 0 }})
     </template>
     <a-table
       :data="accountInfo"
@@ -19,6 +19,11 @@
           :title="$t('winners.historyWinners.address')"
           data-index="address"
         >
+          <template #cell="{ record }">
+            <a-typography-paragraph copyable :copy-text="record.address">
+              {{ encodeAddress(record.address) }}
+            </a-typography-paragraph>
+          </template>
         </a-table-column>
         <a-table-column
           :title="$t('winners.historyWinners.deposit')"
@@ -34,7 +39,7 @@
 import { defineComponent, watch, ref, computed } from 'vue';
 import useLoading from '@/hooks/loading';
 import { queryDepositInfo } from '@/api/profile-info';
-import { formatAmount, getActualAmount, getCoin } from '@/utils';
+import { formatAmount, getActualAmount, getCoin, encodeAddress } from '@/utils';
 import {
   usePartyState,
   useProfileInfoState,
@@ -116,6 +121,7 @@ export default defineComponent({
     return {
       loading,
       accountInfo,
+      encodeAddress,
     };
   },
 });

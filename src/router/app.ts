@@ -1,5 +1,15 @@
 export default [
   {
+    path: 'dashboard',
+    name: 'dashboard',
+    component: () => import('@/pages/dashboard/index.vue'),
+    meta: {
+      locale: 'menu.dashboard',
+      icon: 'icon-dashboard',
+      keepAlive: true,
+    },
+  },
+  {
     path: 'profile',
     name: 'profile',
     component: () => import('@/pages/profile/index.vue'),
@@ -18,12 +28,12 @@ export default [
     },
   },
   {
-    path: 'dashboard',
-    name: 'dashboard',
-    component: () => import('@/pages/dashboard/index.vue'),
+    path: 'check-account',
+    name: 'checkAccount',
+    component: () => import('@/pages/profileInfo/checkAccount/index.vue'),
     meta: {
-      locale: 'menu.dashboard',
-      icon: 'icon-dashboard',
+      locale: 'menu.profileInfo.checkAccount',
+      icon: 'icon-align-center',
       keepAlive: true,
     },
   },
@@ -44,16 +54,6 @@ export default [
     meta: {
       locale: 'menu.party',
       icon: 'icon-code-square',
-      keepAlive: true,
-    },
-  },
-  {
-    path: 'check-account',
-    name: 'checkAccount',
-    component: () => import('@/pages/profileInfo/checkAccount/index.vue'),
-    meta: {
-      locale: 'menu.profileInfo.checkAccount',
-      icon: 'icon-align-center',
       keepAlive: true,
     },
   },

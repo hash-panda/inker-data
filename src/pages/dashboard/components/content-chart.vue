@@ -69,6 +69,14 @@ export default defineComponent({
             axisLabel: {
               formatter: '{value}',
             },
+            splitLine: {
+              show: true,
+              lineStyle: {
+                type: 'dashed',
+                opacity: 0.3,
+                color: '#ccc',
+              },
+            },
           },
           {
             type: 'value',
@@ -77,6 +85,14 @@ export default defineComponent({
             max: 5000,
             axisLabel: {
               formatter: '{value}',
+            },
+            splitLine: {
+              show: true,
+              lineStyle: {
+                type: 'dashed',
+                opacity: 0.3,
+                color: '#ccc',
+              },
             },
           },
         ],

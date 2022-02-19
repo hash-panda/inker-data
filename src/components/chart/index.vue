@@ -9,8 +9,17 @@
 
 <script lang="ts">
 import { defineComponent, ref, computed, nextTick } from 'vue';
+import { use } from 'echarts/core';
 import VCharts from 'vue-echarts';
 import { useAppStore } from '@/store';
+import {
+  VisualMapComponent,
+  TitleComponent,
+  TooltipComponent,
+  LegendComponent,
+} from 'echarts/components';
+
+use([VisualMapComponent, TitleComponent, TooltipComponent, LegendComponent]);
 
 export default defineComponent({
   components: {

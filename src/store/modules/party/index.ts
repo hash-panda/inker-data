@@ -14,23 +14,29 @@ export const usePartyState = defineStore('partyState', {
   },
   getters: {},
   actions: {
-    async getPartyInfo() {
+    async getPartyInfo(startAfter: number | null) {
       if (this.isNeedCheck) {
-        const partyRes = await queryPartyList();
-        this.parties = partyRes.data.result.parties;
-        this.partyCount = this.parties.length ?? 0;
-        let partyTotalDeposit = 0;
-        let partyMemberCount = 0;
-        let partyDeposits: PartyMemberDeposit[] = [];
-        this.parties.forEach((v) => {
-          partyMemberCount += v.current_member;
-          partyTotalDeposit += Number(v.total_deposit) / 1e6;
-          partyDeposits = [...partyDeposits, ...v.deposits];
-        });
-        this.partyMemberCount = partyMemberCount;
-        this.partyTotalDeposit = partyTotalDeposit;
-        this.partyDeposits = partyDeposits;
-        this.isNeedCheck = false;
+        const partyRes = await queryPartyList(startAfter);
+        const tempParties = partyRes.data.result.parties;
+
+        if (tempParties.length > 0) {
+          this.parties = [...this.parties, ...tempParties];
+          this.getPartyInfo(tempParties[tempParties.length - 1].info.id);
+        } else {
+          this.partyCount = this.parties.length ?? 0;
+          let partyTotalDeposit = 0;
+          let partyMemberCount = 0;
+          let partyDeposits: PartyMemberDeposit[] = [];
+          this.parties.forEach((v) => {
+            partyMemberCount += v.current_member;
+            partyTotalDeposit += Number(v.total_deposit) / 1e6;
+            partyDeposits = [...partyDeposits, ...v.deposits];
+          });
+          this.partyMemberCount = partyMemberCount;
+          this.partyTotalDeposit = partyTotalDeposit;
+          this.partyDeposits = partyDeposits;
+          this.isNeedCheck = false;
+        }
       }
     },
     checkAccountDepositInParty(address: string) {

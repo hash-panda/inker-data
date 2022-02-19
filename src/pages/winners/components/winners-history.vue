@@ -43,6 +43,11 @@
               :title="$t('winners.historyWinners.address')"
               data-index="address"
             >
+              <template #cell="{ record }">
+                <a-typography-paragraph copyable :copy-text="record.address">
+                  {{ encodeAddress(record.address) }}
+                </a-typography-paragraph>
+              </template>
             </a-table-column>
             <a-table-column
               :title="$t('winners.historyWinners.prize')"
@@ -85,7 +90,7 @@ import { defineComponent, ref, toRef, watch } from 'vue';
 import useLoading from '@/hooks/loading';
 import { useI18n } from 'vue-i18n';
 import { queryWinnerList, WinnerRes, Winners } from '@/api/winners';
-import { formatAmount } from '@/utils';
+import { formatAmount, encodeAddress } from '@/utils';
 import first from '@/assets/images/currentFirst.png';
 import second from '@/assets/images/currentSecond.png';
 
@@ -152,6 +157,7 @@ export default defineComponent({
       loading,
       renderList,
       formatAmount,
+      encodeAddress,
     };
   },
 });
