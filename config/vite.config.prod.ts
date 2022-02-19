@@ -11,15 +11,15 @@ export default defineConfig({
     vue(),
     vueJsx(),
     svgLoader({ svgoConfig: {} }),
-    copy({
-      targets: [
-        {
-          src: 'src/assets/favicon.ico',
-          dest: 'dist/',
-        }, //执行拷贝
-      ],
-      hook: 'writeBundle',
-    }),
+    // copy({
+    //   targets: [
+    //     {
+    //       src: 'src/assets/favicon.ico',
+    //       dest: 'dist/',
+    //     }, //执行拷贝
+    //   ],
+    //   hook: 'writeBundle',
+    // }),
   ],
   resolve: {
     alias: [

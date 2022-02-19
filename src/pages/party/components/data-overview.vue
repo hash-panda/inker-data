@@ -48,14 +48,11 @@ import { defineComponent, computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import useLoading from '@/hooks/loading';
 import useThemes from '@/hooks/themes';
+import { usePartyState } from '@/store/modules/party';
 
 export default defineComponent({
-  props: {
-    info: {
-      type: Object as any,
-    },
-  },
-  setup(props) {
+  setup() {
+    const partyState = usePartyState();
     const { t } = useI18n();
     const { loading } = useLoading(false);
 
@@ -65,7 +62,7 @@ export default defineComponent({
       return [
         {
           title: t('party.dataOverview.totalDeposit'),
-          value: props.info.partyTotalDeposit,
+          value: partyState.partyTotalDeposit,
           precision: 2,
           prefix: {
             icon: 'icon-fire',
@@ -85,7 +82,7 @@ export default defineComponent({
         // },
         {
           title: t('party.dataOverview.totalPartyMemberCount'),
-          value: props.info.partyMemberCount,
+          value: partyState.partyMemberCount,
           precision: 0,
           prefix: {
             icon: 'icon-heart',
@@ -95,7 +92,7 @@ export default defineComponent({
         },
         {
           title: t('party.dataOverview.partyCount'),
-          value: props.info.partyCount,
+          value: partyState.partyCount,
           precision: 0,
           prefix: {
             icon: 'icon-user',

@@ -3,6 +3,4 @@ export interface ProfileInfoState {
   totalAwards?: number;
   awardCount?: number;
   accountCount?: number;
-  totalDepositInParty?: number;
-  depositInPartyCount: number;
 }

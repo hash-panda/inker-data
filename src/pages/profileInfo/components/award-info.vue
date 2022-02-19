@@ -14,6 +14,11 @@
       :loading="loading"
     >
       <template #columns>
+        <a-table-column title="Index" data-index="key">
+          <template #cell="{ rowIndex }">
+            {{ rowIndex + 1 }}
+          </template>
+        </a-table-column>
         <a-table-column
           :title="$t('winners.historyWinners.address')"
           data-index="winner.address"

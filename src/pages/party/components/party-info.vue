@@ -64,22 +64,19 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed, PropType } from 'vue';
+import { defineComponent, computed } from 'vue';
 import useLoading from '@/hooks/loading';
 import { getActualAmount } from '@/utils';
-import { Party, PartyRes } from '@/api/party';
+import { Party } from '@/api/party';
 import dayjs from 'dayjs';
+import { usePartyState } from '@/store/modules/party';
 
 export default defineComponent({
-  props: {
-    partyInfo: {
-      type: Object as PropType<PartyRes>,
-    },
-  },
-  setup(props) {
+  setup() {
+    const partyState = usePartyState();
     const { loading } = useLoading(false);
     const parties = computed(() => {
-      return props?.partyInfo?.result?.parties.map((v: Party) => {
+      return partyState.parties.map((v: Party) => {
         return { ...v, total_deposit: getActualAmount(v.total_deposit) };
       });
     });

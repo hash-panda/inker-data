@@ -1,7 +1,8 @@
 export default {
-  'menu.profileInfo.checkProfile': '查看 Profile',
+  'menu.profileInfo.checkProfile': '多账户中奖情况',
   'menu.profileInfo.checkAccount': '查看账户',
   'profileInfo.dataOverview.totalDeposit': '存款总金额',
+  'profileInfo.dataOverview.accountDeposit': '账户中存款总金额',
   'profileInfo.dataOverview.totalAwards': '中奖总金额',
   'profileInfo.dataOverview.awardCount': '中奖次数',
   'profileInfo.dataOverview.accountCount': '账户总数',
@@ -12,6 +13,9 @@ export default {
   'profileInfo.search.tips': '钱包地址使用英文逗号分隔可以一次查询多个账号情况',
   'profileInfo.awardInfo.round': '期数',
   'profileInfo.awardInfo.gotoClaim': '去领取奖励',
-  'profileInfo.checkProfile.manageProfile': '管理 Profile',
+  'profileInfo.checkProfile.manageProfile': '管理多账户',
   'profileInfo.checkProfile.placeholder': '请选择你的 Profile...',
+  'profileInfo.party.depositInfo': '在组队存款信息',
+  'profileInfo.dataOverview.depositInPartyCount': '组队中存款总数',
+  'profileInfo.dataOverview.totalDepositInParty': '组队中存款总金额',
 };

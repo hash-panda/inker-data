@@ -9,19 +9,19 @@
         >
           <a-row>
             <a-col :flex="1">
-              <data-overview :info="overview" />
+              <data-overview />
             </a-col>
           </a-row>
         </a-card>
-        <div><party-info :party-info="partyInfo" /> </div>
+        <div><party-info /> </div>
       </a-space>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
-import { queryPartyList, PartyRes } from '@/api/party';
+import { defineComponent } from 'vue';
+import { usePartyState } from '@/store/modules/party';
 import PartyInfo from './components/party-info.vue';
 import DataOverview from './components/data-overview.vue';
 
@@ -31,32 +31,9 @@ export default defineComponent({
     DataOverview,
   },
   setup() {
-    const partyInfo = ref<PartyRes>();
-    const overview = ref({
-      partyMemberCount: 0,
-      partyCount: 0,
-      partyTotalDeposit: 0,
-    });
-    const fetchPartyData = async () => {
-      try {
-        const partyRes = await queryPartyList();
-        partyInfo.value = partyRes.data;
-        overview.value.partyCount = partyRes.data.result.parties.length ?? 0;
-        partyRes.data.result.parties.forEach((v) => {
-          overview.value.partyMemberCount += v.current_member;
-          overview.value.partyTotalDeposit += Number(v.total_deposit) / 1e6;
-        });
-      } catch (e) {
-        // print error
-        /* eslint-disable no-console */
-        console.log(e);
-      }
-    };
-    fetchPartyData();
-    return {
-      partyInfo,
-      overview,
-    };
+    const partyState = usePartyState();
+    partyState.getPartyInfo();
+    return {};
   },
 });
 </script>

@@ -25,7 +25,10 @@
             :precision="item.precision"
             animation
           >
-            <template #prefix>
+            <template #suffix>
+              <span class="unit">ust</span>
+            </template>
+            <!-- <template #prefix>
               <span
                 class="statistic-prefix"
                 :style="{ background: item.prefix.background }"
@@ -35,7 +38,7 @@
                   :style="{ color: item.prefix.iconColor }"
                 />
               </span>
-            </template>
+            </template> -->
           </a-statistic>
         </a-col>
       </a-row>
@@ -70,22 +73,44 @@ export default defineComponent({
       /* eslint-disable no-console */
       console.log(
         'data-overview profileInfoState.totalDeposit',
-        props.checkProfile
-          ? profileInfoState.totalDeposit
-          : accountInfoState.totalDeposit
+        props.checkProfile ? profileInfoState.total : accountInfoState.total
       );
       return [
         {
           title: t('profileInfo.dataOverview.totalDeposit'),
           value: props.checkProfile
+            ? profileInfoState.total
+            : accountInfoState.total,
+          precision: 2,
+          // prefix: {
+          //   icon: 'icon-fire',
+          //   background: isDark.value ? '#593E2F' : '#FFE4BA',
+          //   iconColor: isDark.value ? '#F29A43' : '#F77234',
+          // },
+        },
+        {
+          title: t('profileInfo.dataOverview.accountDeposit'),
+          value: props.checkProfile
             ? profileInfoState.totalDeposit
             : accountInfoState.totalDeposit,
           precision: 2,
-          prefix: {
-            icon: 'icon-fire',
-            background: isDark.value ? '#593E2F' : '#FFE4BA',
-            iconColor: isDark.value ? '#F29A43' : '#F77234',
-          },
+          // prefix: {
+          //   icon: 'icon-fire',
+          //   background: isDark.value ? '#593E2F' : '#FFE4BA',
+          //   iconColor: isDark.value ? '#F29A43' : '#F77234',
+          // },
+        },
+        {
+          title: t('profileInfo.dataOverview.totalDepositInParty'),
+          value: props.checkProfile
+            ? profileInfoState.totalDepositInParty
+            : accountInfoState.totalDepositInParty,
+          precision: 2,
+          // prefix: {
+          //   icon: 'icon-fire',
+          //   background: isDark.value ? '#593E2F' : '#FFE4BA',
+          //   iconColor: isDark.value ? '#F29A43' : '#F77234',
+          // },
         },
         {
           title: t('profileInfo.dataOverview.totalAwards'),
@@ -93,36 +118,48 @@ export default defineComponent({
             ? profileInfoState.totalAwards
             : accountInfoState.totalAwards,
           precision: 2,
-          prefix: {
-            icon: 'icon-gift',
-            background: isDark.value ? '#3D5A62' : '#E8FFFB',
-            iconColor: isDark.value ? '#6ED1CE' : '#33D1C9',
-          },
+          // prefix: {
+          //   icon: 'icon-gift',
+          //   background: isDark.value ? '#3D5A62' : '#E8FFFB',
+          //   iconColor: isDark.value ? '#6ED1CE' : '#33D1C9',
+          // },
         },
-        {
-          title: t('profileInfo.dataOverview.awardCount'),
-          value: props.checkProfile
-            ? profileInfoState.awardCount
-            : accountInfoState.awardCount,
-          precision: 0,
-          prefix: {
-            icon: 'icon-heart',
-            background: isDark.value ? '#354276' : '#E8F3FF',
-            iconColor: isDark.value ? '#4A7FF7' : '#165DFF',
-          },
-        },
-        {
-          title: t('profileInfo.dataOverview.accountCount'),
-          value: props.checkProfile
-            ? profileInfoState.accountCount
-            : accountInfoState.accountCount,
-          precision: 0,
-          prefix: {
-            icon: 'icon-user',
-            background: isDark.value ? '#3F385E' : '#F5E8FF',
-            iconColor: isDark.value ? '#8558D3' : '#722ED1',
-          },
-        },
+        // {
+        //   title: t('profileInfo.dataOverview.awardCount'),
+        //   value: props.checkProfile
+        //     ? profileInfoState.awardCount
+        //     : accountInfoState.awardCount,
+        //   precision: 0,
+        //   // prefix: {
+        //   //   icon: 'icon-heart',
+        //   //   background: isDark.value ? '#354276' : '#E8F3FF',
+        //   //   iconColor: isDark.value ? '#4A7FF7' : '#165DFF',
+        //   // },
+        // },
+        // {
+        //   title: t('profileInfo.dataOverview.depositInPartyCount'),
+        //   value: props.checkProfile
+        //     ? profileInfoState.depositInPartyCount
+        //     : accountInfoState.depositInPartyCount,
+        //   precision: 0,
+        //   // prefix: {
+        //   //   icon: 'icon-heart',
+        //   //   background: isDark.value ? '#354276' : '#E8F3FF',
+        //   //   iconColor: isDark.value ? '#4A7FF7' : '#165DFF',
+        //   // },
+        // },
+        // {
+        //   title: t('profileInfo.dataOverview.accountCount'),
+        //   value: props.checkProfile
+        //     ? profileInfoState.accountCount
+        //     : accountInfoState.accountCount,
+        //   precision: 0,
+        //   // prefix: {
+        //   //   icon: 'icon-user',
+        //   //   background: isDark.value ? '#3F385E' : '#F5E8FF',
+        //   //   iconColor: isDark.value ? '#8558D3' : '#722ED1',
+        //   // },
+        // },
       ];
     });
 
@@ -156,5 +193,11 @@ export default defineComponent({
   text-align: center;
   vertical-align: middle;
   border-radius: 6px;
+}
+
+.unit {
+  margin-left: 8px;
+  color: rgb(var(--gray-8));
+  font-size: 12px;
 }
 </style>

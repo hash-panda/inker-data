@@ -1,10 +1,10 @@
 <template>
   <a-card class="general-card" :bordered="false">
     <template #title>
-      {{ $t('profileInfo.depositInfo') }}({{ accountInfo?.length ?? 0 }})
+      {{ $t('profileInfo.party.depositInfo') }}({{ partyInfo?.length ?? 0 }})
     </template>
     <a-table
-      :data="accountInfo"
+      :data="partyInfo"
       :pagination="false"
       :split="false"
       :loading="loading"
@@ -24,6 +24,9 @@
           :title="$t('winners.historyWinners.deposit')"
           data-index="amount"
         >
+          <template #cell="{ record }">
+            {{ formatAmount(record.amount) }}
+          </template>
         </a-table-column>
       </template>
     </a-table>
@@ -31,10 +34,9 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, watch, ref, computed } from 'vue';
+import { defineComponent, watch, ref } from 'vue';
 import useLoading from '@/hooks/loading';
-import { queryDepositInfo } from '@/api/profile-info';
-import { formatAmount, getActualAmount, getCoin } from '@/utils';
+import { formatAmount, getActualAmount } from '@/utils';
 import {
   usePartyState,
   useProfileInfoState,
@@ -55,11 +57,11 @@ export default defineComponent({
   },
   setup(props) {
     const { loading, setLoading } = useLoading(false);
-    const accountInfo = ref([] as any);
-    const totalDeposit = ref(0);
+    const partyInfo = ref([] as any);
+    const partyState = usePartyState();
+    const totalDepositInParty = ref(0);
     const profileInfoState = useProfileInfoState();
     const accountInfoState = useAccountInfoState();
-    const partyState = usePartyState();
 
     const setProfileInfoState = (info: any) => {
       if (props.checkProfile) {
@@ -71,29 +73,23 @@ export default defineComponent({
 
     const fetchData = async (address: string, index: number) => {
       try {
-        const accountInfoRes = await queryDepositInfo(address.trim());
-        const handleAccountInfo = {
-          amount: formatAmount(accountInfoRes.data?.result?.asset?.amount),
-          denom: getCoin(
-            accountInfoRes.data?.result?.asset?.info?.native_token?.denom
-          ),
-          address,
-        };
-        totalDeposit.value += getActualAmount(
-          accountInfoRes.data?.result?.asset?.amount
-        );
-        setProfileInfoState({
-          totalDeposit: totalDeposit.value,
-        });
-        accountInfo.value.push(handleAccountInfo);
+        await partyState.getPartyInfo();
+        const deposit = partyState.checkAccountDepositInParty(address);
+        if (deposit?.address) {
+          partyInfo.value.push(deposit);
+          totalDepositInParty.value += getActualAmount(deposit?.amount);
+          setProfileInfoState({
+            totalDepositInParty: totalDepositInParty.value,
+          });
+        }
       } catch (e) {
         setLoading(false);
       }
     };
 
     const reset = () => {
-      accountInfo.value = [];
-      totalDeposit.value = 0;
+      partyInfo.value = [];
+      totalDepositInParty.value = 0;
     };
     watch(
       () => props.accounts,
@@ -103,11 +99,18 @@ export default defineComponent({
         newVal.forEach((item, index) => {
           fetchData(item as string, index);
         });
-        setProfileInfoState({
-          accountCount: newVal.length,
-          totalDeposit: totalDeposit.value,
-        });
         setLoading(false);
+      },
+      {
+        immediate: true,
+      }
+    );
+    watch(
+      () => partyInfo.value,
+      () => {
+        setProfileInfoState({
+          depositInPartyCount: partyInfo.value.length,
+        });
       },
       {
         immediate: true,
@@ -115,7 +118,9 @@ export default defineComponent({
     );
     return {
       loading,
-      accountInfo,
+      partyInfo,
+      getActualAmount,
+      formatAmount,
     };
   },
 });

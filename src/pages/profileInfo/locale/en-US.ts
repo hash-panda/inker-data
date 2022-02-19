@@ -1,7 +1,8 @@
 export default {
-  'menu.profileInfo.checkProfile': 'Check Profile',
+  'menu.profileInfo.checkProfile': 'Check Profile Awards',
   'menu.profileInfo.checkAccount': 'Check Account',
   'profileInfo.dataOverview.totalDeposit': 'Total Deposit',
+  'profileInfo.dataOverview.accountDeposit': 'Deposit in Account',
   'profileInfo.dataOverview.totalAwards': 'Total Awards',
   'profileInfo.dataOverview.awardCount': 'Award Count',
   'profileInfo.dataOverview.accountCount': 'Account Count',
@@ -15,4 +16,7 @@ export default {
   'profileInfo.awardInfo.gotoClaim': 'Go to Claim Awards',
   'profileInfo.checkProfile.manageProfile': 'Manage Profile',
   'profileInfo.checkProfile.placeholder': 'Please select profile ...',
+  'profileInfo.party.depositInfo': 'Deposit In Party',
+  'profileInfo.dataOverview.depositInPartyCount': 'Party Deposit Count',
+  'profileInfo.dataOverview.totalDepositInParty': 'Deposit In Party',
 };

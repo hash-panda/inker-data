@@ -57,6 +57,10 @@
               :accounts="searchedTerraAddress"
               :checkProfile="false"
             />
+            <party-deposit-info
+              :accounts="searchedTerraAddress"
+              :checkProfile="false"
+            />
           </a-space>
         </a-card>
       </a-space>
@@ -69,12 +73,14 @@ import { defineComponent, ref } from 'vue';
 import { Message } from '@arco-design/web-vue';
 import useLoading from '@/hooks/loading';
 import AccountInfo from '../components/account-info.vue';
+import PartyDepositInfo from '../components/party-deposit-info.vue';
 import AwardInfo from '../components/award-info.vue';
 import DataOverview from '../components/data-overview.vue';
 
 export default defineComponent({
   components: {
     AccountInfo,
+    PartyDepositInfo,
     AwardInfo,
     DataOverview,
   },
@@ -87,7 +93,12 @@ export default defineComponent({
     const searchAddress = ref('');
     const setSearchAccount = () => {
       if (searchAddress.value && searchAddress.value.startsWith('terra1')) {
-        const addresses = searchAddress.value.trim().split(',');
+        let addresses = searchAddress.value.trim().split(',');
+        addresses = addresses
+          .filter((v) => {
+            return v.trim();
+          })
+          .map((v) => v.trim());
         searchError.value = false;
         searchedTerraAddress.value = addresses;
       } else {

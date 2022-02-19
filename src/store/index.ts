@@ -5,6 +5,7 @@ import { useUserStore } from './modules/user';
 import { useProfileInfoState } from './modules/profileInfo';
 import { useProfileStore } from './modules/profile';
 import { useAccountInfoState } from './modules/accountInfo';
+import { usePartyState } from './modules/party';
 
 const pinia = createPinia();
 pinia.use(piniaPluginPersist);
@@ -15,5 +16,6 @@ export {
   useProfileInfoState,
   useProfileStore,
   useAccountInfoState,
+  usePartyState,
 };
 export default pinia;

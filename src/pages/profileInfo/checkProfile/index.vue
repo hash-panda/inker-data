@@ -59,6 +59,12 @@
             :checkProfile="true"
           />
         </div>
+        <div
+          ><party-deposit-info
+            :accounts="profileStore.currentProfile?.address ?? []"
+            :checkProfile="true"
+          />
+        </div>
       </a-space>
     </div>
   </div>
@@ -69,12 +75,14 @@ import { useProfileStore } from '@/store';
 import { defineComponent, ref, watch } from 'vue';
 import { useRouter } from 'vue-router';
 import AccountInfo from '../components/account-info.vue';
+import PartyDepositInfo from '../components/party-deposit-info.vue';
 import AwardInfo from '../components/award-info.vue';
 import DataOverview from '../components/data-overview.vue';
 
 export default defineComponent({
   components: {
     AccountInfo,
+    PartyDepositInfo,
     AwardInfo,
     DataOverview,
   },
