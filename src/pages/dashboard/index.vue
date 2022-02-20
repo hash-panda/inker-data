@@ -12,9 +12,9 @@
         <div class="panel">
           <ContentChart :chart-data="chart1" />
         </div>
-        <!-- <div><TotalDepositChart /></div> -->
-        <!-- <div><PlayersChart /></div> -->
-        <!-- <div><PartyChart /></div> -->
+        <div><TotalDepositChart /></div>
+        <div><PartyChart /></div>
+        <div><PlayersChart /></div>
       </a-space>
     </div>
   </div>
@@ -25,9 +25,9 @@ import { defineComponent, ref } from 'vue';
 import { queryPlayers, Player, queryBlacklistAddress } from '@/api/dashboard';
 import { queryDepositInfo } from '@/api/profile-info';
 import { getActualAmount } from '@/utils';
-// import PlayersChart from '@/components/analysis/players-chart.vue';
-// import TotalDepositChart from '@/components/analysis/total-deposit-chart.vue';
-// import PartyChart from '@/components/analysis/party-chart.vue';
+import PlayersChart from '@/components/analysis/players-chart.vue';
+import TotalDepositChart from '@/components/analysis/total-deposit-chart.vue';
+import PartyChart from '@/components/analysis/party-chart.vue';
 import DataPanel from './components/data-panel.vue';
 import ContentChart from './components/content-chart.vue';
 
@@ -35,9 +35,9 @@ export default defineComponent({
   components: {
     DataPanel,
     ContentChart,
-    // PartyChart,
-    // PlayersChart,
-    // TotalDepositChart,
+    PartyChart,
+    PlayersChart,
+    TotalDepositChart,
   },
   setup() {
     interface PlayerAmountNumber {

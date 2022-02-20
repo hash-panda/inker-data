@@ -61,25 +61,15 @@ export default defineComponent({
     const renderData = computed(() => {
       return [
         {
-          title: t('party.dataOverview.totalDeposit'),
-          value: partyState.partyTotalDeposit,
-          precision: 2,
+          title: t('party.dataOverview.partyCount'),
+          value: partyState.partyCount,
+          precision: 0,
           prefix: {
-            icon: 'icon-fire',
-            background: isDark.value ? '#593E2F' : '#FFE4BA',
-            iconColor: isDark.value ? '#F29A43' : '#F77234',
+            icon: 'icon-user',
+            background: isDark.value ? '#3F385E' : '#F5E8FF',
+            iconColor: isDark.value ? '#8558D3' : '#722ED1',
           },
         },
-        // {
-        //   title: t('party.dataOverview.totalAwards'),
-        //   value: 34,
-        //   precision: 2,
-        //   prefix: {
-        //     icon: 'icon-gift',
-        //     background: isDark.value ? '#3D5A62' : '#E8FFFB',
-        //     iconColor: isDark.value ? '#6ED1CE' : '#33D1C9',
-        //   },
-        // },
         {
           title: t('party.dataOverview.totalPartyMemberCount'),
           value: partyState.partyMemberCount,
@@ -91,13 +81,13 @@ export default defineComponent({
           },
         },
         {
-          title: t('party.dataOverview.partyCount'),
-          value: partyState.partyCount,
-          precision: 0,
+          title: t('party.dataOverview.totalDeposit'),
+          value: partyState.partyTotalDeposit,
+          precision: 2,
           prefix: {
-            icon: 'icon-user',
-            background: isDark.value ? '#3F385E' : '#F5E8FF',
-            iconColor: isDark.value ? '#8558D3' : '#722ED1',
+            icon: 'icon-fire',
+            background: isDark.value ? '#593E2F' : '#FFE4BA',
+            iconColor: isDark.value ? '#F29A43' : '#F77234',
           },
         },
       ];

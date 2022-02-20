@@ -1,7 +1,7 @@
 <template>
   <a-card class="general-card" :bordered="false">
     <template #title>
-      {{ $t('party.partyInfo') }}({{ parties?.length ?? 0 }})
+      {{ $t('party.partyInfo') }} ({{ parties?.length ?? 0 }})
     </template>
     <a-table
       :data="parties"
@@ -68,7 +68,7 @@
     </a-table>
     <!-- 团队存款详情 -->
     <a-modal width="auto" v-model:visible="visible" :footer="false">
-      <template #title>队伍存款详情</template>
+      <template #title>组队存款详情</template>
       <a-table
         :data="currentPartyDeposits"
         :pagination="false"
@@ -125,19 +125,22 @@ export default defineComponent({
     const partyState = usePartyState();
     const currentPartyDeposits = ref<PartyMemberDeposit[]>();
     const visible = ref(false);
-    const { loading } = useLoading(false);
+    const { loading, setLoading } = useLoading(true);
     const parties = computed(() => {
+      setLoading(false);
       return partyState.parties.map((v: Party) => {
         return { ...v, total_deposit: getActualAmount(v.total_deposit) };
       });
     });
     const openRecordInfo = (index: number) => {
+      setLoading(true);
       visible.value = true;
       if (index >= 0 && index < parties.value.length) {
         currentPartyDeposits.value = parties.value[index].deposits.map((v) => {
           return { ...v, amount: getActualAmount(v.amount) };
         });
       }
+      setLoading(false);
     };
     return {
       loading,

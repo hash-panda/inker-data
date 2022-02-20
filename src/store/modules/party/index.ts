@@ -1,5 +1,6 @@
 import { defineStore, acceptHMRUpdate } from 'pinia';
 import { queryPartyList, Party, PartyMemberDeposit } from '@/api/party';
+import dayjs from 'dayjs';
 
 export const usePartyState = defineStore('partyState', {
   state: () => {
@@ -10,6 +11,8 @@ export const usePartyState = defineStore('partyState', {
       partyTotalDeposit: 0,
       partyDeposits: [] as PartyMemberDeposit[],
       isNeedCheck: true,
+      partyAnalysis: [],
+      nameContainer: [],
     };
   },
   getters: {},
@@ -35,6 +38,7 @@ export const usePartyState = defineStore('partyState', {
           this.partyMemberCount = partyMemberCount;
           this.partyTotalDeposit = partyTotalDeposit;
           this.partyDeposits = partyDeposits;
+
           this.isNeedCheck = false;
         }
       }

@@ -6,7 +6,7 @@
       title="玩家总数趋势"
     >
       <a-space direction="vertical" size="large" fill>
-        <Chart height="300px" :option="chartOption" />
+        <Chart height="280px" :option="chartOption" />
       </a-space>
     </a-card>
   </a-spin>
@@ -80,10 +80,8 @@ export default defineComponent({
         ],
         grid: [
           {
+            top: '5%',
             bottom: '10%',
-          },
-          {
-            top: '1%',
           },
         ],
         series: [
