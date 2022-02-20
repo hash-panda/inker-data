@@ -32,7 +32,7 @@ export default defineComponent({
   },
   setup() {
     const partyState = usePartyState();
-    partyState.getPartyInfo();
+    partyState.getPartyInfo(null);
     return {};
   },
 });
