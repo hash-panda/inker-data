@@ -292,17 +292,12 @@ export default defineComponent({
     };
     fetchStrategyData();
 
-    const { chartOption } = useChartOption((isDark) => {
+    const { chartOption } = useChartOption(() => {
       return {
-        // tooltip: {
-        //   trigger: 'item',
-        //   formatter: '{a} <br/>{b} : {c} ust ({d}%)',
-        // },
         series: [
           {
             type: 'pie',
             radius: [20, 90],
-            // roseType: 'area',
             itemStyle: {
               borderRadius: 5,
             },
@@ -336,7 +331,7 @@ export default defineComponent({
             ],
           },
         ],
-      };
+      } as any;
     });
 
     return {
