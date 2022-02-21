@@ -13,8 +13,11 @@
           <ContentChart :chart-data="chart1" />
         </div>
         <div><TotalDepositChart /></div>
-        <div><PartyChart /></div>
         <div><PlayersChart /></div>
+        <!-- <div class="panel">
+          <PartyDepositChart :chart-data="chart1" />
+        </div> -->
+        <div><PartyChart /></div>
       </a-space>
     </div>
   </div>
@@ -28,6 +31,7 @@ import { getActualAmount } from '@/utils';
 import PlayersChart from '@/components/analysis/players-chart.vue';
 import TotalDepositChart from '@/components/analysis/total-deposit-chart.vue';
 import PartyChart from '@/components/analysis/party-chart.vue';
+// import PartyDepositChart from '@/components/analysis/party-deposit-chart.vue';
 import DataPanel from './components/data-panel.vue';
 import ContentChart from './components/content-chart.vue';
 
@@ -38,6 +42,7 @@ export default defineComponent({
     PartyChart,
     PlayersChart,
     TotalDepositChart,
+    // PartyDepositChart,
   },
   setup() {
     interface PlayerAmountNumber {

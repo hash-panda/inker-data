@@ -2,106 +2,34 @@
   <a-spin :loading="loading" style="width: 100%">
     <a-col :span="24" class="panel">
       <a-row style="padding-top: 16px">
-        <a-col class="panel-col" :span="6">
+        <a-col
+          v-for="item in dataPanel"
+          :key="item.key"
+          class="panel-col"
+          :span="item.span"
+        >
           <a-space>
             <a-avatar :size="54" class="col-avatar">
-              <img
-                alt="avatar"
-                src="//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/288b89194e657603ff40db39e8072640.svg~tplv-49unhts6dw-image.image"
-              />
+              <img alt="avatar" :src="item.icon" />
             </a-avatar>
             <a-statistic
-              :title="$t('dashboard.playersCount')"
-              :value="playersCount"
-              :precision="0"
-              :value-from="0"
-              animation
-              show-group-separator
-            >
-            </a-statistic>
-          </a-space>
-        </a-col>
-        <a-col class="panel-col" :span="6">
-          <a-space>
-            <a-avatar :size="54" class="col-avatar">
-              <img
-                alt="avatar"
-                src="//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/c8b36e26d2b9bb5dbf9b74dd6d7345af.svg~tplv-49unhts6dw-image.image"
-              />
-            </a-avatar>
-            <a-statistic
-              :value="averageDepositAmount"
-              :precision="2"
+              :value="item.value"
+              :precision="item.precision"
               :value-from="0"
               animation
               show-group-separator
             >
               <template #title>
-                {{ $t('dashboard.dataPanel.averageDepositAmount') }}
+                {{ item.title }}
                 <a-tooltip
-                  :content="$t('dashboard.dataPanel.averageDepositAmount.tips')"
+                  v-if="item.tips"
+                  :content="item.tips"
                   background-color="#722ED1"
                   ><icon-info-circle :style="{ color: '#722ED1' }"
                 /></a-tooltip>
               </template>
               <template #suffix>
-                <span class="unit">ust</span>
-              </template>
-            </a-statistic>
-          </a-space>
-        </a-col>
-        <a-col class="panel-col" :span="6">
-          <a-space>
-            <a-avatar :size="54" class="col-avatar">
-              <img
-                alt="avatar"
-                src="//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/fdc66b07224cdf18843c6076c2587eb5.svg~tplv-49unhts6dw-image.image"
-              />
-            </a-avatar>
-            <a-statistic
-              :value="effectivePlayers"
-              :value-from="0"
-              animation
-              show-group-separator
-            >
-              <template #title>
-                {{ $t('dashboard.dataPanel.effectivePlayers') }}
-                <a-tooltip
-                  :content="$t('dashboard.dataPanel.effectivePlayers.tips')"
-                  background-color="#722ED1"
-                  ><icon-info-circle :style="{ color: '#722ED1' }"
-                /></a-tooltip>
-              </template>
-            </a-statistic>
-          </a-space>
-        </a-col>
-        <a-col class="panel-col" :span="6">
-          <a-space>
-            <a-avatar :size="54" class="col-avatar">
-              <img
-                alt="avatar"
-                src="//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/c8b36e26d2b9bb5dbf9b74dd6d7345af.svg~tplv-49unhts6dw-image.image"
-              />
-            </a-avatar>
-            <a-statistic
-              :value="playerAverageDepositAmount"
-              :precision="2"
-              :value-from="0"
-              animation
-              show-group-separator
-            >
-              <template #title>
-                {{ $t('dashboard.dataPanel.playerAverageDepositAmount') }}
-                <a-tooltip
-                  :content="
-                    $t('dashboard.dataPanel.playerAverageDepositAmount.tips')
-                  "
-                  background-color="#722ED1"
-                  ><icon-info-circle :style="{ color: '#722ED1' }"
-                /></a-tooltip>
-              </template>
-              <template #suffix>
-                <span class="unit">ust</span>
+                <span class="unit">{{ item.suffix }}</span>
               </template>
             </a-statistic>
           </a-space>
@@ -112,66 +40,33 @@
     <a-col :span="24" class="panel">
       <a-row>
         <a-col class="panel-col" :span="14">
-          <a-row style="padding-top: 16px">
-            <a-col class="panel-col" :span="12">
+          <a-row
+            v-for="item in amountDataPanel"
+            :key="item.key"
+            style="padding-top: 16px"
+          >
+            <a-col
+              v-for="v in item.col"
+              :key="v.key"
+              class="panel-col"
+              :span="v.span"
+            >
               <a-space>
                 <a-avatar :size="54" class="col-avatar">
-                  <img alt="avatar" :src="totalAmountIcon" />
+                  <img alt="avatar" :src="v.icon" />
                 </a-avatar>
                 <a-statistic
-                  :title="$t('winners.totalDeposit')"
-                  :value="totalDeposit"
-                  :precision="2"
-                  :value-from="0"
-                  animation
-                  show-group-separator
-                >
-                  <template #suffix>
-                    <span class="unit">ust</span>
-                  </template>
-                </a-statistic>
-              </a-space>
-            </a-col>
-            <a-col class="panel-col" :span="12">
-              <a-space>
-                <a-avatar :size="54" class="col-avatar">
-                  <img alt="avatar" :src="amountIcon" />
-                </a-avatar>
-                <a-statistic
-                  :title="$t('dashboard.dataPanel.blackAmount')"
-                  :value="blackAmount"
-                  :precision="2"
-                  :value-from="0"
-                  animation
-                  show-group-separator
-                >
-                  <template #suffix>
-                    <span class="unit">ust</span>
-                  </template>
-                </a-statistic>
-              </a-space>
-            </a-col>
-          </a-row>
-          <a-divider class="panel-border" />
-          <a-row style="padding-top: 16px">
-            <a-col class="panel-col" :span="12">
-              <a-space>
-                <a-avatar :size="54" class="col-avatar">
-                  <img alt="avatar" :src="amountIcon" />
-                </a-avatar>
-                <a-statistic
-                  :value="playerAccountDeposit"
-                  :precision="2"
+                  :value="v.value"
+                  :precision="v.precision"
                   :value-from="0"
                   animation
                   show-group-separator
                 >
                   <template #title>
-                    {{ $t('dashboard.dataPanel.playerAccountDeposit') }}
+                    {{ v.title }}
                     <a-tooltip
-                      :content="
-                        $t('dashboard.dataPanel.playerAccountDeposit.tips')
-                      "
+                      v-if="v.tips"
+                      :content="v.tips"
                       background-color="#722ED1"
                       ><icon-info-circle :style="{ color: '#722ED1' }"
                     /></a-tooltip>
@@ -182,26 +77,8 @@
                 </a-statistic>
               </a-space>
             </a-col>
-            <a-col class="panel-col" :span="12">
-              <a-space>
-                <a-avatar :size="54" class="col-avatar">
-                  <img alt="avatar" :src="amountIcon" />
-                </a-avatar>
-                <a-statistic
-                  :title="$t('dashboard.dataPanel.partyDeposit')"
-                  :value="partyState.partyTotalDeposit"
-                  :precision="2"
-                  :value-from="0"
-                  animation
-                  show-group-separator
-                >
-                  <template #suffix>
-                    <span class="unit">ust</span>
-                  </template>
-                </a-statistic>
-              </a-space>
-            </a-col>
           </a-row>
+          <a-divider class="panel-border" />
         </a-col>
         <a-col class="panel-col" :span="10">
           <a-space direction="vertical" size="large" fill>
@@ -270,6 +147,104 @@ export default defineComponent({
         totalDeposit.value - props.blackAmount - partyState.partyTotalDeposit
       );
     });
+    const dataPanel = computed(() => {
+      return [
+        {
+          key: 1,
+          span: 6,
+          icon: '//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/288b89194e657603ff40db39e8072640.svg~tplv-49unhts6dw-image.image',
+          title: t('dashboard.playersCount'),
+          tips: '',
+          suffix: '',
+          value: props.playersCount,
+          precision: 0,
+        },
+        {
+          key: 2,
+          span: 6,
+          icon: '//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/c8b36e26d2b9bb5dbf9b74dd6d7345af.svg~tplv-49unhts6dw-image.image',
+          title: t('dashboard.dataPanel.averageDepositAmount'),
+          tips: t('dashboard.dataPanel.averageDepositAmount.tips'),
+          suffix: 'ust',
+          value: averageDepositAmount.value,
+          precision: 2,
+        },
+        {
+          key: 3,
+          span: 6,
+          icon: '//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/fdc66b07224cdf18843c6076c2587eb5.svg~tplv-49unhts6dw-image.image',
+          title: t('dashboard.dataPanel.effectivePlayers'),
+          tips: t('dashboard.dataPanel.effectivePlayers.tips'),
+          suffix: '',
+          value: props.effectivePlayers,
+          precision: 0,
+        },
+        {
+          key: 4,
+          span: 6,
+          icon: '//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/c8b36e26d2b9bb5dbf9b74dd6d7345af.svg~tplv-49unhts6dw-image.image',
+          title: t('dashboard.dataPanel.effectivePlayers'),
+          tips: t('dashboard.dataPanel.effectivePlayers.tips'),
+          suffix: 'ust',
+          value: playerAverageDepositAmount.value,
+          precision: 2,
+        },
+      ];
+    });
+    const amountDataPanel = computed(() => {
+      return [
+        {
+          key: 'row1',
+          col: [
+            {
+              key: 1,
+              span: 12,
+              icon: totalAmountIcon,
+              title: t('winners.totalDeposit'),
+              value: totalDeposit.value,
+              precision: 2,
+              suffix: 'ust',
+              tips: '',
+            },
+            {
+              key: 2,
+              span: 12,
+              icon: amountIcon,
+              title: t('dashboard.dataPanel.blackAmount'),
+              value: props.blackAmount,
+              precision: 2,
+              suffix: 'ust',
+              tips: '',
+            },
+          ],
+        },
+        {
+          key: 'row2',
+          col: [
+            {
+              key: 3,
+              span: 12,
+              icon: amountIcon,
+              title: t('dashboard.dataPanel.playerAccountDeposit'),
+              value: playerAccountDeposit.value,
+              precision: 2,
+              suffix: 'ust',
+              tips: t('dashboard.dataPanel.playerAccountDeposit.tips'),
+            },
+            {
+              key: 4,
+              span: 12,
+              icon: amountIcon,
+              title: t('dashboard.dataPanel.partyDeposit'),
+              value: partyState.partyTotalDeposit,
+              precision: 2,
+              suffix: 'ust',
+              tips: '',
+            },
+          ],
+        },
+      ];
+    });
     const fetchStrategyData = async () => {
       try {
         const strategyRes = await queryStrategy();
@@ -335,6 +310,8 @@ export default defineComponent({
     });
 
     return {
+      dataPanel,
+      amountDataPanel,
       averageDepositAmount,
       playerAverageDepositAmount,
       playerDeposit,
