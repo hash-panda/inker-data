@@ -73,10 +73,6 @@ export default defineComponent({
       winnersState.getCurrentPrizeAmount(
         getActualAmount(strategy.data.result.total_deposit.amount)
       );
-      console.log(
-        'aaaa-----------------currentTotalPrizeAmount---------',
-        winnersState.currentTotalPrizeAmount
-      );
       const currentRound = strategy.data.result.round;
       winnersState.getWinnersInfo(1, currentRound);
     };
@@ -157,6 +153,14 @@ export default defineComponent({
         yAxis: [
           {
             type: 'value',
+            splitLine: {
+              show: true,
+              lineStyle: {
+                type: 'dashed',
+                opacity: 0.3,
+                color: '#ccc',
+              },
+            },
           },
         ],
         series: [
