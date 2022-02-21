@@ -10,6 +10,9 @@
           />
         </div>
         <div class="panel">
+          <PrizeInfo />
+        </div>
+        <div class="panel">
           <ContentChart :chart-data="chart1" />
         </div>
         <div><TotalDepositChart /></div>
@@ -34,6 +37,7 @@ import PartyChart from '@/components/analysis/party-chart.vue';
 // import PartyDepositChart from '@/components/analysis/party-deposit-chart.vue';
 import DataPanel from './components/data-panel.vue';
 import ContentChart from './components/content-chart.vue';
+import PrizeInfo from './components/prize-info.vue';
 
 export default defineComponent({
   components: {
@@ -42,7 +46,7 @@ export default defineComponent({
     PartyChart,
     PlayersChart,
     TotalDepositChart,
-    // PartyDepositChart,
+    PrizeInfo,
   },
   setup() {
     interface PlayerAmountNumber {

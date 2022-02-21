@@ -90,6 +90,7 @@ export default defineComponent({
             name: t('analysis.chart.playersChart.name.playersCount'),
             type: 'line',
             showSymbol: false,
+            areaStyle: {},
             data: analysisPlayers.value?.playersList,
           },
         ],

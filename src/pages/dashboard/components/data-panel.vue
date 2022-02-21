@@ -269,6 +269,7 @@ export default defineComponent({
 
     const { chartOption } = useChartOption(() => {
       return {
+        color: ['#722ED1', '#D91AD9', '#7799fb'],
         series: [
           {
             type: 'pie',

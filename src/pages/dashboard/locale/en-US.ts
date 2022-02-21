@@ -18,4 +18,9 @@ export default {
     "Player Average Deposit Amount = (Total Deposit Amount - Sponsor's Deposit Amount) / Number of Effective Players",
   'dashboard.tips':
     'Description: [50,100) represents the total deposit amount and the total number of players whose deposit amount is greater than or equal to 50ust and less than 100ust',
+
+  'dashboard.prizeInfo.title': 'Prize Info',
+  'dashboard.prizeInfo.name': 'Amount of Prize (ust)',
+  'dashboard.prizeInfo.currentPrizeAmount': 'Current Prize Amount',
+  'dashboard.prizeInfo.totalPrizeAmount': 'Total Prize Amount',
 };

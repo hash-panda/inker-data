@@ -19,4 +19,9 @@ export default {
     '平均存款金额 = (总存款金额) / (总玩家数)',
   'dashboard.tips':
     '说明：[50,100)代表存款金额大于等于 50ust 小于 100ust 的玩家的总存款金额和总人数',
+
+  'dashboard.prizeInfo.title': '奖金详情',
+  'dashboard.prizeInfo.name': '发放奖金(ust)',
+  'dashboard.prizeInfo.currentPrizeAmount': '当前奖金',
+  'dashboard.prizeInfo.totalPrizeAmount': '已发放奖金',
 };

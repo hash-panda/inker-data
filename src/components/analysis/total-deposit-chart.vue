@@ -90,6 +90,7 @@ export default defineComponent({
             name: t('analysis.chart.totalDepositChart.name.playersCount'),
             type: 'line',
             showSymbol: false,
+            areaStyle: {},
             data: analysisTotalDeposit.value?.amountList,
           },
         ],
