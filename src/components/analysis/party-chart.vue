@@ -3,7 +3,7 @@
     <a-card
       class="general-card"
       :header-style="{ paddingBottom: 0 }"
-      title="组队信息"
+      :title="$t('analysis.chart.partyChart.title')"
     >
       <a-space direction="vertical" size="large" fill>
         <Chart height="800px" :option="chartOption" />
@@ -15,12 +15,13 @@
 <script lang="ts">
 import { defineComponent, onMounted, watch, computed } from 'vue';
 import useLoading from '@/hooks/loading';
-import { Chart1 } from '@/api/dashboard';
+import { useI18n } from 'vue-i18n';
 import useChartOption from '@/hooks/chart-option';
 import { useAnalysisState } from '@/store';
 
 export default defineComponent({
   setup() {
+    const { t } = useI18n();
     const { loading, setLoading } = useLoading(true);
     const analysisState = useAnalysisState();
     // const xAxis = ref<number[]>([]);
@@ -80,17 +81,19 @@ export default defineComponent({
           {
             top: '0%',
             left: 'center',
-            text: '组队总存款金额趋势',
+            text: t(
+              'analysis.chart.partyChart.chartTitle.partyTotalAmountTrends'
+            ),
           },
           {
             top: '35%',
             left: 'center',
-            text: '组队总数趋势',
+            text: t('analysis.chart.partyChart.chartTitle.partyCountTrends'),
           },
           {
             top: '70%',
             left: 'center',
-            text: '组队参与人数趋势',
+            text: t('analysis.chart.partyChart.chartTitle.partyMemberTrends'),
           },
         ],
         tooltip: { trigger: 'axis' },
@@ -157,13 +160,13 @@ export default defineComponent({
         ],
         series: [
           {
-            name: '组队总存款金额(ust)',
+            name: t('analysis.chart.partyChart.chartName.partyTotalAmount'),
             type: 'line',
             showSymbol: false,
             data: analysisParty.value?.partyTotalAmountList,
           },
           {
-            name: '组队总数',
+            name: t('analysis.chart.partyChart.chartName.partyCount'),
             type: 'line',
             showSymbol: false,
             data: analysisParty.value?.partyCountList,
@@ -171,7 +174,7 @@ export default defineComponent({
             yAxisIndex: 1,
           },
           {
-            name: '组队参与人数',
+            name: t('analysis.chart.partyChart.chartName.partyMember'),
             type: 'line',
             showSymbol: false,
             data: analysisParty.value?.partyPlayersCountList,

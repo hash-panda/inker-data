@@ -1,7 +1,20 @@
 export default {
   'menu.party': '组队信息',
-  'party.partyInfo': '组队信息',
   'party.dataOverview.partyCount': '团队总数',
   'party.dataOverview.totalPartyMemberCount': '团队参与人数',
   'party.dataOverview.totalDeposit': '存款总金额',
+
+  'party.partyInfo': '组队信息',
+  'party.partyInfo.partyName': '团队名称',
+  'party.partyInfo.deposit': '存款金额',
+  'party.partyInfo.members': '人数',
+  'party.partyInfo.partyLeaderAddress': '队长地址',
+  'party.partyInfo.publicOrPrivite': '是否公开',
+  'party.partyInfo.publicOrPrivite.tag.public': '公开',
+  'party.partyInfo.publicOrPrivite.tag.private': '私有',
+  'party.partyInfo.btn.detail': '查看',
+  'party.partyInfo.modal.title': '组队存款详情',
+  'party.partyInfo.modal.address': '地址',
+  'party.partyInfo.modal.deposit': '存款金额',
+  'party.partyInfo.modal.lastDepositTime': '上次存款时间',
 };

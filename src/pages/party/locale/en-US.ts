@@ -1,7 +1,20 @@
 export default {
   'menu.party': 'Party Info',
-  'party.partyInfo': 'Party Info',
   'party.dataOverview.partyCount': 'Total Party',
   'party.dataOverview.totalPartyMemberCount': 'Total Party Member',
   'party.dataOverview.totalDeposit': 'Total Deposit Amount',
+
+  'party.partyInfo': 'Party Info',
+  'party.partyInfo.partyName': 'Party Name',
+  'party.partyInfo.deposit': 'Total Deposit',
+  'party.partyInfo.members': 'Members',
+  'party.partyInfo.partyLeaderAddress': 'Party Leader Address',
+  'party.partyInfo.publicOrPrivite': 'Public or Private',
+  'party.partyInfo.publicOrPrivite.tag.public': 'Public',
+  'party.partyInfo.publicOrPrivite.tag.private': 'Private',
+  'party.partyInfo.btn.detail': 'Detail',
+  'party.partyInfo.modal.title': 'Party Deposit Detail',
+  'party.partyInfo.modal.address': 'Address',
+  'party.partyInfo.modal.deposit': 'Deposit',
+  'party.partyInfo.modal.lastDepositTime': 'Last Deposit Time',
 };

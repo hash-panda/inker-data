@@ -3,7 +3,7 @@
     <a-card
       class="general-card"
       :header-style="{ paddingBottom: 0 }"
-      title="玩家总数趋势"
+      :title="$t('analysis.chart.playersChart.title')"
     >
       <a-space direction="vertical" size="large" fill>
         <Chart height="280px" :option="chartOption" />
@@ -15,12 +15,13 @@
 <script lang="ts">
 import { defineComponent, onMounted, watch, computed } from 'vue';
 import useLoading from '@/hooks/loading';
-import { Chart1 } from '@/api/dashboard';
+import { useI18n } from 'vue-i18n';
 import useChartOption from '@/hooks/chart-option';
 import { useAnalysisState } from '@/store';
 
 export default defineComponent({
   setup() {
+    const { t } = useI18n();
     const { loading, setLoading } = useLoading(true);
     const analysisState = useAnalysisState();
     // const xAxis = ref<number[]>([]);
@@ -86,7 +87,7 @@ export default defineComponent({
         ],
         series: [
           {
-            name: '玩家总数',
+            name: t('analysis.chart.playersChart.name.playersCount'),
             type: 'line',
             showSymbol: false,
             data: analysisPlayers.value?.playersList,

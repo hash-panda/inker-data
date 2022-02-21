@@ -15,7 +15,10 @@
             {{ rowIndex + 1 }}
           </template>
         </a-table-column>
-        <a-table-column title="团队名称" data-index="info.name">
+        <a-table-column
+          :title="$t('party.partyInfo.partyName')"
+          data-index="info.name"
+        >
         </a-table-column>
         <a-table-column
           title="创建时间"
@@ -29,46 +32,54 @@
           </template>
         </a-table-column>
         <a-table-column
-          title="存款金额"
+          :title="$t('party.partyInfo.deposit')"
           data-index="total_deposit"
           :sortable="{ sortDirections: ['ascend', 'descend'] }"
         >
         </a-table-column>
-        <a-table-column title="当前人数" data-index="current_member">
+        <a-table-column
+          :title="$t('party.partyInfo.members')"
+          data-index="current_member"
+        >
           <template #cell="{ record }">
-            {{ record.current_member }}
+            {{ record.current_member }} / {{ record.max_member }}
           </template>
         </a-table-column>
-        <a-table-column title="最大人数" data-index="max_member">
-          <template #cell="{ record }">
-            {{ record.max_member }}
-          </template>
-        </a-table-column>
-        <a-table-column title="队长地址" data-index="info.leader">
+        <a-table-column
+          :title="$t('party.partyInfo.partyLeaderAddress')"
+          data-index="info.leader"
+        >
           <template #cell="{ record }">
             <a-typography-paragraph copyable :copy-text="record.info.leader">
               {{ encodeAddress(record.info.leader) }}
             </a-typography-paragraph>
           </template>
         </a-table-column>
-        <a-table-column title="是否公开" data-index="info.is_public">
+        <a-table-column
+          :title="$t('party.partyInfo.publicOrPrivite')"
+          data-index="info.is_public"
+        >
           <template #cell="{ record }">
-            <a-tag v-if="record.info.is_public" color="green">公开</a-tag>
-            <a-tag v-else color="red">私有</a-tag>
+            <a-tag v-if="record.info.is_public" color="green">{{
+              $t('party.partyInfo.publicOrPrivite.tag.public')
+            }}</a-tag>
+            <a-tag v-else color="red">{{
+              $t('party.partyInfo.publicOrPrivite.tag.private')
+            }}</a-tag>
           </template>
         </a-table-column>
         <a-table-column title="">
           <template #cell="{ rowIndex }">
-            <a-button type="outline" @click="openRecordInfo(rowIndex)"
-              >查看</a-button
-            >
+            <a-button type="outline" @click="openRecordInfo(rowIndex)">{{
+              $t('party.partyInfo.btn.detail')
+            }}</a-button>
           </template>
         </a-table-column>
       </template>
     </a-table>
     <!-- 团队存款详情 -->
     <a-modal width="auto" v-model:visible="visible" :footer="false">
-      <template #title>组队存款详情</template>
+      <template #title>{{ $t('party.partyInfo.modal.title') }}</template>
       <a-table
         :data="currentPartyDeposits"
         :pagination="false"
@@ -77,12 +88,16 @@
         :scroll="{ x: '50vw', y: '60vh' }"
       >
         <template #columns>
-          <a-table-column title="Index" data-index="key" width="100">
+          <a-table-column title="" data-index="key" width="100">
             <template #cell="{ rowIndex }">
               {{ rowIndex + 1 }}
             </template>
           </a-table-column>
-          <a-table-column title="地址" data-index="address" width="300">
+          <a-table-column
+            :title="$t('party.partyInfo.modal.address')"
+            data-index="address"
+            width="300"
+          >
             <template #cell="{ record }">
               <a-typography-paragraph copyable :copy-text="record.address">
                 {{ encodeAddress(record.address) }}
@@ -90,13 +105,13 @@
             </template>
           </a-table-column>
           <a-table-column
-            title="存款金额"
+            :title="$t('party.partyInfo.modal.deposit')"
             data-index="amount"
             :sortable="{ sortDirections: ['ascend', 'descend'] }"
           >
           </a-table-column>
           <a-table-column
-            title="上次存款时间"
+            :title="$t('party.partyInfo.modal.lastDepositTime')"
             data-index="last_deposit_time"
             :sortable="{ sortDirections: ['ascend', 'descend'] }"
           >

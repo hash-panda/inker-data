@@ -8,6 +8,7 @@ import localeRoadmap from '@/pages/roadmap/locale/en-US';
 import localeFaq from '@/pages/faq/locale/en-US';
 import localeAirdrop from '@/pages/airdrop/locale/en-US';
 import localeMessageBox from '@/components/message-box/locale/en-US';
+import localeAnalysis from '@/components/analysis/locale/en-US';
 
 import locale403 from '@/pages/exception/403/locale/en-US';
 import locale404 from '@/pages/exception/404/locale/en-US';
@@ -18,6 +19,7 @@ import localeSettings from './en-US/settings';
 export default {
   'navbar.action.locale': 'Switch to English',
   'http.error': 'The server is busy. Refresh or re-enter the information',
+  ...localeAnalysis,
   ...localeSettings,
   ...localeMessageBox,
   ...localeParty,
