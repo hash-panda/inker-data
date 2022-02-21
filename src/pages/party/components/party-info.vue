@@ -10,7 +10,7 @@
       :loading="loading"
     >
       <template #columns>
-        <a-table-column title="Index" data-index="key">
+        <a-table-column title="" data-index="key">
           <template #cell="{ rowIndex }">
             {{ rowIndex + 1 }}
           </template>
@@ -21,7 +21,7 @@
         >
         </a-table-column>
         <a-table-column
-          title="创建时间"
+          :title="$t('party.partyInfo.createDate')"
           data-index="info.create_date"
           :sortable="{ sortDirections: ['ascend', 'descend'] }"
         >

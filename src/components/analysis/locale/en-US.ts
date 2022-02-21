@@ -1,21 +1,21 @@
 export default {
   'analysis.chart.partyChart.title': 'Party Info',
   'analysis.chart.partyChart.chartTitle.partyTotalAmountTrends':
-    'Trend of party total deposit amount',
+    'Trend of Party Total Deposit Amount',
   'analysis.chart.partyChart.chartTitle.partyCountTrends':
-    'Trend of party total number',
+    'Trend of Party Total Number',
   'analysis.chart.partyChart.chartTitle.partyMemberTrends':
-    'Trend of party-member total number',
+    'Trend of Party-Member Total Number',
   'analysis.chart.partyChart.chartName.partyTotalAmount':
-    'Party total deposit amount (ust)',
-  'analysis.chart.partyChart.chartName.partyCount': 'Party total number',
+    'Party Total Deposit Amount (ust)',
+  'analysis.chart.partyChart.chartName.partyCount': 'Party Total Number',
   'analysis.chart.partyChart.chartName.partyMember':
-    'party-member total number',
+    'Party-Member Total Number',
 
-  'analysis.chart.playersChart.title': 'Trend of players total number',
-  'analysis.chart.playersChart.name.playersCount': 'Players total number',
+  'analysis.chart.playersChart.title': 'Trend of Players Total Number',
+  'analysis.chart.playersChart.name.playersCount': 'Players Total Number',
 
-  'analysis.chart.totalDepositChart.title': 'Trend of total deposit amount',
+  'analysis.chart.totalDepositChart.title': 'Trend of Total Deposit Amount',
   'analysis.chart.totalDepositChart.name.playersCount':
-    'Total deposit amount (ust)',
+    'Total Deposit Amount (ust)',
 };

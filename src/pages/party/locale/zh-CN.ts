@@ -12,6 +12,7 @@ export default {
   'party.partyInfo.publicOrPrivite': '是否公开',
   'party.partyInfo.publicOrPrivite.tag.public': '公开',
   'party.partyInfo.publicOrPrivite.tag.private': '私有',
+  'party.partyInfo.createDate': '创建时间',
   'party.partyInfo.btn.detail': '查看',
   'party.partyInfo.modal.title': '组队存款详情',
   'party.partyInfo.modal.address': '地址',

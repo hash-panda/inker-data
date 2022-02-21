@@ -7,7 +7,7 @@ export default {
   'profileInfo.dataOverview.awardCount': '中奖次数',
   'profileInfo.dataOverview.accountCount': '账户总数',
   'profileInfo.awardInfo': '中奖信息',
-  'profileInfo.DepositInfo': '存款信息',
+  'profileInfo.depositInfo': '存款信息',
   'profileInfo.searchBtn': '查询',
   'profileInfo.searchPlaceholder': '请输入你的 Terra 钱包地址...',
   'profileInfo.search.tips': '钱包地址使用英文逗号分隔可以一次查询多个账号情况',

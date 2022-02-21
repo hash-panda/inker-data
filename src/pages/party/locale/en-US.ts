@@ -12,6 +12,7 @@ export default {
   'party.partyInfo.publicOrPrivite': 'Public or Private',
   'party.partyInfo.publicOrPrivite.tag.public': 'Public',
   'party.partyInfo.publicOrPrivite.tag.private': 'Private',
+  'party.partyInfo.createDate': 'Create Date',
   'party.partyInfo.btn.detail': 'Detail',
   'party.partyInfo.modal.title': 'Party Deposit Detail',
   'party.partyInfo.modal.address': 'Address',
