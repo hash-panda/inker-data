@@ -44,7 +44,13 @@ export const usePartyState = defineStore('partyState', {
       }
     },
     checkAccountDepositInParty(address: string) {
-      return this.partyDeposits.find((e) => e.address === address);
+      const result = [] as any;
+      this.partyDeposits.forEach((v) => {
+        if (v.address === address) {
+          result.push(v);
+        }
+      });
+      return result;
     },
   },
 });
