@@ -33,6 +33,11 @@
             {{ formatAmount(record.amount) }}
           </template>
         </a-table-column>
+        <a-table-column
+          :title="$t('party.partyInfo.partyName')"
+          data-index="partyName"
+        >
+        </a-table-column>
       </template>
     </a-table>
   </a-card>
@@ -47,6 +52,7 @@ import {
   useProfileInfoState,
   useAccountInfoState,
 } from '@/store';
+import { accAdd } from '@/utils/amount';
 
 export default defineComponent({
   props: {
@@ -80,9 +86,15 @@ export default defineComponent({
       try {
         await partyState.getPartyInfo(null);
         const deposit = partyState.checkAccountDepositInParty(address);
-        if (deposit?.address) {
-          partyInfo.value.push(deposit);
-          totalDepositInParty.value += getActualAmount(deposit?.amount);
+        if (deposit.length > 0) {
+          partyInfo.value = [...partyInfo.value, ...deposit];
+          const currentDepositAmount = deposit.reduce(
+            (prev: any, next: any) => {
+              return accAdd(prev, getActualAmount(next.amount));
+            },
+            0
+          );
+          totalDepositInParty.value += currentDepositAmount;
           setProfileInfoState({
             totalDepositInParty: totalDepositInParty.value,
           });

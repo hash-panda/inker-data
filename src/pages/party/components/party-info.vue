@@ -69,8 +69,8 @@
           </template>
         </a-table-column>
         <a-table-column title="">
-          <template #cell="{ rowIndex }">
-            <a-button type="outline" @click="openRecordInfo(rowIndex)">{{
+          <template #cell="{ record }">
+            <a-button type="outline" @click="openRecordInfo(record.info.id)">{{
               $t('party.partyInfo.btn.detail')
             }}</a-button>
           </template>
@@ -147,13 +147,15 @@ export default defineComponent({
         return { ...v, total_deposit: getActualAmount(v.total_deposit) };
       });
     });
-    const openRecordInfo = (index: number) => {
+    const openRecordInfo = (id: number) => {
       setLoading(true);
       visible.value = true;
-      if (index >= 0 && index < parties.value.length) {
-        currentPartyDeposits.value = parties.value[index].deposits.map((v) => {
-          return { ...v, amount: getActualAmount(v.amount) };
-        });
+      if (id >= 0) {
+        currentPartyDeposits.value = parties.value
+          .find((v) => v.info.id === id)
+          ?.deposits?.map((v) => {
+            return { ...v, amount: getActualAmount(v.amount) };
+          });
       }
       setLoading(false);
     };

@@ -33,7 +33,13 @@ export const usePartyState = defineStore('partyState', {
           this.parties.forEach((v) => {
             partyMemberCount += v.current_member;
             partyTotalDeposit += Number(v.total_deposit) / 1e6;
-            partyDeposits = [...partyDeposits, ...v.deposits];
+            const deposits = v.deposits.map((item) => {
+              return {
+                partyName: v.info.name,
+                ...item,
+              };
+            });
+            partyDeposits = [...partyDeposits, ...deposits];
           });
           this.partyMemberCount = partyMemberCount;
           this.partyTotalDeposit = partyTotalDeposit;
@@ -50,6 +56,7 @@ export const usePartyState = defineStore('partyState', {
           result.push(v);
         }
       });
+      console.log('party store check result', result);
       return result;
     },
   },

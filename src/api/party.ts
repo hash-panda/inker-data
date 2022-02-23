@@ -4,6 +4,7 @@ export interface PartyMemberDeposit {
   address: string;
   amount: string | number;
   last_deposit_time: number;
+  partyName?: string;
 }
 
 export interface Party {
