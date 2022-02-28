@@ -12,10 +12,12 @@ export default {
   'analysis.chart.partyChart.chartName.partyMember':
     'Party-Member Total Number',
 
-  'analysis.chart.playersChart.title': 'Trend of Players Total Number',
-  'analysis.chart.playersChart.name.playersCount': 'Players Total Number',
+  'analysis.chart.playersChart.title': 'Trend of Personal Account Number',
+  'analysis.chart.playersChart.name.playersCount':
+    'Total Personal Account Number',
 
-  'analysis.chart.totalDepositChart.title': 'Trend of Total Deposit Amount',
+  'analysis.chart.totalDepositChart.title':
+    'Trend of Total Personal Account Deposit Amount',
   'analysis.chart.totalDepositChart.name.playersCount':
-    'Total Deposit Amount (ust)',
+    'Total Personal Account Deposit Amount (ust)',
 };

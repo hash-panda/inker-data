@@ -1,5 +1,11 @@
+import { accAdd, myFixed } from './amount';
+
 export function getActualAmount(amount: string | number) {
   return Number(amount) / 1e6;
+}
+
+export function getAmount(amount: number) {
+  return Number(myFixed(String(amount), 2));
 }
 
 export function formatAmount(amount: string | number) {
@@ -53,24 +59,24 @@ interface AddressSumAmount {
   address: string;
   sum: number;
 }
-export function partyAndAccountAddressGroup(
-  items: AddressAmount[]
-): AddressSumAmount[] {
-  let result = [] as AddressSumAmount[];
+export function partyAndAccountAddressGroup(items: any): any {
+  let result = [] as any;
   const resultGroup = {} as any;
-  items.forEach((item) => {
+  items.forEach((item: any) => {
     const key = item.address;
     if (!resultGroup[key]) {
       resultGroup[key] = {
-        sum: item.amount,
+        amount: Number(item.amount),
         address: key,
       };
     } else {
-      resultGroup[key].sum += item.amount;
-      resultGroup[key].children.push(item);
+      resultGroup[key].amount = accAdd(
+        resultGroup[key].amount,
+        Number(item.amount)
+      );
     }
   });
   const values = Object.values(resultGroup);
-  result = values.sort((a: any, b: any) => b.sum - a.sum) as AddressSumAmount[];
+  result = values.sort((a: any, b: any) => b.amount - a.amount) as any;
   return result;
 }

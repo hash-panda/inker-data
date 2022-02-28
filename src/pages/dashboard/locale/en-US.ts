@@ -1,15 +1,20 @@
 export default {
   'menu.dashboard': 'Dashboard',
   'dashboard.playersCount': 'Total Players',
-  'dashboard.chartTitle': 'INKer Personal Deposit Analysis',
-  'dashboard.dataPanel.effectivePlayers': 'Effective Players',
+  'dashboard.playersCount.tips':
+    '(Personal account + party-member account) The number of unique addresses obtained by removing the duplicate',
+  'dashboard.chartTitle': 'INKer Personal Deposit + Party Deposit Analysis',
+  'dashboard.dataPanel.personalPlayers': 'Personal Players',
+  'dashboard.dataPanel.personalPlayers.tips': '',
+  'dashboard.dataPanel.num2500': 'Deposit of No. 2500',
+  'dashboard.dataPanel.num2500.tips':
+    'Deposit Amount of No. 2500, include personal account amount and party member amount',
+  'dashboard.dataPanel.totalDeposit.tips': 'Persnal Deposit + Party Deposit',
   'dashboard.dataPanel.blackAmount': "Sponsor's Deposit",
   'dashboard.dataPanel.playerDeposit': 'Player Deposit',
-  'dashboard.dataPanel.playerAccountDeposit': 'Player Account Deposit',
+  'dashboard.dataPanel.playerAccountDeposit': 'Personal Account Deposit',
   'dashboard.dataPanel.partyDeposit': 'Party Deposit',
   'dashboard.dataPanel.playerDeposit.tips': 'include deposit in Party',
-  'dashboard.dataPanel.effectivePlayers.tips':
-    'The number of players with a deposit amount greater than 11ust (the official document specifies that the minimum deposit amount is 11ust)',
   'dashboard.dataPanel.averageDepositAmount': 'Average Deposit',
   'dashboard.dataPanel.averageDepositAmount.tips':
     'Average Deposit Amount = (Total Deposit Amount) / (Number of Total Players)',

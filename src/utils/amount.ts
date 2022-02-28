@@ -97,3 +97,21 @@ export function accSubtr(arg1: number, arg2: number) {
   n = r1 >= r2 ? r1 : r2;
   return ((arg1 * m - arg2 * m) / m).toFixed(n);
 }
+
+/**
+ * 保留小数点几位数, 自动补零, 四舍五入
+ * @param num: 数值
+ * @param digit: 小数点后位数
+ * @returns string
+ */
+export function myFixed(num: string, digit: number): string {
+  if (Object.is(parseFloat(num), NaN)) {
+    console.log(`传入的值：${num}不是一个数字`);
+    return '0';
+  }
+  const numFloat = parseFloat(num);
+  return (
+    Math.round((numFloat + Number.EPSILON) * 10 ** digit) /
+    10 ** digit
+  ).toFixed(digit);
+}

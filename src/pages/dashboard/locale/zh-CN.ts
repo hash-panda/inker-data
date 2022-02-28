@@ -1,16 +1,20 @@
 export default {
   'menu.dashboard': '统计分析',
   'dashboard.playersCount': '总玩家数',
-  'dashboard.chartTitle': 'INKer 个人存款分析图表',
-  'dashboard.dataPanel.effectivePlayers': '有效玩家数',
+  'dashboard.playersCount.tips': '（个人账户 + 组队账户）去重得到的唯一地址数',
+  'dashboard.chartTitle': 'INKer 个人存款+团队存款 分析图表',
+  'dashboard.dataPanel.personalPlayers': '个人玩家数',
+  'dashboard.dataPanel.totalDeposit.tips': '个人账户存款 + 组队存款',
+  'dashboard.dataPanel.num2500': '第2500个账户存款金额',
+  'dashboard.dataPanel.num2500.tips':
+    '包括个人账户和组队中存款账户，相同账户存款相加，倒序排列，找到第2500个账户存款金额。',
   'dashboard.dataPanel.blackAmount': '赞助商金额',
   'dashboard.dataPanel.playerDeposit': '玩家存款金额',
-  'dashboard.dataPanel.playerAccountDeposit': '玩家账户存款金额',
+  'dashboard.dataPanel.playerAccountDeposit': '个人账户存款金额',
   'dashboard.dataPanel.playerAccountDeposit.tips': '不在组队中的存款金额',
   'dashboard.dataPanel.partyDeposit': '组队存款金额',
   'dashboard.dataPanel.playerDeposit.tips': '包括在组队中的存款金额',
-  'dashboard.dataPanel.effectivePlayers.tips':
-    '存款金额大于11ust的玩家数量（官方文档明确最小存款金额为11ust）',
+  'dashboard.dataPanel.personalPlayers.tips': '',
   'dashboard.dataPanel.playerAverageDepositAmount': '玩家平均存款金额',
   'dashboard.dataPanel.playerAverageDepositAmount.tips':
     '玩家平均存款金额 = (总存款金额 - 赞助商的存款金额) / 有效玩家数',

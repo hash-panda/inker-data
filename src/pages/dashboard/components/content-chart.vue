@@ -65,7 +65,7 @@ export default defineComponent({
             type: 'value',
             name: 'Deposit(ust)',
             min: 0,
-            max: 500000,
+            max: 1000000,
             axisLabel: {
               formatter: '{value}',
             },

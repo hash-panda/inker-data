@@ -95,12 +95,13 @@ import { defineComponent, ref, computed } from 'vue';
 import useLoading from '@/hooks/loading';
 import { useI18n } from 'vue-i18n';
 import { queryStrategy } from '@/api/winners';
-import { getActualAmount } from '@/utils';
+import { getActualAmount, getAmount } from '@/utils';
 import { usePartyState } from '@/store';
 import amountIcon from '@/assets/images/amount-icon.png';
 import totalAmountIcon from '@/assets/images/total-amount-icon.png';
 import dayjs from 'dayjs';
 import useChartOption from '@/hooks/chart-option';
+import { accDiv, myFixed } from '@/utils/amount';
 
 export default defineComponent({
   props: {
@@ -108,11 +109,15 @@ export default defineComponent({
       type: Number,
       default: 0,
     },
-    effectivePlayers: {
+    personalPlayers: {
       type: Number,
       default: 0,
     },
     blackAmount: {
+      type: Number,
+      default: 0,
+    },
+    num2500: {
       type: Number,
       default: 0,
     },
@@ -123,29 +128,29 @@ export default defineComponent({
     const lastRound = ref(0);
     const height = ref(0);
     const endRoundTime = ref(new Date());
-    const totalDeposit = ref(0);
+    const totalPersonalDeposit = ref(0);
     const currentRound = ref(0);
     const { t } = useI18n();
 
-    partyState.getPartyInfo(null);
     const playerAverageDepositAmount = computed(() => {
       return Number(
-        (
-          (totalDeposit.value - props.blackAmount) /
-          props.effectivePlayers
-        ).toFixed(2)
+        getAmount(
+          (totalPersonalDeposit.value - props.blackAmount) /
+            props.personalPlayers
+        )
       );
-    });
-    const averageDepositAmount = computed(() => {
-      return Number((totalDeposit.value / props.playersCount).toFixed(2));
     });
     const playerDeposit = computed(() => {
-      return Number(totalDeposit.value - props.blackAmount);
+      return Number(totalPersonalDeposit.value - props.blackAmount);
     });
     const playerAccountDeposit = computed(() => {
-      return Number(
-        totalDeposit.value - props.blackAmount - partyState.partyTotalDeposit
-      );
+      return Number(totalPersonalDeposit.value - props.blackAmount);
+    });
+    const totalDeposit = computed(() => {
+      return Number(totalPersonalDeposit.value + partyState.partyTotalDeposit);
+    });
+    const averageDepositAmount = computed(() => {
+      return getAmount(accDiv(totalDeposit.value, props.playersCount));
     });
     const dataPanel = computed(() => {
       return [
@@ -154,7 +159,7 @@ export default defineComponent({
           span: 6,
           icon: '//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/288b89194e657603ff40db39e8072640.svg~tplv-49unhts6dw-image.image',
           title: t('dashboard.playersCount'),
-          tips: '',
+          tips: t('dashboard.playersCount.tips'),
           suffix: '',
           value: props.playersCount,
           precision: 0,
@@ -173,20 +178,20 @@ export default defineComponent({
           key: 3,
           span: 6,
           icon: '//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/fdc66b07224cdf18843c6076c2587eb5.svg~tplv-49unhts6dw-image.image',
-          title: t('dashboard.dataPanel.effectivePlayers'),
-          tips: t('dashboard.dataPanel.effectivePlayers.tips'),
+          title: t('dashboard.dataPanel.personalPlayers'),
+          tips: t('dashboard.dataPanel.personalPlayers.tips'),
           suffix: '',
-          value: props.effectivePlayers,
+          value: props.personalPlayers,
           precision: 0,
         },
         {
           key: 4,
           span: 6,
           icon: '//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/c8b36e26d2b9bb5dbf9b74dd6d7345af.svg~tplv-49unhts6dw-image.image',
-          title: t('dashboard.dataPanel.effectivePlayers'),
-          tips: t('dashboard.dataPanel.effectivePlayers.tips'),
+          title: t('dashboard.dataPanel.num2500'),
+          tips: t('dashboard.dataPanel.num2500.tips'),
           suffix: 'ust',
-          value: playerAverageDepositAmount.value,
+          value: props.num2500,
           precision: 2,
         },
       ];
@@ -201,10 +206,10 @@ export default defineComponent({
               span: 12,
               icon: totalAmountIcon,
               title: t('winners.totalDeposit'),
+              tips: t('dashboard.dataPanel.totalDeposit.tips'),
               value: totalDeposit.value,
               precision: 2,
               suffix: 'ust',
-              tips: '',
             },
             {
               key: 2,
@@ -251,7 +256,7 @@ export default defineComponent({
         height.value = Number(strategyRes.data?.height);
         currentRound.value = strategyRes.data?.result?.round;
         lastRound.value = currentRound.value - 1;
-        totalDeposit.value = getActualAmount(
+        totalPersonalDeposit.value = getActualAmount(
           strategyRes.data?.result?.total_deposit?.amount
         );
         endRoundTime.value = dayjs
@@ -320,7 +325,7 @@ export default defineComponent({
       lastRound,
       currentRound,
       endRoundTime,
-      totalDeposit,
+      totalPersonalDeposit,
       height,
       amountIcon,
       totalAmountIcon,

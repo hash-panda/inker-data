@@ -5,15 +5,16 @@
         <div class="panel">
           <DataPanel
             :players-count="playersCount"
-            :effective-players="effectivePlayers"
+            :personal-players="personalPlayers"
             :black-amount="blackAmount"
+            :num2500="num2500"
           />
         </div>
         <div class="panel">
-          <PrizeInfo />
+          <ContentChart :chart-data="chart1" />
         </div>
         <div class="panel">
-          <ContentChart :chart-data="chart1" />
+          <PrizeInfo />
         </div>
         <div><TotalDepositChart /></div>
         <div><PlayersChart /></div>
@@ -27,11 +28,16 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent, ref, watch } from 'vue';
 import { queryPlayers, Player, queryBlacklistAddress } from '@/api/dashboard';
 import { queryDepositInfo } from '@/api/profile-info';
-import { getActualAmount } from '@/utils';
+import {
+  getActualAmount,
+  getAmount,
+  partyAndAccountAddressGroup,
+} from '@/utils';
 import { accAdd } from '@/utils/amount';
+import { usePartyState } from '@/store';
 import PlayersChart from '@/components/analysis/players-chart.vue';
 import TotalDepositChart from '@/components/analysis/total-deposit-chart.vue';
 import PartyChart from '@/components/analysis/party-chart.vue';
@@ -54,21 +60,25 @@ export default defineComponent({
       address: string;
       amount: number;
     }
-
     const players = ref([] as Player[]);
     const playersCount = ref(0);
-    const effectivePlayers = ref(0);
+    const personalPlayers = ref(0);
     const blacklistAddressCount = ref(0);
     // const averageDeposit = ref(0);
     const blackAmount = ref(0);
     const sortPlayers = ref([] as PlayerAmountNumber[]);
     const isGetAllPlayer = ref(false);
     const chart1 = ref({});
+    const partyState = usePartyState();
+    const num2500 = ref(0);
+
+    partyState.getPartyInfo(null);
+
     const playersSortByAmount = (
       allPlayer: PlayerAmountNumber[]
     ): PlayerAmountNumber[] => {
       return allPlayer.sort((a, b) => {
-        return a.amount - b.amount;
+        return b.amount - a.amount;
       });
     };
     const playersAmountConvertNumber = (
@@ -77,7 +87,7 @@ export default defineComponent({
       return allPlayer.map((item) => {
         return {
           address: item.address,
-          amount: getActualAmount(item.amount),
+          amount: getAmount(getActualAmount(item.amount)),
         };
       });
     };
@@ -92,7 +102,7 @@ export default defineComponent({
               count: 0,
             };
           }
-          prev[key].sum = accAdd(prev[key].sum, current.amount);
+          prev[key].sum = getAmount(accAdd(prev[key].sum, current.amount));
           prev[key].count += 1;
         };
         if (current.amount < 11) {
@@ -119,10 +129,6 @@ export default defineComponent({
         return prev;
       }, {});
 
-      // ----
-
-      // console.log(players.)
-      effectivePlayers.value = allPlayer.length - resultGroup['< 11'].count;
       chart1.value = {
         x: Object.keys(resultGroup),
         amounts: Object.values(resultGroup).map((v: any) => v.sum),
@@ -132,8 +138,25 @@ export default defineComponent({
     const convertPlayersData = (players: Player[]) => {
       const tempAmountNumber = playersAmountConvertNumber(players);
       sortPlayers.value = playersSortByAmount(tempAmountNumber);
+      num2500.value = sortPlayers.value[2499].amount;
       playersConvertCharts1Data(sortPlayers.value);
     };
+
+    watch(
+      () => [isGetAllPlayer.value, partyState.isNeedCheck],
+      () => {
+        if (isGetAllPlayer.value && !partyState.isNeedCheck) {
+          const allRecord = partyAndAccountAddressGroup([
+            ...players.value,
+            ...partyState.partyDeposits,
+          ]);
+          playersCount.value = allRecord.length;
+          personalPlayers.value = players.value.length;
+          convertPlayersData(allRecord);
+        }
+      }
+    );
+
     const fetchData = async (startAddress: string | null) => {
       try {
         const playersRes = await queryPlayers(startAddress);
@@ -143,9 +166,6 @@ export default defineComponent({
           tempPlayers[0]?.address === startAddress
         ) {
           isGetAllPlayer.value = true;
-          playersCount.value = players.value.length;
-
-          convertPlayersData(players.value);
           return;
         }
         // 第二次开始查询时 上次的最后一条和这次的第一条一样，需要去除
@@ -183,10 +203,11 @@ export default defineComponent({
     };
     fetchBlacklistAddressData();
     return {
-      effectivePlayers,
+      personalPlayers,
       blackAmount,
       playersCount,
       chart1,
+      num2500,
     };
   },
 });
