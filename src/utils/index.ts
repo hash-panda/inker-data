@@ -44,3 +44,33 @@ export function encodeAddress(address: string) {
   }
   return result;
 }
+
+interface AddressAmount {
+  address: string;
+  amount: string;
+}
+interface AddressSumAmount {
+  address: string;
+  sum: number;
+}
+export function partyAndAccountAddressGroup(
+  items: AddressAmount[]
+): AddressSumAmount[] {
+  let result = [] as AddressSumAmount[];
+  const resultGroup = {} as any;
+  for (const item of items) {
+    const key = item.address;
+    if (!resultGroup[key]) {
+      resultGroup[key] = {
+        sum: item.amount,
+        address: key,
+      };
+    } else {
+      resultGroup[key].sum += item.amount;
+      resultGroup[key].children.push(item);
+    }
+  }
+  const values = Object.values(resultGroup);
+  result = values.sort((a: any, b: any) => b.sum - a.sum) as AddressSumAmount[];
+  return result;
+}
