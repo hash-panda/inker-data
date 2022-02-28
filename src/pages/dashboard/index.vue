@@ -31,6 +31,7 @@ import { defineComponent, ref } from 'vue';
 import { queryPlayers, Player, queryBlacklistAddress } from '@/api/dashboard';
 import { queryDepositInfo } from '@/api/profile-info';
 import { getActualAmount } from '@/utils';
+import { accAdd } from '@/utils/amount';
 import PlayersChart from '@/components/analysis/players-chart.vue';
 import TotalDepositChart from '@/components/analysis/total-deposit-chart.vue';
 import PartyChart from '@/components/analysis/party-chart.vue';
@@ -82,98 +83,8 @@ export default defineComponent({
     };
 
     const playersConvertCharts1Data = (allPlayer: PlayerAmountNumber[]) => {
-      let amount1Sum = 0;
-      const amount1: number[] = [];
-      let amount2Sum = 0;
-      const amount2: number[] = [];
-      let amount3Sum = 0;
-      const amount3: number[] = [];
-      let amount4Sum = 0;
-      const amount4: number[] = [];
-      let amount5Sum = 0;
-      const amount5: number[] = [];
-      let amount6Sum = 0;
-      const amount6: number[] = [];
-      let amount7Sum = 0;
-      const amount7: number[] = [];
-      let amount8Sum = 0;
-      const amount8: number[] = [];
-      const result = [] as any;
-      const getGroupInfo = (index: number, x: string, amount: number) => {
-        result[index].x = x;
-        result[index].sum = result[index].sum ?? 0 + amount;
-        result[index].count = result[index].count ?? 0 + 1;
-      };
-      allPlayer.forEach((item, index) => {
-        if (index !== allPlayer.length - 1) {
-          if (item.amount < 11) {
-            amount1.push(item.amount);
-            amount1Sum += item.amount;
-            getGroupInfo(0, '< 11', item.amount);
-          } else if (item.amount >= 11 && item.amount < 50) {
-            amount2.push(item.amount);
-            amount2Sum += item.amount;
-            getGroupInfo(1, '< 11', item.amount);
-          } else if (item.amount >= 50 && item.amount < 100) {
-            amount3.push(item.amount);
-            amount3Sum += item.amount;
-            getGroupInfo(2, '< 11', item.amount);
-          } else if (item.amount >= 100 && item.amount < 200) {
-            amount4.push(item.amount);
-            amount4Sum += item.amount;
-            getGroupInfo(3, '< 11', item.amount);
-          } else if (item.amount >= 200 && item.amount < 500) {
-            amount5.push(item.amount);
-            amount5Sum += item.amount;
-            getGroupInfo(4, '< 11', item.amount);
-          } else if (item.amount >= 500 && item.amount < 1000) {
-            amount6.push(item.amount);
-            amount6Sum += item.amount;
-            getGroupInfo(5, '< 11', item.amount);
-          } else if (item.amount >= 1000 && item.amount < 5000) {
-            amount7.push(item.amount);
-            amount7Sum += item.amount;
-            getGroupInfo(6, '[1000, 5000)', item.amount);
-          } else {
-            amount8.push(item.amount);
-            amount8Sum += item.amount;
-            getGroupInfo(7, '>= 5000', item.amount);
-          }
-        }
-      });
-      const x = [
-        '< 11',
-        '[11, 50)',
-        '[50, 100)',
-        '[100, 200)',
-        '[200, 500)',
-        '[500, 1000)',
-        '[1000, 5000)',
-        '>= 5000',
-      ];
-      const amounts = [
-        amount1Sum.toFixed(2),
-        amount2Sum.toFixed(2),
-        amount3Sum.toFixed(2),
-        amount4Sum.toFixed(2),
-        amount5Sum.toFixed(2),
-        amount6Sum.toFixed(2),
-        amount7Sum.toFixed(2),
-        amount8Sum.toFixed(2),
-      ];
-      const count = [
-        amount1.length,
-        amount2.length,
-        amount3.length,
-        amount4.length,
-        amount5.length,
-        amount6.length,
-        amount7.length,
-        amount8.length,
-      ];
-
       // -----
-      const rrresutl = allPlayer.reduce((prev: any, current) => {
+      const resultGroup = allPlayer.reduce((prev: any, current) => {
         const setGroupInfo = (key: any) => {
           if (!prev[key]) {
             prev[key] = {
@@ -181,8 +92,8 @@ export default defineComponent({
               count: 0,
             };
           }
-          prev[key].sum = prev[key].sum + current.amount;
-          prev[key].count++;
+          prev[key].sum = accAdd(prev[key].sum, current.amount);
+          prev[key].count += 1;
         };
         if (current.amount < 11) {
           setGroupInfo('< 11');
@@ -190,8 +101,12 @@ export default defineComponent({
           setGroupInfo('[11, 50)');
         } else if (current.amount >= 50 && current.amount < 100) {
           setGroupInfo('[50, 100)');
-        } else if (current.amount >= 100 && current.amount < 200) {
-          setGroupInfo('[100, 200)');
+        } else if (current.amount >= 100 && current.amount < 120) {
+          setGroupInfo('[100, 120)');
+        } else if (current.amount >= 120 && current.amount < 150) {
+          setGroupInfo('[120, 150)');
+        } else if (current.amount >= 150 && current.amount < 200) {
+          setGroupInfo('[150, 200)');
         } else if (current.amount >= 200 && current.amount < 500) {
           setGroupInfo('[200, 500)');
         } else if (current.amount >= 500 && current.amount < 1000) {
@@ -207,8 +122,12 @@ export default defineComponent({
       // ----
 
       // console.log(players.)
-      effectivePlayers.value = allPlayer.length - amount1.length;
-      chart1.value = { x, amounts, count };
+      effectivePlayers.value = allPlayer.length - resultGroup['< 11'].count;
+      chart1.value = {
+        x: Object.keys(resultGroup),
+        amounts: Object.values(resultGroup).map((v: any) => v.sum),
+        count: Object.values(resultGroup).map((v: any) => v.count),
+      };
     };
     const convertPlayersData = (players: Player[]) => {
       const tempAmountNumber = playersAmountConvertNumber(players);
@@ -252,8 +171,9 @@ export default defineComponent({
           blacklistAddress.data?.result?.addresses.length;
         blacklistAddress.data?.result?.addresses.forEach(async (item) => {
           const depositInfo = await queryDepositInfo(item);
-          blackAmount.value += getActualAmount(
-            depositInfo.data?.result?.asset?.amount
+          blackAmount.value = accAdd(
+            blackAmount.value,
+            getActualAmount(depositInfo.data?.result?.asset?.amount)
           );
         });
       } catch (e) {

@@ -1,7 +1,7 @@
 export default {
   'menu.dashboard': 'Dashboard',
   'dashboard.playersCount': 'Total Players',
-  'dashboard.chartTitle': 'INKer Deposit Analysis',
+  'dashboard.chartTitle': 'INKer Personal Deposit Analysis',
   'dashboard.dataPanel.effectivePlayers': 'Effective Players',
   'dashboard.dataPanel.blackAmount': "Sponsor's Deposit",
   'dashboard.dataPanel.playerDeposit': 'Player Deposit',

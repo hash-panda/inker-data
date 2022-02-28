@@ -58,7 +58,7 @@ export function partyAndAccountAddressGroup(
 ): AddressSumAmount[] {
   let result = [] as AddressSumAmount[];
   const resultGroup = {} as any;
-  for (const item of items) {
+  items.forEach((item) => {
     const key = item.address;
     if (!resultGroup[key]) {
       resultGroup[key] = {
@@ -69,7 +69,7 @@ export function partyAndAccountAddressGroup(
       resultGroup[key].sum += item.amount;
       resultGroup[key].children.push(item);
     }
-  }
+  });
   const values = Object.values(resultGroup);
   result = values.sort((a: any, b: any) => b.sum - a.sum) as AddressSumAmount[];
   return result;

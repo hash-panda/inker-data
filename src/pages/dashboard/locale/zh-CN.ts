@@ -1,7 +1,7 @@
 export default {
   'menu.dashboard': '统计分析',
   'dashboard.playersCount': '总玩家数',
-  'dashboard.chartTitle': 'INKer 存款分析图表',
+  'dashboard.chartTitle': 'INKer 个人存款分析图表',
   'dashboard.dataPanel.effectivePlayers': '有效玩家数',
   'dashboard.dataPanel.blackAmount': '赞助商金额',
   'dashboard.dataPanel.playerDeposit': '玩家存款金额',
