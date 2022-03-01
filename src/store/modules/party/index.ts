@@ -15,7 +15,13 @@ export const usePartyState = defineStore('partyState', {
       nameContainer: [],
     };
   },
-  getters: {},
+  getters: {
+    getPartyInfoAddress(state) {
+      return state.parties.map((v) => {
+        return v.info.party_addr;
+      });
+    },
+  },
   actions: {
     async getPartyInfo(startAfter: number | null) {
       if (this.isNeedCheck) {

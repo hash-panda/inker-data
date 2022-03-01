@@ -16,8 +16,7 @@ export default {
   'analysis.chart.playersChart.name.playersCount':
     'Total Personal Account Number',
 
-  'analysis.chart.totalDepositChart.title':
-    'Trend of Total Personal Account Deposit Amount',
+  'analysis.chart.totalDepositChart.title': 'Trend of Total Deposit Amount',
   'analysis.chart.totalDepositChart.name.playersCount':
     'Total Personal Account Deposit Amount (ust)',
 };

@@ -94,6 +94,7 @@ export default defineComponent({
 
     const playersConvertCharts1Data = (allPlayer: PlayerAmountNumber[]) => {
       // -----
+      const partyInfoAddress = partyState.getPartyInfoAddress;
       const resultGroup = allPlayer.reduce((prev: any, current) => {
         const setGroupInfo = (key: any) => {
           if (!prev[key]) {
@@ -105,26 +106,28 @@ export default defineComponent({
           prev[key].sum = getAmount(accAdd(prev[key].sum, current.amount));
           prev[key].count += 1;
         };
-        if (current.amount < 11) {
-          setGroupInfo('< 11');
-        } else if (current.amount >= 11 && current.amount < 50) {
-          setGroupInfo('[11, 50)');
-        } else if (current.amount >= 50 && current.amount < 100) {
-          setGroupInfo('[50, 100)');
-        } else if (current.amount >= 100 && current.amount < 120) {
-          setGroupInfo('[100, 120)');
-        } else if (current.amount >= 120 && current.amount < 150) {
-          setGroupInfo('[120, 150)');
-        } else if (current.amount >= 150 && current.amount < 200) {
-          setGroupInfo('[150, 200)');
-        } else if (current.amount >= 200 && current.amount < 500) {
-          setGroupInfo('[200, 500)');
-        } else if (current.amount >= 500 && current.amount < 1000) {
-          setGroupInfo('[500, 1000)');
-        } else if (current.amount >= 1000 && current.amount < 5000) {
-          setGroupInfo('[1000, 5000)');
-        } else {
-          setGroupInfo('>= 5000');
+        if (!partyInfoAddress.includes(current.address)) {
+          if (current.amount < 11) {
+            setGroupInfo('< 11');
+          } else if (current.amount >= 11 && current.amount < 50) {
+            setGroupInfo('[11, 50)');
+          } else if (current.amount >= 50 && current.amount < 100) {
+            setGroupInfo('[50, 100)');
+          } else if (current.amount >= 100 && current.amount < 120) {
+            setGroupInfo('[100, 120)');
+          } else if (current.amount >= 120 && current.amount < 150) {
+            setGroupInfo('[120, 150)');
+          } else if (current.amount >= 150 && current.amount < 200) {
+            setGroupInfo('[150, 200)');
+          } else if (current.amount >= 200 && current.amount < 500) {
+            setGroupInfo('[200, 500)');
+          } else if (current.amount >= 500 && current.amount < 1000) {
+            setGroupInfo('[500, 1000)');
+          } else if (current.amount >= 1000 && current.amount < 5000) {
+            setGroupInfo('[1000, 5000)');
+          } else {
+            setGroupInfo('>= 5000');
+          }
         }
         return prev;
       }, {});

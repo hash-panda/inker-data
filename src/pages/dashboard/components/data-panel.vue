@@ -128,26 +128,21 @@ export default defineComponent({
     const lastRound = ref(0);
     const height = ref(0);
     const endRoundTime = ref(new Date());
-    const totalPersonalDeposit = ref(0);
+    const totalDeposit = ref(0);
     const currentRound = ref(0);
     const { t } = useI18n();
 
     const playerAverageDepositAmount = computed(() => {
       return Number(
         getAmount(
-          (totalPersonalDeposit.value - props.blackAmount) /
-            props.personalPlayers
+          (totalDeposit.value - props.blackAmount) / props.personalPlayers
         )
       );
     });
-    const playerDeposit = computed(() => {
-      return Number(totalPersonalDeposit.value - props.blackAmount);
-    });
     const playerAccountDeposit = computed(() => {
-      return Number(totalPersonalDeposit.value - props.blackAmount);
-    });
-    const totalDeposit = computed(() => {
-      return Number(totalPersonalDeposit.value + partyState.partyTotalDeposit);
+      return Number(
+        totalDeposit.value - props.blackAmount - partyState.partyTotalDeposit
+      );
     });
     const averageDepositAmount = computed(() => {
       return getAmount(accDiv(totalDeposit.value, props.playersCount));
@@ -256,7 +251,7 @@ export default defineComponent({
         height.value = Number(strategyRes.data?.height);
         currentRound.value = strategyRes.data?.result?.round;
         lastRound.value = currentRound.value - 1;
-        totalPersonalDeposit.value = getActualAmount(
+        totalDeposit.value = getActualAmount(
           strategyRes.data?.result?.total_deposit?.amount
         );
         endRoundTime.value = dayjs
@@ -320,12 +315,10 @@ export default defineComponent({
       amountDataPanel,
       averageDepositAmount,
       playerAverageDepositAmount,
-      playerDeposit,
       playerAccountDeposit,
       lastRound,
       currentRound,
       endRoundTime,
-      totalPersonalDeposit,
       height,
       amountIcon,
       totalAmountIcon,

@@ -11,6 +11,6 @@ export default {
   'analysis.chart.playersChart.title': '个人账户总数趋势',
   'analysis.chart.playersChart.name.playersCount': '个人账户总数',
 
-  'analysis.chart.totalDepositChart.title': '个人存款总金额趋势',
+  'analysis.chart.totalDepositChart.title': '存款总金额趋势',
   'analysis.chart.totalDepositChart.name.playersCount': '个人存款总金额(ust)',
 };
