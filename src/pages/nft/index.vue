@@ -158,7 +158,7 @@ export default defineComponent({
               const nftInfo = v
                 .filter((item) => item.status === 'fulfilled')
                 .map((t: any) => {
-                  return t['value'].data.result;
+                  return t.value.data.result;
                 });
               nftState.setNftList(nftInfo);
               if (index === queryList.length - 1) {
