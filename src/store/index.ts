@@ -8,6 +8,7 @@ import { useAccountInfoState } from './modules/accountInfo';
 import { usePartyState } from './modules/party';
 import { useAnalysisState } from './modules/analysis';
 import { useWinnersState } from './modules/winners';
+import { useNftState } from './modules/nft';
 
 const pinia = createPinia();
 pinia.use(piniaPluginPersist);
@@ -21,5 +22,6 @@ export {
   usePartyState,
   useAnalysisState,
   useWinnersState,
+  useNftState,
 };
 export default pinia;

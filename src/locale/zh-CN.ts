@@ -9,6 +9,7 @@ import localeFaq from '@/pages/faq/locale/zh-CN';
 import localeAirdrop from '@/pages/airdrop/locale/zh-CN';
 import localeAnalysis from '@/components/analysis/locale/zh-CN';
 import localeMessageBox from '@/components/message-box/locale/zh-CN';
+import localeNft from '@/pages/nft/locale/zh-CN';
 
 import locale403 from '@/pages/exception/403/locale/zh-CN';
 import locale404 from '@/pages/exception/404/locale/zh-CN';
@@ -19,6 +20,7 @@ import localeSettings from './zh-CN/settings';
 export default {
   'navbar.action.locale': '切换为中文',
   'http.error': '服务器繁忙，请刷新或者重新输入信息',
+  ...localeNft,
   ...localeAnalysis,
   ...localeSettings,
   ...localeMessageBox,

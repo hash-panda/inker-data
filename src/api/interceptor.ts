@@ -1,6 +1,5 @@
 import axios, { AxiosRequestConfig, AxiosResponse } from 'axios';
 import { Message } from '@arco-design/web-vue';
-import { useI18n } from 'vue-i18n';
 
 export interface HttpResponse<T = unknown> {
   status: number;
@@ -25,11 +24,6 @@ axios.interceptors.response.use(
     return res;
   },
   (error) => {
-    const { t } = useI18n();
-    Message.error({
-      content: t('http.error'),
-      duration: 5 * 1000,
-    });
     return Promise.reject(error);
   }
 );

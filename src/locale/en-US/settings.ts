@@ -4,6 +4,8 @@ export default {
   'settings.content': 'Content Setting',
   'settings.search': 'Search',
   'settings.language': 'Language',
+  'settings.twitter': 'geekdao.eth@twitter',
+  'settings.weibo': 'geekDAO@weibo',
   'settings.navbar': 'Navbar',
   'settings.menuWidth': 'Menu Width (px)',
   'settings.navbar.theme.toLight': 'Click to use light mode',

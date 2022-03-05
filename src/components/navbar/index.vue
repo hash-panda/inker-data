@@ -14,6 +14,22 @@
     </div>
     <ul class="right-side">
       <li>
+        <a-tooltip :content="$t('settings.twitter')">
+          <icon-twitter-circle-fill
+            size="24"
+            style="color: rgb(var(--primary-6))"
+            @click="openTwitter"
+        /></a-tooltip>
+      </li>
+      <li>
+        <a-tooltip :content="$t('settings.weibo')"
+          ><icon-weibo-circle-fill
+            size="24"
+            style="color: rgb(var(--primary-6))"
+            @click="openWeibo"
+        /></a-tooltip>
+      </li>
+      <li>
         <a-button type="text" @click="gotoInkProtocol">
           <template #icon>
             <icon-tags />
@@ -141,7 +157,16 @@ export default defineComponent({
       Message.success(res as string);
     };
 
+    const openTwitter = () => {
+      window.open('hhttps://twitter.com/mr7s1990', '_blank');
+    };
+    const openWeibo = () => {
+      window.open('https://weibo.com/u/7565123862', '_blank');
+    };
+
     return {
+      openTwitter,
+      openWeibo,
       locales,
       theme,
       avatar,

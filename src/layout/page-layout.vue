@@ -10,7 +10,7 @@
           class="layout-sider"
           :breakpoint="'xl'"
           :collapsed="collapse"
-          :collapsible="true"
+          :collapsible="false"
           :width="menuWidth"
           :style="{ paddingTop: navbar ? '60px' : '' }"
           :hide-trigger="true"
@@ -83,7 +83,7 @@ export default defineComponent({
       return { ...paddingLeft, ...paddingTop };
     });
     const setCollapsed = (val: boolean) => {
-      appStore.updateSettings({ menuCollapse: val });
+      // appStore.updateSettings({ menuCollapse: val });
     };
     watch(
       () => userStore.role,

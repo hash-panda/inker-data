@@ -58,6 +58,16 @@ export default [
     },
   },
   {
+    path: 'nft',
+    name: 'nft',
+    component: () => import('@/pages/nft/index.vue'),
+    meta: {
+      locale: 'menu.nft',
+      icon: 'icon-code-square',
+      keepAlive: true,
+    },
+  },
+  {
     path: 'faq',
     name: 'faq',
     component: () => import('@/pages/faq/index.vue'),
