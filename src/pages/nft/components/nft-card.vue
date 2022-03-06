@@ -22,7 +22,7 @@
               <template #value="{ data }">{{ data.value }}</template>
             </a-descriptions>
           </template>
-          <a-button>属性</a-button>
+          <a-button>{{ $t('nft.list.attribute') }}</a-button>
         </a-tooltip></span
       >
     </template>

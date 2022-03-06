@@ -2,6 +2,7 @@ export default {
   'menu.nft': 'NFT',
   'menu.nft.list': 'NFT 列表',
   'menu.nft.holder': 'NFT 分析',
+  'nft.list.attribute': '属性',
   'nft.holder.dataOverview.nftTotal': 'NFT 总量',
   'nft.holder.dataOverview.nftHolders': 'NFT 持有人数',
   'nft.holder.dataOverview.nftTransaction': 'NFT 交易量（即将支持）',
