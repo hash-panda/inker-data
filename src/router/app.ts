@@ -60,7 +60,7 @@ export default [
   {
     path: 'nft',
     name: 'nft',
-    component: () => import('@/pages/nft/index.vue'),
+    component: () => import('@/pages/nft/list/index.vue'),
     meta: {
       locale: 'menu.nft',
       icon: 'icon-code-square',
@@ -74,6 +74,7 @@ export default [
     meta: {
       locale: 'menu.faq',
       icon: 'icon-question-circle',
+      keepAlive: true,
     },
   },
   {
@@ -83,6 +84,7 @@ export default [
     meta: {
       locale: 'menu.roadmap',
       icon: 'icon-cloud',
+      keepAlive: true,
     },
   },
   {
@@ -92,6 +94,7 @@ export default [
     meta: {
       locale: 'menu.airdrop',
       icon: 'icon-heart',
+      keepAlive: true,
     },
   },
   {
@@ -101,6 +104,7 @@ export default [
     meta: {
       locale: 'menu.donate',
       icon: 'icon-gift',
+      keepAlive: true,
     },
   },
 ];

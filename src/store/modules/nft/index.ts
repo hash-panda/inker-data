@@ -14,11 +14,38 @@ export const useNftState = defineStore('nftState', {
     totalNft(state) {
       return state.nftList?.flat().length;
     },
+    nftFlatList(state) {
+      return state.nftList?.flat();
+    },
     isNftLoaded(state) {
       return (
         state.endNftToken - state.startNftToken + 1 ===
         state.nftList?.flat().length
       );
+    },
+    nftHolderAnalysis(state) {
+      // nft 持有人统计
+      const nftHolders = (items: any): any => {
+        let result = [] as any;
+        const resultGroup = {} as any;
+        items.forEach((item: any) => {
+          const key = item.access?.owner;
+          if (!resultGroup[key]) {
+            resultGroup[key] = {
+              count: 1,
+              owner: key,
+              nft: [item],
+            };
+          } else {
+            resultGroup[key].count += 1;
+            resultGroup[key].nft.push(item);
+          }
+        });
+        const values = Object.values(resultGroup);
+        result = values.sort((a: any, b: any) => b.count - a.count) as any;
+        return result;
+      };
+      return nftHolders(state.nftList?.flat());
     },
   },
   actions: {
@@ -27,6 +54,7 @@ export const useNftState = defineStore('nftState', {
     },
     resetNftList() {
       this.nftList = [];
+      this.lastUpdateTime = 0;
     },
     setLastUpdateTime() {
       this.lastUpdateTime = Date.now();

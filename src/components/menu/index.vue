@@ -62,7 +62,12 @@ export default defineComponent({
     watch(
       route,
       (newVal) => {
-        const key = newVal.matched[1]?.name as string;
+        let key = newVal.matched[1]?.name as string;
+        if (newVal?.matched.length > 2) {
+          key = newVal.matched[2]?.name as string;
+        }
+
+        console.log('newVal.matched', newVal.matched);
         selectedKey.value = [key];
       },
       {
@@ -87,18 +92,40 @@ export default defineComponent({
         if (_route) {
           _route.forEach((element) => {
             const icon = element?.meta?.icon ? `<${element?.meta?.icon}/>` : ``;
-            const r = (
-              <a-menu-item
-                key={element.name}
-                v-slots={{
-                  icon: () => h(compile(`${icon}`)),
-                }}
-                onClick={() => goto(element)}
-              >
-                {t(element?.meta?.locale || '')}
-              </a-menu-item>
-            );
-            nodes.push(r as never);
+            if (element?.children) {
+              const r = (
+                <a-sub-menu
+                  key={element?.name}
+                  v-slots={{
+                    title: () =>
+                      h(compile(`${icon}${t(element?.meta?.locale || '')}`)),
+                  }}
+                >
+                  {element?.children?.map((elem) => {
+                    return (
+                      <a-menu-item key={elem.name} onClick={() => goto(elem)}>
+                        {t(elem?.meta?.locale || '')}
+                        {travel(elem.children ?? [])}
+                      </a-menu-item>
+                    );
+                  })}
+                </a-sub-menu>
+              );
+              nodes.push(r as never);
+            } else {
+              const r = (
+                <a-menu-item
+                  key={element.name}
+                  v-slots={{
+                    icon: () => h(compile(`${icon}`)),
+                  }}
+                  onClick={() => goto(element)}
+                >
+                  {t(element?.meta?.locale || '')}
+                </a-menu-item>
+              );
+              nodes.push(r as never);
+            }
           });
         }
         return nodes;

@@ -59,6 +59,8 @@ interface AddressSumAmount {
   address: string;
   sum: number;
 }
+
+// party 存款金额 和 个人账户存款金额 合并统计
 export function partyAndAccountAddressGroup(items: any): any {
   let result = [] as any;
   const resultGroup = {} as any;
