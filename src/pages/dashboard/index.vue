@@ -113,14 +113,16 @@ export default defineComponent({
             setGroupInfo('[11, 50)');
           } else if (current.amount >= 50 && current.amount < 100) {
             setGroupInfo('[50, 100)');
-          } else if (current.amount >= 100 && current.amount < 120) {
-            setGroupInfo('[100, 120)');
-          } else if (current.amount >= 120 && current.amount < 150) {
-            setGroupInfo('[120, 150)');
-          } else if (current.amount >= 150 && current.amount < 200) {
-            setGroupInfo('[150, 200)');
-          } else if (current.amount >= 200 && current.amount < 500) {
-            setGroupInfo('[200, 500)');
+          } else if (current.amount >= 100 && current.amount < 180) {
+            setGroupInfo('[100, 180)');
+          } else if (current.amount >= 180 && current.amount < 200) {
+            setGroupInfo('[180, 200)');
+          } else if (current.amount >= 200 && current.amount < 250) {
+            setGroupInfo('[200, 250)');
+          } else if (current.amount >= 250 && current.amount < 300) {
+            setGroupInfo('[250, 300)');
+          } else if (current.amount >= 300 && current.amount < 500) {
+            setGroupInfo('[300, 500)');
           } else if (current.amount >= 500 && current.amount < 1000) {
             setGroupInfo('[500, 1000)');
           } else if (current.amount >= 1000 && current.amount < 5000) {
