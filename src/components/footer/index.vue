@@ -17,7 +17,7 @@ export default defineComponent({
       window.open('https://t.me/+0t3Wsaa3F1IyZTE9', '_blank');
     };
     const openTwitter = () => {
-      window.open('hhttps://twitter.com/mr7s1990', '_blank');
+      window.open('https://twitter.com/mr7s1990', '_blank');
     };
     const openWeibo = () => {
       window.open('https://weibo.com/u/7565123862', '_blank');
