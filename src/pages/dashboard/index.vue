@@ -72,7 +72,7 @@ export default defineComponent({
     const partyState = usePartyState();
     const num2500 = ref(0);
 
-    partyState.getPartyInfo(null);
+    // partyState.getPartyInfo(null);
 
     const playersSortByAmount = (
       allPlayer: PlayerAmountNumber[]
@@ -94,7 +94,7 @@ export default defineComponent({
 
     const playersConvertCharts1Data = (allPlayer: PlayerAmountNumber[]) => {
       // -----
-      const partyInfoAddress = partyState.getPartyInfoAddress;
+      // const partyInfoAddress = partyState.getPartyInfoAddress;
       const resultGroup = allPlayer.reduce((prev: any, current) => {
         const setGroupInfo = (key: any) => {
           if (!prev[key]) {
@@ -106,31 +106,29 @@ export default defineComponent({
           prev[key].sum = getAmount(accAdd(prev[key].sum, current.amount));
           prev[key].count += 1;
         };
-        if (!partyInfoAddress.includes(current.address)) {
-          if (current.amount < 11) {
-            setGroupInfo('< 11');
-          } else if (current.amount >= 11 && current.amount < 50) {
-            setGroupInfo('[11, 50)');
-          } else if (current.amount >= 50 && current.amount < 100) {
-            setGroupInfo('[50, 100)');
-          } else if (current.amount >= 100 && current.amount < 180) {
-            setGroupInfo('[100, 180)');
-          } else if (current.amount >= 180 && current.amount < 200) {
-            setGroupInfo('[180, 200)');
-          } else if (current.amount >= 200 && current.amount < 250) {
-            setGroupInfo('[200, 250)');
-          } else if (current.amount >= 250 && current.amount < 300) {
-            setGroupInfo('[250, 300)');
-          } else if (current.amount >= 300 && current.amount < 500) {
-            setGroupInfo('[300, 500)');
-          } else if (current.amount >= 500 && current.amount < 1000) {
-            setGroupInfo('[500, 1000)');
-          } else if (current.amount >= 1000 && current.amount < 5000) {
-            setGroupInfo('[1000, 5000)');
-          } else {
-            setGroupInfo('>= 5000');
-          }
+        // if (!partyInfoAddress.includes(current.address)) {
+        if (current.amount < 11) {
+          setGroupInfo('< 11');
+        } else if (current.amount >= 11 && current.amount < 50) {
+          setGroupInfo('[11, 50)');
+        } else if (current.amount >= 50 && current.amount < 100) {
+          setGroupInfo('[50, 100)');
+        } else if (current.amount >= 100 && current.amount < 180) {
+          setGroupInfo('[100, 180)');
+        } else if (current.amount >= 180 && current.amount < 250) {
+          setGroupInfo('[180, 250)');
+        } else if (current.amount >= 250 && current.amount < 300) {
+          setGroupInfo('[250, 300)');
+          // } else if (current.amount >= 300 && current.amount < 500) {
+          //   setGroupInfo('[300, 500)');
+          // } else if (current.amount >= 500 && current.amount < 1000) {
+          //   setGroupInfo('[500, 1000)');
+          // } else if (current.amount >= 1000 && current.amount < 5000) {
+          //   setGroupInfo('[1000, 5000)');
+        } else {
+          setGroupInfo('>= 300');
         }
+        // }
         return prev;
       }, {});
 
@@ -150,15 +148,15 @@ export default defineComponent({
     watch(
       () => [isGetAllPlayer.value, partyState.isNeedCheck],
       () => {
-        if (isGetAllPlayer.value && !partyState.isNeedCheck) {
-          const allRecord = partyAndAccountAddressGroup([
-            ...players.value,
-            ...partyState.partyDeposits,
-          ]);
-          playersCount.value = allRecord.length;
-          personalPlayers.value = players.value.length;
-          convertPlayersData(allRecord);
-        }
+        // if (isGetAllPlayer.value && !partyState.isNeedCheck) {
+        const allRecord = partyAndAccountAddressGroup([
+          ...players.value,
+          // ...partyState.partyDeposits,
+        ]);
+        playersCount.value = allRecord.length;
+        personalPlayers.value = players.value.length;
+        convertPlayersData(allRecord);
+        // }
       }
     );
 
