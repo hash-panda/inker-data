@@ -8,4 +8,5 @@ node_modules
 dist
 dist-ssr
 *.local
-.idea/workspace.xml
+.idea
+
