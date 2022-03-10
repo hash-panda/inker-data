@@ -20,6 +20,8 @@ import localeSettings from './zh-CN/settings';
 export default {
   'navbar.action.locale': '切换为中文',
   'http.error': '服务器繁忙，请刷新或者重新输入信息',
+  'alert.info':
+    '官方正在修复 party 相关数据接口，现在 INKer-data 先展示个人存款相关数据图表',
   ...localeNft,
   ...localeAnalysis,
   ...localeSettings,
