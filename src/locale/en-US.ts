@@ -21,7 +21,7 @@ export default {
   'navbar.action.locale': 'Switch to English',
   'http.error': 'The server is busy. Refresh or re-enter the information',
   'alert.info':
-    'Officials are fixing party data, so now show individual deposit related data charts',
+    'I am fixing party data to display on the INKer-data, so now show individual deposit related data charts',
   ...localeNft,
   ...localeAnalysis,
   ...localeSettings,
