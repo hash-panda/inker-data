@@ -179,16 +179,16 @@ export default defineComponent({
           value: props.personalPlayers,
           precision: 0,
         },
-        {
-          key: 4,
-          span: 6,
-          icon: '//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/c8b36e26d2b9bb5dbf9b74dd6d7345af.svg~tplv-49unhts6dw-image.image',
-          title: t('dashboard.dataPanel.num2500'),
-          tips: t('dashboard.dataPanel.num2500.tips'),
-          suffix: 'ust',
-          value: props.num2500,
-          precision: 2,
-        },
+        // {
+        //   key: 4,
+        //   span: 6,
+        //   icon: '//p3-armor.byteimg.com/tos-cn-i-49unhts6dw/c8b36e26d2b9bb5dbf9b74dd6d7345af.svg~tplv-49unhts6dw-image.image',
+        //   title: t('dashboard.dataPanel.num2500'),
+        //   tips: t('dashboard.dataPanel.num2500.tips'),
+        //   suffix: 'ust',
+        //   value: props.num2500,
+        //   precision: 2,
+        // },
       ];
     });
     const amountDataPanel = computed(() => {
@@ -231,16 +231,16 @@ export default defineComponent({
               suffix: 'ust',
               tips: t('dashboard.dataPanel.playerAccountDeposit.tips'),
             },
-            {
-              key: 4,
-              span: 12,
-              icon: amountIcon,
-              title: t('dashboard.dataPanel.partyDeposit'),
-              value: partyState.partyTotalDeposit,
-              precision: 2,
-              suffix: 'ust',
-              tips: '',
-            },
+            // {
+            //   key: 4,
+            //   span: 12,
+            //   icon: amountIcon,
+            //   title: t('dashboard.dataPanel.partyDeposit'),
+            //   value: partyState.partyTotalDeposit,
+            //   precision: 2,
+            //   suffix: 'ust',
+            //   tips: '',
+            // },
           ],
         },
       ];
@@ -300,10 +300,10 @@ export default defineComponent({
                 name: t('dashboard.dataPanel.playerAccountDeposit'),
               },
 
-              {
-                value: Number(partyState.partyTotalDeposit).toFixed(2),
-                name: t('dashboard.dataPanel.partyDeposit'),
-              },
+              // {
+              //   value: Number(partyState.partyTotalDeposit).toFixed(2),
+              //   name: t('dashboard.dataPanel.partyDeposit'),
+              // },
             ],
           },
         ],
