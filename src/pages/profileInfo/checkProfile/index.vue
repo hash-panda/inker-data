@@ -65,6 +65,12 @@
             :checkProfile="true"
           />
         </div>
+        <div>
+          <nft-airdrop
+            :accounts="profileStore.currentProfile?.address ?? []"
+            :checkProfile="true"
+          />
+        </div>
       </a-space>
     </div>
   </div>
@@ -78,6 +84,7 @@ import AccountInfo from '../components/account-info.vue';
 import PartyDepositInfo from '../components/party-deposit-info.vue';
 import AwardInfo from '../components/award-info.vue';
 import DataOverview from '../components/data-overview.vue';
+import NftAirdrop from '../components/nft-airdrop.vue';
 
 export default defineComponent({
   components: {
@@ -85,6 +92,7 @@ export default defineComponent({
     PartyDepositInfo,
     AwardInfo,
     DataOverview,
+    NftAirdrop,
   },
   setup() {
     const router = useRouter();

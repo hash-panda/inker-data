@@ -61,6 +61,10 @@
               :accounts="searchedTerraAddress"
               :checkProfile="false"
             />
+            <nft-airdrop
+              :accounts="searchedTerraAddress"
+              :checkProfile="false"
+            />
           </a-space>
         </a-card>
       </a-space>
@@ -76,6 +80,7 @@ import AccountInfo from '../components/account-info.vue';
 import PartyDepositInfo from '../components/party-deposit-info.vue';
 import AwardInfo from '../components/award-info.vue';
 import DataOverview from '../components/data-overview.vue';
+import NftAirdrop from '../components/nft-airdrop.vue';
 
 export default defineComponent({
   components: {
@@ -83,6 +88,7 @@ export default defineComponent({
     PartyDepositInfo,
     AwardInfo,
     DataOverview,
+    NftAirdrop,
   },
   setup() {
     const { loading, setLoading } = useLoading(false);

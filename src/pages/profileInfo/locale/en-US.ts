@@ -19,4 +19,10 @@ export default {
   'profileInfo.party.depositInfo': 'Deposit In Party',
   'profileInfo.dataOverview.depositInPartyCount': 'Party Deposit Count',
   'profileInfo.dataOverview.totalDepositInParty': 'Deposit In Party',
+  'nftAirdrop.title': 'Tiger NFT Airdrop',
+  'nftAirdrop.address': 'Address',
+  'nftAirdrop.isAirdropNft': 'is eligible?',
+  'nftAirdrop.eligible': 'eligible',
+  'nftAirdrop.notEligible': 'not eligible',
+  'nftAirdrop.checkEligible': 'Check Eligible',
 };

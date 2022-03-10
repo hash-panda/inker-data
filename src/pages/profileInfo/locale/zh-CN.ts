@@ -18,4 +18,10 @@ export default {
   'profileInfo.party.depositInfo': '在组队存款信息',
   'profileInfo.dataOverview.depositInPartyCount': '组队中存款总数',
   'profileInfo.dataOverview.totalDepositInParty': '组队中存款总金额',
+  'nftAirdrop.title': 'Tiger NFT Airdrop',
+  'nftAirdrop.address': '地址',
+  'nftAirdrop.isAirdropNft': '是否有资格？',
+  'nftAirdrop.eligible': '符合资格',
+  'nftAirdrop.notEligible': '不符合资格',
+  'nftAirdrop.checkEligible': '检查资格',
 };
