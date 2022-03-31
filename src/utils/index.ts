@@ -42,8 +42,8 @@ export function gotoTerraStation() {
  * cosmos1p2s0gv05xkm2ajrrku4xv2t9e64cvu4tn289zt 换为 cosmos1p2s0gv...n289zt
  */
 export function encodeAddress(address: string) {
-  let result = address?.trim() ?? '';
-  if (address.trim() && address.length > 20) {
+  let result = address ? address?.trim() ?? '' : '';
+  if (result.trim() && result.length > 20) {
     result = `${address.substring(0, 13)}......${address.substring(
       address.length - 6
     )}`;

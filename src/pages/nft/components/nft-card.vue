@@ -10,7 +10,7 @@
         ><a-tooltip background-color="var(--color-bg-1)">
           <template #content>
             <a-descriptions
-              :data="item.info?.extension?.attributes"
+              :data="item?.attributes"
               title="Attributes"
               :column="2"
               layout="vertical"
@@ -28,7 +28,7 @@
     </template>
     <template #cover>
       <a-image
-        :src="ipfsImage(item.info?.extension?.image)"
+        :src="ipfsImage(item?.image)"
         width="100%"
         footer-position="outer"
         :preview-visible="visible"
@@ -43,12 +43,12 @@
     <a-card-meta>
       <template #title>
         <div style="color: rgb(var(--primary-6))">
-          {{ item.info?.extension?.name }}
+          {{ item?.name }}
         </div>
       </template>
       <template #description>
         <a-typography-paragraph copyable :copy-text="item.access?.owner">
-          {{ encodeAddress(item.access?.owner) }}
+          {{ encodeAddress(item.sales?.[0]?.seller) }}
         </a-typography-paragraph>
       </template>
     </a-card-meta>
@@ -69,13 +69,16 @@ export default defineComponent({
     const visible = ref(false);
     const openKnowhereWeb = () => {
       window.open(
-        'https://knowhere.art/collection/terra14f5y8j5udr48a3prakm3j8st96u3rczuqtlc55',
+        'https://knowhere.art/collections/terra14f5y8j5udr48a3prakm3j8st96u3rczuqtlc55',
         '_blank'
       );
     };
 
     const ipfsImage = (ipfs: string) => {
-      return `https://knowhere.mypinata.cloud/ipfs/${ipfs.slice(7)}`;
+      if (ipfs) {
+        return `https://knowhere.mypinata.cloud/${ipfs?.replace('://', '/')}`;
+      }
+      return '';
     };
 
     return {

@@ -5,9 +5,8 @@ export const useNftState = defineStore('nftState', {
   state: () => {
     return {
       nftList: [] as any,
+      nftOriginalList: [] as any,
       lastUpdateTime: 0,
-      startNftToken: 2501,
-      endNftToken: 3000,
     };
   },
   getters: {
@@ -17,19 +16,15 @@ export const useNftState = defineStore('nftState', {
     nftFlatList(state) {
       return state.nftList?.flat();
     },
-    isNftLoaded(state) {
-      return (
-        state.endNftToken - state.startNftToken + 1 ===
-        state.nftList?.flat().length
-      );
-    },
     nftHolderAnalysis(state) {
       // nft 持有人统计
       const nftHolders = (items: any): any => {
         let result = [] as any;
         const resultGroup = {} as any;
         items.forEach((item: any) => {
-          const key = item.access?.owner;
+          const key = item.sales?.[0]?.seller
+            ? item.sales?.[0]?.seller
+            : 'unknown';
           if (!resultGroup[key]) {
             resultGroup[key] = {
               count: 1,
@@ -49,8 +44,11 @@ export const useNftState = defineStore('nftState', {
     },
   },
   actions: {
+    setNftOriginalList(nfts: any) {
+      this.nftOriginalList = nfts;
+    },
     setNftList(nfts: any) {
-      this.nftList.push(nfts);
+      this.nftList = nfts;
     },
     resetNftList() {
       this.nftList = [];

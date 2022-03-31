@@ -62,7 +62,7 @@ export default defineComponent({
       return [
         {
           title: t('nft.holder.dataOverview.nftTotal'),
-          value: nftState.endNftToken - nftState.startNftToken + 1,
+          value: nftState.totalNft,
           precision: 0,
           prefix: {
             icon: '',

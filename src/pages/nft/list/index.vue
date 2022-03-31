@@ -78,78 +78,25 @@ export default defineComponent({
     const currentPageNfts = computed(() => {
       return nftState.nftList[currentPageIndex.value - 1];
     });
-    watch(
-      () => nftState.isNftLoaded,
-      () => {
-        if (nftState.isNftLoaded) {
-          nftState.setLastUpdateTime();
-        }
-      }
-    );
-    const fetchData = async () => {
-      // 10分钟间隔：600000
-      if (
-        nftState.isNftLoaded &&
-        Date.now() - nftState.lastUpdateTime < 600000 * 1
-      ) {
-        setLoading(false);
-        return;
-      }
-      nftState.resetNftList();
-      nftList.value = [];
-      const queryList = [[]] as any;
-      let index = -1;
-      for (
-        let i = nftState.startNftToken;
-        i < nftState.endNftToken + 1;
-        i += 1
-      ) {
-        if (i % gas.value === 1) {
-          index += 1;
-          queryList[index] = [];
-        }
-        queryList[index].push(queryNftList(String(i)));
-      }
-      try {
-        queryList.forEach((element: any, index: any) => {
-          setTimeout(() => {
-            Promise.allSettled(element).then((v) => {
-              const nftInfo = v
-                .filter((item) => item.status === 'fulfilled')
-                .map((t: any) => {
-                  return t.value.data.result;
-                });
-              nftState.setNftList(nftInfo);
-              if (index === queryList.length - 1) {
-                setLoading(false);
-                if (
-                  nftState.endNftToken - nftState.startNftToken ===
-                  nftState.totalNft
-                ) {
-                  nftState.setLastUpdateTime();
-                }
-              }
-            });
-          }, index * 2500);
-        });
-      } catch (e) {
-        console.log(e);
-      }
-    };
-    // fetchData();
 
     const fetchTigerNfts = async () => {
       // 10分钟间隔：600000
-      if (
-        nftState.isNftLoaded &&
-        Date.now() - nftState.lastUpdateTime < 600000 * 1
-      ) {
+      if (Date.now() - nftState.lastUpdateTime < 600000 * 3) {
         setLoading(false);
         return;
       }
       nftState.resetNftList();
       try {
-        await queryTigerNftsFromKnowhere();
+        const ntfs = await queryTigerNftsFromKnowhere();
+        const nftList = [] as any;
+        ntfs.data.nodes.forEach((item: any, index: number) => {
+          const page = Math.floor(index / 50);
+          if (!nftList[page]) {
+            nftList[page] = [];
+          }
+          nftList[page].push(item);
+        });
+        nftState.setNftList(nftList);
         nftState.setLastUpdateTime();
       } catch (e) {
         console.log(e);
