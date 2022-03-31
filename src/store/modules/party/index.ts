@@ -23,36 +23,30 @@ export const usePartyState = defineStore('partyState', {
     },
   },
   actions: {
-    async getPartyInfo(startAfter: number | null) {
+    async getPartyInfo() {
       if (this.isNeedCheck) {
-        const partyRes = await queryPartyList(startAfter);
-        const tempParties = partyRes.data.result.parties;
-
-        if (tempParties.length > 0) {
-          this.parties = [...this.parties, ...tempParties];
-          this.getPartyInfo(tempParties[tempParties.length - 1].info.id);
-        } else {
-          this.partyCount = this.parties.length ?? 0;
-          let partyTotalDeposit = 0;
-          let partyMemberCount = 0;
-          let partyDeposits: PartyMemberDeposit[] = [];
-          this.parties.forEach((v) => {
-            partyMemberCount += v.current_member;
-            partyTotalDeposit += Number(v.total_deposit) / 1e6;
-            const deposits = v.deposits.map((item) => {
-              return {
-                partyName: v.info.name,
-                ...item,
-              };
-            });
-            partyDeposits = [...partyDeposits, ...deposits];
+        const parties = await queryPartyList();
+        this.parties = parties as any;
+        this.partyCount = this.parties.length ?? 0;
+        let partyTotalDeposit = 0;
+        let partyMemberCount = 0;
+        let partyDeposits: PartyMemberDeposit[] = [];
+        this.parties.forEach((v) => {
+          partyMemberCount += v.current_member;
+          partyTotalDeposit += Number(v.total_deposit) / 1e6;
+          const deposits = v.deposits.map((item) => {
+            return {
+              partyName: v.info.name,
+              ...item,
+            };
           });
-          this.partyMemberCount = partyMemberCount;
-          this.partyTotalDeposit = partyTotalDeposit;
-          this.partyDeposits = partyDeposits;
+          partyDeposits = [...partyDeposits, ...deposits];
+        });
+        this.partyMemberCount = partyMemberCount;
+        this.partyTotalDeposit = partyTotalDeposit;
+        this.partyDeposits = partyDeposits;
 
-          this.isNeedCheck = false;
-        }
+        this.isNeedCheck = false;
       }
     },
     checkAccountDepositInParty(address: string) {

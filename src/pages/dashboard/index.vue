@@ -19,9 +19,9 @@
         </div>
         <div><TotalDepositChart /></div>
         <div><PlayersChart /></div>
-        <!-- <div class="panel">
+        <div class="panel">
           <PartyDepositChart :chart-data="chart1" />
-        </div> -->
+        </div>
         <div><PartyChart /></div>
       </a-space>
     </div>
@@ -73,7 +73,7 @@ export default defineComponent({
     const partyState = usePartyState();
     const num2500 = ref(0);
 
-    // partyState.getPartyInfo(null);
+    partyState.getPartyInfo();
 
     const playersSortByAmount = (
       allPlayer: PlayerAmountNumber[]
@@ -120,8 +120,10 @@ export default defineComponent({
           setGroupInfo('[500, 1000)');
         } else if (current.amount >= 1000 && current.amount < 5000) {
           setGroupInfo('[1000, 5000)');
+        } else if (current.amount >= 5000 && current.amount < 1000000) {
+          setGroupInfo('[5000, 1000000)');
         } else {
-          setGroupInfo('>= 5000');
+          setGroupInfo('>= 1000000(赞助商)');
         }
         // }
         return prev;

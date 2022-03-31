@@ -21,7 +21,7 @@ export default {
   'navbar.action.locale': '切换为中文',
   'http.error': '服务器繁忙，请刷新或者重新输入信息',
   'alert.info':
-    '我正在修复 party 相关的数据接口展示，现在 INKer-data 先展示个人存款相关数据图表',
+    '稍后会出 CYIO 的排行信息 和 Tiger NFT 的稀有度排行榜信息，请耐心等待',
   ...localeNft,
   ...localeAnalysis,
   ...localeSettings,

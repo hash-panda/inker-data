@@ -57,7 +57,7 @@
 </template>
 
 <script lang="ts">
-import { queryNftList } from '@/api/nft';
+import { queryNftList, queryTigerNftsFromKnowhere } from '@/api/nft';
 import { ref, defineComponent, computed, watch } from 'vue';
 import useLoading from '@/hooks/loading';
 import { useNftState } from '@/store';
@@ -136,7 +136,29 @@ export default defineComponent({
         console.log(e);
       }
     };
-    fetchData();
+    // fetchData();
+
+    const fetchTigerNfts = async () => {
+      // 10分钟间隔：600000
+      if (
+        nftState.isNftLoaded &&
+        Date.now() - nftState.lastUpdateTime < 600000 * 1
+      ) {
+        setLoading(false);
+        return;
+      }
+      nftState.resetNftList();
+      try {
+        await queryTigerNftsFromKnowhere();
+        nftState.setLastUpdateTime();
+      } catch (e) {
+        console.log(e);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchTigerNfts();
 
     const onCurrentPageChange = (page: number) => {
       currentPageIndex.value = page;

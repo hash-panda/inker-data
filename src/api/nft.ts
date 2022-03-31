@@ -18,3 +18,21 @@ export function queryNftList(tokenId: string) {
     requestParams
   );
 }
+
+export function queryTigerNftsFromKnowhere() {
+  const requestParams = {
+    limit: 3000,
+    offset: 0,
+    saleStatuses: ['NotStarted', 'InProgress'],
+    saleTypes: [],
+    sortBy: 'Price',
+    sortType: 'ASC',
+    traits: [],
+    query: '',
+    nftContract: 'terra14f5y8j5udr48a3prakm3j8st96u3rczuqtlc55',
+  };
+  return axios.post<any>(
+    'https://production-backend-v3.knowhere.art/nfts',
+    requestParams
+  );
+}

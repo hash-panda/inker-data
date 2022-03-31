@@ -231,16 +231,16 @@ export default defineComponent({
               suffix: 'ust',
               tips: t('dashboard.dataPanel.playerAccountDeposit.tips'),
             },
-            // {
-            //   key: 4,
-            //   span: 12,
-            //   icon: amountIcon,
-            //   title: t('dashboard.dataPanel.partyDeposit'),
-            //   value: partyState.partyTotalDeposit,
-            //   precision: 2,
-            //   suffix: 'ust',
-            //   tips: '',
-            // },
+            {
+              key: 4,
+              span: 12,
+              icon: amountIcon,
+              title: t('dashboard.dataPanel.partyDeposit'),
+              value: partyState.partyTotalDeposit,
+              precision: 2,
+              suffix: 'ust',
+              tips: '',
+            },
           ],
         },
       ];
@@ -300,10 +300,10 @@ export default defineComponent({
                 name: t('dashboard.dataPanel.playerAccountDeposit'),
               },
 
-              // {
-              //   value: Number(partyState.partyTotalDeposit).toFixed(2),
-              //   name: t('dashboard.dataPanel.partyDeposit'),
-              // },
+              {
+                value: Number(partyState.partyTotalDeposit).toFixed(2),
+                name: t('dashboard.dataPanel.partyDeposit'),
+              },
             ],
           },
         ],

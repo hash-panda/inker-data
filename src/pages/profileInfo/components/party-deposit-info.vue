@@ -84,7 +84,7 @@ export default defineComponent({
 
     const fetchData = async (address: string, index: number) => {
       try {
-        await partyState.getPartyInfo(null);
+        await partyState.getPartyInfo();
         const deposit = partyState.checkAccountDepositInParty(address);
         if (deposit.length > 0) {
           partyInfo.value = [...partyInfo.value, ...deposit];
