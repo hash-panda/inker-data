@@ -1,12 +1,12 @@
 import { defineStore, acceptHMRUpdate } from 'pinia';
-import {tigerNftList} from './tigerNftList';
-import {tigerNftRarity} from './tigerNftRarity';
+import { tigerNftList } from './tigerNftList';
+import { tigerNftRarity } from './tigerNftRarity';
 
 export const useNftState = defineStore('nftState', {
   state: () => {
     return {
-      tigerNftList: tigerNftList,
-      tigerNftRarityRank: tigerNftRarity,
+      tigerNftList: [],
+      tigerNftRarityRank: [],
     };
   },
   getters: {
@@ -22,7 +22,7 @@ export const useNftState = defineStore('nftState', {
         }
         nftList[page].push(item);
       });
-      return nftList
+      return nftList;
     },
     tigerNftRarityRankPagenationList(state) {
       const nftList = [] as any;
@@ -33,12 +33,10 @@ export const useNftState = defineStore('nftState', {
         }
         nftList[page].push(item);
       });
-      return nftList
+      return nftList;
     },
   },
-  actions: {
-    
-  },
+  actions: {},
   // persist: {
   //   enabled: true,
   //   strategies: [

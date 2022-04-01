@@ -1,5 +1,5 @@
 export default {
-  'menu.nft': 'NFT',
+  'menu.nft': 'NFT Rarity Rank',
   'menu.nft.list': 'Terra Tiger NFT',
   'menu.nft.holder': 'Tiger NFT Rarity Rank',
   'nft.list.attribute': 'Attributes',
@@ -10,9 +10,18 @@ export default {
   'nft.holder.owner': 'Owner of NFT',
   'nft.holder.nftCount': 'Count of NFT',
 
+  'nft.tiger.rarity.search': 'Search',
+  'nft.tiger.rarity.placeholder': 'enter token id',
   'nft.tiger.rarity.rank': 'Rank',
-  'nft.tiger.rarity.tokenId': 'Id',
+  'nft.tiger.rarity.tokenId': 'Token id',
   'nft.tiger.rarity.image': '',
   'nft.tiger.rarity.attributes': 'Attributes',
+  'nft.tiger.rarity.attr1': '1 BACKGROUND',
+  'nft.tiger.rarity.attr2': '2 WEAPONS',
+  'nft.tiger.rarity.attr3': '3 SKINTONE',
+  'nft.tiger.rarity.attr4': '4 CLOTHES',
+  'nft.tiger.rarity.attr5': '5 FACE ATTRIBUTES',
+  'nft.tiger.rarity.attr6': '6 HEADWEAR',
+  'nft.tiger.rarity.attr7': '7 HANDS',
   'nft.tiger.rarity.score': 'Score',
 };

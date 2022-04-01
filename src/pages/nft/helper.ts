@@ -9,46 +9,46 @@
   
 //   function tigerNftRarity(tigerNftList: any) {
 //       const background = {
-//           RED: 0.28,
-//           BLACK: 0.352,
-//           BLUE: 0.156,
-//           BROWN: 0.06,
-//           GREEN: 0.152
+//           RED: 0.272,
+//           BLACK: 0.335,
+//           BLUE: 0.1927,
+//           BROWN: 0.0617,
+//           GREEN: 0.1387
 //       }
 //       const weapons = {
-//           BLANK: 0.276,
-//           WEAPON: 0.724
+//           BLANK: 0.2913,
+//           WEAPON: 0.7087
 //       }
 //       const skintone = {
-//           ORANGE: 0.292,
-//           BROWN: 0.05,
-//           GREEN: 0.158,
-//           PINK: 0.386,
-//           BLUE: 0.114
+//           ORANGE: 0.2633,
+//           BROWN: 0.0733,
+//           GREEN: 0.1887,
+//           PINK: 0.3353,
+//           BLUE: 0.1393
 //       }
 //       const clothes = {
-//           SHIRT: 0.314,
-//           ARMOR: 0.11,
-//           ROBE: 0.322,
-//           SLEEVELESS: 0.19,
-//           MONK: 0.064
+//           SHIRT: 0.277,
+//           ARMOR: 0.1363,
+//           ROBE: 0.3157,
+//           SLEEVELESS: 0.1987,
+//           MONK: 0.0723
 //       }
 //       const face = {
-//           NONE: 0.256,
-//           'NOSE RING': 0.222,
-//           '3D GLASSES': 0.234,
-//           'EXPLODING EYES': 0.114,
-//           'BLOODY EYES': 0.05,
-//           'GUN GLASSES': 0.124
+//           NONE: 0.2887,
+//           'NOSE RING': 0.2253,
+//           '3D GLASSES': 0.1987,
+//           'EXPLODING EYES': 0.1007,
+//           'BLOODY EYES': 0.0477,
+//           'GUN GLASSES': 0.139
 //       }
 //       const headwear = {
-//           HAT: 0.74,
-//           NONE: 0.26
+//           HAT: 0.7203,
+//           NONE: 0.2797
 //       }
 //       const hands = {
-//           NONE: 0.27,
-//           HANDS: 0.636,
-//           HANDS2:0.094
+//           NONE: 0.2837,
+//           HANDS: 0.6247,
+//           HANDS2:0.0917
 //       }
 //       const tigerNfts = tigerNftList.map((v) => {
 //           let score = 0
