@@ -20,6 +20,7 @@
         :pagination="true"
         :split="false"
         :filter-icon-align-left="true"
+        size="medium"
       >
         <template #columns>
           <a-table-column
