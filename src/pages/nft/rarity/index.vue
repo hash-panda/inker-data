@@ -15,6 +15,7 @@
           {{ $t('nft.tiger.rarity.search') }}
         </template>
       </a-input-search>
+      <div style="width:100%">
       <a-table
         :data="nftRarityList"
         :pagination="true"
@@ -27,6 +28,7 @@
             :title="$t('nft.tiger.rarity.rank')"
             data-index="rank"
             :width="120"
+            fixed="left"
             :sortable="{
               sortDirections: ['ascend', 'descend'],
             }"
@@ -139,6 +141,7 @@
         </a-table-column> -->
         </template>
       </a-table>
+      </div>
     </a-space>
   </a-card>
 </template>
