@@ -5,7 +5,7 @@ import { tigerNftRarity } from './tigerNftRarity';
 export const useNftState = defineStore('nftState', {
   state: () => {
     return {
-      tigerNftList,
+      tigerNftList: [],
       tigerNftRarityRank: tigerNftRarity,
     };
   },
@@ -24,17 +24,17 @@ export const useNftState = defineStore('nftState', {
       });
       return nftList;
     },
-    tigerNftRarityRankPagenationList(state) {
-      const nftList = [] as any;
-      state.tigerNftRarityRank.forEach((item: any, index: number) => {
-        const page = Math.floor(index / 50);
-        if (!nftList[page]) {
-          nftList[page] = [];
-        }
-        nftList[page].push(item);
-      });
-      return nftList;
-    },
+    // tigerNftRarityRankPagenationList(state) {
+    //   const nftList = [] as any;
+    //   state.tigerNftRarityRank.forEach((item: any, index: number) => {
+    //     const page = Math.floor(index / 50);
+    //     if (!nftList[page]) {
+    //       nftList[page] = [];
+    //     }
+    //     nftList[page].push(item);
+    //   });
+    //   return nftList;
+    // },
   },
   actions: {},
   // persist: {

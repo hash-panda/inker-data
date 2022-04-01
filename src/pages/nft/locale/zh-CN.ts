@@ -2,6 +2,7 @@ export default {
   'menu.nft': 'NFT稀有度排行',
   'menu.nft.list': 'Tiger NFT 列表',
   'menu.nft.holder': 'Tiger NFT 稀有度排行',
+  'menu.nft.rarity.info': '稀有度说明',
   'nft.list.attribute': '属性',
   'nft.holder.dataOverview.nftTotal': 'NFT 总量',
   'nft.holder.dataOverview.nftHolders': 'NFT 持有人数',

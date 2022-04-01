@@ -40,7 +40,7 @@
         <!-- <Holder /> -->
         <Rarity />
       </a-tab-pane>
-      <a-tab-pane key="2" :title="$t('menu.nft.holder')">
+      <a-tab-pane key="3" :title="$t('menu.nft.rarity.info')">
         <RarityInfo />
       </a-tab-pane>
     </a-tabs>
