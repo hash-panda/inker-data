@@ -1,7 +1,7 @@
 export default {
   'menu.nft': 'NFT',
   'menu.nft.list': 'Terra Tiger NFT',
-  'menu.nft.holder': 'NFT Analysis',
+  'menu.nft.holder': 'Tiger NFT Rarity Rank',
   'nft.list.attribute': 'Attributes',
   'nft.holder.dataOverview.nftTotal': 'Count of NFT',
   'nft.holder.dataOverview.nftHolders': 'NFT Holders',

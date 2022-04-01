@@ -73,7 +73,7 @@ export default defineComponent({
     const nftState = useNftState();
     const currentPageIndex = ref(1);
     const currentPageNfts = computed(() => {
-      return nftState.tigerNftList[currentPageIndex.value - 1];
+      return nftState.tigerNftPagenationList[currentPageIndex.value - 1];
     });
     const onCurrentPageChange = (page: number) => {
       currentPageIndex.value = page;
