@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
-    <div class="panel">
+  <div>
+    <a-card class="general-card" :bordered="false">
         <a-image width="500" :src="rarity" />
-    </div>
+    </a-card>
   </div>
 </template>
 
@@ -20,17 +20,7 @@ export default defineComponent({
 </script>
 
 <style lang="less" scoped>
-.container {
-  background-color: var(--color-fill-2);
-  padding: 16px 20px;
-  display: flex;
-}
-
-.panel {
-  background-color: var(--color-bg-2);
-  border-radius: 4px;
-  width: 100%;
-  padding: 16px 20px 36px 20px;
-  overflow: auto;
+.general-card {
+  min-height: 188px;
 }
 </style>
