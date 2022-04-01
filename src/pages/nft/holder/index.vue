@@ -13,8 +13,8 @@
             </a-col>
           </a-row>
         </a-card>
-        <div
-          ><nft-holder-info :nft-holders="nftState.nftHolderAnalysis" />
+        <div>
+          <!-- <nft-holder-info :nft-holders="nftState.nftHolderAnalysis" /> -->
         </div>
       </a-space>
     </div>
@@ -25,12 +25,12 @@
 import { ref, defineComponent, computed, watch } from 'vue';
 import useLoading from '@/hooks/loading';
 import { useNftState } from '@/store';
-import NftHolderInfo from './components/nft-holder-info.vue';
+// import NftHolderInfo from './components/nft-holder-info.vue';
 import DataOverview from './components/data-overview.vue';
 
 export default defineComponent({
   components: {
-    NftHolderInfo,
+    // NftHolderInfo,
     DataOverview,
   },
   setup() {

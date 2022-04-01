@@ -50,63 +50,31 @@
         /></a-row>
       </a-tab-pane>
       <a-tab-pane key="2" :title="$t('menu.nft.holder')">
-        <Holder />
+        <!-- <Holder /> -->
       </a-tab-pane>
     </a-tabs>
   </a-spin>
 </template>
 
 <script lang="ts">
-import { queryNftList, queryTigerNftsFromKnowhere } from '@/api/nft';
-import { ref, defineComponent, computed, watch } from 'vue';
+import { ref, defineComponent, computed } from 'vue';
 import useLoading from '@/hooks/loading';
 import { useNftState } from '@/store';
 import NftCard from '../components/nft-card.vue';
-import Holder from '../holder/index.vue';
+// import Holder from '../holder/index.vue';
 
 export default defineComponent({
   components: {
     NftCard,
-    Holder,
+    // Holder,
   },
   setup() {
-    const { loading, setLoading } = useLoading(true);
+    const { loading, setLoading } = useLoading(false);
     const nftState = useNftState();
-    const gas = ref(50);
     const currentPageIndex = ref(1);
-    const nftList = ref([] as any);
     const currentPageNfts = computed(() => {
-      return nftState.nftList[currentPageIndex.value - 1];
+      return nftState.tigerNftList[currentPageIndex.value - 1];
     });
-
-    const fetchTigerNfts = async () => {
-      // 10分钟间隔：600000
-      if (Date.now() - nftState.lastUpdateTime < 600000 * 3) {
-        setLoading(false);
-        return;
-      }
-      nftState.resetNftList();
-      try {
-        const ntfs = await queryTigerNftsFromKnowhere();
-        const nftList = [] as any;
-        ntfs.data.nodes.forEach((item: any, index: number) => {
-          const page = Math.floor(index / 50);
-          if (!nftList[page]) {
-            nftList[page] = [];
-          }
-          nftList[page].push(item);
-        });
-        nftState.setNftList(nftList);
-        nftState.setLastUpdateTime();
-      } catch (e) {
-        console.log(e);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchTigerNfts();
-
     const onCurrentPageChange = (page: number) => {
       currentPageIndex.value = page;
     };

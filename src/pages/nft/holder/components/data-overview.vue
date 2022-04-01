@@ -72,7 +72,8 @@ export default defineComponent({
         },
         {
           title: t('nft.holder.dataOverview.nftHolders'),
-          value: nftState.nftHolderAnalysis?.length ?? 0,
+          // value: nftState.nftHolderAnalysis?.length ?? 0,
+          value: 0,
           precision: 0,
           prefix: {
             icon: '',

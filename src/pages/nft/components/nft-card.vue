@@ -3,7 +3,7 @@
     <template #actions>
       <!-- <span class="icon-hover"> <IconThumbUp /> </span> -->
       <!-- <span class="icon-hover"> <IconShareInternal /> </span> -->
-      <span class="icon-hover" @click="openKnowhereWeb">
+      <span class="icon-hover" @click="openKnowhereWeb(item?.tokenId)">
         <icon-link /> knowhere.art
       </span>
       <span
@@ -67,9 +67,9 @@ export default defineComponent({
   },
   setup() {
     const visible = ref(false);
-    const openKnowhereWeb = () => {
+    const openKnowhereWeb = (tokenId: string | number) => {
       window.open(
-        'https://knowhere.art/collections/terra14f5y8j5udr48a3prakm3j8st96u3rczuqtlc55',
+        `https://knowhere.art/nft/terra14f5y8j5udr48a3prakm3j8st96u3rczuqtlc55/${tokenId}`,
         '_blank'
       );
     };
