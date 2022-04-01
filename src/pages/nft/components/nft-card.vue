@@ -46,11 +46,11 @@
           {{ item?.name }}
         </div>
       </template>
-      <template #description>
+      <!-- <template #description>
         <a-typography-paragraph copyable :copy-text="item.access?.owner">
           {{ encodeAddress(item.sales?.[0]?.seller) }}
         </a-typography-paragraph>
-      </template>
+      </template> -->
     </a-card-meta>
   </a-card>
 </template>

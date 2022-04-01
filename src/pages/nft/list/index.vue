@@ -5,23 +5,6 @@
     </template>
     <a-tabs position="top" style="margin: 20px">
       <a-tab-pane key="1" :title="$t('menu.nft.list')">
-        <a-row
-          style="
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            margin: 10px;
-          "
-          ><a-pagination
-            hide-on-single-page
-            :total="nftState.totalNft"
-            simple
-            show-total
-            size="large"
-            :page-size="50"
-            @change="onCurrentPageChange"
-        /></a-row>
         <div class="container">
           <a-row :gutter="[12, 12]" style="width: 100%">
             <a-col
@@ -73,6 +56,7 @@ export default defineComponent({
     const nftState = useNftState();
     const currentPageIndex = ref(1);
     const currentPageNfts = computed(() => {
+      console.log('nftState.tigerNftPagenationList[currentPageIndex.value - 1]',nftState.tigerNftPagenationList[currentPageIndex.value - 1])
       return nftState.tigerNftPagenationList[currentPageIndex.value - 1];
     });
     const onCurrentPageChange = (page: number) => {
