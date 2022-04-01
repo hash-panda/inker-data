@@ -40,6 +40,9 @@
         <!-- <Holder /> -->
         <Rarity />
       </a-tab-pane>
+      <a-tab-pane key="2" :title="$t('menu.nft.holder')">
+        <RarityInfo />
+      </a-tab-pane>
     </a-tabs>
   </a-spin>
 </template>
@@ -50,12 +53,14 @@ import useLoading from '@/hooks/loading';
 import { useNftState } from '@/store';
 // import NftCard from '../components/nft-card.vue';
 import Rarity from '../rarity/index.vue';
+import RarityInfo from '../rarityInfo/index.vue';
 // import Holder from '../holder/index.vue';
 
 export default defineComponent({
   components: {
     // NftCard,
     Rarity,
+    RarityInfo
     // Holder,
   },
   setup() {
