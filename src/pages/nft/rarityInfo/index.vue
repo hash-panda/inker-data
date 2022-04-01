@@ -9,6 +9,7 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import rarity from '@/assets/images/Rarity.png'
+
 export default defineComponent({
   setup() {
     
