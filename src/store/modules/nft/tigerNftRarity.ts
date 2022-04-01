@@ -34,6 +34,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1,
   },
   {
     score: 69.087,
@@ -70,6 +71,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 2,
   },
   {
     score: 65.944,
@@ -106,6 +108,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 3,
   },
   {
     score: 65.496,
@@ -142,6 +145,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 4,
   },
   {
     score: 64.395,
@@ -178,6 +182,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 5,
   },
   {
     score: 63.232,
@@ -214,6 +219,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 6,
   },
   {
     score: 62.5,
@@ -250,6 +256,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 7,
   },
   {
     score: 62.499,
@@ -286,6 +293,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 8,
   },
   {
     score: 59.314,
@@ -322,6 +330,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 9,
   },
   {
     score: 58.831,
@@ -358,6 +367,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 10,
   },
   {
     score: 58.46,
@@ -394,6 +404,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 11,
   },
   {
     score: 58.194,
@@ -430,6 +441,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 12,
   },
   {
     score: 57.727,
@@ -466,6 +478,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 13,
   },
   {
     score: 57.513,
@@ -502,6 +515,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 14,
   },
   {
     score: 57.354,
@@ -538,6 +552,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 15,
   },
   {
     score: 56.899,
@@ -574,6 +589,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 16,
   },
   {
     score: 56.593,
@@ -610,6 +626,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 17,
   },
   {
     score: 56.484,
@@ -646,6 +663,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 18,
   },
   {
     score: 56.303,
@@ -682,6 +700,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 19,
   },
   {
     score: 55.982,
@@ -718,6 +737,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 20,
   },
   {
     score: 55.729,
@@ -754,6 +774,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 21,
   },
   {
     score: 55.714,
@@ -790,6 +811,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 22,
   },
   {
     score: 55.64,
@@ -826,6 +848,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 23,
   },
   {
     score: 55.619,
@@ -862,6 +885,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 24,
   },
   {
     score: 55.134,
@@ -898,6 +922,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 25,
   },
   {
     score: 54.801,
@@ -934,6 +959,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 26,
   },
   {
     score: 54.427,
@@ -970,6 +996,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 27,
   },
   {
     score: 54.384,
@@ -1006,6 +1033,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 28,
   },
   {
     score: 54.098,
@@ -1042,6 +1070,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 29,
   },
   {
     score: 53.989,
@@ -1078,6 +1107,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 30,
   },
   {
     score: 53.674,
@@ -1114,6 +1144,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 31,
   },
   {
     score: 53.446,
@@ -1150,6 +1181,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 32,
   },
   {
     score: 53.277,
@@ -1186,6 +1218,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 33,
   },
   {
     score: 53.119,
@@ -1222,6 +1255,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 34,
   },
   {
     score: 52.91,
@@ -1258,6 +1292,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 35,
   },
   {
     score: 52.849,
@@ -1294,6 +1329,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 36,
   },
   {
     score: 52.849,
@@ -1330,6 +1366,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 37,
   },
   {
     score: 52.648,
@@ -1366,6 +1403,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 38,
   },
   {
     score: 52.409,
@@ -1402,6 +1440,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 39,
   },
   {
     score: 52.297,
@@ -1438,6 +1477,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 40,
   },
   {
     score: 52.272,
@@ -1474,6 +1514,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 41,
   },
   {
     score: 52.181,
@@ -1510,6 +1551,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 42,
   },
   {
     score: 52.167,
@@ -1546,6 +1588,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 43,
   },
   {
     score: 52.142,
@@ -1582,6 +1625,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 44,
   },
   {
     score: 52.142,
@@ -1618,6 +1662,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 45,
   },
   {
     score: 51.813,
@@ -1654,6 +1699,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 46,
   },
   {
     score: 51.781,
@@ -1690,6 +1736,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 47,
   },
   {
     score: 51.704,
@@ -1726,6 +1773,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 48,
   },
   {
     score: 51.659,
@@ -1762,6 +1810,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 49,
   },
   {
     score: 51.649,
@@ -1798,6 +1847,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 50,
   },
   {
     score: 51.566,
@@ -1834,6 +1884,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 51,
   },
   {
     score: 51.543,
@@ -1870,6 +1921,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 52,
   },
   {
     score: 51.346,
@@ -1906,6 +1958,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 53,
   },
   {
     score: 51.288,
@@ -1942,6 +1995,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 54,
   },
   {
     score: 51.173,
@@ -1978,6 +2032,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 55,
   },
   {
     score: 51.073,
@@ -2014,6 +2069,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 56,
   },
   {
     score: 51.013,
@@ -2050,6 +2106,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 57,
   },
   {
     score: 50.982,
@@ -2086,6 +2143,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 58,
   },
   {
     score: 50.925,
@@ -2122,6 +2180,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 59,
   },
   {
     score: 50.862,
@@ -2158,6 +2217,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 60,
   },
   {
     score: 50.845,
@@ -2194,6 +2254,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 61,
   },
   {
     score: 50.829,
@@ -2230,6 +2291,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 62,
   },
   {
     score: 50.824,
@@ -2266,6 +2328,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 63,
   },
   {
     score: 50.766,
@@ -2302,6 +2365,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 64,
   },
   {
     score: 50.716,
@@ -2338,6 +2402,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 65,
   },
   {
     score: 50.614,
@@ -2374,6 +2439,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 66,
   },
   {
     score: 50.579,
@@ -2410,6 +2476,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 67,
   },
   {
     score: 50.507,
@@ -2446,6 +2513,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 68,
   },
   {
     score: 50.491,
@@ -2482,6 +2550,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 69,
   },
   {
     score: 50.251,
@@ -2518,6 +2587,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 70,
   },
   {
     score: 50.248,
@@ -2554,6 +2624,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 71,
   },
   {
     score: 50.213,
@@ -2590,6 +2661,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 72,
   },
   {
     score: 50.115,
@@ -2626,6 +2698,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 73,
   },
   {
     score: 49.965,
@@ -2662,6 +2735,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 74,
   },
   {
     score: 49.902,
@@ -2698,6 +2772,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 75,
   },
   {
     score: 49.779,
@@ -2734,6 +2809,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 76,
   },
   {
     score: 49.77,
@@ -2770,6 +2846,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 77,
   },
   {
     score: 49.77,
@@ -2806,6 +2883,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 78,
   },
   {
     score: 49.63,
@@ -2842,6 +2920,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 79,
   },
   {
     score: 49.571,
@@ -2878,6 +2957,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 80,
   },
   {
     score: 49.517,
@@ -2914,6 +2994,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 81,
   },
   {
     score: 49.456,
@@ -2950,6 +3031,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 82,
   },
   {
     score: 49.421,
@@ -2986,6 +3068,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 83,
   },
   {
     score: 49.407,
@@ -3022,6 +3105,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 84,
   },
   {
     score: 49.405,
@@ -3058,6 +3142,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 85,
   },
   {
     score: 49.405,
@@ -3094,6 +3179,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 86,
   },
   {
     score: 49.275,
@@ -3130,6 +3216,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 87,
   },
   {
     score: 49.275,
@@ -3166,6 +3253,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 88,
   },
   {
     score: 49.172,
@@ -3202,6 +3290,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 89,
   },
   {
     score: 49.1,
@@ -3238,6 +3327,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 90,
   },
   {
     score: 48.741,
@@ -3274,6 +3364,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 91,
   },
   {
     score: 48.661,
@@ -3310,6 +3401,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 92,
   },
   {
     score: 48.351,
@@ -3346,6 +3438,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 93,
   },
   {
     score: 48.351,
@@ -3382,6 +3475,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 94,
   },
   {
     score: 48.351,
@@ -3418,6 +3512,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 95,
   },
   {
     score: 48.327,
@@ -3454,6 +3549,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 96,
   },
   {
     score: 48.323,
@@ -3490,6 +3586,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 97,
   },
   {
     score: 48.244,
@@ -3526,6 +3623,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 98,
   },
   {
     score: 48.22,
@@ -3562,6 +3660,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 99,
   },
   {
     score: 48.171,
@@ -3598,6 +3697,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 100,
   },
   {
     score: 48.086,
@@ -3634,6 +3734,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 101,
   },
   {
     score: 48.084,
@@ -3670,6 +3771,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 102,
   },
   {
     score: 48.033,
@@ -3706,6 +3808,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 103,
   },
   {
     score: 48.026,
@@ -3742,6 +3845,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 104,
   },
   {
     score: 47.967,
@@ -3778,6 +3882,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 105,
   },
   {
     score: 47.913,
@@ -3814,6 +3919,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 106,
   },
   {
     score: 47.871,
@@ -3850,6 +3956,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 107,
   },
   {
     score: 47.603,
@@ -3886,6 +3993,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 108,
   },
   {
     score: 47.581,
@@ -3922,6 +4030,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 109,
   },
   {
     score: 47.391,
@@ -3958,6 +4067,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 110,
   },
   {
     score: 47.14,
@@ -3994,6 +4104,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 111,
   },
   {
     score: 47.041,
@@ -4030,6 +4141,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 112,
   },
   {
     score: 46.953,
@@ -4066,6 +4178,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 113,
   },
   {
     score: 46.937,
@@ -4102,6 +4215,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 114,
   },
   {
     score: 46.882,
@@ -4138,6 +4252,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 115,
   },
   {
     score: 46.71,
@@ -4174,6 +4289,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 116,
   },
   {
     score: 46.645,
@@ -4210,6 +4326,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 117,
   },
   {
     score: 46.622,
@@ -4246,6 +4363,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 118,
   },
   {
     score: 46.611,
@@ -4282,6 +4400,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 119,
   },
   {
     score: 46.416,
@@ -4318,6 +4437,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 120,
   },
   {
     score: 46.396,
@@ -4354,6 +4474,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 121,
   },
   {
     score: 46.372,
@@ -4390,6 +4511,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 122,
   },
   {
     score: 46.322,
@@ -4426,6 +4548,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 123,
   },
   {
     score: 46.288,
@@ -4462,6 +4585,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 124,
   },
   {
     score: 46.215,
@@ -4498,6 +4622,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 125,
   },
   {
     score: 46.196,
@@ -4534,6 +4659,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 126,
   },
   {
     score: 46.134,
@@ -4570,6 +4696,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 127,
   },
   {
     score: 46.126,
@@ -4606,6 +4733,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 128,
   },
   {
     score: 45.979,
@@ -4642,6 +4770,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 129,
   },
   {
     score: 45.867,
@@ -4678,6 +4807,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 130,
   },
   {
     score: 45.845,
@@ -4714,6 +4844,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 131,
   },
   {
     score: 45.805,
@@ -4750,6 +4881,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 132,
   },
   {
     score: 45.671,
@@ -4786,6 +4918,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 133,
   },
   {
     score: 45.531,
@@ -4822,6 +4955,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 134,
   },
   {
     score: 45.477,
@@ -4858,6 +4992,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 135,
   },
   {
     score: 45.361,
@@ -4894,6 +5029,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 136,
   },
   {
     score: 45.313,
@@ -4930,6 +5066,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 137,
   },
   {
     score: 45.276,
@@ -4966,6 +5103,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 138,
   },
   {
     score: 45.247,
@@ -5002,6 +5140,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 139,
   },
   {
     score: 45.22,
@@ -5038,6 +5177,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 140,
   },
   {
     score: 45.193,
@@ -5074,6 +5214,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 141,
   },
   {
     score: 45.082,
@@ -5110,6 +5251,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 142,
   },
   {
     score: 45.032,
@@ -5146,6 +5288,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 143,
   },
   {
     score: 45.009,
@@ -5182,6 +5325,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 144,
   },
   {
     score: 44.966,
@@ -5218,6 +5362,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 145,
   },
   {
     score: 44.96,
@@ -5254,6 +5399,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 146,
   },
   {
     score: 44.924,
@@ -5290,6 +5436,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 147,
   },
   {
     score: 44.914,
@@ -5326,6 +5473,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 148,
   },
   {
     score: 44.878,
@@ -5362,6 +5510,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 149,
   },
   {
     score: 44.843,
@@ -5398,6 +5547,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 150,
   },
   {
     score: 44.823,
@@ -5434,6 +5584,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 151,
   },
   {
     score: 44.765,
@@ -5470,6 +5621,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 152,
   },
   {
     score: 44.75,
@@ -5506,6 +5658,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 153,
   },
   {
     score: 44.697,
@@ -5542,6 +5695,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 154,
   },
   {
     score: 44.639,
@@ -5578,6 +5732,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 155,
   },
   {
     score: 44.635,
@@ -5614,6 +5769,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 156,
   },
   {
     score: 44.632,
@@ -5650,6 +5806,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 157,
   },
   {
     score: 44.549,
@@ -5686,6 +5843,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 158,
   },
   {
     score: 44.523,
@@ -5722,6 +5880,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 159,
   },
   {
     score: 44.511,
@@ -5758,6 +5917,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 160,
   },
   {
     score: 44.38,
@@ -5794,6 +5954,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 161,
   },
   {
     score: 44.311,
@@ -5830,6 +5991,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 162,
   },
   {
     score: 44.264,
@@ -5866,6 +6028,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 163,
   },
   {
     score: 44.258,
@@ -5902,6 +6065,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 164,
   },
   {
     score: 44.214,
@@ -5938,6 +6102,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 165,
   },
   {
     score: 44.184,
@@ -5974,6 +6139,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 166,
   },
   {
     score: 44.08,
@@ -6010,6 +6176,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 167,
   },
   {
     score: 44.066,
@@ -6046,6 +6213,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 168,
   },
   {
     score: 44.056,
@@ -6082,6 +6250,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 169,
   },
   {
     score: 44.046,
@@ -6118,6 +6287,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 170,
   },
   {
     score: 44.033,
@@ -6154,6 +6324,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 171,
   },
   {
     score: 44.033,
@@ -6190,6 +6361,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 172,
   },
   {
     score: 44.017,
@@ -6226,6 +6398,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 173,
   },
   {
     score: 43.98,
@@ -6262,6 +6435,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 174,
   },
   {
     score: 43.977,
@@ -6298,6 +6472,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 175,
   },
   {
     score: 43.942,
@@ -6334,6 +6509,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 176,
   },
   {
     score: 43.93,
@@ -6370,6 +6546,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 177,
   },
   {
     score: 43.927,
@@ -6406,6 +6583,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 178,
   },
   {
     score: 43.863,
@@ -6442,6 +6620,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 179,
   },
   {
     score: 43.779,
@@ -6478,6 +6657,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 180,
   },
   {
     score: 43.736,
@@ -6514,6 +6694,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 181,
   },
   {
     score: 43.699,
@@ -6550,6 +6731,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 182,
   },
   {
     score: 43.692,
@@ -6586,6 +6768,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 183,
   },
   {
     score: 43.676,
@@ -6622,6 +6805,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 184,
   },
   {
     score: 43.654,
@@ -6658,6 +6842,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 185,
   },
   {
     score: 43.645,
@@ -6694,6 +6879,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 186,
   },
   {
     score: 43.479,
@@ -6730,6 +6916,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 187,
   },
   {
     score: 43.415,
@@ -6766,6 +6953,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 188,
   },
   {
     score: 43.378,
@@ -6802,6 +6990,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 189,
   },
   {
     score: 43.199,
@@ -6838,6 +7027,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 190,
   },
   {
     score: 43.183,
@@ -6874,6 +7064,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 191,
   },
   {
     score: 43.115,
@@ -6910,6 +7101,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 192,
   },
   {
     score: 43.071,
@@ -6946,6 +7138,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 193,
   },
   {
     score: 43.071,
@@ -6982,6 +7175,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 194,
   },
   {
     score: 43.071,
@@ -7018,6 +7212,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 195,
   },
   {
     score: 43.034,
@@ -7054,6 +7249,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 196,
   },
   {
     score: 43.005,
@@ -7090,6 +7286,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 197,
   },
   {
     score: 42.978,
@@ -7126,6 +7323,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 198,
   },
   {
     score: 42.976,
@@ -7162,6 +7360,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 199,
   },
   {
     score: 42.946,
@@ -7198,6 +7397,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 200,
   },
   {
     score: 42.899,
@@ -7234,6 +7434,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 201,
   },
   {
     score: 42.813,
@@ -7270,6 +7471,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 202,
   },
   {
     score: 42.783,
@@ -7306,6 +7508,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 203,
   },
   {
     score: 42.768,
@@ -7342,6 +7545,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 204,
   },
   {
     score: 42.742,
@@ -7378,6 +7582,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 205,
   },
   {
     score: 42.735,
@@ -7414,6 +7619,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 206,
   },
   {
     score: 42.725,
@@ -7450,6 +7656,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 207,
   },
   {
     score: 42.724,
@@ -7486,6 +7693,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 208,
   },
   {
     score: 42.715,
@@ -7522,6 +7730,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 209,
   },
   {
     score: 42.699,
@@ -7558,6 +7767,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 210,
   },
   {
     score: 42.689,
@@ -7594,6 +7804,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 211,
   },
   {
     score: 42.672,
@@ -7630,6 +7841,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 212,
   },
   {
     score: 42.67,
@@ -7666,6 +7878,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 213,
   },
   {
     score: 42.645,
@@ -7702,6 +7915,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 214,
   },
   {
     score: 42.548,
@@ -7738,6 +7952,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 215,
   },
   {
     score: 42.469,
@@ -7774,6 +7989,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 216,
   },
   {
     score: 42.383,
@@ -7810,6 +8026,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 217,
   },
   {
     score: 42.281,
@@ -7846,6 +8063,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 218,
   },
   {
     score: 42.259,
@@ -7882,6 +8100,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 219,
   },
   {
     score: 42.191,
@@ -7918,6 +8137,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 220,
   },
   {
     score: 42.134,
@@ -7954,6 +8174,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 221,
   },
   {
     score: 42.075,
@@ -7990,6 +8211,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 222,
   },
   {
     score: 41.996,
@@ -8026,6 +8248,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 223,
   },
   {
     score: 41.991,
@@ -8062,6 +8285,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 224,
   },
   {
     score: 41.982,
@@ -8098,6 +8322,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 225,
   },
   {
     score: 41.969,
@@ -8134,6 +8359,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 226,
   },
   {
     score: 41.964,
@@ -8170,6 +8396,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 227,
   },
   {
     score: 41.964,
@@ -8206,6 +8433,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 228,
   },
   {
     score: 41.951,
@@ -8242,6 +8470,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 229,
   },
   {
     score: 41.917,
@@ -8278,6 +8507,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 230,
   },
   {
     score: 41.793,
@@ -8314,6 +8544,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 231,
   },
   {
     score: 41.791,
@@ -8350,6 +8581,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 232,
   },
   {
     score: 41.775,
@@ -8386,6 +8618,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 233,
   },
   {
     score: 41.769,
@@ -8422,6 +8655,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 234,
   },
   {
     score: 41.756,
@@ -8458,6 +8692,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 235,
   },
   {
     score: 41.703,
@@ -8494,6 +8729,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 236,
   },
   {
     score: 41.7,
@@ -8530,6 +8766,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 237,
   },
   {
     score: 41.698,
@@ -8566,6 +8803,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 238,
   },
   {
     score: 41.684,
@@ -8602,6 +8840,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 239,
   },
   {
     score: 41.68,
@@ -8638,6 +8877,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 240,
   },
   {
     score: 41.672,
@@ -8674,6 +8914,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 241,
   },
   {
     score: 41.672,
@@ -8710,6 +8951,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 242,
   },
   {
     score: 41.645,
@@ -8746,6 +8988,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 243,
   },
   {
     score: 41.621,
@@ -8782,6 +9025,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 244,
   },
   {
     score: 41.621,
@@ -8818,6 +9062,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 245,
   },
   {
     score: 41.62,
@@ -8854,6 +9099,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 246,
   },
   {
     score: 41.62,
@@ -8890,6 +9136,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 247,
   },
   {
     score: 41.548,
@@ -8926,6 +9173,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 248,
   },
   {
     score: 41.541,
@@ -8962,6 +9210,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 249,
   },
   {
     score: 41.485,
@@ -8998,6 +9247,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 250,
   },
   {
     score: 41.382,
@@ -9034,6 +9284,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 251,
   },
   {
     score: 41.382,
@@ -9070,6 +9321,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 252,
   },
   {
     score: 41.344,
@@ -9106,6 +9358,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 253,
   },
   {
     score: 41.336,
@@ -9142,6 +9395,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 254,
   },
   {
     score: 41.317,
@@ -9178,6 +9432,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 255,
   },
   {
     score: 41.309,
@@ -9214,6 +9469,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 256,
   },
   {
     score: 41.306,
@@ -9250,6 +9506,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 257,
   },
   {
     score: 41.269,
@@ -9286,6 +9543,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 258,
   },
   {
     score: 41.265,
@@ -9322,6 +9580,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 259,
   },
   {
     score: 41.26,
@@ -9358,6 +9617,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 260,
   },
   {
     score: 41.241,
@@ -9394,6 +9654,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 261,
   },
   {
     score: 41.241,
@@ -9430,6 +9691,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 262,
   },
   {
     score: 41.206,
@@ -9466,6 +9728,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 263,
   },
   {
     score: 41.202,
@@ -9502,6 +9765,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 264,
   },
   {
     score: 41.186,
@@ -9538,6 +9802,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 265,
   },
   {
     score: 41.181,
@@ -9574,6 +9839,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 266,
   },
   {
     score: 41.181,
@@ -9610,6 +9876,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 267,
   },
   {
     score: 41.155,
@@ -9646,6 +9913,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 268,
   },
   {
     score: 41.155,
@@ -9682,6 +9950,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 269,
   },
   {
     score: 41.148,
@@ -9718,6 +9987,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 270,
   },
   {
     score: 41.069,
@@ -9754,6 +10024,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 271,
   },
   {
     score: 41.069,
@@ -9790,6 +10061,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 272,
   },
   {
     score: 41.044,
@@ -9826,6 +10098,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 273,
   },
   {
     score: 40.993,
@@ -9862,6 +10135,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 274,
   },
   {
     score: 40.979,
@@ -9898,6 +10172,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 275,
   },
   {
     score: 40.959,
@@ -9934,6 +10209,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 276,
   },
   {
     score: 40.954,
@@ -9970,6 +10246,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 277,
   },
   {
     score: 40.914,
@@ -10006,6 +10283,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 278,
   },
   {
     score: 40.896,
@@ -10042,6 +10320,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 279,
   },
   {
     score: 40.869,
@@ -10078,6 +10357,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 280,
   },
   {
     score: 40.844,
@@ -10114,6 +10394,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 281,
   },
   {
     score: 40.841,
@@ -10150,6 +10431,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 282,
   },
   {
     score: 40.838,
@@ -10186,6 +10468,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 283,
   },
   {
     score: 40.837,
@@ -10222,6 +10505,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 284,
   },
   {
     score: 40.753,
@@ -10258,6 +10542,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 285,
   },
   {
     score: 40.734,
@@ -10294,6 +10579,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 286,
   },
   {
     score: 40.734,
@@ -10330,6 +10616,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 287,
   },
   {
     score: 40.718,
@@ -10366,6 +10653,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 288,
   },
   {
     score: 40.665,
@@ -10402,6 +10690,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 289,
   },
   {
     score: 40.652,
@@ -10438,6 +10727,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 290,
   },
   {
     score: 40.652,
@@ -10474,6 +10764,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 291,
   },
   {
     score: 40.637,
@@ -10510,6 +10801,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 292,
   },
   {
     score: 40.623,
@@ -10546,6 +10838,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 293,
   },
   {
     score: 40.589,
@@ -10582,6 +10875,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 294,
   },
   {
     score: 40.585,
@@ -10618,6 +10912,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 295,
   },
   {
     score: 40.584,
@@ -10654,6 +10949,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 296,
   },
   {
     score: 40.576,
@@ -10690,6 +10986,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 297,
   },
   {
     score: 40.553,
@@ -10726,6 +11023,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 298,
   },
   {
     score: 40.536,
@@ -10762,6 +11060,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 299,
   },
   {
     score: 40.51,
@@ -10798,6 +11097,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 300,
   },
   {
     score: 40.493,
@@ -10834,6 +11134,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 301,
   },
   {
     score: 40.483,
@@ -10870,6 +11171,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 302,
   },
   {
     score: 40.473,
@@ -10906,6 +11208,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 303,
   },
   {
     score: 40.441,
@@ -10942,6 +11245,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 304,
   },
   {
     score: 40.392,
@@ -10978,6 +11282,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 305,
   },
   {
     score: 40.39,
@@ -11014,6 +11319,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 306,
   },
   {
     score: 40.39,
@@ -11050,6 +11356,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 307,
   },
   {
     score: 40.315,
@@ -11086,6 +11393,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 308,
   },
   {
     score: 40.315,
@@ -11122,6 +11430,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 309,
   },
   {
     score: 40.298,
@@ -11158,6 +11467,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 310,
   },
   {
     score: 40.272,
@@ -11194,6 +11504,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 311,
   },
   {
     score: 40.24,
@@ -11230,6 +11541,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 312,
   },
   {
     score: 40.229,
@@ -11266,6 +11578,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 313,
   },
   {
     score: 40.222,
@@ -11302,6 +11615,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 314,
   },
   {
     score: 40.222,
@@ -11338,6 +11652,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 315,
   },
   {
     score: 40.193,
@@ -11374,6 +11689,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 316,
   },
   {
     score: 40.166,
@@ -11410,6 +11726,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 317,
   },
   {
     score: 40.143,
@@ -11446,6 +11763,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 318,
   },
   {
     score: 40.143,
@@ -11482,6 +11800,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 319,
   },
   {
     score: 40.139,
@@ -11518,6 +11837,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 320,
   },
   {
     score: 40.138,
@@ -11554,6 +11874,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 321,
   },
   {
     score: 40.133,
@@ -11590,6 +11911,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 322,
   },
   {
     score: 40.123,
@@ -11626,6 +11948,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 323,
   },
   {
     score: 40.053,
@@ -11662,6 +11985,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 324,
   },
   {
     score: 39.961,
@@ -11698,6 +12022,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 325,
   },
   {
     score: 39.961,
@@ -11734,6 +12059,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 326,
   },
   {
     score: 39.885,
@@ -11770,6 +12096,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 327,
   },
   {
     score: 39.874,
@@ -11806,6 +12133,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 328,
   },
   {
     score: 39.845,
@@ -11842,6 +12170,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 329,
   },
   {
     score: 39.775,
@@ -11878,6 +12207,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 330,
   },
   {
     score: 39.764,
@@ -11914,6 +12244,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 331,
   },
   {
     score: 39.754,
@@ -11950,6 +12281,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 332,
   },
   {
     score: 39.74,
@@ -11986,6 +12318,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 333,
   },
   {
     score: 39.736,
@@ -12022,6 +12355,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 334,
   },
   {
     score: 39.704,
@@ -12058,6 +12392,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 335,
   },
   {
     score: 39.697,
@@ -12094,6 +12429,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 336,
   },
   {
     score: 39.638,
@@ -12130,6 +12466,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 337,
   },
   {
     score: 39.626,
@@ -12166,6 +12503,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 338,
   },
   {
     score: 39.625,
@@ -12202,6 +12540,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 339,
   },
   {
     score: 39.625,
@@ -12238,6 +12577,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 340,
   },
   {
     score: 39.617,
@@ -12274,6 +12614,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 341,
   },
   {
     score: 39.584,
@@ -12310,6 +12651,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 342,
   },
   {
     score: 39.572,
@@ -12346,6 +12688,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 343,
   },
   {
     score: 39.563,
@@ -12382,6 +12725,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 344,
   },
   {
     score: 39.545,
@@ -12418,6 +12762,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 345,
   },
   {
     score: 39.537,
@@ -12454,6 +12799,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 346,
   },
   {
     score: 39.535,
@@ -12490,6 +12836,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 347,
   },
   {
     score: 39.487,
@@ -12526,6 +12873,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 348,
   },
   {
     score: 39.458,
@@ -12562,6 +12910,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 349,
   },
   {
     score: 39.456,
@@ -12598,6 +12947,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 350,
   },
   {
     score: 39.456,
@@ -12634,6 +12984,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 351,
   },
   {
     score: 39.444,
@@ -12670,6 +13021,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 352,
   },
   {
     score: 39.431,
@@ -12706,6 +13058,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 353,
   },
   {
     score: 39.421,
@@ -12742,6 +13095,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 354,
   },
   {
     score: 39.373,
@@ -12778,6 +13132,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 355,
   },
   {
     score: 39.329,
@@ -12814,6 +13169,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 356,
   },
   {
     score: 39.305,
@@ -12850,6 +13206,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 357,
   },
   {
     score: 39.295,
@@ -12886,6 +13243,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 358,
   },
   {
     score: 39.254,
@@ -12922,6 +13280,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 359,
   },
   {
     score: 39.187,
@@ -12958,6 +13317,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 360,
   },
   {
     score: 39.185,
@@ -12994,6 +13354,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 361,
   },
   {
     score: 39.177,
@@ -13030,6 +13391,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 362,
   },
   {
     score: 39.155,
@@ -13066,6 +13428,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 363,
   },
   {
     score: 39.154,
@@ -13102,6 +13465,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 364,
   },
   {
     score: 39.151,
@@ -13138,6 +13502,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 365,
   },
   {
     score: 39.139,
@@ -13174,6 +13539,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 366,
   },
   {
     score: 39.132,
@@ -13210,6 +13576,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 367,
   },
   {
     score: 39.107,
@@ -13246,6 +13613,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 368,
   },
   {
     score: 39.102,
@@ -13282,6 +13650,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 369,
   },
   {
     score: 39.054,
@@ -13318,6 +13687,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 370,
   },
   {
     score: 39.046,
@@ -13354,6 +13724,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 371,
   },
   {
     score: 39.046,
@@ -13390,6 +13761,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 372,
   },
   {
     score: 39.046,
@@ -13426,6 +13798,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 373,
   },
   {
     score: 39.019,
@@ -13462,6 +13835,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 374,
   },
   {
     score: 38.986,
@@ -13498,6 +13872,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 375,
   },
   {
     score: 38.932,
@@ -13534,6 +13909,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 376,
   },
   {
     score: 38.913,
@@ -13570,6 +13946,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 377,
   },
   {
     score: 38.907,
@@ -13606,6 +13983,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 378,
   },
   {
     score: 38.902,
@@ -13642,6 +14020,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 379,
   },
   {
     score: 38.902,
@@ -13678,6 +14057,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 380,
   },
   {
     score: 38.887,
@@ -13714,6 +14094,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 381,
   },
   {
     score: 38.848,
@@ -13750,6 +14131,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 382,
   },
   {
     score: 38.833,
@@ -13786,6 +14168,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 383,
   },
   {
     score: 38.818,
@@ -13822,6 +14205,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 384,
   },
   {
     score: 38.806,
@@ -13858,6 +14242,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 385,
   },
   {
     score: 38.801,
@@ -13894,6 +14279,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 386,
   },
   {
     score: 38.791,
@@ -13930,6 +14316,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 387,
   },
   {
     score: 38.791,
@@ -13966,6 +14353,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 388,
   },
   {
     score: 38.78,
@@ -14002,6 +14390,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 389,
   },
   {
     score: 38.738,
@@ -14038,6 +14427,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 390,
   },
   {
     score: 38.733,
@@ -14074,6 +14464,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 391,
   },
   {
     score: 38.728,
@@ -14110,6 +14501,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 392,
   },
   {
     score: 38.712,
@@ -14146,6 +14538,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 393,
   },
   {
     score: 38.711,
@@ -14182,6 +14575,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 394,
   },
   {
     score: 38.705,
@@ -14218,6 +14612,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 395,
   },
   {
     score: 38.705,
@@ -14254,6 +14649,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 396,
   },
   {
     score: 38.678,
@@ -14290,6 +14686,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 397,
   },
   {
     score: 38.653,
@@ -14326,6 +14723,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 398,
   },
   {
     score: 38.643,
@@ -14362,6 +14760,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 399,
   },
   {
     score: 38.622,
@@ -14398,6 +14797,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 400,
   },
   {
     score: 38.579,
@@ -14434,6 +14834,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 401,
   },
   {
     score: 38.573,
@@ -14470,6 +14871,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 402,
   },
   {
     score: 38.569,
@@ -14506,6 +14908,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 403,
   },
   {
     score: 38.557,
@@ -14542,6 +14945,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 404,
   },
   {
     score: 38.557,
@@ -14578,6 +14982,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 405,
   },
   {
     score: 38.537,
@@ -14614,6 +15019,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 406,
   },
   {
     score: 38.53,
@@ -14650,6 +15056,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 407,
   },
   {
     score: 38.494,
@@ -14686,6 +15093,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 408,
   },
   {
     score: 38.471,
@@ -14722,6 +15130,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 409,
   },
   {
     score: 38.466,
@@ -14758,6 +15167,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 410,
   },
   {
     score: 38.462,
@@ -14794,6 +15204,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 411,
   },
   {
     score: 38.447,
@@ -14830,6 +15241,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 412,
   },
   {
     score: 38.447,
@@ -14866,6 +15278,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 413,
   },
   {
     score: 38.413,
@@ -14902,6 +15315,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 414,
   },
   {
     score: 38.413,
@@ -14938,6 +15352,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 415,
   },
   {
     score: 38.412,
@@ -14974,6 +15389,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 416,
   },
   {
     score: 38.358,
@@ -15010,6 +15426,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 417,
   },
   {
     score: 38.342,
@@ -15046,6 +15463,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 418,
   },
   {
     score: 38.334,
@@ -15082,6 +15500,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 419,
   },
   {
     score: 38.325,
@@ -15118,6 +15537,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 420,
   },
   {
     score: 38.316,
@@ -15154,6 +15574,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 421,
   },
   {
     score: 38.311,
@@ -15190,6 +15611,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 422,
   },
   {
     score: 38.311,
@@ -15226,6 +15648,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 423,
   },
   {
     score: 38.305,
@@ -15262,6 +15685,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 424,
   },
   {
     score: 38.305,
@@ -15298,6 +15722,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 425,
   },
   {
     score: 38.231,
@@ -15334,6 +15759,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 426,
   },
   {
     score: 38.213,
@@ -15370,6 +15796,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 427,
   },
   {
     score: 38.199,
@@ -15406,6 +15833,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 428,
   },
   {
     score: 38.192,
@@ -15442,6 +15870,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 429,
   },
   {
     score: 38.173,
@@ -15478,6 +15907,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 430,
   },
   {
     score: 38.129,
@@ -15514,6 +15944,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 431,
   },
   {
     score: 38.061,
@@ -15550,6 +15981,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 432,
   },
   {
     score: 38.058,
@@ -15586,6 +16018,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 433,
   },
   {
     score: 38.033,
@@ -15622,6 +16055,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 434,
   },
   {
     score: 38.032,
@@ -15658,6 +16092,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 435,
   },
   {
     score: 38.025,
@@ -15694,6 +16129,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 436,
   },
   {
     score: 37.992,
@@ -15730,6 +16166,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 437,
   },
   {
     score: 37.992,
@@ -15766,6 +16203,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 438,
   },
   {
     score: 37.992,
@@ -15802,6 +16240,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 439,
   },
   {
     score: 37.975,
@@ -15838,6 +16277,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 440,
   },
   {
     score: 37.946,
@@ -15874,6 +16314,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 441,
   },
   {
     score: 37.94,
@@ -15910,6 +16351,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 442,
   },
   {
     score: 37.896,
@@ -15946,6 +16388,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 443,
   },
   {
     score: 37.895,
@@ -15982,6 +16425,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 444,
   },
   {
     score: 37.83,
@@ -16018,6 +16462,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 445,
   },
   {
     score: 37.808,
@@ -16054,6 +16499,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 446,
   },
   {
     score: 37.761,
@@ -16090,6 +16536,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 447,
   },
   {
     score: 37.761,
@@ -16126,6 +16573,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 448,
   },
   {
     score: 37.727,
@@ -16162,6 +16610,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 449,
   },
   {
     score: 37.724,
@@ -16198,6 +16647,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 450,
   },
   {
     score: 37.72,
@@ -16234,6 +16684,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 451,
   },
   {
     score: 37.697,
@@ -16270,6 +16721,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 452,
   },
   {
     score: 37.691,
@@ -16306,6 +16758,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 453,
   },
   {
     score: 37.69,
@@ -16342,6 +16795,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 454,
   },
   {
     score: 37.644,
@@ -16378,6 +16832,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 455,
   },
   {
     score: 37.644,
@@ -16414,6 +16869,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 456,
   },
   {
     score: 37.632,
@@ -16450,6 +16906,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 457,
   },
   {
     score: 37.618,
@@ -16486,6 +16943,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 458,
   },
   {
     score: 37.604,
@@ -16522,6 +16980,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 459,
   },
   {
     score: 37.592,
@@ -16558,6 +17017,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 460,
   },
   {
     score: 37.579,
@@ -16594,6 +17054,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 461,
   },
   {
     score: 37.577,
@@ -16630,6 +17091,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 462,
   },
   {
     score: 37.547,
@@ -16666,6 +17128,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 463,
   },
   {
     score: 37.508,
@@ -16702,6 +17165,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 464,
   },
   {
     score: 37.497,
@@ -16738,6 +17202,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 465,
   },
   {
     score: 37.497,
@@ -16774,6 +17239,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 466,
   },
   {
     score: 37.485,
@@ -16810,6 +17276,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 467,
   },
   {
     score: 37.485,
@@ -16846,6 +17313,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 468,
   },
   {
     score: 37.485,
@@ -16882,6 +17350,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 469,
   },
   {
     score: 37.478,
@@ -16918,6 +17387,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 470,
   },
   {
     score: 37.478,
@@ -16954,6 +17424,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 471,
   },
   {
     score: 37.462,
@@ -16990,6 +17461,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 472,
   },
   {
     score: 37.447,
@@ -17026,6 +17498,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 473,
   },
   {
     score: 37.433,
@@ -17062,6 +17535,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 474,
   },
   {
     score: 37.414,
@@ -17098,6 +17572,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 475,
   },
   {
     score: 37.413,
@@ -17134,6 +17609,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 476,
   },
   {
     score: 37.396,
@@ -17170,6 +17646,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 477,
   },
   {
     score: 37.396,
@@ -17206,6 +17683,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 478,
   },
   {
     score: 37.393,
@@ -17242,6 +17720,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 479,
   },
   {
     score: 37.387,
@@ -17278,6 +17757,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 480,
   },
   {
     score: 37.387,
@@ -17314,6 +17794,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 481,
   },
   {
     score: 37.383,
@@ -17350,6 +17831,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 482,
   },
   {
     score: 37.383,
@@ -17386,6 +17868,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 483,
   },
   {
     score: 37.358,
@@ -17422,6 +17905,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 484,
   },
   {
     score: 37.354,
@@ -17458,6 +17942,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 485,
   },
   {
     score: 37.337,
@@ -17494,6 +17979,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 486,
   },
   {
     score: 37.325,
@@ -17530,6 +18016,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 487,
   },
   {
     score: 37.318,
@@ -17566,6 +18053,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 488,
   },
   {
     score: 37.246,
@@ -17602,6 +18090,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 489,
   },
   {
     score: 37.245,
@@ -17638,6 +18127,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 490,
   },
   {
     score: 37.234,
@@ -17674,6 +18164,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 491,
   },
   {
     score: 37.215,
@@ -17710,6 +18201,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 492,
   },
   {
     score: 37.209,
@@ -17746,6 +18238,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 493,
   },
   {
     score: 37.207,
@@ -17782,6 +18275,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 494,
   },
   {
     score: 37.179,
@@ -17818,6 +18312,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 495,
   },
   {
     score: 37.174,
@@ -17854,6 +18349,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 496,
   },
   {
     score: 37.149,
@@ -17890,6 +18386,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 497,
   },
   {
     score: 37.131,
@@ -17926,6 +18423,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 498,
   },
   {
     score: 37.131,
@@ -17962,6 +18460,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 499,
   },
   {
     score: 37.13,
@@ -17998,6 +18497,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 500,
   },
   {
     score: 37.122,
@@ -18034,6 +18534,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 501,
   },
   {
     score: 37.121,
@@ -18070,6 +18571,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 502,
   },
   {
     score: 37.106,
@@ -18106,6 +18608,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 503,
   },
   {
     score: 37.105,
@@ -18142,6 +18645,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 504,
   },
   {
     score: 37.1,
@@ -18178,6 +18682,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 505,
   },
   {
     score: 37.099,
@@ -18214,6 +18719,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 506,
   },
   {
     score: 37.042,
@@ -18250,6 +18756,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 507,
   },
   {
     score: 37.02,
@@ -18286,6 +18793,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 508,
   },
   {
     score: 36.998,
@@ -18322,6 +18830,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 509,
   },
   {
     score: 36.998,
@@ -18358,6 +18867,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 510,
   },
   {
     score: 36.998,
@@ -18394,6 +18904,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 511,
   },
   {
     score: 36.98,
@@ -18430,6 +18941,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 512,
   },
   {
     score: 36.966,
@@ -18466,6 +18978,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 513,
   },
   {
     score: 36.943,
@@ -18502,6 +19015,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 514,
   },
   {
     score: 36.927,
@@ -18538,6 +19052,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 515,
   },
   {
     score: 36.913,
@@ -18574,6 +19089,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 516,
   },
   {
     score: 36.901,
@@ -18610,6 +19126,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 517,
   },
   {
     score: 36.887,
@@ -18646,6 +19163,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 518,
   },
   {
     score: 36.887,
@@ -18682,6 +19200,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 519,
   },
   {
     score: 36.887,
@@ -18718,6 +19237,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 520,
   },
   {
     score: 36.876,
@@ -18754,6 +19274,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 521,
   },
   {
     score: 36.846,
@@ -18790,6 +19311,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 522,
   },
   {
     score: 36.846,
@@ -18826,6 +19348,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 523,
   },
   {
     score: 36.834,
@@ -18862,6 +19385,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 524,
   },
   {
     score: 36.811,
@@ -18898,6 +19422,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 525,
   },
   {
     score: 36.805,
@@ -18934,6 +19459,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 526,
   },
   {
     score: 36.792,
@@ -18970,6 +19496,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 527,
   },
   {
     score: 36.767,
@@ -19006,6 +19533,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 528,
   },
   {
     score: 36.764,
@@ -19042,6 +19570,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 529,
   },
   {
     score: 36.764,
@@ -19078,6 +19607,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 530,
   },
   {
     score: 36.735,
@@ -19114,6 +19644,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 531,
   },
   {
     score: 36.66,
@@ -19150,6 +19681,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 532,
   },
   {
     score: 36.652,
@@ -19186,6 +19718,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 533,
   },
   {
     score: 36.645,
@@ -19222,6 +19755,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 534,
   },
   {
     score: 36.634,
@@ -19258,6 +19792,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 535,
   },
   {
     score: 36.599,
@@ -19294,6 +19829,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 536,
   },
   {
     score: 36.591,
@@ -19330,6 +19866,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 537,
   },
   {
     score: 36.58,
@@ -19366,6 +19903,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 538,
   },
   {
     score: 36.577,
@@ -19402,6 +19940,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 539,
   },
   {
     score: 36.576,
@@ -19438,6 +19977,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 540,
   },
   {
     score: 36.559,
@@ -19474,6 +20014,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 541,
   },
   {
     score: 36.554,
@@ -19510,6 +20051,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 542,
   },
   {
     score: 36.538,
@@ -19546,6 +20088,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 543,
   },
   {
     score: 36.523,
@@ -19582,6 +20125,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 544,
   },
   {
     score: 36.523,
@@ -19618,6 +20162,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 545,
   },
   {
     score: 36.502,
@@ -19654,6 +20199,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 546,
   },
   {
     score: 36.47,
@@ -19690,6 +20236,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 547,
   },
   {
     score: 36.442,
@@ -19726,6 +20273,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 548,
   },
   {
     score: 36.411,
@@ -19762,6 +20310,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 549,
   },
   {
     score: 36.401,
@@ -19798,6 +20347,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 550,
   },
   {
     score: 36.384,
@@ -19834,6 +20384,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 551,
   },
   {
     score: 36.376,
@@ -19870,6 +20421,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 552,
   },
   {
     score: 36.375,
@@ -19906,6 +20458,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 553,
   },
   {
     score: 36.375,
@@ -19942,6 +20495,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 554,
   },
   {
     score: 36.372,
@@ -19978,6 +20532,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 555,
   },
   {
     score: 36.368,
@@ -20014,6 +20569,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 556,
   },
   {
     score: 36.353,
@@ -20050,6 +20606,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 557,
   },
   {
     score: 36.335,
@@ -20086,6 +20643,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 558,
   },
   {
     score: 36.315,
@@ -20122,6 +20680,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 559,
   },
   {
     score: 36.315,
@@ -20158,6 +20717,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 560,
   },
   {
     score: 36.315,
@@ -20194,6 +20754,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 561,
   },
   {
     score: 36.274,
@@ -20230,6 +20791,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 562,
   },
   {
     score: 36.274,
@@ -20266,6 +20828,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 563,
   },
   {
     score: 36.251,
@@ -20302,6 +20865,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 564,
   },
   {
     score: 36.242,
@@ -20338,6 +20902,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 565,
   },
   {
     score: 36.235,
@@ -20374,6 +20939,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 566,
   },
   {
     score: 36.231,
@@ -20410,6 +20976,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 567,
   },
   {
     score: 36.231,
@@ -20446,6 +21013,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 568,
   },
   {
     score: 36.215,
@@ -20482,6 +21050,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 569,
   },
   {
     score: 36.175,
@@ -20518,6 +21087,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 570,
   },
   {
     score: 36.171,
@@ -20554,6 +21124,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 571,
   },
   {
     score: 36.171,
@@ -20590,6 +21161,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 572,
   },
   {
     score: 36.17,
@@ -20626,6 +21198,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 573,
   },
   {
     score: 36.167,
@@ -20662,6 +21235,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 574,
   },
   {
     score: 36.149,
@@ -20698,6 +21272,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 575,
   },
   {
     score: 36.131,
@@ -20734,6 +21309,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 576,
   },
   {
     score: 36.116,
@@ -20770,6 +21346,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 577,
   },
   {
     score: 36.067,
@@ -20806,6 +21383,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 578,
   },
   {
     score: 36.047,
@@ -20842,6 +21420,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 579,
   },
   {
     score: 36.047,
@@ -20878,6 +21457,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 580,
   },
   {
     score: 36.037,
@@ -20914,6 +21494,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 581,
   },
   {
     score: 36.034,
@@ -20950,6 +21531,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 582,
   },
   {
     score: 36.032,
@@ -20986,6 +21568,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 583,
   },
   {
     score: 36.017,
@@ -21022,6 +21605,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 584,
   },
   {
     score: 35.953,
@@ -21058,6 +21642,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 585,
   },
   {
     score: 35.953,
@@ -21094,6 +21679,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 586,
   },
   {
     score: 35.953,
@@ -21130,6 +21716,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 587,
   },
   {
     score: 35.93,
@@ -21166,6 +21753,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 588,
   },
   {
     score: 35.909,
@@ -21202,6 +21790,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 589,
   },
   {
     score: 35.894,
@@ -21238,6 +21827,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 590,
   },
   {
     score: 35.878,
@@ -21274,6 +21864,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 591,
   },
   {
     score: 35.869,
@@ -21310,6 +21901,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 592,
   },
   {
     score: 35.868,
@@ -21346,6 +21938,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 593,
   },
   {
     score: 35.819,
@@ -21382,6 +21975,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 594,
   },
   {
     score: 35.815,
@@ -21418,6 +22012,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 595,
   },
   {
     score: 35.807,
@@ -21454,6 +22049,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 596,
   },
   {
     score: 35.807,
@@ -21490,6 +22086,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 597,
   },
   {
     score: 35.799,
@@ -21526,6 +22123,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 598,
   },
   {
     score: 35.783,
@@ -21562,6 +22160,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 599,
   },
   {
     score: 35.781,
@@ -21598,6 +22197,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 600,
   },
   {
     score: 35.736,
@@ -21634,6 +22234,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 601,
   },
   {
     score: 35.734,
@@ -21670,6 +22271,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 602,
   },
   {
     score: 35.73,
@@ -21706,6 +22308,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 603,
   },
   {
     score: 35.706,
@@ -21742,6 +22345,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 604,
   },
   {
     score: 35.699,
@@ -21778,6 +22382,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 605,
   },
   {
     score: 35.699,
@@ -21814,6 +22419,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 606,
   },
   {
     score: 35.698,
@@ -21850,6 +22456,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 607,
   },
   {
     score: 35.698,
@@ -21886,6 +22493,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 608,
   },
   {
     score: 35.697,
@@ -21922,6 +22530,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 609,
   },
   {
     score: 35.677,
@@ -21958,6 +22567,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 610,
   },
   {
     score: 35.677,
@@ -21994,6 +22604,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 611,
   },
   {
     score: 35.677,
@@ -22030,6 +22641,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 612,
   },
   {
     score: 35.668,
@@ -22066,6 +22678,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 613,
   },
   {
     score: 35.645,
@@ -22102,6 +22715,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 614,
   },
   {
     score: 35.615,
@@ -22138,6 +22752,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 615,
   },
   {
     score: 35.569,
@@ -22174,6 +22789,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 616,
   },
   {
     score: 35.567,
@@ -22210,6 +22826,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 617,
   },
   {
     score: 35.567,
@@ -22246,6 +22863,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 618,
   },
   {
     score: 35.566,
@@ -22282,6 +22900,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 619,
   },
   {
     score: 35.566,
@@ -22318,6 +22937,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 620,
   },
   {
     score: 35.565,
@@ -22354,6 +22974,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 621,
   },
   {
     score: 35.504,
@@ -22390,6 +23011,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 622,
   },
   {
     score: 35.501,
@@ -22426,6 +23048,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 623,
   },
   {
     score: 35.501,
@@ -22462,6 +23085,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 624,
   },
   {
     score: 35.493,
@@ -22498,6 +23122,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 625,
   },
   {
     score: 35.486,
@@ -22534,6 +23159,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 626,
   },
   {
     score: 35.486,
@@ -22570,6 +23196,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 627,
   },
   {
     score: 35.486,
@@ -22606,6 +23233,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 628,
   },
   {
     score: 35.474,
@@ -22642,6 +23270,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 629,
   },
   {
     score: 35.449,
@@ -22678,6 +23307,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 630,
   },
   {
     score: 35.44,
@@ -22714,6 +23344,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 631,
   },
   {
     score: 35.416,
@@ -22750,6 +23381,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 632,
   },
   {
     score: 35.416,
@@ -22786,6 +23418,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 633,
   },
   {
     score: 35.416,
@@ -22822,6 +23455,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 634,
   },
   {
     score: 35.416,
@@ -22858,6 +23492,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 635,
   },
   {
     score: 35.414,
@@ -22894,6 +23529,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 636,
   },
   {
     score: 35.394,
@@ -22930,6 +23566,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 637,
   },
   {
     score: 35.376,
@@ -22966,6 +23603,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 638,
   },
   {
     score: 35.335,
@@ -23002,6 +23640,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 639,
   },
   {
     score: 35.335,
@@ -23038,6 +23677,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 640,
   },
   {
     score: 35.335,
@@ -23074,6 +23714,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 641,
   },
   {
     score: 35.326,
@@ -23110,6 +23751,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 642,
   },
   {
     score: 35.315,
@@ -23146,6 +23788,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 643,
   },
   {
     score: 35.315,
@@ -23182,6 +23825,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 644,
   },
   {
     score: 35.314,
@@ -23218,6 +23862,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 645,
   },
   {
     score: 35.311,
@@ -23254,6 +23899,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 646,
   },
   {
     score: 35.278,
@@ -23290,6 +23936,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 647,
   },
   {
     score: 35.255,
@@ -23326,6 +23973,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 648,
   },
   {
     score: 35.255,
@@ -23362,6 +24010,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 649,
   },
   {
     score: 35.255,
@@ -23398,6 +24047,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 650,
   },
   {
     score: 35.248,
@@ -23434,6 +24084,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 651,
   },
   {
     score: 35.228,
@@ -23470,6 +24121,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 652,
   },
   {
     score: 35.226,
@@ -23506,6 +24158,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 653,
   },
   {
     score: 35.214,
@@ -23542,6 +24195,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 654,
   },
   {
     score: 35.204,
@@ -23578,6 +24232,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 655,
   },
   {
     score: 35.163,
@@ -23614,6 +24269,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 656,
   },
   {
     score: 35.152,
@@ -23650,6 +24306,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 657,
   },
   {
     score: 35.137,
@@ -23686,6 +24343,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 658,
   },
   {
     score: 35.128,
@@ -23722,6 +24380,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 659,
   },
   {
     score: 35.084,
@@ -23758,6 +24417,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 660,
   },
   {
     score: 35.035,
@@ -23794,6 +24454,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 661,
   },
   {
     score: 35.013,
@@ -23830,6 +24491,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 662,
   },
   {
     score: 35.003,
@@ -23866,6 +24528,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 663,
   },
   {
     score: 34.984,
@@ -23902,6 +24565,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 664,
   },
   {
     score: 34.983,
@@ -23938,6 +24602,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 665,
   },
   {
     score: 34.973,
@@ -23974,6 +24639,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 666,
   },
   {
     score: 34.968,
@@ -24010,6 +24676,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 667,
   },
   {
     score: 34.967,
@@ -24046,6 +24713,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 668,
   },
   {
     score: 34.967,
@@ -24082,6 +24750,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 669,
   },
   {
     score: 34.967,
@@ -24118,6 +24787,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 670,
   },
   {
     score: 34.951,
@@ -24154,6 +24824,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 671,
   },
   {
     score: 34.911,
@@ -24190,6 +24861,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 672,
   },
   {
     score: 34.888,
@@ -24226,6 +24898,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 673,
   },
   {
     score: 34.888,
@@ -24262,6 +24935,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 674,
   },
   {
     score: 34.888,
@@ -24298,6 +24972,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 675,
   },
   {
     score: 34.884,
@@ -24334,6 +25009,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 676,
   },
   {
     score: 34.87,
@@ -24370,6 +25046,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 677,
   },
   {
     score: 34.87,
@@ -24406,6 +25083,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 678,
   },
   {
     score: 34.864,
@@ -24442,6 +25120,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 679,
   },
   {
     score: 34.863,
@@ -24478,6 +25157,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 680,
   },
   {
     score: 34.835,
@@ -24514,6 +25194,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 681,
   },
   {
     score: 34.811,
@@ -24550,6 +25231,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 682,
   },
   {
     score: 34.811,
@@ -24586,6 +25268,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 683,
   },
   {
     score: 34.784,
@@ -24622,6 +25305,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 684,
   },
   {
     score: 34.782,
@@ -24658,6 +25342,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 685,
   },
   {
     score: 34.778,
@@ -24694,6 +25379,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 686,
   },
   {
     score: 34.778,
@@ -24730,6 +25416,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 687,
   },
   {
     score: 34.772,
@@ -24766,6 +25453,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 688,
   },
   {
     score: 34.759,
@@ -24802,6 +25490,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 689,
   },
   {
     score: 34.756,
@@ -24838,6 +25527,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 690,
   },
   {
     score: 34.756,
@@ -24874,6 +25564,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 691,
   },
   {
     score: 34.756,
@@ -24910,6 +25601,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 692,
   },
   {
     score: 34.743,
@@ -24946,6 +25638,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 693,
   },
   {
     score: 34.739,
@@ -24982,6 +25675,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 694,
   },
   {
     score: 34.739,
@@ -25018,6 +25712,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 695,
   },
   {
     score: 34.726,
@@ -25054,6 +25749,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 696,
   },
   {
     score: 34.726,
@@ -25090,6 +25786,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 697,
   },
   {
     score: 34.719,
@@ -25126,6 +25823,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 698,
   },
   {
     score: 34.683,
@@ -25162,6 +25860,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 699,
   },
   {
     score: 34.68,
@@ -25198,6 +25897,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 700,
   },
   {
     score: 34.666,
@@ -25234,6 +25934,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 701,
   },
   {
     score: 34.639,
@@ -25270,6 +25971,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 702,
   },
   {
     score: 34.617,
@@ -25306,6 +26008,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 703,
   },
   {
     score: 34.616,
@@ -25342,6 +26045,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 704,
   },
   {
     score: 34.605,
@@ -25378,6 +26082,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 705,
   },
   {
     score: 34.604,
@@ -25414,6 +26119,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 706,
   },
   {
     score: 34.603,
@@ -25450,6 +26156,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 707,
   },
   {
     score: 34.55,
@@ -25486,6 +26193,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 708,
   },
   {
     score: 34.525,
@@ -25522,6 +26230,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 709,
   },
   {
     score: 34.525,
@@ -25558,6 +26267,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 710,
   },
   {
     score: 34.525,
@@ -25594,6 +26304,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 711,
   },
   {
     score: 34.525,
@@ -25630,6 +26341,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 712,
   },
   {
     score: 34.491,
@@ -25666,6 +26378,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 713,
   },
   {
     score: 34.455,
@@ -25702,6 +26415,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 714,
   },
   {
     score: 34.392,
@@ -25738,6 +26452,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 715,
   },
   {
     score: 34.392,
@@ -25774,6 +26489,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 716,
   },
   {
     score: 34.381,
@@ -25810,6 +26526,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 717,
   },
   {
     score: 34.335,
@@ -25846,6 +26563,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 718,
   },
   {
     score: 34.327,
@@ -25882,6 +26600,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 719,
   },
   {
     score: 34.32,
@@ -25918,6 +26637,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 720,
   },
   {
     score: 34.249,
@@ -25954,6 +26674,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 721,
   },
   {
     score: 34.245,
@@ -25990,6 +26711,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 722,
   },
   {
     score: 34.237,
@@ -26026,6 +26748,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 723,
   },
   {
     score: 34.217,
@@ -26062,6 +26785,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 724,
   },
   {
     score: 34.207,
@@ -26098,6 +26822,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 725,
   },
   {
     score: 34.2,
@@ -26134,6 +26859,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 726,
   },
   {
     score: 34.174,
@@ -26170,6 +26896,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 727,
   },
   {
     score: 34.158,
@@ -26206,6 +26933,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 728,
   },
   {
     score: 34.157,
@@ -26242,6 +26970,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 729,
   },
   {
     score: 34.153,
@@ -26278,6 +27007,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 730,
   },
   {
     score: 34.133,
@@ -26314,6 +27044,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 731,
   },
   {
     score: 34.107,
@@ -26350,6 +27081,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 732,
   },
   {
     score: 34.104,
@@ -26386,6 +27118,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 733,
   },
   {
     score: 34.104,
@@ -26422,6 +27155,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 734,
   },
   {
     score: 34.096,
@@ -26458,6 +27192,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 735,
   },
   {
     score: 34.088,
@@ -26494,6 +27229,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 736,
   },
   {
     score: 34.071,
@@ -26530,6 +27266,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 737,
   },
   {
     score: 34.028,
@@ -26566,6 +27303,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 738,
   },
   {
     score: 34.019,
@@ -26602,6 +27340,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 739,
   },
   {
     score: 34.009,
@@ -26638,6 +27377,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 740,
   },
   {
     score: 33.982,
@@ -26674,6 +27414,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 741,
   },
   {
     score: 33.982,
@@ -26710,6 +27451,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 742,
   },
   {
     score: 33.952,
@@ -26746,6 +27488,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 743,
   },
   {
     score: 33.925,
@@ -26782,6 +27525,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 744,
   },
   {
     score: 33.925,
@@ -26818,6 +27562,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 745,
   },
   {
     score: 33.903,
@@ -26854,6 +27599,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 746,
   },
   {
     score: 33.903,
@@ -26890,6 +27636,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 747,
   },
   {
     score: 33.894,
@@ -26926,6 +27673,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 748,
   },
   {
     score: 33.849,
@@ -26962,6 +27710,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 749,
   },
   {
     score: 33.833,
@@ -26998,6 +27747,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 750,
   },
   {
     score: 33.819,
@@ -27034,6 +27784,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 751,
   },
   {
     score: 33.804,
@@ -27070,6 +27821,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 752,
   },
   {
     score: 33.797,
@@ -27106,6 +27858,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 753,
   },
   {
     score: 33.79,
@@ -27142,6 +27895,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 754,
   },
   {
     score: 33.756,
@@ -27178,6 +27932,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 755,
   },
   {
     score: 33.746,
@@ -27214,6 +27969,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 756,
   },
   {
     score: 33.737,
@@ -27250,6 +28006,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 757,
   },
   {
     score: 33.707,
@@ -27286,6 +28043,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 758,
   },
   {
     score: 33.695,
@@ -27322,6 +28080,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 759,
   },
   {
     score: 33.691,
@@ -27358,6 +28117,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 760,
   },
   {
     score: 33.691,
@@ -27394,6 +28154,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 761,
   },
   {
     score: 33.676,
@@ -27430,6 +28191,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 762,
   },
   {
     score: 33.676,
@@ -27466,6 +28228,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 763,
   },
   {
     score: 33.676,
@@ -27502,6 +28265,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 764,
   },
   {
     score: 33.671,
@@ -27538,6 +28302,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 765,
   },
   {
     score: 33.667,
@@ -27574,6 +28339,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 766,
   },
   {
     score: 33.65,
@@ -27610,6 +28376,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 767,
   },
   {
     score: 33.65,
@@ -27646,6 +28413,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 768,
   },
   {
     score: 33.621,
@@ -27682,6 +28450,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 769,
   },
   {
     score: 33.619,
@@ -27718,6 +28487,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 770,
   },
   {
     score: 33.619,
@@ -27754,6 +28524,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 771,
   },
   {
     score: 33.604,
@@ -27790,6 +28561,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 772,
   },
   {
     score: 33.604,
@@ -27826,6 +28598,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 773,
   },
   {
     score: 33.579,
@@ -27862,6 +28635,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 774,
   },
   {
     score: 33.579,
@@ -27898,6 +28672,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 775,
   },
   {
     score: 33.573,
@@ -27934,6 +28709,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 776,
   },
   {
     score: 33.566,
@@ -27970,6 +28746,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 777,
   },
   {
     score: 33.562,
@@ -28006,6 +28783,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 778,
   },
   {
     score: 33.538,
@@ -28042,6 +28820,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 779,
   },
   {
     score: 33.537,
@@ -28078,6 +28857,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 780,
   },
   {
     score: 33.537,
@@ -28114,6 +28894,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 781,
   },
   {
     score: 33.537,
@@ -28150,6 +28931,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 782,
   },
   {
     score: 33.469,
@@ -28186,6 +28968,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 783,
   },
   {
     score: 33.469,
@@ -28222,6 +29005,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 784,
   },
   {
     score: 33.464,
@@ -28258,6 +29042,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 785,
   },
   {
     score: 33.39,
@@ -28294,6 +29079,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 786,
   },
   {
     score: 33.376,
@@ -28330,6 +29116,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 787,
   },
   {
     score: 33.373,
@@ -28366,6 +29153,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 788,
   },
   {
     score: 33.33,
@@ -28402,6 +29190,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 789,
   },
   {
     score: 33.288,
@@ -28438,6 +29227,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 790,
   },
   {
     score: 33.283,
@@ -28474,6 +29264,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 791,
   },
   {
     score: 33.231,
@@ -28510,6 +29301,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 792,
   },
   {
     score: 33.224,
@@ -28546,6 +29338,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 793,
   },
   {
     score: 33.199,
@@ -28582,6 +29375,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 794,
   },
   {
     score: 33.195,
@@ -28618,6 +29412,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 795,
   },
   {
     score: 33.183,
@@ -28654,6 +29449,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 796,
   },
   {
     score: 33.172,
@@ -28690,6 +29486,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 797,
   },
   {
     score: 33.171,
@@ -28726,6 +29523,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 798,
   },
   {
     score: 33.152,
@@ -28762,6 +29560,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 799,
   },
   {
     score: 33.152,
@@ -28798,6 +29597,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 800,
   },
   {
     score: 33.152,
@@ -28834,6 +29634,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 801,
   },
   {
     score: 33.148,
@@ -28870,6 +29671,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 802,
   },
   {
     score: 33.145,
@@ -28906,6 +29708,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 803,
   },
   {
     score: 33.069,
@@ -28942,6 +29745,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 804,
   },
   {
     score: 33.059,
@@ -28978,6 +29782,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 805,
   },
   {
     score: 33.05,
@@ -29014,6 +29819,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 806,
   },
   {
     score: 33.05,
@@ -29050,6 +29856,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 807,
   },
   {
     score: 33.006,
@@ -29086,6 +29893,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 808,
   },
   {
     score: 32.996,
@@ -29122,6 +29930,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 809,
   },
   {
     score: 32.964,
@@ -29158,6 +29967,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 810,
   },
   {
     score: 32.964,
@@ -29194,6 +30004,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 811,
   },
   {
     score: 32.964,
@@ -29230,6 +30041,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 812,
   },
   {
     score: 32.964,
@@ -29266,6 +30078,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 813,
   },
   {
     score: 32.964,
@@ -29302,6 +30115,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 814,
   },
   {
     score: 32.957,
@@ -29338,6 +30152,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 815,
   },
   {
     score: 32.942,
@@ -29374,6 +30189,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 816,
   },
   {
     score: 32.94,
@@ -29410,6 +30226,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 817,
   },
   {
     score: 32.921,
@@ -29446,6 +30263,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 818,
   },
   {
     score: 32.92,
@@ -29482,6 +30300,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 819,
   },
   {
     score: 32.911,
@@ -29518,6 +30337,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 820,
   },
   {
     score: 32.899,
@@ -29554,6 +30374,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 821,
   },
   {
     score: 32.899,
@@ -29590,6 +30411,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 822,
   },
   {
     score: 32.899,
@@ -29626,6 +30448,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 823,
   },
   {
     score: 32.899,
@@ -29662,6 +30485,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 824,
   },
   {
     score: 32.895,
@@ -29698,6 +30522,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 825,
   },
   {
     score: 32.895,
@@ -29734,6 +30559,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 826,
   },
   {
     score: 32.895,
@@ -29770,6 +30596,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 827,
   },
   {
     score: 32.867,
@@ -29806,6 +30633,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 828,
   },
   {
     score: 32.861,
@@ -29842,6 +30670,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 829,
   },
   {
     score: 32.86,
@@ -29878,6 +30707,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 830,
   },
   {
     score: 32.857,
@@ -29914,6 +30744,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 831,
   },
   {
     score: 32.842,
@@ -29950,6 +30781,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 832,
   },
   {
     score: 32.842,
@@ -29986,6 +30818,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 833,
   },
   {
     score: 32.838,
@@ -30022,6 +30855,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 834,
   },
   {
     score: 32.837,
@@ -30058,6 +30892,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 835,
   },
   {
     score: 32.836,
@@ -30094,6 +30929,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 836,
   },
   {
     score: 32.831,
@@ -30130,6 +30966,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 837,
   },
   {
     score: 32.831,
@@ -30166,6 +31003,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 838,
   },
   {
     score: 32.789,
@@ -30202,6 +31040,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 839,
   },
   {
     score: 32.785,
@@ -30238,6 +31077,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 840,
   },
   {
     score: 32.785,
@@ -30274,6 +31114,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 841,
   },
   {
     score: 32.762,
@@ -30310,6 +31151,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 842,
   },
   {
     score: 32.761,
@@ -30346,6 +31188,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 843,
   },
   {
     score: 32.728,
@@ -30382,6 +31225,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 844,
   },
   {
     score: 32.728,
@@ -30418,6 +31262,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 845,
   },
   {
     score: 32.717,
@@ -30454,6 +31299,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 846,
   },
   {
     score: 32.709,
@@ -30490,6 +31336,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 847,
   },
   {
     score: 32.673,
@@ -30526,6 +31373,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 848,
   },
   {
     score: 32.667,
@@ -30562,6 +31410,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 849,
   },
   {
     score: 32.653,
@@ -30598,6 +31447,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 850,
   },
   {
     score: 32.653,
@@ -30634,6 +31484,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 851,
   },
   {
     score: 32.597,
@@ -30670,6 +31521,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 852,
   },
   {
     score: 32.597,
@@ -30706,6 +31558,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 853,
   },
   {
     score: 32.593,
@@ -30742,6 +31595,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 854,
   },
   {
     score: 32.588,
@@ -30778,6 +31632,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 855,
   },
   {
     score: 32.555,
@@ -30814,6 +31669,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 856,
   },
   {
     score: 32.54,
@@ -30850,6 +31706,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 857,
   },
   {
     score: 32.532,
@@ -30886,6 +31743,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 858,
   },
   {
     score: 32.53,
@@ -30922,6 +31780,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 859,
   },
   {
     score: 32.525,
@@ -30958,6 +31817,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 860,
   },
   {
     score: 32.503,
@@ -30994,6 +31854,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 861,
   },
   {
     score: 32.494,
@@ -31030,6 +31891,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 862,
   },
   {
     score: 32.486,
@@ -31066,6 +31928,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 863,
   },
   {
     score: 32.484,
@@ -31102,6 +31965,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 864,
   },
   {
     score: 32.477,
@@ -31138,6 +32002,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 865,
   },
   {
     score: 32.471,
@@ -31174,6 +32039,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 866,
   },
   {
     score: 32.467,
@@ -31210,6 +32076,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 867,
   },
   {
     score: 32.46,
@@ -31246,6 +32113,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 868,
   },
   {
     score: 32.427,
@@ -31282,6 +32150,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 869,
   },
   {
     score: 32.375,
@@ -31318,6 +32187,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 870,
   },
   {
     score: 32.361,
@@ -31354,6 +32224,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 871,
   },
   {
     score: 32.344,
@@ -31390,6 +32261,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 872,
   },
   {
     score: 32.344,
@@ -31426,6 +32298,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 873,
   },
   {
     score: 32.325,
@@ -31462,6 +32335,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 874,
   },
   {
     score: 32.323,
@@ -31498,6 +32372,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 875,
   },
   {
     score: 32.309,
@@ -31534,6 +32409,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 876,
   },
   {
     score: 32.271,
@@ -31570,6 +32446,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 877,
   },
   {
     score: 32.27,
@@ -31606,6 +32483,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 878,
   },
   {
     score: 32.262,
@@ -31642,6 +32520,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 879,
   },
   {
     score: 32.249,
@@ -31678,6 +32557,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 880,
   },
   {
     score: 32.244,
@@ -31714,6 +32594,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 881,
   },
   {
     score: 32.244,
@@ -31750,6 +32631,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 882,
   },
   {
     score: 32.233,
@@ -31786,6 +32668,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 883,
   },
   {
     score: 32.215,
@@ -31822,6 +32705,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 884,
   },
   {
     score: 32.196,
@@ -31858,6 +32742,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 885,
   },
   {
     score: 32.162,
@@ -31894,6 +32779,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 886,
   },
   {
     score: 32.139,
@@ -31930,6 +32816,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 887,
   },
   {
     score: 32.136,
@@ -31966,6 +32853,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 888,
   },
   {
     score: 32.13,
@@ -32002,6 +32890,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 889,
   },
   {
     score: 32.13,
@@ -32038,6 +32927,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 890,
   },
   {
     score: 32.13,
@@ -32074,6 +32964,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 891,
   },
   {
     score: 32.108,
@@ -32110,6 +33001,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 892,
   },
   {
     score: 32.099,
@@ -32146,6 +33038,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 893,
   },
   {
     score: 32.084,
@@ -32182,6 +33075,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 894,
   },
   {
     score: 32.077,
@@ -32218,6 +33112,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 895,
   },
   {
     score: 32.072,
@@ -32254,6 +33149,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 896,
   },
   {
     score: 32.068,
@@ -32290,6 +33186,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 897,
   },
   {
     score: 32.068,
@@ -32326,6 +33223,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 898,
   },
   {
     score: 32.062,
@@ -32362,6 +33260,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 899,
   },
   {
     score: 32.048,
@@ -32398,6 +33297,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 900,
   },
   {
     score: 32.048,
@@ -32434,6 +33334,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 901,
   },
   {
     score: 32.006,
@@ -32470,6 +33371,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 902,
   },
   {
     score: 32.003,
@@ -32506,6 +33408,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 903,
   },
   {
     score: 32.003,
@@ -32542,6 +33445,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 904,
   },
   {
     score: 31.997,
@@ -32578,6 +33482,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 905,
   },
   {
     score: 31.973,
@@ -32614,6 +33519,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 906,
   },
   {
     score: 31.955,
@@ -32650,6 +33556,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 907,
   },
   {
     score: 31.874,
@@ -32686,6 +33593,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 908,
   },
   {
     score: 31.874,
@@ -32722,6 +33630,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 909,
   },
   {
     score: 31.825,
@@ -32758,6 +33667,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 910,
   },
   {
     score: 31.802,
@@ -32794,6 +33704,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 911,
   },
   {
     score: 31.8,
@@ -32830,6 +33741,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 912,
   },
   {
     score: 31.793,
@@ -32866,6 +33778,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 913,
   },
   {
     score: 31.775,
@@ -32902,6 +33815,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 914,
   },
   {
     score: 31.763,
@@ -32938,6 +33852,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 915,
   },
   {
     score: 31.763,
@@ -32974,6 +33889,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 916,
   },
   {
     score: 31.755,
@@ -33010,6 +33926,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 917,
   },
   {
     score: 31.75,
@@ -33046,6 +33963,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 918,
   },
   {
     score: 31.714,
@@ -33082,6 +34000,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 919,
   },
   {
     score: 31.71,
@@ -33118,6 +34037,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 920,
   },
   {
     score: 31.71,
@@ -33154,6 +34074,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 921,
   },
   {
     score: 31.71,
@@ -33190,6 +34111,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 922,
   },
   {
     score: 31.696,
@@ -33226,6 +34148,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 923,
   },
   {
     score: 31.682,
@@ -33262,6 +34185,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 924,
   },
   {
     score: 31.682,
@@ -33298,6 +34222,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 925,
   },
   {
     score: 31.665,
@@ -33334,6 +34259,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 926,
   },
   {
     score: 31.661,
@@ -33370,6 +34296,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 927,
   },
   {
     score: 31.616,
@@ -33406,6 +34333,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 928,
   },
   {
     score: 31.541,
@@ -33442,6 +34370,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 929,
   },
   {
     score: 31.54,
@@ -33478,6 +34407,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 930,
   },
   {
     score: 31.54,
@@ -33514,6 +34444,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 931,
   },
   {
     score: 31.527,
@@ -33550,6 +34481,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 932,
   },
   {
     score: 31.519,
@@ -33586,6 +34518,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 933,
   },
   {
     score: 31.518,
@@ -33622,6 +34555,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 934,
   },
   {
     score: 31.514,
@@ -33658,6 +34592,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 935,
   },
   {
     score: 31.51,
@@ -33694,6 +34629,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 936,
   },
   {
     score: 31.496,
@@ -33730,6 +34666,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 937,
   },
   {
     score: 31.487,
@@ -33766,6 +34703,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 938,
   },
   {
     score: 31.487,
@@ -33802,6 +34740,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 939,
   },
   {
     score: 31.487,
@@ -33838,6 +34777,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 940,
   },
   {
     score: 31.487,
@@ -33874,6 +34814,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 941,
   },
   {
     score: 31.474,
@@ -33910,6 +34851,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 942,
   },
   {
     score: 31.471,
@@ -33946,6 +34888,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 943,
   },
   {
     score: 31.466,
@@ -33982,6 +34925,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 944,
   },
   {
     score: 31.444,
@@ -34018,6 +34962,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 945,
   },
   {
     score: 31.43,
@@ -34054,6 +34999,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 946,
   },
   {
     score: 31.43,
@@ -34090,6 +35036,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 947,
   },
   {
     score: 31.429,
@@ -34126,6 +35073,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 948,
   },
   {
     score: 31.429,
@@ -34162,6 +35110,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 949,
   },
   {
     score: 31.414,
@@ -34198,6 +35147,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 950,
   },
   {
     score: 31.414,
@@ -34234,6 +35184,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 951,
   },
   {
     score: 31.407,
@@ -34270,6 +35221,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 952,
   },
   {
     score: 31.407,
@@ -34306,6 +35258,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 953,
   },
   {
     score: 31.404,
@@ -34342,6 +35295,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 954,
   },
   {
     score: 31.399,
@@ -34378,6 +35332,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 955,
   },
   {
     score: 31.399,
@@ -34414,6 +35369,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 956,
   },
   {
     score: 31.399,
@@ -34450,6 +35406,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 957,
   },
   {
     score: 31.386,
@@ -34486,6 +35443,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 958,
   },
   {
     score: 31.385,
@@ -34522,6 +35480,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 959,
   },
   {
     score: 31.373,
@@ -34558,6 +35517,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 960,
   },
   {
     score: 31.37,
@@ -34594,6 +35554,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 961,
   },
   {
     score: 31.361,
@@ -34630,6 +35591,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 962,
   },
   {
     score: 31.354,
@@ -34666,6 +35628,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 963,
   },
   {
     score: 31.338,
@@ -34702,6 +35665,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 964,
   },
   {
     score: 31.337,
@@ -34738,6 +35702,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 965,
   },
   {
     score: 31.312,
@@ -34774,6 +35739,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 966,
   },
   {
     score: 31.301,
@@ -34810,6 +35776,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 967,
   },
   {
     score: 31.295,
@@ -34846,6 +35813,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 968,
   },
   {
     score: 31.295,
@@ -34882,6 +35850,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 969,
   },
   {
     score: 31.251,
@@ -34918,6 +35887,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 970,
   },
   {
     score: 31.251,
@@ -34954,6 +35924,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 971,
   },
   {
     score: 31.24,
@@ -34990,6 +35961,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 972,
   },
   {
     score: 31.228,
@@ -35026,6 +35998,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 973,
   },
   {
     score: 31.204,
@@ -35062,6 +36035,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 974,
   },
   {
     score: 31.185,
@@ -35098,6 +36072,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 975,
   },
   {
     score: 31.172,
@@ -35134,6 +36109,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 976,
   },
   {
     score: 31.169,
@@ -35170,6 +36146,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 977,
   },
   {
     score: 31.164,
@@ -35206,6 +36183,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 978,
   },
   {
     score: 31.157,
@@ -35242,6 +36220,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 979,
   },
   {
     score: 31.153,
@@ -35278,6 +36257,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 980,
   },
   {
     score: 31.149,
@@ -35314,6 +36294,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 981,
   },
   {
     score: 31.079,
@@ -35350,6 +36331,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 982,
   },
   {
     score: 31.079,
@@ -35386,6 +36368,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 983,
   },
   {
     score: 31.067,
@@ -35422,6 +36405,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 984,
   },
   {
     score: 31.053,
@@ -35458,6 +36442,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 985,
   },
   {
     score: 31.046,
@@ -35494,6 +36479,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 986,
   },
   {
     score: 31.034,
@@ -35530,6 +36516,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 987,
   },
   {
     score: 31.021,
@@ -35566,6 +36553,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 988,
   },
   {
     score: 31.021,
@@ -35602,6 +36590,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 989,
   },
   {
     score: 31.021,
@@ -35638,6 +36627,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 990,
   },
   {
     score: 30.957,
@@ -35674,6 +36664,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 991,
   },
   {
     score: 30.954,
@@ -35710,6 +36701,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 992,
   },
   {
     score: 30.944,
@@ -35746,6 +36738,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 993,
   },
   {
     score: 30.941,
@@ -35782,6 +36775,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 994,
   },
   {
     score: 30.941,
@@ -35818,6 +36812,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 995,
   },
   {
     score: 30.941,
@@ -35854,6 +36849,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 996,
   },
   {
     score: 30.898,
@@ -35890,6 +36886,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 997,
   },
   {
     score: 30.898,
@@ -35926,6 +36923,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 998,
   },
   {
     score: 30.898,
@@ -35962,6 +36960,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 999,
   },
   {
     score: 30.895,
@@ -35998,6 +36997,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1000,
   },
   {
     score: 30.847,
@@ -36034,6 +37034,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1001,
   },
   {
     score: 30.845,
@@ -36070,6 +37071,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1002,
   },
   {
     score: 30.84,
@@ -36106,6 +37108,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1003,
   },
   {
     score: 30.826,
@@ -36142,6 +37145,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1004,
   },
   {
     score: 30.812,
@@ -36178,6 +37182,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1005,
   },
   {
     score: 30.811,
@@ -36214,6 +37219,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1006,
   },
   {
     score: 30.808,
@@ -36250,6 +37256,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1007,
   },
   {
     score: 30.788,
@@ -36286,6 +37293,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1008,
   },
   {
     score: 30.788,
@@ -36322,6 +37330,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1009,
   },
   {
     score: 30.788,
@@ -36358,6 +37367,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1010,
   },
   {
     score: 30.788,
@@ -36394,6 +37404,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1011,
   },
   {
     score: 30.766,
@@ -36430,6 +37441,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1012,
   },
   {
     score: 30.759,
@@ -36466,6 +37478,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1013,
   },
   {
     score: 30.754,
@@ -36502,6 +37515,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1014,
   },
   {
     score: 30.736,
@@ -36538,6 +37552,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1015,
   },
   {
     score: 30.736,
@@ -36574,6 +37589,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1016,
   },
   {
     score: 30.723,
@@ -36610,6 +37626,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1017,
   },
   {
     score: 30.713,
@@ -36646,6 +37663,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1018,
   },
   {
     score: 30.709,
@@ -36682,6 +37700,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1019,
   },
   {
     score: 30.703,
@@ -36718,6 +37737,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1020,
   },
   {
     score: 30.7,
@@ -36754,6 +37774,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1021,
   },
   {
     score: 30.7,
@@ -36790,6 +37811,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1022,
   },
   {
     score: 30.698,
@@ -36826,6 +37848,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1023,
   },
   {
     score: 30.698,
@@ -36862,6 +37885,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1024,
   },
   {
     score: 30.68,
@@ -36898,6 +37922,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1025,
   },
   {
     score: 30.67,
@@ -36934,6 +37959,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1026,
   },
   {
     score: 30.653,
@@ -36970,6 +37996,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1027,
   },
   {
     score: 30.64,
@@ -37006,6 +38033,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1028,
   },
   {
     score: 30.63,
@@ -37042,6 +38070,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1029,
   },
   {
     score: 30.63,
@@ -37078,6 +38107,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1030,
   },
   {
     score: 30.63,
@@ -37114,6 +38144,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1031,
   },
   {
     score: 30.61,
@@ -37150,6 +38181,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1032,
   },
   {
     score: 30.597,
@@ -37186,6 +38218,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1033,
   },
   {
     score: 30.588,
@@ -37222,6 +38255,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1034,
   },
   {
     score: 30.588,
@@ -37258,6 +38292,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1035,
   },
   {
     score: 30.587,
@@ -37294,6 +38329,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1036,
   },
   {
     score: 30.585,
@@ -37330,6 +38366,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1037,
   },
   {
     score: 30.574,
@@ -37366,6 +38403,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1038,
   },
   {
     score: 30.572,
@@ -37402,6 +38440,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1039,
   },
   {
     score: 30.565,
@@ -37438,6 +38477,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1040,
   },
   {
     score: 30.558,
@@ -37474,6 +38514,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1041,
   },
   {
     score: 30.551,
@@ -37510,6 +38551,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1042,
   },
   {
     score: 30.541,
@@ -37546,6 +38588,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1043,
   },
   {
     score: 30.541,
@@ -37582,6 +38625,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1044,
   },
   {
     score: 30.535,
@@ -37618,6 +38662,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1045,
   },
   {
     score: 30.535,
@@ -37654,6 +38699,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1046,
   },
   {
     score: 30.469,
@@ -37690,6 +38736,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1047,
   },
   {
     score: 30.467,
@@ -37726,6 +38773,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1048,
   },
   {
     score: 30.467,
@@ -37762,6 +38810,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1049,
   },
   {
     score: 30.461,
@@ -37798,6 +38847,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1050,
   },
   {
     score: 30.456,
@@ -37834,6 +38884,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1051,
   },
   {
     score: 30.456,
@@ -37870,6 +38921,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1052,
   },
   {
     score: 30.456,
@@ -37906,6 +38958,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1053,
   },
   {
     score: 30.417,
@@ -37942,6 +38995,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1054,
   },
   {
     score: 30.409,
@@ -37978,6 +39032,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1055,
   },
   {
     score: 30.386,
@@ -38014,6 +39069,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1056,
   },
   {
     score: 30.372,
@@ -38050,6 +39106,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1057,
   },
   {
     score: 30.372,
@@ -38086,6 +39143,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1058,
   },
   {
     score: 30.372,
@@ -38122,6 +39180,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1059,
   },
   {
     score: 30.369,
@@ -38158,6 +39217,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1060,
   },
   {
     score: 30.366,
@@ -38194,6 +39254,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1061,
   },
   {
     score: 30.313,
@@ -38230,6 +39291,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1062,
   },
   {
     score: 30.296,
@@ -38266,6 +39328,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1063,
   },
   {
     score: 30.296,
@@ -38302,6 +39365,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1064,
   },
   {
     score: 30.29,
@@ -38338,6 +39402,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1065,
   },
   {
     score: 30.243,
@@ -38374,6 +39439,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1066,
   },
   {
     score: 30.23,
@@ -38410,6 +39476,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1067,
   },
   {
     score: 30.23,
@@ -38446,6 +39513,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1068,
   },
   {
     score: 30.23,
@@ -38482,6 +39550,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1069,
   },
   {
     score: 30.23,
@@ -38518,6 +39587,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1070,
   },
   {
     score: 30.218,
@@ -38554,6 +39624,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1071,
   },
   {
     score: 30.21,
@@ -38590,6 +39661,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1072,
   },
   {
     score: 30.184,
@@ -38626,6 +39698,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1073,
   },
   {
     score: 30.151,
@@ -38662,6 +39735,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1074,
   },
   {
     score: 30.151,
@@ -38698,6 +39772,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1075,
   },
   {
     score: 30.139,
@@ -38734,6 +39809,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1076,
   },
   {
     score: 30.126,
@@ -38770,6 +39846,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1077,
   },
   {
     score: 30.102,
@@ -38806,6 +39883,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1078,
   },
   {
     score: 30.102,
@@ -38842,6 +39920,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1079,
   },
   {
     score: 30.102,
@@ -38878,6 +39957,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1080,
   },
   {
     score: 30.102,
@@ -38914,6 +39994,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1081,
   },
   {
     score: 30.094,
@@ -38950,6 +40031,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1082,
   },
   {
     score: 30.081,
@@ -38986,6 +40068,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1083,
   },
   {
     score: 30.065,
@@ -39022,6 +40105,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1084,
   },
   {
     score: 30.065,
@@ -39058,6 +40142,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1085,
   },
   {
     score: 30.06,
@@ -39094,6 +40179,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1086,
   },
   {
     score: 30.059,
@@ -39130,6 +40216,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1087,
   },
   {
     score: 30.057,
@@ -39166,6 +40253,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1088,
   },
   {
     score: 30.047,
@@ -39202,6 +40290,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1089,
   },
   {
     score: 30.043,
@@ -39238,6 +40327,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1090,
   },
   {
     score: 30.029,
@@ -39274,6 +40364,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1091,
   },
   {
     score: 30.029,
@@ -39310,6 +40401,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1092,
   },
   {
     score: 30.015,
@@ -39346,6 +40438,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1093,
   },
   {
     score: 30.013,
@@ -39382,6 +40475,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1094,
   },
   {
     score: 30.006,
@@ -39418,6 +40512,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1095,
   },
   {
     score: 29.999,
@@ -39454,6 +40549,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1096,
   },
   {
     score: 29.999,
@@ -39490,6 +40586,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1097,
   },
   {
     score: 29.998,
@@ -39526,6 +40623,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1098,
   },
   {
     score: 29.998,
@@ -39562,6 +40660,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1099,
   },
   {
     score: 29.982,
@@ -39598,6 +40697,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1100,
   },
   {
     score: 29.982,
@@ -39634,6 +40734,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1101,
   },
   {
     score: 29.979,
@@ -39670,6 +40771,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1102,
   },
   {
     score: 29.977,
@@ -39706,6 +40808,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1103,
   },
   {
     score: 29.976,
@@ -39742,6 +40845,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1104,
   },
   {
     score: 29.973,
@@ -39778,6 +40882,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1105,
   },
   {
     score: 29.953,
@@ -39814,6 +40919,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1106,
   },
   {
     score: 29.953,
@@ -39850,6 +40956,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1107,
   },
   {
     score: 29.927,
@@ -39886,6 +40993,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1108,
   },
   {
     score: 29.92,
@@ -39922,6 +41030,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1109,
   },
   {
     score: 29.88,
@@ -39958,6 +41067,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1110,
   },
   {
     score: 29.878,
@@ -39994,6 +41104,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1111,
   },
   {
     score: 29.877,
@@ -40030,6 +41141,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1112,
   },
   {
     score: 29.867,
@@ -40066,6 +41178,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1113,
   },
   {
     score: 29.866,
@@ -40102,6 +41215,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1114,
   },
   {
     score: 29.864,
@@ -40138,6 +41252,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1115,
   },
   {
     score: 29.857,
@@ -40174,6 +41289,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1116,
   },
   {
     score: 29.857,
@@ -40210,6 +41326,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1117,
   },
   {
     score: 29.836,
@@ -40246,6 +41363,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1118,
   },
   {
     score: 29.828,
@@ -40282,6 +41400,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1119,
   },
   {
     score: 29.828,
@@ -40318,6 +41437,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1120,
   },
   {
     score: 29.81,
@@ -40354,6 +41474,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1121,
   },
   {
     score: 29.804,
@@ -40390,6 +41511,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1122,
   },
   {
     score: 29.8,
@@ -40426,6 +41548,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1123,
   },
   {
     score: 29.775,
@@ -40462,6 +41585,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1124,
   },
   {
     score: 29.768,
@@ -40498,6 +41622,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1125,
   },
   {
     score: 29.762,
@@ -40534,6 +41659,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1126,
   },
   {
     score: 29.754,
@@ -40570,6 +41696,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1127,
   },
   {
     score: 29.717,
@@ -40606,6 +41733,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1128,
   },
   {
     score: 29.709,
@@ -40642,6 +41770,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1129,
   },
   {
     score: 29.701,
@@ -40678,6 +41807,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1130,
   },
   {
     score: 29.7,
@@ -40714,6 +41844,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1131,
   },
   {
     score: 29.697,
@@ -40750,6 +41881,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1132,
   },
   {
     score: 29.697,
@@ -40786,6 +41918,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1133,
   },
   {
     score: 29.683,
@@ -40822,6 +41955,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1134,
   },
   {
     score: 29.664,
@@ -40858,6 +41992,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1135,
   },
   {
     score: 29.645,
@@ -40894,6 +42029,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1136,
   },
   {
     score: 29.641,
@@ -40930,6 +42066,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1137,
   },
   {
     score: 29.633,
@@ -40966,6 +42103,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1138,
   },
   {
     score: 29.632,
@@ -41002,6 +42140,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1139,
   },
   {
     score: 29.632,
@@ -41038,6 +42177,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1140,
   },
   {
     score: 29.587,
@@ -41074,6 +42214,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1141,
   },
   {
     score: 29.583,
@@ -41110,6 +42251,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1142,
   },
   {
     score: 29.565,
@@ -41146,6 +42288,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1143,
   },
   {
     score: 29.565,
@@ -41182,6 +42325,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1144,
   },
   {
     score: 29.565,
@@ -41218,6 +42362,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1145,
   },
   {
     score: 29.552,
@@ -41254,6 +42399,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1146,
   },
   {
     score: 29.552,
@@ -41290,6 +42436,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1147,
   },
   {
     score: 29.552,
@@ -41326,6 +42473,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1148,
   },
   {
     score: 29.548,
@@ -41362,6 +42510,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1149,
   },
   {
     score: 29.536,
@@ -41398,6 +42547,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1150,
   },
   {
     score: 29.523,
@@ -41434,6 +42584,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1151,
   },
   {
     score: 29.51,
@@ -41470,6 +42621,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1152,
   },
   {
     score: 29.508,
@@ -41506,6 +42658,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1153,
   },
   {
     score: 29.476,
@@ -41542,6 +42695,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1154,
   },
   {
     score: 29.475,
@@ -41578,6 +42732,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1155,
   },
   {
     score: 29.463,
@@ -41614,6 +42769,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1156,
   },
   {
     score: 29.461,
@@ -41650,6 +42806,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1157,
   },
   {
     score: 29.461,
@@ -41686,6 +42843,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1158,
   },
   {
     score: 29.46,
@@ -41722,6 +42880,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1159,
   },
   {
     score: 29.449,
@@ -41758,6 +42917,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1160,
   },
   {
     score: 29.445,
@@ -41794,6 +42954,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1161,
   },
   {
     score: 29.445,
@@ -41830,6 +42991,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1162,
   },
   {
     score: 29.445,
@@ -41866,6 +43028,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1163,
   },
   {
     score: 29.437,
@@ -41902,6 +43065,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1164,
   },
   {
     score: 29.437,
@@ -41938,6 +43102,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1165,
   },
   {
     score: 29.409,
@@ -41974,6 +43139,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1166,
   },
   {
     score: 29.402,
@@ -42010,6 +43176,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1167,
   },
   {
     score: 29.391,
@@ -42046,6 +43213,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1168,
   },
   {
     score: 29.391,
@@ -42082,6 +43250,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1169,
   },
   {
     score: 29.387,
@@ -42118,6 +43287,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1170,
   },
   {
     score: 29.387,
@@ -42154,6 +43324,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1171,
   },
   {
     score: 29.385,
@@ -42190,6 +43361,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1172,
   },
   {
     score: 29.379,
@@ -42226,6 +43398,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1173,
   },
   {
     score: 29.356,
@@ -42262,6 +43435,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1174,
   },
   {
     score: 29.35,
@@ -42298,6 +43472,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1175,
   },
   {
     score: 29.35,
@@ -42334,6 +43509,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1176,
   },
   {
     score: 29.334,
@@ -42370,6 +43546,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1177,
   },
   {
     score: 29.334,
@@ -42406,6 +43583,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1178,
   },
   {
     score: 29.312,
@@ -42442,6 +43620,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1179,
   },
   {
     score: 29.308,
@@ -42478,6 +43657,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1180,
   },
   {
     score: 29.298,
@@ -42514,6 +43694,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1181,
   },
   {
     score: 29.297,
@@ -42550,6 +43731,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1182,
   },
   {
     score: 29.292,
@@ -42586,6 +43768,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1183,
   },
   {
     score: 29.292,
@@ -42622,6 +43805,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1184,
   },
   {
     score: 29.292,
@@ -42658,6 +43842,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1185,
   },
   {
     score: 29.282,
@@ -42694,6 +43879,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1186,
   },
   {
     score: 29.282,
@@ -42730,6 +43916,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1187,
   },
   {
     score: 29.282,
@@ -42766,6 +43953,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1188,
   },
   {
     score: 29.282,
@@ -42802,6 +43990,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1189,
   },
   {
     score: 29.271,
@@ -42838,6 +44027,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1190,
   },
   {
     score: 29.268,
@@ -42874,6 +44064,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1191,
   },
   {
     score: 29.268,
@@ -42910,6 +44101,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1192,
   },
   {
     score: 29.268,
@@ -42946,6 +44138,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1193,
   },
   {
     score: 29.268,
@@ -42982,6 +44175,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1194,
   },
   {
     score: 29.255,
@@ -43018,6 +44212,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1195,
   },
   {
     score: 29.245,
@@ -43054,6 +44249,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1196,
   },
   {
     score: 29.245,
@@ -43090,6 +44286,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1197,
   },
   {
     score: 29.242,
@@ -43126,6 +44323,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1198,
   },
   {
     score: 29.239,
@@ -43162,6 +44360,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1199,
   },
   {
     score: 29.233,
@@ -43198,6 +44397,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1200,
   },
   {
     score: 29.232,
@@ -43234,6 +44434,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1201,
   },
   {
     score: 29.222,
@@ -43270,6 +44471,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1202,
   },
   {
     score: 29.213,
@@ -43306,6 +44508,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1203,
   },
   {
     score: 29.202,
@@ -43342,6 +44545,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1204,
   },
   {
     score: 29.202,
@@ -43378,6 +44582,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1205,
   },
   {
     score: 29.201,
@@ -43414,6 +44619,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1206,
   },
   {
     score: 29.192,
@@ -43450,6 +44656,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1207,
   },
   {
     score: 29.192,
@@ -43486,6 +44693,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1208,
   },
   {
     score: 29.192,
@@ -43522,6 +44730,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1209,
   },
   {
     score: 29.192,
@@ -43558,6 +44767,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1210,
   },
   {
     score: 29.187,
@@ -43594,6 +44804,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1211,
   },
   {
     score: 29.181,
@@ -43630,6 +44841,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1212,
   },
   {
     score: 29.181,
@@ -43666,6 +44878,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1213,
   },
   {
     score: 29.17,
@@ -43702,6 +44915,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1214,
   },
   {
     score: 29.164,
@@ -43738,6 +44952,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1215,
   },
   {
     score: 29.16,
@@ -43774,6 +44989,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1216,
   },
   {
     score: 29.143,
@@ -43810,6 +45026,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1217,
   },
   {
     score: 29.102,
@@ -43846,6 +45063,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1218,
   },
   {
     score: 29.09,
@@ -43882,6 +45100,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1219,
   },
   {
     score: 29.09,
@@ -43918,6 +45137,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1220,
   },
   {
     score: 29.081,
@@ -43954,6 +45174,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1221,
   },
   {
     score: 29.081,
@@ -43990,6 +45211,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1222,
   },
   {
     score: 29.081,
@@ -44026,6 +45248,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1223,
   },
   {
     score: 29.076,
@@ -44062,6 +45285,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1224,
   },
   {
     score: 29.074,
@@ -44098,6 +45322,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1225,
   },
   {
     score: 29.045,
@@ -44134,6 +45359,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1226,
   },
   {
     score: 29.045,
@@ -44170,6 +45396,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1227,
   },
   {
     score: 29.045,
@@ -44206,6 +45433,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1228,
   },
   {
     score: 29.044,
@@ -44242,6 +45470,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1229,
   },
   {
     score: 29.028,
@@ -44278,6 +45507,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1230,
   },
   {
     score: 29.028,
@@ -44314,6 +45544,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1231,
   },
   {
     score: 29.024,
@@ -44350,6 +45581,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1232,
   },
   {
     score: 29.018,
@@ -44386,6 +45618,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1233,
   },
   {
     score: 29.002,
@@ -44422,6 +45655,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1234,
   },
   {
     score: 29.001,
@@ -44458,6 +45692,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1235,
   },
   {
     score: 28.995,
@@ -44494,6 +45729,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1236,
   },
   {
     score: 28.994,
@@ -44530,6 +45766,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1237,
   },
   {
     score: 28.994,
@@ -44566,6 +45803,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1238,
   },
   {
     score: 28.989,
@@ -44602,6 +45840,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1239,
   },
   {
     score: 28.989,
@@ -44638,6 +45877,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1240,
   },
   {
     score: 28.986,
@@ -44674,6 +45914,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1241,
   },
   {
     score: 28.967,
@@ -44710,6 +45951,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1242,
   },
   {
     score: 28.964,
@@ -44746,6 +45988,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1243,
   },
   {
     score: 28.943,
@@ -44782,6 +46025,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1244,
   },
   {
     score: 28.928,
@@ -44818,6 +46062,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1245,
   },
   {
     score: 28.928,
@@ -44854,6 +46099,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1246,
   },
   {
     score: 28.922,
@@ -44890,6 +46136,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1247,
   },
   {
     score: 28.922,
@@ -44926,6 +46173,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1248,
   },
   {
     score: 28.912,
@@ -44962,6 +46210,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1249,
   },
   {
     score: 28.91,
@@ -44998,6 +46247,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1250,
   },
   {
     score: 28.907,
@@ -45034,6 +46284,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1251,
   },
   {
     score: 28.885,
@@ -45070,6 +46321,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1252,
   },
   {
     score: 28.877,
@@ -45106,6 +46358,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1253,
   },
   {
     score: 28.877,
@@ -45142,6 +46395,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1254,
   },
   {
     score: 28.872,
@@ -45178,6 +46432,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1255,
   },
   {
     score: 28.866,
@@ -45214,6 +46469,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1256,
   },
   {
     score: 28.849,
@@ -45250,6 +46506,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1257,
   },
   {
     score: 28.825,
@@ -45286,6 +46543,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1258,
   },
   {
     score: 28.825,
@@ -45322,6 +46580,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1259,
   },
   {
     score: 28.82,
@@ -45358,6 +46617,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1260,
   },
   {
     score: 28.82,
@@ -45394,6 +46654,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1261,
   },
   {
     score: 28.798,
@@ -45430,6 +46691,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1262,
   },
   {
     score: 28.797,
@@ -45466,6 +46728,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1263,
   },
   {
     score: 28.797,
@@ -45502,6 +46765,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1264,
   },
   {
     score: 28.792,
@@ -45538,6 +46802,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1265,
   },
   {
     score: 28.76,
@@ -45574,6 +46839,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1266,
   },
   {
     score: 28.741,
@@ -45610,6 +46876,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1267,
   },
   {
     score: 28.741,
@@ -45646,6 +46913,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1268,
   },
   {
     score: 28.733,
@@ -45682,6 +46950,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1269,
   },
   {
     score: 28.714,
@@ -45718,6 +46987,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1270,
   },
   {
     score: 28.712,
@@ -45754,6 +47024,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1271,
   },
   {
     score: 28.71,
@@ -45790,6 +47061,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1272,
   },
   {
     score: 28.708,
@@ -45826,6 +47098,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1273,
   },
   {
     score: 28.708,
@@ -45862,6 +47135,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1274,
   },
   {
     score: 28.702,
@@ -45898,6 +47172,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1275,
   },
   {
     score: 28.702,
@@ -45934,6 +47209,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1276,
   },
   {
     score: 28.684,
@@ -45970,6 +47246,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1277,
   },
   {
     score: 28.682,
@@ -46006,6 +47283,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1278,
   },
   {
     score: 28.68,
@@ -46042,6 +47320,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1279,
   },
   {
     score: 28.676,
@@ -46078,6 +47357,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1280,
   },
   {
     score: 28.672,
@@ -46114,6 +47394,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1281,
   },
   {
     score: 28.671,
@@ -46150,6 +47431,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1282,
   },
   {
     score: 28.671,
@@ -46186,6 +47468,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1283,
   },
   {
     score: 28.658,
@@ -46222,6 +47505,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1284,
   },
   {
     score: 28.657,
@@ -46258,6 +47542,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1285,
   },
   {
     score: 28.644,
@@ -46294,6 +47579,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1286,
   },
   {
     score: 28.632,
@@ -46330,6 +47616,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1287,
   },
   {
     score: 28.63,
@@ -46366,6 +47653,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1288,
   },
   {
     score: 28.618,
@@ -46402,6 +47690,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1289,
   },
   {
     score: 28.609,
@@ -46438,6 +47727,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1290,
   },
   {
     score: 28.605,
@@ -46474,6 +47764,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1291,
   },
   {
     score: 28.603,
@@ -46510,6 +47801,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1292,
   },
   {
     score: 28.603,
@@ -46546,6 +47838,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1293,
   },
   {
     score: 28.591,
@@ -46582,6 +47875,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1294,
   },
   {
     score: 28.582,
@@ -46618,6 +47912,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1295,
   },
   {
     score: 28.57,
@@ -46654,6 +47949,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1296,
   },
   {
     score: 28.57,
@@ -46690,6 +47986,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1297,
   },
   {
     score: 28.57,
@@ -46726,6 +48023,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1298,
   },
   {
     score: 28.561,
@@ -46762,6 +48060,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1299,
   },
   {
     score: 28.547,
@@ -46798,6 +48097,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1300,
   },
   {
     score: 28.547,
@@ -46834,6 +48134,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1301,
   },
   {
     score: 28.534,
@@ -46870,6 +48171,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1302,
   },
   {
     score: 28.534,
@@ -46906,6 +48208,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1303,
   },
   {
     score: 28.526,
@@ -46942,6 +48245,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1304,
   },
   {
     score: 28.526,
@@ -46978,6 +48282,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1305,
   },
   {
     score: 28.526,
@@ -47014,6 +48319,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1306,
   },
   {
     score: 28.508,
@@ -47050,6 +48356,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1307,
   },
   {
     score: 28.462,
@@ -47086,6 +48393,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1308,
   },
   {
     score: 28.456,
@@ -47122,6 +48430,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1309,
   },
   {
     score: 28.456,
@@ -47158,6 +48467,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1310,
   },
   {
     score: 28.456,
@@ -47194,6 +48504,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1311,
   },
   {
     score: 28.456,
@@ -47230,6 +48541,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1312,
   },
   {
     score: 28.456,
@@ -47266,6 +48578,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1313,
   },
   {
     score: 28.456,
@@ -47302,6 +48615,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1314,
   },
   {
     score: 28.456,
@@ -47338,6 +48652,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1315,
   },
   {
     score: 28.45,
@@ -47374,6 +48689,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1316,
   },
   {
     score: 28.434,
@@ -47410,6 +48726,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1317,
   },
   {
     score: 28.434,
@@ -47446,6 +48763,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1318,
   },
   {
     score: 28.434,
@@ -47482,6 +48800,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1319,
   },
   {
     score: 28.433,
@@ -47518,6 +48837,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1320,
   },
   {
     score: 28.429,
@@ -47554,6 +48874,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1321,
   },
   {
     score: 28.427,
@@ -47590,6 +48911,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1322,
   },
   {
     score: 28.397,
@@ -47626,6 +48948,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1323,
   },
   {
     score: 28.388,
@@ -47662,6 +48985,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1324,
   },
   {
     score: 28.383,
@@ -47698,6 +49022,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1325,
   },
   {
     score: 28.383,
@@ -47734,6 +49059,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1326,
   },
   {
     score: 28.365,
@@ -47770,6 +49096,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1327,
   },
   {
     score: 28.344,
@@ -47806,6 +49133,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1328,
   },
   {
     score: 28.339,
@@ -47842,6 +49170,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1329,
   },
   {
     score: 28.316,
@@ -47878,6 +49207,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1330,
   },
   {
     score: 28.308,
@@ -47914,6 +49244,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1331,
   },
   {
     score: 28.293,
@@ -47950,6 +49281,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1332,
   },
   {
     score: 28.271,
@@ -47986,6 +49318,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1333,
   },
   {
     score: 28.271,
@@ -48022,6 +49355,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1334,
   },
   {
     score: 28.214,
@@ -48058,6 +49392,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1335,
   },
   {
     score: 28.205,
@@ -48094,6 +49429,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1336,
   },
   {
     score: 28.201,
@@ -48130,6 +49466,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1337,
   },
   {
     score: 28.201,
@@ -48166,6 +49503,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1338,
   },
   {
     score: 28.18,
@@ -48202,6 +49540,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1339,
   },
   {
     score: 28.175,
@@ -48238,6 +49577,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1340,
   },
   {
     score: 28.154,
@@ -48274,6 +49614,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1341,
   },
   {
     score: 28.149,
@@ -48310,6 +49651,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1342,
   },
   {
     score: 28.135,
@@ -48346,6 +49688,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1343,
   },
   {
     score: 28.135,
@@ -48382,6 +49725,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1344,
   },
   {
     score: 28.104,
@@ -48418,6 +49762,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1345,
   },
   {
     score: 28.06,
@@ -48454,6 +49799,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1346,
   },
   {
     score: 28.06,
@@ -48490,6 +49836,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1347,
   },
   {
     score: 28.056,
@@ -48526,6 +49873,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1348,
   },
   {
     score: 28.05,
@@ -48562,6 +49910,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1349,
   },
   {
     score: 28.02,
@@ -48598,6 +49947,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1350,
   },
   {
     score: 27.994,
@@ -48634,6 +49984,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1351,
   },
   {
     score: 27.98,
@@ -48670,6 +50021,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1352,
   },
   {
     score: 27.979,
@@ -48706,6 +50058,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1353,
   },
   {
     score: 27.973,
@@ -48742,6 +50095,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1354,
   },
   {
     score: 27.973,
@@ -48778,6 +50132,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1355,
   },
   {
     score: 27.973,
@@ -48814,6 +50169,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1356,
   },
   {
     score: 27.958,
@@ -48850,6 +50206,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1357,
   },
   {
     score: 27.953,
@@ -48886,6 +50243,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1358,
   },
   {
     score: 27.949,
@@ -48922,6 +50280,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1359,
   },
   {
     score: 27.949,
@@ -48958,6 +50317,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1360,
   },
   {
     score: 27.941,
@@ -48994,6 +50354,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1361,
   },
   {
     score: 27.941,
@@ -49030,6 +50391,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1362,
   },
   {
     score: 27.927,
@@ -49066,6 +50428,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1363,
   },
   {
     score: 27.927,
@@ -49102,6 +50465,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1364,
   },
   {
     score: 27.915,
@@ -49138,6 +50502,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1365,
   },
   {
     score: 27.904,
@@ -49174,6 +50539,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1366,
   },
   {
     score: 27.897,
@@ -49210,6 +50576,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1367,
   },
   {
     score: 27.897,
@@ -49246,6 +50613,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1368,
   },
   {
     score: 27.884,
@@ -49282,6 +50650,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1369,
   },
   {
     score: 27.874,
@@ -49318,6 +50687,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1370,
   },
   {
     score: 27.874,
@@ -49354,6 +50724,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1371,
   },
   {
     score: 27.87,
@@ -49390,6 +50761,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1372,
   },
   {
     score: 27.869,
@@ -49426,6 +50798,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1373,
   },
   {
     score: 27.847,
@@ -49462,6 +50835,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1374,
   },
   {
     score: 27.847,
@@ -49498,6 +50872,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1375,
   },
   {
     score: 27.847,
@@ -49534,6 +50909,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1376,
   },
   {
     score: 27.818,
@@ -49570,6 +50946,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1377,
   },
   {
     score: 27.818,
@@ -49606,6 +50983,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1378,
   },
   {
     score: 27.818,
@@ -49642,6 +51020,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1379,
   },
   {
     score: 27.817,
@@ -49678,6 +51057,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1380,
   },
   {
     score: 27.817,
@@ -49714,6 +51094,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1381,
   },
   {
     score: 27.817,
@@ -49750,6 +51131,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1382,
   },
   {
     score: 27.805,
@@ -49786,6 +51168,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1383,
   },
   {
     score: 27.801,
@@ -49822,6 +51205,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1384,
   },
   {
     score: 27.801,
@@ -49858,6 +51242,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1385,
   },
   {
     score: 27.795,
@@ -49894,6 +51279,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1386,
   },
   {
     score: 27.757,
@@ -49930,6 +51316,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1387,
   },
   {
     score: 27.749,
@@ -49966,6 +51353,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1388,
   },
   {
     score: 27.748,
@@ -50002,6 +51390,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1389,
   },
   {
     score: 27.726,
@@ -50038,6 +51427,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1390,
   },
   {
     score: 27.726,
@@ -50074,6 +51464,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1391,
   },
   {
     score: 27.726,
@@ -50110,6 +51501,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1392,
   },
   {
     score: 27.722,
@@ -50146,6 +51538,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1393,
   },
   {
     score: 27.706,
@@ -50182,6 +51575,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1394,
   },
   {
     score: 27.7,
@@ -50218,6 +51612,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1395,
   },
   {
     score: 27.7,
@@ -50254,6 +51649,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1396,
   },
   {
     score: 27.697,
@@ -50290,6 +51686,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1397,
   },
   {
     score: 27.696,
@@ -50326,6 +51723,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1398,
   },
   {
     score: 27.69,
@@ -50362,6 +51760,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1399,
   },
   {
     score: 27.69,
@@ -50398,6 +51797,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1400,
   },
   {
     score: 27.674,
@@ -50434,6 +51834,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1401,
   },
   {
     score: 27.674,
@@ -50470,6 +51871,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1402,
   },
   {
     score: 27.673,
@@ -50506,6 +51908,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1403,
   },
   {
     score: 27.67,
@@ -50542,6 +51945,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1404,
   },
   {
     score: 27.637,
@@ -50578,6 +51982,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1405,
   },
   {
     score: 27.635,
@@ -50614,6 +52019,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1406,
   },
   {
     score: 27.632,
@@ -50650,6 +52056,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1407,
   },
   {
     score: 27.631,
@@ -50686,6 +52093,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1408,
   },
   {
     score: 27.622,
@@ -50722,6 +52130,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1409,
   },
   {
     score: 27.618,
@@ -50758,6 +52167,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1410,
   },
   {
     score: 27.61,
@@ -50794,6 +52204,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1411,
   },
   {
     score: 27.599,
@@ -50830,6 +52241,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1412,
   },
   {
     score: 27.599,
@@ -50866,6 +52278,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1413,
   },
   {
     score: 27.594,
@@ -50902,6 +52315,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1414,
   },
   {
     score: 27.586,
@@ -50938,6 +52352,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1415,
   },
   {
     score: 27.582,
@@ -50974,6 +52389,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1416,
   },
   {
     score: 27.582,
@@ -51010,6 +52426,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1417,
   },
   {
     score: 27.578,
@@ -51046,6 +52463,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1418,
   },
   {
     score: 27.57,
@@ -51082,6 +52500,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1419,
   },
   {
     score: 27.563,
@@ -51118,6 +52537,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1420,
   },
   {
     score: 27.563,
@@ -51154,6 +52574,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1421,
   },
   {
     score: 27.563,
@@ -51190,6 +52611,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1422,
   },
   {
     score: 27.563,
@@ -51226,6 +52648,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1423,
   },
   {
     score: 27.563,
@@ -51262,6 +52685,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1424,
   },
   {
     score: 27.563,
@@ -51298,6 +52722,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1425,
   },
   {
     score: 27.553,
@@ -51334,6 +52759,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1426,
   },
   {
     score: 27.552,
@@ -51370,6 +52796,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1427,
   },
   {
     score: 27.552,
@@ -51406,6 +52833,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1428,
   },
   {
     score: 27.533,
@@ -51442,6 +52870,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1429,
   },
   {
     score: 27.51,
@@ -51478,6 +52907,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1430,
   },
   {
     score: 27.51,
@@ -51514,6 +52944,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1431,
   },
   {
     score: 27.504,
@@ -51550,6 +52981,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1432,
   },
   {
     score: 27.504,
@@ -51586,6 +53018,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1433,
   },
   {
     score: 27.483,
@@ -51622,6 +53055,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1434,
   },
   {
     score: 27.483,
@@ -51658,6 +53092,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1435,
   },
   {
     score: 27.474,
@@ -51694,6 +53129,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1436,
   },
   {
     score: 27.467,
@@ -51730,6 +53166,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1437,
   },
   {
     score: 27.458,
@@ -51766,6 +53203,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1438,
   },
   {
     score: 27.447,
@@ -51802,6 +53240,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1439,
   },
   {
     score: 27.441,
@@ -51838,6 +53277,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1440,
   },
   {
     score: 27.425,
@@ -51874,6 +53314,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1441,
   },
   {
     score: 27.394,
@@ -51910,6 +53351,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1442,
   },
   {
     score: 27.391,
@@ -51946,6 +53388,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1443,
   },
   {
     score: 27.391,
@@ -51982,6 +53425,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1444,
   },
   {
     score: 27.379,
@@ -52018,6 +53462,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1445,
   },
   {
     score: 27.379,
@@ -52054,6 +53499,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1446,
   },
   {
     score: 27.36,
@@ -52090,6 +53536,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1447,
   },
   {
     score: 27.341,
@@ -52126,6 +53573,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1448,
   },
   {
     score: 27.341,
@@ -52162,6 +53610,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1449,
   },
   {
     score: 27.341,
@@ -52198,6 +53647,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1450,
   },
   {
     score: 27.341,
@@ -52234,6 +53684,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1451,
   },
   {
     score: 27.341,
@@ -52270,6 +53721,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1452,
   },
   {
     score: 27.326,
@@ -52306,6 +53758,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1453,
   },
   {
     score: 27.315,
@@ -52342,6 +53795,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1454,
   },
   {
     score: 27.306,
@@ -52378,6 +53832,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1455,
   },
   {
     score: 27.306,
@@ -52414,6 +53869,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1456,
   },
   {
     score: 27.303,
@@ -52450,6 +53906,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1457,
   },
   {
     score: 27.303,
@@ -52486,6 +53943,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1458,
   },
   {
     score: 27.247,
@@ -52522,6 +53980,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1459,
   },
   {
     score: 27.228,
@@ -52558,6 +54017,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1460,
   },
   {
     score: 27.219,
@@ -52594,6 +54054,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1461,
   },
   {
     score: 27.219,
@@ -52630,6 +54091,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1462,
   },
   {
     score: 27.219,
@@ -52666,6 +54128,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1463,
   },
   {
     score: 27.212,
@@ -52702,6 +54165,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1464,
   },
   {
     score: 27.203,
@@ -52738,6 +54202,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1465,
   },
   {
     score: 27.176,
@@ -52774,6 +54239,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1466,
   },
   {
     score: 27.176,
@@ -52810,6 +54276,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1467,
   },
   {
     score: 27.16,
@@ -52846,6 +54313,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1468,
   },
   {
     score: 27.16,
@@ -52882,6 +54350,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1469,
   },
   {
     score: 27.153,
@@ -52918,6 +54387,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1470,
   },
   {
     score: 27.153,
@@ -52954,6 +54424,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1471,
   },
   {
     score: 27.144,
@@ -52990,6 +54461,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1472,
   },
   {
     score: 27.143,
@@ -53026,6 +54498,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1473,
   },
   {
     score: 27.14,
@@ -53062,6 +54535,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1474,
   },
   {
     score: 27.139,
@@ -53098,6 +54572,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1475,
   },
   {
     score: 27.138,
@@ -53134,6 +54609,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1476,
   },
   {
     score: 27.138,
@@ -53170,6 +54646,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1477,
   },
   {
     score: 27.137,
@@ -53206,6 +54683,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1478,
   },
   {
     score: 27.137,
@@ -53242,6 +54720,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1479,
   },
   {
     score: 27.137,
@@ -53278,6 +54757,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1480,
   },
   {
     score: 27.123,
@@ -53314,6 +54794,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1481,
   },
   {
     score: 27.114,
@@ -53350,6 +54831,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1482,
   },
   {
     score: 27.107,
@@ -53386,6 +54868,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1483,
   },
   {
     score: 27.101,
@@ -53422,6 +54905,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1484,
   },
   {
     score: 27.1,
@@ -53458,6 +54942,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1485,
   },
   {
     score: 27.097,
@@ -53494,6 +54979,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1486,
   },
   {
     score: 27.088,
@@ -53530,6 +55016,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1487,
   },
   {
     score: 27.087,
@@ -53566,6 +55053,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1488,
   },
   {
     score: 27.081,
@@ -53602,6 +55090,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1489,
   },
   {
     score: 27.07,
@@ -53638,6 +55127,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1490,
   },
   {
     score: 27.065,
@@ -53674,6 +55164,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1491,
   },
   {
     score: 27.05,
@@ -53710,6 +55201,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1492,
   },
   {
     score: 27.035,
@@ -53746,6 +55238,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1493,
   },
   {
     score: 27.035,
@@ -53782,6 +55275,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1494,
   },
   {
     score: 27.028,
@@ -53818,6 +55312,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1495,
   },
   {
     score: 27.016,
@@ -53854,6 +55349,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1496,
   },
   {
     score: 26.975,
@@ -53890,6 +55386,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1497,
   },
   {
     score: 26.975,
@@ -53926,6 +55423,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1498,
   },
   {
     score: 26.975,
@@ -53962,6 +55460,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1499,
   },
   {
     score: 26.971,
@@ -53998,6 +55497,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1500,
   },
   {
     score: 26.971,
@@ -54034,6 +55534,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1501,
   },
   {
     score: 26.971,
@@ -54070,6 +55571,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1502,
   },
   {
     score: 26.971,
@@ -54106,6 +55608,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1503,
   },
   {
     score: 26.966,
@@ -54142,6 +55645,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1504,
   },
   {
     score: 26.954,
@@ -54178,6 +55682,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1505,
   },
   {
     score: 26.954,
@@ -54214,6 +55719,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1506,
   },
   {
     score: 26.954,
@@ -54250,6 +55756,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1507,
   },
   {
     score: 26.954,
@@ -54286,6 +55793,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1508,
   },
   {
     score: 26.945,
@@ -54322,6 +55830,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1509,
   },
   {
     score: 26.918,
@@ -54358,6 +55867,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1510,
   },
   {
     score: 26.912,
@@ -54394,6 +55904,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1511,
   },
   {
     score: 26.892,
@@ -54430,6 +55941,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1512,
   },
   {
     score: 26.892,
@@ -54466,6 +55978,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1513,
   },
   {
     score: 26.887,
@@ -54502,6 +56015,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1514,
   },
   {
     score: 26.872,
@@ -54538,6 +56052,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1515,
   },
   {
     score: 26.866,
@@ -54574,6 +56089,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1516,
   },
   {
     score: 26.866,
@@ -54610,6 +56126,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1517,
   },
   {
     score: 26.865,
@@ -54646,6 +56163,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1518,
   },
   {
     score: 26.856,
@@ -54682,6 +56200,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1519,
   },
   {
     score: 26.856,
@@ -54718,6 +56237,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1520,
   },
   {
     score: 26.855,
@@ -54754,6 +56274,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1521,
   },
   {
     score: 26.855,
@@ -54790,6 +56311,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1522,
   },
   {
     score: 26.848,
@@ -54826,6 +56348,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1523,
   },
   {
     score: 26.839,
@@ -54862,6 +56385,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1524,
   },
   {
     score: 26.839,
@@ -54898,6 +56422,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1525,
   },
   {
     score: 26.839,
@@ -54934,6 +56459,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1526,
   },
   {
     score: 26.834,
@@ -54970,6 +56496,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1527,
   },
   {
     score: 26.834,
@@ -55006,6 +56533,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1528,
   },
   {
     score: 26.832,
@@ -55042,6 +56570,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1529,
   },
   {
     score: 26.832,
@@ -55078,6 +56607,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1530,
   },
   {
     score: 26.812,
@@ -55114,6 +56644,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1531,
   },
   {
     score: 26.812,
@@ -55150,6 +56681,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1532,
   },
   {
     score: 26.803,
@@ -55186,6 +56718,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1533,
   },
   {
     score: 26.803,
@@ -55222,6 +56755,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1534,
   },
   {
     score: 26.803,
@@ -55258,6 +56792,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1535,
   },
   {
     score: 26.802,
@@ -55294,6 +56829,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1536,
   },
   {
     score: 26.802,
@@ -55330,6 +56866,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1537,
   },
   {
     score: 26.799,
@@ -55366,6 +56903,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1538,
   },
   {
     score: 26.797,
@@ -55402,6 +56940,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1539,
   },
   {
     score: 26.793,
@@ -55438,6 +56977,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1540,
   },
   {
     score: 26.793,
@@ -55474,6 +57014,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1541,
   },
   {
     score: 26.776,
@@ -55510,6 +57051,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1542,
   },
   {
     score: 26.753,
@@ -55546,6 +57088,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1543,
   },
   {
     score: 26.753,
@@ -55582,6 +57125,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1544,
   },
   {
     score: 26.75,
@@ -55618,6 +57162,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1545,
   },
   {
     score: 26.737,
@@ -55654,6 +57199,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1546,
   },
   {
     score: 26.727,
@@ -55690,6 +57236,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1547,
   },
   {
     score: 26.727,
@@ -55726,6 +57273,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1548,
   },
   {
     score: 26.727,
@@ -55762,6 +57310,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1549,
   },
   {
     score: 26.718,
@@ -55798,6 +57347,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1550,
   },
   {
     score: 26.718,
@@ -55834,6 +57384,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1551,
   },
   {
     score: 26.718,
@@ -55870,6 +57421,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1552,
   },
   {
     score: 26.718,
@@ -55906,6 +57458,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1553,
   },
   {
     score: 26.686,
@@ -55942,6 +57495,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1554,
   },
   {
     score: 26.686,
@@ -55978,6 +57532,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1555,
   },
   {
     score: 26.67,
@@ -56014,6 +57569,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1556,
   },
   {
     score: 26.67,
@@ -56050,6 +57606,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1557,
   },
   {
     score: 26.67,
@@ -56086,6 +57643,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1558,
   },
   {
     score: 26.67,
@@ -56122,6 +57680,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1559,
   },
   {
     score: 26.668,
@@ -56158,6 +57717,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1560,
   },
   {
     score: 26.665,
@@ -56194,6 +57754,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1561,
   },
   {
     score: 26.665,
@@ -56230,6 +57791,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1562,
   },
   {
     score: 26.661,
@@ -56266,6 +57828,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1563,
   },
   {
     score: 26.634,
@@ -56302,6 +57865,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1564,
   },
   {
     score: 26.633,
@@ -56338,6 +57902,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1565,
   },
   {
     score: 26.633,
@@ -56374,6 +57939,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1566,
   },
   {
     score: 26.624,
@@ -56410,6 +57976,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1567,
   },
   {
     score: 26.624,
@@ -56446,6 +58013,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1568,
   },
   {
     score: 26.624,
@@ -56482,6 +58050,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1569,
   },
   {
     score: 26.608,
@@ -56518,6 +58087,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1570,
   },
   {
     score: 26.607,
@@ -56554,6 +58124,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1571,
   },
   {
     score: 26.581,
@@ -56590,6 +58161,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1572,
   },
   {
     score: 26.581,
@@ -56626,6 +58198,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1573,
   },
   {
     score: 26.579,
@@ -56662,6 +58235,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1574,
   },
   {
     score: 26.578,
@@ -56698,6 +58272,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1575,
   },
   {
     score: 26.571,
@@ -56734,6 +58309,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1576,
   },
   {
     score: 26.571,
@@ -56770,6 +58346,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1577,
   },
   {
     score: 26.557,
@@ -56806,6 +58383,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1578,
   },
   {
     score: 26.556,
@@ -56842,6 +58420,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1579,
   },
   {
     score: 26.555,
@@ -56878,6 +58457,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1580,
   },
   {
     score: 26.552,
@@ -56914,6 +58494,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1581,
   },
   {
     score: 26.552,
@@ -56950,6 +58531,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1582,
   },
   {
     score: 26.551,
@@ -56986,6 +58568,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1583,
   },
   {
     score: 26.546,
@@ -57022,6 +58605,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1584,
   },
   {
     score: 26.54,
@@ -57058,6 +58642,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1585,
   },
   {
     score: 26.54,
@@ -57094,6 +58679,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1586,
   },
   {
     score: 26.521,
@@ -57130,6 +58716,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1587,
   },
   {
     score: 26.505,
@@ -57166,6 +58753,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1588,
   },
   {
     score: 26.5,
@@ -57202,6 +58790,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1589,
   },
   {
     score: 26.499,
@@ -57238,6 +58827,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1590,
   },
   {
     score: 26.499,
@@ -57274,6 +58864,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1591,
   },
   {
     score: 26.499,
@@ -57310,6 +58901,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1592,
   },
   {
     score: 26.492,
@@ -57346,6 +58938,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1593,
   },
   {
     score: 26.487,
@@ -57382,6 +58975,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1594,
   },
   {
     score: 26.487,
@@ -57418,6 +59012,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1595,
   },
   {
     score: 26.472,
@@ -57454,6 +59049,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1596,
   },
   {
     score: 26.472,
@@ -57490,6 +59086,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1597,
   },
   {
     score: 26.472,
@@ -57526,6 +59123,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1598,
   },
   {
     score: 26.472,
@@ -57562,6 +59160,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1599,
   },
   {
     score: 26.469,
@@ -57598,6 +59197,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1600,
   },
   {
     score: 26.469,
@@ -57634,6 +59234,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1601,
   },
   {
     score: 26.468,
@@ -57670,6 +59271,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1602,
   },
   {
     score: 26.467,
@@ -57706,6 +59308,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1603,
   },
   {
     score: 26.455,
@@ -57742,6 +59345,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1604,
   },
   {
     score: 26.446,
@@ -57778,6 +59382,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1605,
   },
   {
     score: 26.442,
@@ -57814,6 +59419,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1606,
   },
   {
     score: 26.442,
@@ -57850,6 +59456,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1607,
   },
   {
     score: 26.435,
@@ -57886,6 +59493,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1608,
   },
   {
     score: 26.43,
@@ -57922,6 +59530,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1609,
   },
   {
     score: 26.43,
@@ -57958,6 +59567,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1610,
   },
   {
     score: 26.416,
@@ -57994,6 +59604,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1611,
   },
   {
     score: 26.408,
@@ -58030,6 +59641,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1612,
   },
   {
     score: 26.4,
@@ -58066,6 +59678,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1613,
   },
   {
     score: 26.393,
@@ -58102,6 +59715,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1614,
   },
   {
     score: 26.393,
@@ -58138,6 +59752,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1615,
   },
   {
     score: 26.393,
@@ -58174,6 +59789,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1616,
   },
   {
     score: 26.382,
@@ -58210,6 +59826,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1617,
   },
   {
     score: 26.382,
@@ -58246,6 +59863,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1618,
   },
   {
     score: 26.377,
@@ -58282,6 +59900,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1619,
   },
   {
     score: 26.376,
@@ -58318,6 +59937,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1620,
   },
   {
     score: 26.374,
@@ -58354,6 +59974,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1621,
   },
   {
     score: 26.372,
@@ -58390,6 +60011,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1622,
   },
   {
     score: 26.371,
@@ -58426,6 +60048,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1623,
   },
   {
     score: 26.367,
@@ -58462,6 +60085,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1624,
   },
   {
     score: 26.342,
@@ -58498,6 +60122,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1625,
   },
   {
     score: 26.326,
@@ -58534,6 +60159,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1626,
   },
   {
     score: 26.326,
@@ -58570,6 +60196,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1627,
   },
   {
     score: 26.321,
@@ -58606,6 +60233,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1628,
   },
   {
     score: 26.318,
@@ -58642,6 +60270,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1629,
   },
   {
     score: 26.303,
@@ -58678,6 +60307,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1630,
   },
   {
     score: 26.298,
@@ -58714,6 +60344,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1631,
   },
   {
     score: 26.298,
@@ -58750,6 +60381,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1632,
   },
   {
     score: 26.298,
@@ -58786,6 +60418,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1633,
   },
   {
     score: 26.297,
@@ -58822,6 +60455,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1634,
   },
   {
     score: 26.29,
@@ -58858,6 +60492,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1635,
   },
   {
     score: 26.289,
@@ -58894,6 +60529,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1636,
   },
   {
     score: 26.269,
@@ -58930,6 +60566,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1637,
   },
   {
     score: 26.269,
@@ -58966,6 +60603,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1638,
   },
   {
     score: 26.267,
@@ -59002,6 +60640,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1639,
   },
   {
     score: 26.266,
@@ -59038,6 +60677,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1640,
   },
   {
     score: 26.263,
@@ -59074,6 +60714,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1641,
   },
   {
     score: 26.263,
@@ -59110,6 +60751,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1642,
   },
   {
     score: 26.261,
@@ -59146,6 +60788,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1643,
   },
   {
     score: 26.261,
@@ -59182,6 +60825,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1644,
   },
   {
     score: 26.256,
@@ -59218,6 +60862,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1645,
   },
   {
     score: 26.256,
@@ -59254,6 +60899,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1646,
   },
   {
     score: 26.238,
@@ -59290,6 +60936,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1647,
   },
   {
     score: 26.237,
@@ -59326,6 +60973,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1648,
   },
   {
     score: 26.237,
@@ -59362,6 +61010,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1649,
   },
   {
     score: 26.237,
@@ -59398,6 +61047,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1650,
   },
   {
     score: 26.234,
@@ -59434,6 +61084,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1651,
   },
   {
     score: 26.234,
@@ -59470,6 +61121,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1652,
   },
   {
     score: 26.234,
@@ -59506,6 +61158,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1653,
   },
   {
     score: 26.215,
@@ -59542,6 +61195,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1654,
   },
   {
     score: 26.214,
@@ -59578,6 +61232,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1655,
   },
   {
     score: 26.214,
@@ -59614,6 +61269,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1656,
   },
   {
     score: 26.208,
@@ -59650,6 +61306,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1657,
   },
   {
     score: 26.208,
@@ -59686,6 +61343,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1658,
   },
   {
     score: 26.189,
@@ -59722,6 +61380,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1659,
   },
   {
     score: 26.189,
@@ -59758,6 +61417,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1660,
   },
   {
     score: 26.187,
@@ -59794,6 +61454,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1661,
   },
   {
     score: 26.187,
@@ -59830,6 +61491,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1662,
   },
   {
     score: 26.187,
@@ -59866,6 +61528,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1663,
   },
   {
     score: 26.187,
@@ -59902,6 +61565,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1664,
   },
   {
     score: 26.185,
@@ -59938,6 +61602,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1665,
   },
   {
     score: 26.185,
@@ -59974,6 +61639,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1666,
   },
   {
     score: 26.185,
@@ -60010,6 +61676,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1667,
   },
   {
     score: 26.177,
@@ -60046,6 +61713,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1668,
   },
   {
     score: 26.171,
@@ -60082,6 +61750,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1669,
   },
   {
     score: 26.162,
@@ -60118,6 +61787,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1670,
   },
   {
     score: 26.159,
@@ -60154,6 +61824,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1671,
   },
   {
     score: 26.159,
@@ -60190,6 +61861,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1672,
   },
   {
     score: 26.155,
@@ -60226,6 +61898,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1673,
   },
   {
     score: 26.149,
@@ -60262,6 +61935,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1674,
   },
   {
     score: 26.149,
@@ -60298,6 +61972,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1675,
   },
   {
     score: 26.123,
@@ -60334,6 +62009,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1676,
   },
   {
     score: 26.104,
@@ -60370,6 +62046,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1677,
   },
   {
     score: 26.104,
@@ -60406,6 +62083,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1678,
   },
   {
     score: 26.096,
@@ -60442,6 +62120,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1679,
   },
   {
     score: 26.083,
@@ -60478,6 +62157,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1680,
   },
   {
     score: 26.083,
@@ -60514,6 +62194,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1681,
   },
   {
     score: 26.073,
@@ -60550,6 +62231,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1682,
   },
   {
     score: 26.062,
@@ -60586,6 +62268,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1683,
   },
   {
     score: 26.061,
@@ -60622,6 +62305,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1684,
   },
   {
     score: 26.061,
@@ -60658,6 +62342,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1685,
   },
   {
     score: 26.037,
@@ -60694,6 +62379,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1686,
   },
   {
     score: 26.037,
@@ -60730,6 +62416,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1687,
   },
   {
     score: 26.037,
@@ -60766,6 +62453,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1688,
   },
   {
     score: 26.03,
@@ -60802,6 +62490,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1689,
   },
   {
     score: 26.03,
@@ -60838,6 +62527,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1690,
   },
   {
     score: 26.026,
@@ -60874,6 +62564,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1691,
   },
   {
     score: 26.023,
@@ -60910,6 +62601,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1692,
   },
   {
     score: 26.023,
@@ -60946,6 +62638,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1693,
   },
   {
     score: 26.017,
@@ -60982,6 +62675,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1694,
   },
   {
     score: 26.014,
@@ -61018,6 +62712,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1695,
   },
   {
     score: 25.987,
@@ -61054,6 +62749,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1696,
   },
   {
     score: 25.984,
@@ -61090,6 +62786,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1697,
   },
   {
     score: 25.973,
@@ -61126,6 +62823,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1698,
   },
   {
     score: 25.973,
@@ -61162,6 +62860,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1699,
   },
   {
     score: 25.973,
@@ -61198,6 +62897,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1700,
   },
   {
     score: 25.963,
@@ -61234,6 +62934,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1701,
   },
   {
     score: 25.903,
@@ -61270,6 +62971,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1702,
   },
   {
     score: 25.903,
@@ -61306,6 +63008,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1703,
   },
   {
     score: 25.903,
@@ -61342,6 +63045,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1704,
   },
   {
     score: 25.902,
@@ -61378,6 +63082,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1705,
   },
   {
     score: 25.902,
@@ -61414,6 +63119,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1706,
   },
   {
     score: 25.902,
@@ -61450,6 +63156,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1707,
   },
   {
     score: 25.901,
@@ -61486,6 +63193,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1708,
   },
   {
     score: 25.901,
@@ -61522,6 +63230,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1709,
   },
   {
     score: 25.901,
@@ -61558,6 +63267,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1710,
   },
   {
     score: 25.893,
@@ -61594,6 +63304,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1711,
   },
   {
     score: 25.892,
@@ -61630,6 +63341,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1712,
   },
   {
     score: 25.892,
@@ -61666,6 +63378,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1713,
   },
   {
     score: 25.888,
@@ -61702,6 +63415,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1714,
   },
   {
     score: 25.871,
@@ -61738,6 +63452,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1715,
   },
   {
     score: 25.871,
@@ -61774,6 +63489,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1716,
   },
   {
     score: 25.871,
@@ -61810,6 +63526,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1717,
   },
   {
     score: 25.87,
@@ -61846,6 +63563,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1718,
   },
   {
     score: 25.87,
@@ -61882,6 +63600,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1719,
   },
   {
     score: 25.87,
@@ -61918,6 +63637,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1720,
   },
   {
     score: 25.857,
@@ -61954,6 +63674,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1721,
   },
   {
     score: 25.849,
@@ -61990,6 +63711,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1722,
   },
   {
     score: 25.849,
@@ -62026,6 +63748,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1723,
   },
   {
     score: 25.849,
@@ -62062,6 +63785,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1724,
   },
   {
     score: 25.843,
@@ -62098,6 +63822,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1725,
   },
   {
     score: 25.843,
@@ -62134,6 +63859,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1726,
   },
   {
     score: 25.827,
@@ -62170,6 +63896,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1727,
   },
   {
     score: 25.822,
@@ -62206,6 +63933,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1728,
   },
   {
     score: 25.818,
@@ -62242,6 +63970,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1729,
   },
   {
     score: 25.818,
@@ -62278,6 +64007,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1730,
   },
   {
     score: 25.814,
@@ -62314,6 +64044,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1731,
   },
   {
     score: 25.814,
@@ -62350,6 +64081,7 @@ export const tigerNftRarity = [
         value: "HANDS2",
       },
     ],
+    rank: 1732,
   },
   {
     score: 25.81,
@@ -62386,6 +64118,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1733,
   },
   {
     score: 25.81,
@@ -62422,6 +64155,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1734,
   },
   {
     score: 25.792,
@@ -62458,6 +64192,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1735,
   },
   {
     score: 25.792,
@@ -62494,6 +64229,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1736,
   },
   {
     score: 25.79,
@@ -62530,6 +64266,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1737,
   },
   {
     score: 25.79,
@@ -62566,6 +64303,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1738,
   },
   {
     score: 25.77,
@@ -62602,6 +64340,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1739,
   },
   {
     score: 25.77,
@@ -62638,6 +64377,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1740,
   },
   {
     score: 25.77,
@@ -62674,6 +64414,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1741,
   },
   {
     score: 25.77,
@@ -62710,6 +64451,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1742,
   },
   {
     score: 25.77,
@@ -62746,6 +64488,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1743,
   },
   {
     score: 25.738,
@@ -62782,6 +64525,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1744,
   },
   {
     score: 25.737,
@@ -62818,6 +64562,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1745,
   },
   {
     score: 25.737,
@@ -62854,6 +64599,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1746,
   },
   {
     score: 25.711,
@@ -62890,6 +64636,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1747,
   },
   {
     score: 25.711,
@@ -62926,6 +64673,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1748,
   },
   {
     score: 25.706,
@@ -62962,6 +64710,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1749,
   },
   {
     score: 25.706,
@@ -62998,6 +64747,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1750,
   },
   {
     score: 25.706,
@@ -63034,6 +64784,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1751,
   },
   {
     score: 25.699,
@@ -63070,6 +64821,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1752,
   },
   {
     score: 25.695,
@@ -63106,6 +64858,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1753,
   },
   {
     score: 25.685,
@@ -63142,6 +64895,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1754,
   },
   {
     score: 25.685,
@@ -63178,6 +64932,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1755,
   },
   {
     score: 25.673,
@@ -63214,6 +64969,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1756,
   },
   {
     score: 25.67,
@@ -63250,6 +65006,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1757,
   },
   {
     score: 25.659,
@@ -63286,6 +65043,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1758,
   },
   {
     score: 25.659,
@@ -63322,6 +65080,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1759,
   },
   {
     score: 25.653,
@@ -63358,6 +65117,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1760,
   },
   {
     score: 25.627,
@@ -63394,6 +65154,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1761,
   },
   {
     score: 25.618,
@@ -63430,6 +65191,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1762,
   },
   {
     score: 25.618,
@@ -63466,6 +65228,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1763,
   },
   {
     score: 25.617,
@@ -63502,6 +65265,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1764,
   },
   {
     score: 25.617,
@@ -63538,6 +65302,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1765,
   },
   {
     score: 25.612,
@@ -63574,6 +65339,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1766,
   },
   {
     score: 25.612,
@@ -63610,6 +65376,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1767,
   },
   {
     score: 25.612,
@@ -63646,6 +65413,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1768,
   },
   {
     score: 25.596,
@@ -63682,6 +65450,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1769,
   },
   {
     score: 25.596,
@@ -63718,6 +65487,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1770,
   },
   {
     score: 25.596,
@@ -63754,6 +65524,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1771,
   },
   {
     score: 25.596,
@@ -63790,6 +65561,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1772,
   },
   {
     score: 25.596,
@@ -63826,6 +65598,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1773,
   },
   {
     score: 25.591,
@@ -63862,6 +65635,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1774,
   },
   {
     score: 25.591,
@@ -63898,6 +65672,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1775,
   },
   {
     score: 25.59,
@@ -63934,6 +65709,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1776,
   },
   {
     score: 25.574,
@@ -63970,6 +65746,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1777,
   },
   {
     score: 25.568,
@@ -64006,6 +65783,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1778,
   },
   {
     score: 25.568,
@@ -64042,6 +65820,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1779,
   },
   {
     score: 25.568,
@@ -64078,6 +65857,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1780,
   },
   {
     score: 25.559,
@@ -64114,6 +65894,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1781,
   },
   {
     score: 25.559,
@@ -64150,6 +65931,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1782,
   },
   {
     score: 25.558,
@@ -64186,6 +65968,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1783,
   },
   {
     score: 25.558,
@@ -64222,6 +66005,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1784,
   },
   {
     score: 25.558,
@@ -64258,6 +66042,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1785,
   },
   {
     score: 25.551,
@@ -64294,6 +66079,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1786,
   },
   {
     score: 25.551,
@@ -64330,6 +66116,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1787,
   },
   {
     score: 25.542,
@@ -64366,6 +66153,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1788,
   },
   {
     score: 25.542,
@@ -64402,6 +66190,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1789,
   },
   {
     score: 25.537,
@@ -64438,6 +66227,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1790,
   },
   {
     score: 25.537,
@@ -64474,6 +66264,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1791,
   },
   {
     score: 25.533,
@@ -64510,6 +66301,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1792,
   },
   {
     score: 25.525,
@@ -64546,6 +66338,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1793,
   },
   {
     score: 25.507,
@@ -64582,6 +66375,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1794,
   },
   {
     score: 25.506,
@@ -64618,6 +66412,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1795,
   },
   {
     score: 25.506,
@@ -64654,6 +66449,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1796,
   },
   {
     score: 25.506,
@@ -64690,6 +66486,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1797,
   },
   {
     score: 25.503,
@@ -64726,6 +66523,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1798,
   },
   {
     score: 25.503,
@@ -64762,6 +66560,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1799,
   },
   {
     score: 25.501,
@@ -64798,6 +66597,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1800,
   },
   {
     score: 25.485,
@@ -64834,6 +66634,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1801,
   },
   {
     score: 25.484,
@@ -64870,6 +66671,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1802,
   },
   {
     score: 25.463,
@@ -64906,6 +66708,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1803,
   },
   {
     score: 25.458,
@@ -64942,6 +66745,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1804,
   },
   {
     score: 25.455,
@@ -64978,6 +66782,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1805,
   },
   {
     score: 25.442,
@@ -65014,6 +66819,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1806,
   },
   {
     score: 25.441,
@@ -65050,6 +66856,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1807,
   },
   {
     score: 25.431,
@@ -65086,6 +66893,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1808,
   },
   {
     score: 25.431,
@@ -65122,6 +66930,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1809,
   },
   {
     score: 25.431,
@@ -65158,6 +66967,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1810,
   },
   {
     score: 25.428,
@@ -65194,6 +67004,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1811,
   },
   {
     score: 25.424,
@@ -65230,6 +67041,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1812,
   },
   {
     score: 25.42,
@@ -65266,6 +67078,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1813,
   },
   {
     score: 25.42,
@@ -65302,6 +67115,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1814,
   },
   {
     score: 25.39,
@@ -65338,6 +67152,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1815,
   },
   {
     score: 25.389,
@@ -65374,6 +67189,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1816,
   },
   {
     score: 25.389,
@@ -65410,6 +67226,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1817,
   },
   {
     score: 25.389,
@@ -65446,6 +67263,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1818,
   },
   {
     score: 25.389,
@@ -65482,6 +67300,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1819,
   },
   {
     score: 25.389,
@@ -65518,6 +67337,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1820,
   },
   {
     score: 25.389,
@@ -65554,6 +67374,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1821,
   },
   {
     score: 25.376,
@@ -65590,6 +67411,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1822,
   },
   {
     score: 25.376,
@@ -65626,6 +67448,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1823,
   },
   {
     score: 25.374,
@@ -65662,6 +67485,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1824,
   },
   {
     score: 25.374,
@@ -65698,6 +67522,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1825,
   },
   {
     score: 25.374,
@@ -65734,6 +67559,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1826,
   },
   {
     score: 25.374,
@@ -65770,6 +67596,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1827,
   },
   {
     score: 25.374,
@@ -65806,6 +67633,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1828,
   },
   {
     score: 25.368,
@@ -65842,6 +67670,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1829,
   },
   {
     score: 25.359,
@@ -65878,6 +67707,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1830,
   },
   {
     score: 25.352,
@@ -65914,6 +67744,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1831,
   },
   {
     score: 25.352,
@@ -65950,6 +67781,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1832,
   },
   {
     score: 25.343,
@@ -65986,6 +67818,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1833,
   },
   {
     score: 25.337,
@@ -66022,6 +67855,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1834,
   },
   {
     score: 25.337,
@@ -66058,6 +67892,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1835,
   },
   {
     score: 25.337,
@@ -66094,6 +67929,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1836,
   },
   {
     score: 25.336,
@@ -66130,6 +67966,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1837,
   },
   {
     score: 25.315,
@@ -66166,6 +68003,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1838,
   },
   {
     score: 25.315,
@@ -66202,6 +68040,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1839,
   },
   {
     score: 25.315,
@@ -66238,6 +68077,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1840,
   },
   {
     score: 25.31,
@@ -66274,6 +68114,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1841,
   },
   {
     score: 25.31,
@@ -66310,6 +68151,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1842,
   },
   {
     score: 25.31,
@@ -66346,6 +68188,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1843,
   },
   {
     score: 25.31,
@@ -66382,6 +68225,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1844,
   },
   {
     score: 25.306,
@@ -66418,6 +68262,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1845,
   },
   {
     score: 25.306,
@@ -66454,6 +68299,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1846,
   },
   {
     score: 25.306,
@@ -66490,6 +68336,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1847,
   },
   {
     score: 25.302,
@@ -66526,6 +68373,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1848,
   },
   {
     score: 25.28,
@@ -66562,6 +68410,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1849,
   },
   {
     score: 25.28,
@@ -66598,6 +68447,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1850,
   },
   {
     score: 25.262,
@@ -66634,6 +68484,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1851,
   },
   {
     score: 25.262,
@@ -66670,6 +68521,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1852,
   },
   {
     score: 25.262,
@@ -66706,6 +68558,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1853,
   },
   {
     score: 25.26,
@@ -66742,6 +68595,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1854,
   },
   {
     score: 25.254,
@@ -66778,6 +68632,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1855,
   },
   {
     score: 25.254,
@@ -66814,6 +68669,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1856,
   },
   {
     score: 25.253,
@@ -66850,6 +68706,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1857,
   },
   {
     score: 25.253,
@@ -66886,6 +68743,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1858,
   },
   {
     score: 25.251,
@@ -66922,6 +68780,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1859,
   },
   {
     score: 25.251,
@@ -66958,6 +68817,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1860,
   },
   {
     score: 25.232,
@@ -66994,6 +68854,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1861,
   },
   {
     score: 25.228,
@@ -67030,6 +68891,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1862,
   },
   {
     score: 25.227,
@@ -67066,6 +68928,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1863,
   },
   {
     score: 25.224,
@@ -67102,6 +68965,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1864,
   },
   {
     score: 25.207,
@@ -67138,6 +69002,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1865,
   },
   {
     score: 25.205,
@@ -67174,6 +69039,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1866,
   },
   {
     score: 25.192,
@@ -67210,6 +69076,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1867,
   },
   {
     score: 25.183,
@@ -67246,6 +69113,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1868,
   },
   {
     score: 25.183,
@@ -67282,6 +69150,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1869,
   },
   {
     score: 25.181,
@@ -67318,6 +69187,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1870,
   },
   {
     score: 25.172,
@@ -67354,6 +69224,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1871,
   },
   {
     score: 25.143,
@@ -67390,6 +69261,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1872,
   },
   {
     score: 25.14,
@@ -67426,6 +69298,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1873,
   },
   {
     score: 25.14,
@@ -67462,6 +69335,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1874,
   },
   {
     score: 25.139,
@@ -67498,6 +69372,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1875,
   },
   {
     score: 25.134,
@@ -67534,6 +69409,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1876,
   },
   {
     score: 25.113,
@@ -67570,6 +69446,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1877,
   },
   {
     score: 25.113,
@@ -67606,6 +69483,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1878,
   },
   {
     score: 25.113,
@@ -67642,6 +69520,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1879,
   },
   {
     score: 25.097,
@@ -67678,6 +69557,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1880,
   },
   {
     score: 25.087,
@@ -67714,6 +69594,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1881,
   },
   {
     score: 25.087,
@@ -67750,6 +69631,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1882,
   },
   {
     score: 25.087,
@@ -67786,6 +69668,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1883,
   },
   {
     score: 25.087,
@@ -67822,6 +69705,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1884,
   },
   {
     score: 25.087,
@@ -67858,6 +69742,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1885,
   },
   {
     score: 25.061,
@@ -67894,6 +69779,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1886,
   },
   {
     score: 25.061,
@@ -67930,6 +69816,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1887,
   },
   {
     score: 25.054,
@@ -67966,6 +69853,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1888,
   },
   {
     score: 25.054,
@@ -68002,6 +69890,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1889,
   },
   {
     score: 25.049,
@@ -68038,6 +69927,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1890,
   },
   {
     score: 24.976,
@@ -68074,6 +69964,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1891,
   },
   {
     score: 24.974,
@@ -68110,6 +70001,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1892,
   },
   {
     score: 24.971,
@@ -68146,6 +70038,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1893,
   },
   {
     score: 24.97,
@@ -68182,6 +70075,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1894,
   },
   {
     score: 24.966,
@@ -68218,6 +70112,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1895,
   },
   {
     score: 24.945,
@@ -68254,6 +70149,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1896,
   },
   {
     score: 24.943,
@@ -68290,6 +70186,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1897,
   },
   {
     score: 24.939,
@@ -68326,6 +70223,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1898,
   },
   {
     score: 24.918,
@@ -68362,6 +70260,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1899,
   },
   {
     score: 24.918,
@@ -68398,6 +70297,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1900,
   },
   {
     score: 24.902,
@@ -68434,6 +70334,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1901,
   },
   {
     score: 24.896,
@@ -68470,6 +70371,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1902,
   },
   {
     score: 24.896,
@@ -68506,6 +70408,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1903,
   },
   {
     score: 24.896,
@@ -68542,6 +70445,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1904,
   },
   {
     score: 24.886,
@@ -68578,6 +70482,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1905,
   },
   {
     score: 24.865,
@@ -68614,6 +70519,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1906,
   },
   {
     score: 24.865,
@@ -68650,6 +70556,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1907,
   },
   {
     score: 24.865,
@@ -68686,6 +70593,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1908,
   },
   {
     score: 24.861,
@@ -68722,6 +70630,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1909,
   },
   {
     score: 24.86,
@@ -68758,6 +70667,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1910,
   },
   {
     score: 24.86,
@@ -68794,6 +70704,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1911,
   },
   {
     score: 24.86,
@@ -68830,6 +70741,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1912,
   },
   {
     score: 24.844,
@@ -68866,6 +70778,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1913,
   },
   {
     score: 24.823,
@@ -68902,6 +70815,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1914,
   },
   {
     score: 24.823,
@@ -68938,6 +70852,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1915,
   },
   {
     score: 24.792,
@@ -68974,6 +70889,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1916,
   },
   {
     score: 24.776,
@@ -69010,6 +70926,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1917,
   },
   {
     score: 24.775,
@@ -69046,6 +70963,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1918,
   },
   {
     score: 24.775,
@@ -69082,6 +71000,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1919,
   },
   {
     score: 24.775,
@@ -69118,6 +71037,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1920,
   },
   {
     score: 24.77,
@@ -69154,6 +71074,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1921,
   },
   {
     score: 24.77,
@@ -69190,6 +71111,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1922,
   },
   {
     score: 24.724,
@@ -69226,6 +71148,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1923,
   },
   {
     score: 24.724,
@@ -69262,6 +71185,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1924,
   },
   {
     score: 24.724,
@@ -69298,6 +71222,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1925,
   },
   {
     score: 24.69,
@@ -69334,6 +71259,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1926,
   },
   {
     score: 24.682,
@@ -69370,6 +71296,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1927,
   },
   {
     score: 24.671,
@@ -69406,6 +71333,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1928,
   },
   {
     score: 24.671,
@@ -69442,6 +71370,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1929,
   },
   {
     score: 24.671,
@@ -69478,6 +71407,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1930,
   },
   {
     score: 24.671,
@@ -69514,6 +71444,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1931,
   },
   {
     score: 24.665,
@@ -69550,6 +71481,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1932,
   },
   {
     score: 24.665,
@@ -69586,6 +71518,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1933,
   },
   {
     score: 24.658,
@@ -69622,6 +71555,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1934,
   },
   {
     score: 24.658,
@@ -69658,6 +71592,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1935,
   },
   {
     score: 24.654,
@@ -69694,6 +71629,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1936,
   },
   {
     score: 24.645,
@@ -69730,6 +71666,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1937,
   },
   {
     score: 24.645,
@@ -69766,6 +71703,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1938,
   },
   {
     score: 24.645,
@@ -69802,6 +71740,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1939,
   },
   {
     score: 24.63,
@@ -69838,6 +71777,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1940,
   },
   {
     score: 24.629,
@@ -69874,6 +71814,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1941,
   },
   {
     score: 24.629,
@@ -69910,6 +71851,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1942,
   },
   {
     score: 24.629,
@@ -69946,6 +71888,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1943,
   },
   {
     score: 24.629,
@@ -69982,6 +71925,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1944,
   },
   {
     score: 24.608,
@@ -70018,6 +71962,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1945,
   },
   {
     score: 24.607,
@@ -70054,6 +71999,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1946,
   },
   {
     score: 24.607,
@@ -70090,6 +72036,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1947,
   },
   {
     score: 24.607,
@@ -70126,6 +72073,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1948,
   },
   {
     score: 24.555,
@@ -70162,6 +72110,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1949,
   },
   {
     score: 24.555,
@@ -70198,6 +72147,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1950,
   },
   {
     score: 24.555,
@@ -70234,6 +72184,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1951,
   },
   {
     score: 24.53,
@@ -70270,6 +72221,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1952,
   },
   {
     score: 24.502,
@@ -70306,6 +72258,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1953,
   },
   {
     score: 24.502,
@@ -70342,6 +72295,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1954,
   },
   {
     score: 24.502,
@@ -70378,6 +72332,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1955,
   },
   {
     score: 24.493,
@@ -70414,6 +72369,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1956,
   },
   {
     score: 24.48,
@@ -70450,6 +72406,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1957,
   },
   {
     score: 24.48,
@@ -70486,6 +72443,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1958,
   },
   {
     score: 24.477,
@@ -70522,6 +72480,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1959,
   },
   {
     score: 24.476,
@@ -70558,6 +72517,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1960,
   },
   {
     score: 24.476,
@@ -70594,6 +72554,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1961,
   },
   {
     score: 24.476,
@@ -70630,6 +72591,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1962,
   },
   {
     score: 24.476,
@@ -70666,6 +72628,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1963,
   },
   {
     score: 24.476,
@@ -70702,6 +72665,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1964,
   },
   {
     score: 24.476,
@@ -70738,6 +72702,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1965,
   },
   {
     score: 24.426,
@@ -70774,6 +72739,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1966,
   },
   {
     score: 24.423,
@@ -70810,6 +72776,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1967,
   },
   {
     score: 24.373,
@@ -70846,6 +72813,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1968,
   },
   {
     score: 24.347,
@@ -70882,6 +72850,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1969,
   },
   {
     score: 24.337,
@@ -70918,6 +72887,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1970,
   },
   {
     score: 24.337,
@@ -70954,6 +72924,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1971,
   },
   {
     score: 24.337,
@@ -70990,6 +72961,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1972,
   },
   {
     score: 24.324,
@@ -71026,6 +72998,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1973,
   },
   {
     score: 24.314,
@@ -71062,6 +73035,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1974,
   },
   {
     score: 24.314,
@@ -71098,6 +73072,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1975,
   },
   {
     score: 24.304,
@@ -71134,6 +73109,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1976,
   },
   {
     score: 24.298,
@@ -71170,6 +73146,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1977,
   },
   {
     score: 24.298,
@@ -71206,6 +73183,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1978,
   },
   {
     score: 24.298,
@@ -71242,6 +73220,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1979,
   },
   {
     score: 24.298,
@@ -71278,6 +73257,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1980,
   },
   {
     score: 24.294,
@@ -71314,6 +73294,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 1981,
   },
   {
     score: 24.262,
@@ -71350,6 +73331,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1982,
   },
   {
     score: 24.262,
@@ -71386,6 +73368,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1983,
   },
   {
     score: 24.258,
@@ -71422,6 +73405,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1984,
   },
   {
     score: 24.258,
@@ -71458,6 +73442,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1985,
   },
   {
     score: 24.258,
@@ -71494,6 +73479,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1986,
   },
   {
     score: 24.241,
@@ -71530,6 +73516,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1987,
   },
   {
     score: 24.24,
@@ -71566,6 +73553,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1988,
   },
   {
     score: 24.235,
@@ -71602,6 +73590,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1989,
   },
   {
     score: 24.225,
@@ -71638,6 +73627,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1990,
   },
   {
     score: 24.225,
@@ -71674,6 +73664,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1991,
   },
   {
     score: 24.225,
@@ -71710,6 +73701,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1992,
   },
   {
     score: 24.211,
@@ -71746,6 +73738,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1993,
   },
   {
     score: 24.211,
@@ -71782,6 +73775,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1994,
   },
   {
     score: 24.188,
@@ -71818,6 +73812,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1995,
   },
   {
     score: 24.188,
@@ -71854,6 +73849,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1996,
   },
   {
     score: 24.188,
@@ -71890,6 +73886,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1997,
   },
   {
     score: 24.182,
@@ -71926,6 +73923,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1998,
   },
   {
     score: 24.161,
@@ -71962,6 +73960,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 1999,
   },
   {
     score: 24.161,
@@ -71998,6 +73997,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2000,
   },
   {
     score: 24.137,
@@ -72034,6 +74034,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2001,
   },
   {
     score: 24.135,
@@ -72070,6 +74071,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2002,
   },
   {
     score: 24.135,
@@ -72106,6 +74108,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2003,
   },
   {
     score: 24.135,
@@ -72142,6 +74145,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2004,
   },
   {
     score: 24.132,
@@ -72178,6 +74182,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2005,
   },
   {
     score: 24.129,
@@ -72214,6 +74219,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2006,
   },
   {
     score: 24.106,
@@ -72250,6 +74256,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2007,
   },
   {
     score: 24.106,
@@ -72286,6 +74293,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2008,
   },
   {
     score: 24.106,
@@ -72322,6 +74330,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2009,
   },
   {
     score: 24.093,
@@ -72358,6 +74367,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2010,
   },
   {
     score: 24.076,
@@ -72394,6 +74404,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2011,
   },
   {
     score: 24.071,
@@ -72430,6 +74441,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2012,
   },
   {
     score: 24.062,
@@ -72466,6 +74478,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2013,
   },
   {
     score: 24.062,
@@ -72502,6 +74515,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2014,
   },
   {
     score: 24.062,
@@ -72538,6 +74552,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2015,
   },
   {
     score: 24.062,
@@ -72574,6 +74589,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2016,
   },
   {
     score: 24.062,
@@ -72610,6 +74626,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2017,
   },
   {
     score: 24.062,
@@ -72646,6 +74663,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2018,
   },
   {
     score: 24.058,
@@ -72682,6 +74700,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2019,
   },
   {
     score: 24.056,
@@ -72718,6 +74737,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2020,
   },
   {
     score: 24.056,
@@ -72754,6 +74774,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2021,
   },
   {
     score: 24.056,
@@ -72790,6 +74811,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2022,
   },
   {
     score: 24.056,
@@ -72826,6 +74848,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2023,
   },
   {
     score: 24.05,
@@ -72862,6 +74885,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2024,
   },
   {
     score: 24.05,
@@ -72898,6 +74922,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2025,
   },
   {
     score: 24.027,
@@ -72934,6 +74959,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2026,
   },
   {
     score: 24.027,
@@ -72970,6 +74996,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2027,
   },
   {
     score: 24.027,
@@ -73006,6 +75033,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2028,
   },
   {
     score: 24.026,
@@ -73042,6 +75070,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2029,
   },
   {
     score: 24.026,
@@ -73078,6 +75107,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2030,
   },
   {
     score: 24.026,
@@ -73114,6 +75144,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2031,
   },
   {
     score: 24.014,
@@ -73150,6 +75181,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2032,
   },
   {
     score: 24.014,
@@ -73186,6 +75218,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2033,
   },
   {
     score: 24.01,
@@ -73222,6 +75255,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2034,
   },
   {
     score: 24.009,
@@ -73258,6 +75292,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2035,
   },
   {
     score: 23.992,
@@ -73294,6 +75329,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2036,
   },
   {
     score: 23.984,
@@ -73330,6 +75366,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2037,
   },
   {
     score: 23.983,
@@ -73366,6 +75403,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2038,
   },
   {
     score: 23.983,
@@ -73402,6 +75440,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2039,
   },
   {
     score: 23.983,
@@ -73438,6 +75477,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2040,
   },
   {
     score: 23.983,
@@ -73474,6 +75514,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2041,
   },
   {
     score: 23.973,
@@ -73510,6 +75551,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2042,
   },
   {
     score: 23.973,
@@ -73546,6 +75588,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2043,
   },
   {
     score: 23.96,
@@ -73582,6 +75625,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2044,
   },
   {
     score: 23.958,
@@ -73618,6 +75662,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2045,
   },
   {
     score: 23.958,
@@ -73654,6 +75699,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2046,
   },
   {
     score: 23.951,
@@ -73690,6 +75736,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2047,
   },
   {
     score: 23.951,
@@ -73726,6 +75773,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2048,
   },
   {
     score: 23.947,
@@ -73762,6 +75810,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2049,
   },
   {
     score: 23.935,
@@ -73798,6 +75847,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2050,
   },
   {
     score: 23.93,
@@ -73834,6 +75884,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2051,
   },
   {
     score: 23.907,
@@ -73870,6 +75921,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2052,
   },
   {
     score: 23.907,
@@ -73906,6 +75958,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2053,
   },
   {
     score: 23.899,
@@ -73942,6 +75995,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2054,
   },
   {
     score: 23.898,
@@ -73978,6 +76032,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2055,
   },
   {
     score: 23.898,
@@ -74014,6 +76069,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2056,
   },
   {
     score: 23.894,
@@ -74050,6 +76106,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2057,
   },
   {
     score: 23.881,
@@ -74086,6 +76143,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2058,
   },
   {
     score: 23.879,
@@ -74122,6 +76180,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2059,
   },
   {
     score: 23.877,
@@ -74158,6 +76217,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2060,
   },
   {
     score: 23.872,
@@ -74194,6 +76254,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2061,
   },
   {
     score: 23.856,
@@ -74230,6 +76291,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2062,
   },
   {
     score: 23.856,
@@ -74266,6 +76328,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2063,
   },
   {
     score: 23.856,
@@ -74302,6 +76365,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2064,
   },
   {
     score: 23.856,
@@ -74338,6 +76402,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2065,
   },
   {
     score: 23.856,
@@ -74374,6 +76439,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2066,
   },
   {
     score: 23.848,
@@ -74410,6 +76476,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2067,
   },
   {
     score: 23.848,
@@ -74446,6 +76513,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2068,
   },
   {
     score: 23.848,
@@ -74482,6 +76550,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2069,
   },
   {
     score: 23.84,
@@ -74518,6 +76587,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2070,
   },
   {
     score: 23.84,
@@ -74554,6 +76624,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2071,
   },
   {
     score: 23.831,
@@ -74590,6 +76661,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2072,
   },
   {
     score: 23.831,
@@ -74626,6 +76698,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2073,
   },
   {
     score: 23.831,
@@ -74662,6 +76735,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2074,
   },
   {
     score: 23.831,
@@ -74698,6 +76772,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2075,
   },
   {
     score: 23.831,
@@ -74734,6 +76809,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2076,
   },
   {
     score: 23.824,
@@ -74770,6 +76846,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2077,
   },
   {
     score: 23.824,
@@ -74806,6 +76883,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2078,
   },
   {
     score: 23.815,
@@ -74842,6 +76920,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2079,
   },
   {
     score: 23.795,
@@ -74878,6 +76957,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2080,
   },
   {
     score: 23.795,
@@ -74914,6 +76994,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2081,
   },
   {
     score: 23.795,
@@ -74950,6 +77031,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2082,
   },
   {
     score: 23.791,
@@ -74986,6 +77068,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2083,
   },
   {
     score: 23.791,
@@ -75022,6 +77105,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2084,
   },
   {
     score: 23.772,
@@ -75058,6 +77142,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2085,
   },
   {
     score: 23.772,
@@ -75094,6 +77179,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2086,
   },
   {
     score: 23.768,
@@ -75130,6 +77216,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2087,
   },
   {
     score: 23.768,
@@ -75166,6 +77253,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2088,
   },
   {
     score: 23.761,
@@ -75202,6 +77290,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2089,
   },
   {
     score: 23.761,
@@ -75238,6 +77327,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2090,
   },
   {
     score: 23.742,
@@ -75274,6 +77364,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2091,
   },
   {
     score: 23.742,
@@ -75310,6 +77401,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2092,
   },
   {
     score: 23.742,
@@ -75346,6 +77438,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2093,
   },
   {
     score: 23.739,
@@ -75382,6 +77475,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2094,
   },
   {
     score: 23.739,
@@ -75418,6 +77512,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2095,
   },
   {
     score: 23.739,
@@ -75454,6 +77549,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2096,
   },
   {
     score: 23.729,
@@ -75490,6 +77586,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2097,
   },
   {
     score: 23.727,
@@ -75526,6 +77623,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2098,
   },
   {
     score: 23.726,
@@ -75562,6 +77660,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2099,
   },
   {
     score: 23.726,
@@ -75598,6 +77697,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2100,
   },
   {
     score: 23.712,
@@ -75634,6 +77734,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2101,
   },
   {
     score: 23.712,
@@ -75670,6 +77771,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2102,
   },
   {
     score: 23.696,
@@ -75706,6 +77808,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2103,
   },
   {
     score: 23.66,
@@ -75742,6 +77845,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2104,
   },
   {
     score: 23.66,
@@ -75778,6 +77882,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2105,
   },
   {
     score: 23.66,
@@ -75814,6 +77919,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2106,
   },
   {
     score: 23.66,
@@ -75850,6 +77956,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2107,
   },
   {
     score: 23.66,
@@ -75886,6 +77993,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2108,
   },
   {
     score: 23.66,
@@ -75922,6 +78030,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2109,
   },
   {
     score: 23.66,
@@ -75958,6 +78067,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2110,
   },
   {
     score: 23.659,
@@ -75994,6 +78104,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2111,
   },
   {
     score: 23.659,
@@ -76030,6 +78141,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2112,
   },
   {
     score: 23.65,
@@ -76066,6 +78178,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2113,
   },
   {
     score: 23.648,
@@ -76102,6 +78215,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2114,
   },
   {
     score: 23.646,
@@ -76138,6 +78252,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2115,
   },
   {
     score: 23.646,
@@ -76174,6 +78289,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2116,
   },
   {
     score: 23.646,
@@ -76210,6 +78326,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2117,
   },
   {
     score: 23.646,
@@ -76246,6 +78363,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2118,
   },
   {
     score: 23.643,
@@ -76282,6 +78400,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2119,
   },
   {
     score: 23.643,
@@ -76318,6 +78437,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2120,
   },
   {
     score: 23.641,
@@ -76354,6 +78474,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2121,
   },
   {
     score: 23.641,
@@ -76390,6 +78511,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2122,
   },
   {
     score: 23.616,
@@ -76426,6 +78548,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2123,
   },
   {
     score: 23.607,
@@ -76462,6 +78585,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2124,
   },
   {
     score: 23.607,
@@ -76498,6 +78622,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2125,
   },
   {
     score: 23.579,
@@ -76534,6 +78659,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2126,
   },
   {
     score: 23.568,
@@ -76570,6 +78696,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2127,
   },
   {
     score: 23.568,
@@ -76606,6 +78733,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2128,
   },
   {
     score: 23.568,
@@ -76642,6 +78770,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2129,
   },
   {
     score: 23.568,
@@ -76678,6 +78807,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2130,
   },
   {
     score: 23.568,
@@ -76714,6 +78844,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2131,
   },
   {
     score: 23.563,
@@ -76750,6 +78881,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2132,
   },
   {
     score: 23.562,
@@ -76786,6 +78918,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2133,
   },
   {
     score: 23.538,
@@ -76822,6 +78955,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2134,
   },
   {
     score: 23.538,
@@ -76858,6 +78992,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2135,
   },
   {
     score: 23.537,
@@ -76894,6 +79029,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2136,
   },
   {
     score: 23.532,
@@ -76930,6 +79066,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2137,
   },
   {
     score: 23.531,
@@ -76966,6 +79103,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2138,
   },
   {
     score: 23.528,
@@ -77002,6 +79140,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2139,
   },
   {
     score: 23.528,
@@ -77038,6 +79177,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2140,
   },
   {
     score: 23.528,
@@ -77074,6 +79214,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2141,
   },
   {
     score: 23.496,
@@ -77110,6 +79251,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2142,
   },
   {
     score: 23.496,
@@ -77146,6 +79288,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2143,
   },
   {
     score: 23.496,
@@ -77182,6 +79325,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2144,
   },
   {
     score: 23.49,
@@ -77218,6 +79362,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2145,
   },
   {
     score: 23.481,
@@ -77254,6 +79399,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2146,
   },
   {
     score: 23.481,
@@ -77290,6 +79436,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2147,
   },
   {
     score: 23.478,
@@ -77326,6 +79473,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2148,
   },
   {
     score: 23.478,
@@ -77362,6 +79510,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2149,
   },
   {
     score: 23.473,
@@ -77398,6 +79547,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2150,
   },
   {
     score: 23.464,
@@ -77434,6 +79584,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2151,
   },
   {
     score: 23.464,
@@ -77470,6 +79621,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2152,
   },
   {
     score: 23.464,
@@ -77506,6 +79658,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2153,
   },
   {
     score: 23.464,
@@ -77542,6 +79695,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2154,
   },
   {
     score: 23.464,
@@ -77578,6 +79732,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2155,
   },
   {
     score: 23.459,
@@ -77614,6 +79769,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2156,
   },
   {
     score: 23.459,
@@ -77650,6 +79806,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2157,
   },
   {
     score: 23.452,
@@ -77686,6 +79843,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2158,
   },
   {
     score: 23.428,
@@ -77722,6 +79880,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2159,
   },
   {
     score: 23.428,
@@ -77758,6 +79917,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2160,
   },
   {
     score: 23.428,
@@ -77794,6 +79954,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2161,
   },
   {
     score: 23.428,
@@ -77830,6 +79991,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2162,
   },
   {
     score: 23.411,
@@ -77866,6 +80028,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2163,
   },
   {
     score: 23.411,
@@ -77902,6 +80065,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2164,
   },
   {
     score: 23.411,
@@ -77938,6 +80102,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2165,
   },
   {
     score: 23.406,
@@ -77974,6 +80139,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2166,
   },
   {
     score: 23.406,
@@ -78010,6 +80176,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2167,
   },
   {
     score: 23.406,
@@ -78046,6 +80213,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2168,
   },
   {
     score: 23.406,
@@ -78082,6 +80250,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2169,
   },
   {
     score: 23.401,
@@ -78118,6 +80287,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2170,
   },
   {
     score: 23.401,
@@ -78154,6 +80324,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2171,
   },
   {
     score: 23.394,
@@ -78190,6 +80361,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2172,
   },
   {
     score: 23.376,
@@ -78226,6 +80398,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2173,
   },
   {
     score: 23.376,
@@ -78262,6 +80435,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2174,
   },
   {
     score: 23.375,
@@ -78298,6 +80472,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2175,
   },
   {
     score: 23.375,
@@ -78334,6 +80509,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2176,
   },
   {
     score: 23.375,
@@ -78370,6 +80546,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2177,
   },
   {
     score: 23.375,
@@ -78406,6 +80583,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2178,
   },
   {
     score: 23.375,
@@ -78442,6 +80620,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2179,
   },
   {
     score: 23.375,
@@ -78478,6 +80657,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2180,
   },
   {
     score: 23.375,
@@ -78514,6 +80694,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2181,
   },
   {
     score: 23.364,
@@ -78550,6 +80731,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2182,
   },
   {
     score: 23.362,
@@ -78586,6 +80768,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2183,
   },
   {
     score: 23.362,
@@ -78622,6 +80805,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2184,
   },
   {
     score: 23.362,
@@ -78658,6 +80842,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2185,
   },
   {
     score: 23.349,
@@ -78694,6 +80879,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2186,
   },
   {
     score: 23.349,
@@ -78730,6 +80916,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2187,
   },
   {
     score: 23.332,
@@ -78766,6 +80953,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2188,
   },
   {
     score: 23.332,
@@ -78802,6 +80990,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2189,
   },
   {
     score: 23.332,
@@ -78838,6 +81027,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2190,
   },
   {
     score: 23.332,
@@ -78874,6 +81064,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2191,
   },
   {
     score: 23.327,
@@ -78910,6 +81101,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2192,
   },
   {
     score: 23.327,
@@ -78946,6 +81138,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2193,
   },
   {
     score: 23.327,
@@ -78982,6 +81175,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2194,
   },
   {
     score: 23.327,
@@ -79018,6 +81212,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2195,
   },
   {
     score: 23.311,
@@ -79054,6 +81249,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2196,
   },
   {
     score: 23.311,
@@ -79090,6 +81286,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2197,
   },
   {
     score: 23.309,
@@ -79126,6 +81323,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2198,
   },
   {
     score: 23.309,
@@ -79162,6 +81360,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2199,
   },
   {
     score: 23.297,
@@ -79198,6 +81397,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2200,
   },
   {
     score: 23.297,
@@ -79234,6 +81434,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2201,
   },
   {
     score: 23.297,
@@ -79270,6 +81471,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2202,
   },
   {
     score: 23.296,
@@ -79306,6 +81508,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2203,
   },
   {
     score: 23.295,
@@ -79342,6 +81545,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2204,
   },
   {
     score: 23.284,
@@ -79378,6 +81582,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2205,
   },
   {
     score: 23.284,
@@ -79414,6 +81619,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2206,
   },
   {
     score: 23.283,
@@ -79450,6 +81656,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2207,
   },
   {
     score: 23.283,
@@ -79486,6 +81693,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2208,
   },
   {
     score: 23.279,
@@ -79522,6 +81730,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2209,
   },
   {
     score: 23.259,
@@ -79558,6 +81767,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2210,
   },
   {
     score: 23.259,
@@ -79594,6 +81804,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2211,
   },
   {
     score: 23.259,
@@ -79630,6 +81841,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2212,
   },
   {
     score: 23.258,
@@ -79666,6 +81878,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2213,
   },
   {
     score: 23.258,
@@ -79702,6 +81915,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2214,
   },
   {
     score: 23.258,
@@ -79738,6 +81952,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2215,
   },
   {
     score: 23.258,
@@ -79774,6 +81989,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2216,
   },
   {
     score: 23.243,
@@ -79810,6 +82026,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2217,
   },
   {
     score: 23.243,
@@ -79846,6 +82063,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2218,
   },
   {
     score: 23.243,
@@ -79882,6 +82100,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2219,
   },
   {
     score: 23.243,
@@ -79918,6 +82137,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2220,
   },
   {
     score: 23.243,
@@ -79954,6 +82174,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2221,
   },
   {
     score: 23.242,
@@ -79990,6 +82211,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2222,
   },
   {
     score: 23.242,
@@ -80026,6 +82248,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2223,
   },
   {
     score: 23.237,
@@ -80062,6 +82285,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2224,
   },
   {
     score: 23.228,
@@ -80098,6 +82322,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2225,
   },
   {
     score: 23.216,
@@ -80134,6 +82359,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2226,
   },
   {
     score: 23.216,
@@ -80170,6 +82396,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2227,
   },
   {
     score: 23.216,
@@ -80206,6 +82433,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2228,
   },
   {
     score: 23.216,
@@ -80242,6 +82470,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2229,
   },
   {
     score: 23.216,
@@ -80278,6 +82507,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2230,
   },
   {
     score: 23.216,
@@ -80314,6 +82544,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2231,
   },
   {
     score: 23.2,
@@ -80350,6 +82581,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2232,
   },
   {
     score: 23.2,
@@ -80386,6 +82618,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2233,
   },
   {
     score: 23.18,
@@ -80422,6 +82655,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2234,
   },
   {
     score: 23.178,
@@ -80458,6 +82692,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2235,
   },
   {
     score: 23.175,
@@ -80494,6 +82729,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2236,
   },
   {
     score: 23.175,
@@ -80530,6 +82766,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2237,
   },
   {
     score: 23.175,
@@ -80566,6 +82803,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2238,
   },
   {
     score: 23.175,
@@ -80602,6 +82840,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2239,
   },
   {
     score: 23.158,
@@ -80638,6 +82877,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2240,
   },
   {
     score: 23.149,
@@ -80674,6 +82914,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2241,
   },
   {
     score: 23.133,
@@ -80710,6 +82951,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2242,
   },
   {
     score: 23.126,
@@ -80746,6 +82988,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2243,
   },
   {
     score: 23.126,
@@ -80782,6 +83025,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2244,
   },
   {
     score: 23.117,
@@ -80818,6 +83062,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2245,
   },
   {
     score: 23.101,
@@ -80854,6 +83099,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2246,
   },
   {
     score: 23.101,
@@ -80890,6 +83136,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2247,
   },
   {
     score: 23.101,
@@ -80926,6 +83173,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2248,
   },
   {
     score: 23.101,
@@ -80962,6 +83210,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2249,
   },
   {
     score: 23.101,
@@ -80998,6 +83247,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2250,
   },
   {
     score: 23.096,
@@ -81034,6 +83284,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2251,
   },
   {
     score: 23.096,
@@ -81070,6 +83321,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2252,
   },
   {
     score: 23.08,
@@ -81106,6 +83358,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2253,
   },
   {
     score: 23.073,
@@ -81142,6 +83395,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2254,
   },
   {
     score: 23.073,
@@ -81178,6 +83432,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2255,
   },
   {
     score: 23.065,
@@ -81214,6 +83469,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2256,
   },
   {
     score: 23.065,
@@ -81250,6 +83506,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2257,
   },
   {
     score: 23.065,
@@ -81286,6 +83543,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2258,
   },
   {
     score: 23.064,
@@ -81322,6 +83580,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2259,
   },
   {
     score: 23.064,
@@ -81358,6 +83617,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2260,
   },
   {
     score: 23.064,
@@ -81394,6 +83654,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2261,
   },
   {
     score: 23.061,
@@ -81430,6 +83691,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2262,
   },
   {
     score: 23.061,
@@ -81466,6 +83728,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2263,
   },
   {
     score: 23.05,
@@ -81502,6 +83765,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2264,
   },
   {
     score: 23.047,
@@ -81538,6 +83802,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2265,
   },
   {
     score: 23.047,
@@ -81574,6 +83839,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2266,
   },
   {
     score: 23.047,
@@ -81610,6 +83876,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2267,
   },
   {
     score: 23.047,
@@ -81646,6 +83913,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2268,
   },
   {
     score: 23.038,
@@ -81682,6 +83950,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2269,
   },
   {
     score: 23.038,
@@ -81718,6 +83987,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2270,
   },
   {
     score: 23.038,
@@ -81754,6 +84024,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2271,
   },
   {
     score: 23.038,
@@ -81790,6 +84061,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2272,
   },
   {
     score: 23.012,
@@ -81826,6 +84098,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2273,
   },
   {
     score: 23.012,
@@ -81862,6 +84135,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2274,
   },
   {
     score: 23.012,
@@ -81898,6 +84172,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2275,
   },
   {
     score: 23.012,
@@ -81934,6 +84209,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2276,
   },
   {
     score: 23.011,
@@ -81970,6 +84246,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2277,
   },
   {
     score: 23.011,
@@ -82006,6 +84283,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2278,
   },
   {
     score: 23.009,
@@ -82042,6 +84320,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2279,
   },
   {
     score: 23.009,
@@ -82078,6 +84357,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2280,
   },
   {
     score: 23.009,
@@ -82114,6 +84394,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2281,
   },
   {
     score: 23.009,
@@ -82150,6 +84431,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2282,
   },
   {
     score: 22.985,
@@ -82186,6 +84468,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2283,
   },
   {
     score: 22.982,
@@ -82222,6 +84505,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2284,
   },
   {
     score: 22.969,
@@ -82258,6 +84542,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2285,
   },
   {
     score: 22.93,
@@ -82294,6 +84579,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2286,
   },
   {
     score: 22.93,
@@ -82330,6 +84616,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2287,
   },
   {
     score: 22.927,
@@ -82366,6 +84653,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2288,
   },
   {
     score: 22.927,
@@ -82402,6 +84690,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2289,
   },
   {
     score: 22.927,
@@ -82438,6 +84727,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2290,
   },
   {
     score: 22.895,
@@ -82474,6 +84764,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2291,
   },
   {
     score: 22.893,
@@ -82510,6 +84801,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2292,
   },
   {
     score: 22.892,
@@ -82546,6 +84838,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2293,
   },
   {
     score: 22.892,
@@ -82582,6 +84875,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2294,
   },
   {
     score: 22.886,
@@ -82618,6 +84912,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2295,
   },
   {
     score: 22.886,
@@ -82654,6 +84949,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2296,
   },
   {
     score: 22.816,
@@ -82690,6 +84986,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2297,
   },
   {
     score: 22.814,
@@ -82726,6 +85023,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2298,
   },
   {
     score: 22.812,
@@ -82762,6 +85060,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2299,
   },
   {
     score: 22.808,
@@ -82798,6 +85097,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2300,
   },
   {
     score: 22.808,
@@ -82834,6 +85134,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2301,
   },
   {
     score: 22.808,
@@ -82870,6 +85171,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2302,
   },
   {
     score: 22.807,
@@ -82906,6 +85208,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2303,
   },
   {
     score: 22.807,
@@ -82942,6 +85245,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2304,
   },
   {
     score: 22.782,
@@ -82978,6 +85282,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2305,
   },
   {
     score: 22.765,
@@ -83014,6 +85319,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2306,
   },
   {
     score: 22.734,
@@ -83050,6 +85356,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2307,
   },
   {
     score: 22.734,
@@ -83086,6 +85393,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2308,
   },
   {
     score: 22.734,
@@ -83122,6 +85430,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2309,
   },
   {
     score: 22.734,
@@ -83158,6 +85467,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2310,
   },
   {
     score: 22.734,
@@ -83194,6 +85504,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2311,
   },
   {
     score: 22.734,
@@ -83230,6 +85541,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2312,
   },
   {
     score: 22.729,
@@ -83266,6 +85578,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2313,
   },
   {
     score: 22.729,
@@ -83302,6 +85615,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2314,
   },
   {
     score: 22.729,
@@ -83338,6 +85652,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2315,
   },
   {
     score: 22.729,
@@ -83374,6 +85689,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2316,
   },
   {
     score: 22.703,
@@ -83410,6 +85726,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2317,
   },
   {
     score: 22.697,
@@ -83446,6 +85763,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2318,
   },
   {
     score: 22.697,
@@ -83482,6 +85800,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2319,
   },
   {
     score: 22.697,
@@ -83518,6 +85837,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2320,
   },
   {
     score: 22.697,
@@ -83554,6 +85874,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2321,
   },
   {
     score: 22.686,
@@ -83590,6 +85911,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2322,
   },
   {
     score: 22.686,
@@ -83626,6 +85948,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2323,
   },
   {
     score: 22.686,
@@ -83662,6 +85985,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2324,
   },
   {
     score: 22.686,
@@ -83698,6 +86022,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2325,
   },
   {
     score: 22.644,
@@ -83734,6 +86059,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2326,
   },
   {
     score: 22.644,
@@ -83770,6 +86096,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2327,
   },
   {
     score: 22.644,
@@ -83806,6 +86133,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2328,
   },
   {
     score: 22.644,
@@ -83842,6 +86170,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2329,
   },
   {
     score: 22.639,
@@ -83878,6 +86207,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2330,
   },
   {
     score: 22.639,
@@ -83914,6 +86244,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2331,
   },
   {
     score: 22.618,
@@ -83950,6 +86281,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2332,
   },
   {
     score: 22.618,
@@ -83986,6 +86318,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2333,
   },
   {
     score: 22.618,
@@ -84022,6 +86355,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2334,
   },
   {
     score: 22.618,
@@ -84058,6 +86392,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2335,
   },
   {
     score: 22.602,
@@ -84094,6 +86429,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2336,
   },
   {
     score: 22.602,
@@ -84130,6 +86466,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2337,
   },
   {
     score: 22.602,
@@ -84166,6 +86503,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2338,
   },
   {
     score: 22.602,
@@ -84202,6 +86540,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2339,
   },
   {
     score: 22.602,
@@ -84238,6 +86577,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2340,
   },
   {
     score: 22.602,
@@ -84274,6 +86614,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2341,
   },
   {
     score: 22.58,
@@ -84310,6 +86651,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2342,
   },
   {
     score: 22.58,
@@ -84346,6 +86688,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2343,
   },
   {
     score: 22.56,
@@ -84382,6 +86725,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2344,
   },
   {
     score: 22.56,
@@ -84418,6 +86762,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2345,
   },
   {
     score: 22.554,
@@ -84454,6 +86799,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2346,
   },
   {
     score: 22.551,
@@ -84490,6 +86836,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2347,
   },
   {
     score: 22.551,
@@ -84526,6 +86873,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2348,
   },
   {
     score: 22.55,
@@ -84562,6 +86910,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2349,
   },
   {
     score: 22.55,
@@ -84598,6 +86947,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2350,
   },
   {
     score: 22.55,
@@ -84634,6 +86984,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2351,
   },
   {
     score: 22.528,
@@ -84670,6 +87021,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2352,
   },
   {
     score: 22.528,
@@ -84706,6 +87058,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2353,
   },
   {
     score: 22.527,
@@ -84742,6 +87095,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2354,
   },
   {
     score: 22.527,
@@ -84778,6 +87132,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2355,
   },
   {
     score: 22.527,
@@ -84814,6 +87169,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2356,
   },
   {
     score: 22.498,
@@ -84850,6 +87206,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2357,
   },
   {
     score: 22.475,
@@ -84886,6 +87243,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2358,
   },
   {
     score: 22.475,
@@ -84922,6 +87280,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2359,
   },
   {
     score: 22.475,
@@ -84958,6 +87317,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2360,
   },
   {
     score: 22.475,
@@ -84994,6 +87354,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2361,
   },
   {
     score: 22.472,
@@ -85030,6 +87391,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2362,
   },
   {
     score: 22.471,
@@ -85066,6 +87428,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2363,
   },
   {
     score: 22.471,
@@ -85102,6 +87465,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2364,
   },
   {
     score: 22.471,
@@ -85138,6 +87502,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2365,
   },
   {
     score: 22.471,
@@ -85174,6 +87539,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2366,
   },
   {
     score: 22.471,
@@ -85210,6 +87576,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2367,
   },
   {
     score: 22.469,
@@ -85246,6 +87613,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2368,
   },
   {
     score: 22.469,
@@ -85282,6 +87650,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2369,
   },
   {
     score: 22.469,
@@ -85318,6 +87687,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2370,
   },
   {
     score: 22.45,
@@ -85354,6 +87724,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2371,
   },
   {
     score: 22.449,
@@ -85390,6 +87761,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2372,
   },
   {
     score: 22.448,
@@ -85426,6 +87798,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2373,
   },
   {
     score: 22.448,
@@ -85462,6 +87835,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2374,
   },
   {
     score: 22.345,
@@ -85498,6 +87872,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2375,
   },
   {
     score: 22.345,
@@ -85534,6 +87909,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2376,
   },
   {
     score: 22.345,
@@ -85570,6 +87946,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2377,
   },
   {
     score: 22.323,
@@ -85606,6 +87983,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2378,
   },
   {
     score: 22.323,
@@ -85642,6 +88020,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2379,
   },
   {
     score: 22.323,
@@ -85678,6 +88057,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2380,
   },
   {
     score: 22.299,
@@ -85714,6 +88094,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2381,
   },
   {
     score: 22.288,
@@ -85750,6 +88131,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2382,
   },
   {
     score: 22.288,
@@ -85786,6 +88168,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2383,
   },
   {
     score: 22.238,
@@ -85822,6 +88205,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2384,
   },
   {
     score: 22.238,
@@ -85858,6 +88242,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2385,
   },
   {
     score: 22.235,
@@ -85894,6 +88279,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2386,
   },
   {
     score: 22.235,
@@ -85930,6 +88316,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2387,
   },
   {
     score: 22.216,
@@ -85966,6 +88353,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2388,
   },
   {
     score: 22.184,
@@ -86002,6 +88390,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2389,
   },
   {
     score: 22.184,
@@ -86038,6 +88427,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2390,
   },
   {
     score: 22.184,
@@ -86074,6 +88464,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2391,
   },
   {
     score: 22.162,
@@ -86110,6 +88501,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2392,
   },
   {
     score: 22.162,
@@ -86146,6 +88538,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2393,
   },
   {
     score: 22.162,
@@ -86182,6 +88575,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2394,
   },
   {
     score: 22.135,
@@ -86218,6 +88612,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2395,
   },
   {
     score: 22.131,
@@ -86254,6 +88649,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2396,
   },
   {
     score: 22.131,
@@ -86290,6 +88686,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2397,
   },
   {
     score: 22.131,
@@ -86326,6 +88723,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2398,
   },
   {
     score: 22.105,
@@ -86362,6 +88760,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2399,
   },
   {
     score: 22.083,
@@ -86398,6 +88797,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2400,
   },
   {
     score: 22.052,
@@ -86434,6 +88834,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2401,
   },
   {
     score: 22.035,
@@ -86470,6 +88871,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2402,
   },
   {
     score: 21.999,
@@ -86506,6 +88908,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2403,
   },
   {
     score: 21.999,
@@ -86542,6 +88945,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2404,
   },
   {
     score: 21.999,
@@ -86578,6 +88982,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2405,
   },
   {
     score: 21.998,
@@ -86614,6 +89019,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2406,
   },
   {
     score: 21.998,
@@ -86650,6 +89056,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2407,
   },
   {
     score: 21.982,
@@ -86686,6 +89093,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2408,
   },
   {
     score: 21.982,
@@ -86722,6 +89130,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2409,
   },
   {
     score: 21.982,
@@ -86758,6 +89167,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2410,
   },
   {
     score: 21.973,
@@ -86794,6 +89204,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2411,
   },
   {
     score: 21.973,
@@ -86830,6 +89241,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2412,
   },
   {
     score: 21.973,
@@ -86866,6 +89278,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2413,
   },
   {
     score: 21.956,
@@ -86902,6 +89315,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2414,
   },
   {
     score: 21.956,
@@ -86938,6 +89352,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2415,
   },
   {
     score: 21.931,
@@ -86974,6 +89389,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2416,
   },
   {
     score: 21.919,
@@ -87010,6 +89426,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2417,
   },
   {
     score: 21.919,
@@ -87046,6 +89463,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2418,
   },
   {
     score: 21.895,
@@ -87082,6 +89500,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2419,
   },
   {
     score: 21.895,
@@ -87118,6 +89537,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2420,
   },
   {
     score: 21.895,
@@ -87154,6 +89574,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2421,
   },
   {
     score: 21.895,
@@ -87190,6 +89611,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2422,
   },
   {
     score: 21.878,
@@ -87226,6 +89648,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2423,
   },
   {
     score: 21.871,
@@ -87262,6 +89685,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2424,
   },
   {
     score: 21.871,
@@ -87298,6 +89722,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2425,
   },
   {
     score: 21.871,
@@ -87334,6 +89759,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2426,
   },
   {
     score: 21.852,
@@ -87370,6 +89796,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2427,
   },
   {
     score: 21.852,
@@ -87406,6 +89833,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2428,
   },
   {
     score: 21.852,
@@ -87442,6 +89870,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2429,
   },
   {
     score: 21.829,
@@ -87478,6 +89907,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2430,
   },
   {
     score: 21.821,
@@ -87514,6 +89944,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2431,
   },
   {
     score: 21.82,
@@ -87550,6 +89981,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2432,
   },
   {
     score: 21.82,
@@ -87586,6 +90018,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2433,
   },
   {
     score: 21.82,
@@ -87622,6 +90055,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2434,
   },
   {
     score: 21.816,
@@ -87658,6 +90092,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2435,
   },
   {
     score: 21.816,
@@ -87694,6 +90129,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2436,
   },
   {
     score: 21.816,
@@ -87730,6 +90166,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2437,
   },
   {
     score: 21.816,
@@ -87766,6 +90203,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2438,
   },
   {
     score: 21.768,
@@ -87802,6 +90240,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2439,
   },
   {
     score: 21.768,
@@ -87838,6 +90277,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2440,
   },
   {
     score: 21.767,
@@ -87874,6 +90314,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2441,
   },
   {
     score: 21.767,
@@ -87910,6 +90351,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2442,
   },
   {
     score: 21.767,
@@ -87946,6 +90388,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2443,
   },
   {
     score: 21.767,
@@ -87982,6 +90425,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2444,
   },
   {
     score: 21.767,
@@ -88018,6 +90462,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2445,
   },
   {
     score: 21.75,
@@ -88054,6 +90499,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2446,
   },
   {
     score: 21.75,
@@ -88090,6 +90536,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2447,
   },
   {
     score: 21.75,
@@ -88126,6 +90573,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2448,
   },
   {
     score: 21.75,
@@ -88162,6 +90610,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2449,
   },
   {
     score: 21.746,
@@ -88198,6 +90647,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2450,
   },
   {
     score: 21.746,
@@ -88234,6 +90684,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2451,
   },
   {
     score: 21.746,
@@ -88270,6 +90721,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2452,
   },
   {
     score: 21.746,
@@ -88306,6 +90758,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2453,
   },
   {
     score: 21.746,
@@ -88342,6 +90795,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2454,
   },
   {
     score: 21.742,
@@ -88378,6 +90832,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2455,
   },
   {
     score: 21.741,
@@ -88414,6 +90869,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2456,
   },
   {
     score: 21.741,
@@ -88450,6 +90906,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2457,
   },
   {
     score: 21.741,
@@ -88486,6 +90943,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2458,
   },
   {
     score: 21.741,
@@ -88522,6 +90980,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2459,
   },
   {
     score: 21.741,
@@ -88558,6 +91017,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2460,
   },
   {
     score: 21.741,
@@ -88594,6 +91054,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2461,
   },
   {
     score: 21.72,
@@ -88630,6 +91091,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2462,
   },
   {
     score: 21.72,
@@ -88666,6 +91128,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2463,
   },
   {
     score: 21.716,
@@ -88702,6 +91165,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2464,
   },
   {
     score: 21.716,
@@ -88738,6 +91202,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2465,
   },
   {
     score: 21.693,
@@ -88774,6 +91239,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2466,
   },
   {
     score: 21.693,
@@ -88810,6 +91276,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2467,
   },
   {
     score: 21.688,
@@ -88846,6 +91313,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2468,
   },
   {
     score: 21.688,
@@ -88882,6 +91350,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2469,
   },
   {
     score: 21.664,
@@ -88918,6 +91387,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2470,
   },
   {
     score: 21.664,
@@ -88954,6 +91424,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2471,
   },
   {
     score: 21.664,
@@ -88990,6 +91461,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2472,
   },
   {
     score: 21.664,
@@ -89026,6 +91498,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2473,
   },
   {
     score: 21.637,
@@ -89062,6 +91535,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2474,
   },
   {
     score: 21.637,
@@ -89098,6 +91572,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2475,
   },
   {
     score: 21.637,
@@ -89134,6 +91609,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2476,
   },
   {
     score: 21.636,
@@ -89170,6 +91646,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2477,
   },
   {
     score: 21.614,
@@ -89206,6 +91683,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2478,
   },
   {
     score: 21.614,
@@ -89242,6 +91720,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2479,
   },
   {
     score: 21.614,
@@ -89278,6 +91757,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2480,
   },
   {
     score: 21.614,
@@ -89314,6 +91794,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2481,
   },
   {
     score: 21.614,
@@ -89350,6 +91831,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2482,
   },
   {
     score: 21.614,
@@ -89386,6 +91868,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2483,
   },
   {
     score: 21.614,
@@ -89422,6 +91905,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2484,
   },
   {
     score: 21.598,
@@ -89458,6 +91942,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2485,
   },
   {
     score: 21.598,
@@ -89494,6 +91979,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2486,
   },
   {
     score: 21.598,
@@ -89530,6 +92016,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2487,
   },
   {
     score: 21.598,
@@ -89566,6 +92053,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2488,
   },
   {
     score: 21.598,
@@ -89602,6 +92090,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2489,
   },
   {
     score: 21.585,
@@ -89638,6 +92127,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2490,
   },
   {
     score: 21.585,
@@ -89674,6 +92164,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2491,
   },
   {
     score: 21.585,
@@ -89710,6 +92201,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2492,
   },
   {
     score: 21.568,
@@ -89746,6 +92238,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2493,
   },
   {
     score: 21.568,
@@ -89782,6 +92275,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2494,
   },
   {
     score: 21.564,
@@ -89818,6 +92312,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2495,
   },
   {
     score: 21.519,
@@ -89854,6 +92349,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2496,
   },
   {
     score: 21.515,
@@ -89890,6 +92386,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2497,
   },
   {
     score: 21.485,
@@ -89926,6 +92423,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2498,
   },
   {
     score: 21.454,
@@ -89962,6 +92460,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2499,
   },
   {
     score: 21.454,
@@ -89998,6 +92497,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2500,
   },
   {
     score: 21.454,
@@ -90034,6 +92534,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2501,
   },
   {
     score: 21.406,
@@ -90070,6 +92571,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2502,
   },
   {
     score: 21.405,
@@ -90106,6 +92608,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2503,
   },
   {
     score: 21.405,
@@ -90142,6 +92645,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2504,
   },
   {
     score: 21.401,
@@ -90178,6 +92682,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2505,
   },
   {
     score: 21.401,
@@ -90214,6 +92719,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2506,
   },
   {
     score: 21.401,
@@ -90250,6 +92756,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2507,
   },
   {
     score: 21.401,
@@ -90286,6 +92793,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2508,
   },
   {
     score: 21.399,
@@ -90322,6 +92830,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2509,
   },
   {
     score: 21.399,
@@ -90358,6 +92867,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2510,
   },
   {
     score: 21.399,
@@ -90394,6 +92904,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2511,
   },
   {
     score: 21.399,
@@ -90430,6 +92941,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2512,
   },
   {
     score: 21.399,
@@ -90466,6 +92978,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2513,
   },
   {
     score: 21.399,
@@ -90502,6 +93015,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2514,
   },
   {
     score: 21.374,
@@ -90538,6 +93052,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2515,
   },
   {
     score: 21.32,
@@ -90574,6 +93089,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2516,
   },
   {
     score: 21.32,
@@ -90610,6 +93126,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2517,
   },
   {
     score: 21.32,
@@ -90646,6 +93163,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2518,
   },
   {
     score: 21.32,
@@ -90682,6 +93200,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2519,
   },
   {
     score: 21.296,
@@ -90718,6 +93237,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2520,
   },
   {
     score: 21.296,
@@ -90754,6 +93274,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2521,
   },
   {
     score: 21.296,
@@ -90790,6 +93311,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2522,
   },
   {
     score: 21.296,
@@ -90826,6 +93348,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2523,
   },
   {
     score: 21.296,
@@ -90862,6 +93385,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2524,
   },
   {
     score: 21.296,
@@ -90898,6 +93422,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2525,
   },
   {
     score: 21.296,
@@ -90934,6 +93459,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2526,
   },
   {
     score: 21.232,
@@ -90970,6 +93496,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2527,
   },
   {
     score: 21.232,
@@ -91006,6 +93533,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2528,
   },
   {
     score: 21.231,
@@ -91042,6 +93570,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2529,
   },
   {
     score: 21.231,
@@ -91078,6 +93607,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2530,
   },
   {
     score: 21.231,
@@ -91114,6 +93644,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2531,
   },
   {
     score: 21.217,
@@ -91150,6 +93681,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2532,
   },
   {
     score: 21.217,
@@ -91186,6 +93718,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2533,
   },
   {
     score: 21.217,
@@ -91222,6 +93755,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2534,
   },
   {
     score: 21.217,
@@ -91258,6 +93792,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2535,
   },
   {
     score: 21.201,
@@ -91294,6 +93829,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2536,
   },
   {
     score: 21.175,
@@ -91330,6 +93866,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2537,
   },
   {
     score: 21.175,
@@ -91366,6 +93903,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2538,
   },
   {
     score: 21.164,
@@ -91402,6 +93940,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2539,
   },
   {
     score: 21.164,
@@ -91438,6 +93977,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2540,
   },
   {
     score: 21.164,
@@ -91474,6 +94014,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2541,
   },
   {
     score: 21.164,
@@ -91510,6 +94051,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2542,
   },
   {
     score: 21.164,
@@ -91546,6 +94088,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2543,
   },
   {
     score: 21.164,
@@ -91582,6 +94125,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2544,
   },
   {
     score: 21.153,
@@ -91618,6 +94162,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2545,
   },
   {
     score: 21.153,
@@ -91654,6 +94199,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2546,
   },
   {
     score: 21.153,
@@ -91690,6 +94236,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2547,
   },
   {
     score: 21.152,
@@ -91726,6 +94273,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2548,
   },
   {
     score: 21.152,
@@ -91762,6 +94310,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2549,
   },
   {
     score: 21.152,
@@ -91798,6 +94347,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2550,
   },
   {
     score: 21.152,
@@ -91834,6 +94384,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2551,
   },
   {
     score: 21.152,
@@ -91870,6 +94421,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2552,
   },
   {
     score: 21.148,
@@ -91906,6 +94458,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2553,
   },
   {
     score: 21.148,
@@ -91942,6 +94495,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2554,
   },
   {
     score: 21.148,
@@ -91978,6 +94532,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2555,
   },
   {
     score: 21.122,
@@ -92014,6 +94569,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2556,
   },
   {
     score: 21.122,
@@ -92050,6 +94606,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2557,
   },
   {
     score: 21.085,
@@ -92086,6 +94643,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2558,
   },
   {
     score: 21.085,
@@ -92122,6 +94680,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2559,
   },
   {
     score: 21.085,
@@ -92158,6 +94717,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2560,
   },
   {
     score: 21.085,
@@ -92194,6 +94754,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2561,
   },
   {
     score: 21.085,
@@ -92230,6 +94791,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2562,
   },
   {
     score: 21.085,
@@ -92266,6 +94828,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2563,
   },
   {
     score: 21.069,
@@ -92302,6 +94865,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2564,
   },
   {
     score: 21.069,
@@ -92338,6 +94902,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2565,
   },
   {
     score: 21.069,
@@ -92374,6 +94939,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2566,
   },
   {
     score: 21.069,
@@ -92410,6 +94976,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2567,
   },
   {
     score: 21.042,
@@ -92446,6 +95013,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2568,
   },
   {
     score: 21.042,
@@ -92482,6 +95050,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2569,
   },
   {
     score: 21.037,
@@ -92518,6 +95087,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2570,
   },
   {
     score: 21.001,
@@ -92554,6 +95124,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2571,
   },
   {
     score: 21.001,
@@ -92590,6 +95161,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2572,
   },
   {
     score: 21.001,
@@ -92626,6 +95198,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2573,
   },
   {
     score: 20.995,
@@ -92662,6 +95235,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2574,
   },
   {
     score: 20.995,
@@ -92698,6 +95272,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2575,
   },
   {
     score: 20.995,
@@ -92734,6 +95309,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2576,
   },
   {
     score: 20.986,
@@ -92770,6 +95346,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2577,
   },
   {
     score: 20.986,
@@ -92806,6 +95383,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2578,
   },
   {
     score: 20.986,
@@ -92842,6 +95420,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2579,
   },
   {
     score: 20.986,
@@ -92878,6 +95457,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2580,
   },
   {
     score: 20.986,
@@ -92914,6 +95494,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2581,
   },
   {
     score: 20.933,
@@ -92950,6 +95531,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2582,
   },
   {
     score: 20.933,
@@ -92986,6 +95568,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2583,
   },
   {
     score: 20.933,
@@ -93022,6 +95605,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2584,
   },
   {
     score: 20.933,
@@ -93058,6 +95642,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2585,
   },
   {
     score: 20.933,
@@ -93094,6 +95679,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2586,
   },
   {
     score: 20.922,
@@ -93130,6 +95716,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2587,
   },
   {
     score: 20.916,
@@ -93166,6 +95753,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2588,
   },
   {
     score: 20.916,
@@ -93202,6 +95790,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2589,
   },
   {
     score: 20.916,
@@ -93238,6 +95827,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2590,
   },
   {
     score: 20.916,
@@ -93274,6 +95864,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2591,
   },
   {
     score: 20.916,
@@ -93310,6 +95901,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2592,
   },
   {
     score: 20.916,
@@ -93346,6 +95938,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2593,
   },
   {
     score: 20.916,
@@ -93382,6 +95975,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2594,
   },
   {
     score: 20.907,
@@ -93418,6 +96012,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2595,
   },
   {
     score: 20.907,
@@ -93454,6 +96049,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2596,
   },
   {
     score: 20.907,
@@ -93490,6 +96086,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2597,
   },
   {
     score: 20.891,
@@ -93526,6 +96123,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2598,
   },
   {
     score: 20.887,
@@ -93562,6 +96160,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2599,
   },
   {
     score: 20.854,
@@ -93598,6 +96197,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2600,
   },
   {
     score: 20.854,
@@ -93634,6 +96234,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2601,
   },
   {
     score: 20.838,
@@ -93670,6 +96271,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2602,
   },
   {
     score: 20.838,
@@ -93706,6 +96308,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2603,
   },
   {
     score: 20.838,
@@ -93742,6 +96345,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2604,
   },
   {
     score: 20.811,
@@ -93778,6 +96382,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2605,
   },
   {
     score: 20.811,
@@ -93814,6 +96419,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2606,
   },
   {
     score: 20.811,
@@ -93850,6 +96456,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2607,
   },
   {
     score: 20.764,
@@ -93886,6 +96493,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2608,
   },
   {
     score: 20.764,
@@ -93922,6 +96530,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2609,
   },
   {
     score: 20.764,
@@ -93958,6 +96567,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2610,
   },
   {
     score: 20.764,
@@ -93994,6 +96604,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2611,
   },
   {
     score: 20.764,
@@ -94030,6 +96641,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2612,
   },
   {
     score: 20.764,
@@ -94066,6 +96678,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2613,
   },
   {
     score: 20.685,
@@ -94102,6 +96715,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2614,
   },
   {
     score: 20.685,
@@ -94138,6 +96752,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2615,
   },
   {
     score: 20.685,
@@ -94174,6 +96789,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2616,
   },
   {
     score: 20.685,
@@ -94210,6 +96826,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2617,
   },
   {
     score: 20.675,
@@ -94246,6 +96863,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2618,
   },
   {
     score: 20.675,
@@ -94282,6 +96900,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2619,
   },
   {
     score: 20.651,
@@ -94318,6 +96937,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2620,
   },
   {
     score: 20.651,
@@ -94354,6 +96974,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2621,
   },
   {
     score: 20.634,
@@ -94390,6 +97011,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2622,
   },
   {
     score: 20.634,
@@ -94426,6 +97048,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2623,
   },
   {
     score: 20.572,
@@ -94462,6 +97085,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2624,
   },
   {
     score: 20.572,
@@ -94498,6 +97122,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2625,
   },
   {
     score: 20.566,
@@ -94534,6 +97159,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2626,
   },
   {
     score: 20.566,
@@ -94570,6 +97196,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2627,
   },
   {
     score: 20.566,
@@ -94606,6 +97233,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2628,
   },
   {
     score: 20.566,
@@ -94642,6 +97270,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2629,
   },
   {
     score: 20.566,
@@ -94678,6 +97307,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2630,
   },
   {
     score: 20.566,
@@ -94714,6 +97344,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2631,
   },
   {
     score: 20.566,
@@ -94750,6 +97381,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2632,
   },
   {
     score: 20.566,
@@ -94786,6 +97418,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2633,
   },
   {
     score: 20.566,
@@ -94822,6 +97455,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2634,
   },
   {
     score: 20.566,
@@ -94858,6 +97492,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2635,
   },
   {
     score: 20.565,
@@ -94894,6 +97529,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2636,
   },
   {
     score: 20.565,
@@ -94930,6 +97566,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2637,
   },
   {
     score: 20.555,
@@ -94966,6 +97603,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2638,
   },
   {
     score: 20.523,
@@ -95002,6 +97640,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2639,
   },
   {
     score: 20.523,
@@ -95038,6 +97677,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2640,
   },
   {
     score: 20.523,
@@ -95074,6 +97714,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2641,
   },
   {
     score: 20.502,
@@ -95110,6 +97751,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2642,
   },
   {
     score: 20.487,
@@ -95146,6 +97788,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2643,
   },
   {
     score: 20.487,
@@ -95182,6 +97825,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2644,
   },
   {
     score: 20.487,
@@ -95218,6 +97862,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2645,
   },
   {
     score: 20.487,
@@ -95254,6 +97899,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2646,
   },
   {
     score: 20.487,
@@ -95290,6 +97936,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2647,
   },
   {
     score: 20.487,
@@ -95326,6 +97973,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2648,
   },
   {
     score: 20.487,
@@ -95362,6 +98010,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2649,
   },
   {
     score: 20.487,
@@ -95398,6 +98047,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2650,
   },
   {
     score: 20.487,
@@ -95434,6 +98084,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2651,
   },
   {
     score: 20.487,
@@ -95470,6 +98121,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2652,
   },
   {
     score: 20.487,
@@ -95506,6 +98158,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2653,
   },
   {
     score: 20.486,
@@ -95542,6 +98195,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2654,
   },
   {
     score: 20.486,
@@ -95578,6 +98232,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2655,
   },
   {
     score: 20.486,
@@ -95614,6 +98269,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2656,
   },
   {
     score: 20.486,
@@ -95650,6 +98306,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2657,
   },
   {
     score: 20.486,
@@ -95686,6 +98343,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2658,
   },
   {
     score: 20.486,
@@ -95722,6 +98380,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2659,
   },
   {
     score: 20.47,
@@ -95758,6 +98417,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2660,
   },
   {
     score: 20.47,
@@ -95794,6 +98454,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2661,
   },
   {
     score: 20.47,
@@ -95830,6 +98491,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2662,
   },
   {
     score: 20.47,
@@ -95866,6 +98528,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2663,
   },
   {
     score: 20.47,
@@ -95902,6 +98565,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2664,
   },
   {
     score: 20.47,
@@ -95938,6 +98602,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2665,
   },
   {
     score: 20.444,
@@ -95974,6 +98639,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2666,
   },
   {
     score: 20.444,
@@ -96010,6 +98676,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2667,
   },
   {
     score: 20.444,
@@ -96046,6 +98713,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2668,
   },
   {
     score: 20.444,
@@ -96082,6 +98750,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2669,
   },
   {
     score: 20.444,
@@ -96118,6 +98787,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2670,
   },
   {
     score: 20.444,
@@ -96154,6 +98824,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2671,
   },
   {
     score: 20.444,
@@ -96190,6 +98861,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2672,
   },
   {
     score: 20.444,
@@ -96226,6 +98898,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2673,
   },
   {
     score: 20.444,
@@ -96262,6 +98935,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2674,
   },
   {
     score: 20.423,
@@ -96298,6 +98972,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2675,
   },
   {
     score: 20.423,
@@ -96334,6 +99009,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2676,
   },
   {
     score: 20.423,
@@ -96370,6 +99046,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2677,
   },
   {
     score: 20.423,
@@ -96406,6 +99083,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2678,
   },
   {
     score: 20.42,
@@ -96442,6 +99120,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2679,
   },
   {
     score: 20.398,
@@ -96478,6 +99157,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2680,
   },
   {
     score: 20.397,
@@ -96514,6 +99194,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2681,
   },
   {
     score: 20.391,
@@ -96550,6 +99231,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2682,
   },
   {
     score: 20.391,
@@ -96586,6 +99268,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2683,
   },
   {
     score: 20.341,
@@ -96622,6 +99305,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2684,
   },
   {
     score: 20.338,
@@ -96658,6 +99342,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2685,
   },
   {
     score: 20.338,
@@ -96694,6 +99379,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2686,
   },
   {
     score: 20.338,
@@ -96730,6 +99416,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2687,
   },
   {
     score: 20.338,
@@ -96766,6 +99453,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2688,
   },
   {
     score: 20.319,
@@ -96802,6 +99490,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2689,
   },
   {
     score: 20.319,
@@ -96838,6 +99527,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2690,
   },
   {
     score: 20.319,
@@ -96874,6 +99564,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2691,
   },
   {
     score: 20.318,
@@ -96910,6 +99601,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2692,
   },
   {
     score: 20.318,
@@ -96946,6 +99638,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2693,
   },
   {
     score: 20.318,
@@ -96982,6 +99675,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2694,
   },
   {
     score: 20.318,
@@ -97018,6 +99712,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2695,
   },
   {
     score: 20.318,
@@ -97054,6 +99749,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2696,
   },
   {
     score: 20.318,
@@ -97090,6 +99786,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2697,
   },
   {
     score: 20.318,
@@ -97126,6 +99823,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2698,
   },
   {
     score: 20.318,
@@ -97162,6 +99860,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2699,
   },
   {
     score: 20.312,
@@ -97198,6 +99897,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2700,
   },
   {
     score: 20.312,
@@ -97234,6 +99934,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2701,
   },
   {
     score: 20.235,
@@ -97270,6 +99971,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2702,
   },
   {
     score: 20.235,
@@ -97306,6 +100008,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2703,
   },
   {
     score: 20.235,
@@ -97342,6 +100045,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2704,
   },
   {
     score: 20.235,
@@ -97378,6 +100082,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2705,
   },
   {
     score: 20.235,
@@ -97414,6 +100119,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2706,
   },
   {
     score: 20.235,
@@ -97450,6 +100156,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2707,
   },
   {
     score: 20.235,
@@ -97486,6 +100193,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2708,
   },
   {
     score: 20.208,
@@ -97522,6 +100230,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2709,
   },
   {
     score: 20.208,
@@ -97558,6 +100267,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2710,
   },
   {
     score: 20.192,
@@ -97594,6 +100304,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2711,
   },
   {
     score: 20.192,
@@ -97630,6 +100341,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2712,
   },
   {
     score: 20.192,
@@ -97666,6 +100378,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2713,
   },
   {
     score: 20.167,
@@ -97702,6 +100415,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2714,
   },
   {
     score: 20.16,
@@ -97738,6 +100452,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2715,
   },
   {
     score: 20.16,
@@ -97774,6 +100489,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2716,
   },
   {
     score: 20.16,
@@ -97810,6 +100526,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2717,
   },
   {
     score: 20.156,
@@ -97846,6 +100563,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2718,
   },
   {
     score: 20.156,
@@ -97882,6 +100600,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2719,
   },
   {
     score: 20.156,
@@ -97918,6 +100637,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2720,
   },
   {
     score: 20.156,
@@ -97954,6 +100674,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2721,
   },
   {
     score: 20.107,
@@ -97990,6 +100711,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2722,
   },
   {
     score: 20.107,
@@ -98026,6 +100748,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2723,
   },
   {
     score: 20.107,
@@ -98062,6 +100785,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2724,
   },
   {
     score: 20.107,
@@ -98098,6 +100822,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2725,
   },
   {
     score: 20.088,
@@ -98134,6 +100859,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2726,
   },
   {
     score: 20.088,
@@ -98170,6 +100896,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2727,
   },
   {
     score: 20.081,
@@ -98206,6 +100933,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2728,
   },
   {
     score: 20.081,
@@ -98242,6 +100970,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2729,
   },
   {
     score: 20.077,
@@ -98278,6 +101007,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2730,
   },
   {
     score: 20.077,
@@ -98314,6 +101044,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2731,
   },
   {
     score: 20.077,
@@ -98350,6 +101081,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2732,
   },
   {
     score: 20.077,
@@ -98386,6 +101118,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2733,
   },
   {
     score: 20.057,
@@ -98422,6 +101155,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2734,
   },
   {
     score: 20.057,
@@ -98458,6 +101192,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2735,
   },
   {
     score: 20.057,
@@ -98494,6 +101229,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2736,
   },
   {
     score: 20.053,
@@ -98530,6 +101266,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2737,
   },
   {
     score: 20.053,
@@ -98566,6 +101303,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2738,
   },
   {
     score: 20.004,
@@ -98602,6 +101340,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2739,
   },
   {
     score: 20.004,
@@ -98638,6 +101377,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2740,
   },
   {
     score: 19.977,
@@ -98674,6 +101414,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2741,
   },
   {
     score: 19.977,
@@ -98710,6 +101451,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2742,
   },
   {
     score: 19.977,
@@ -98746,6 +101488,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2743,
   },
   {
     score: 19.977,
@@ -98782,6 +101525,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2744,
   },
   {
     score: 19.977,
@@ -98818,6 +101562,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2745,
   },
   {
     score: 19.974,
@@ -98854,6 +101599,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2746,
   },
   {
     score: 19.974,
@@ -98890,6 +101636,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2747,
   },
   {
     score: 19.974,
@@ -98926,6 +101673,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2748,
   },
   {
     score: 19.974,
@@ -98962,6 +101710,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2749,
   },
   {
     score: 19.974,
@@ -98998,6 +101747,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2750,
   },
   {
     score: 19.92,
@@ -99034,6 +101784,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2751,
   },
   {
     score: 19.92,
@@ -99070,6 +101821,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2752,
   },
   {
     score: 19.92,
@@ -99106,6 +101858,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2753,
   },
   {
     score: 19.903,
@@ -99142,6 +101895,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2754,
   },
   {
     score: 19.841,
@@ -99178,6 +101932,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2755,
   },
   {
     score: 19.841,
@@ -99214,6 +101969,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2756,
   },
   {
     score: 19.824,
@@ -99250,6 +102006,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2757,
   },
   {
     score: 19.824,
@@ -99286,6 +102043,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2758,
   },
   {
     score: 19.824,
@@ -99322,6 +102080,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2759,
   },
   {
     score: 19.824,
@@ -99358,6 +102117,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2760,
   },
   {
     score: 19.824,
@@ -99394,6 +102154,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2761,
   },
   {
     score: 19.824,
@@ -99430,6 +102191,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2762,
   },
   {
     score: 19.8,
@@ -99466,6 +102228,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2763,
   },
   {
     score: 19.8,
@@ -99502,6 +102265,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2764,
   },
   {
     score: 19.8,
@@ -99538,6 +102302,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2765,
   },
   {
     score: 19.8,
@@ -99574,6 +102339,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2766,
   },
   {
     score: 19.8,
@@ -99610,6 +102376,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2767,
   },
   {
     score: 19.8,
@@ -99646,6 +102413,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2768,
   },
   {
     score: 19.793,
@@ -99682,6 +102450,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2769,
   },
   {
     score: 19.793,
@@ -99718,6 +102487,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2770,
   },
   {
     score: 19.74,
@@ -99754,6 +102524,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2771,
   },
   {
     score: 19.74,
@@ -99790,6 +102561,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2772,
   },
   {
     score: 19.74,
@@ -99826,6 +102598,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2773,
   },
   {
     score: 19.721,
@@ -99862,6 +102635,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2774,
   },
   {
     score: 19.721,
@@ -99898,6 +102672,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2775,
   },
   {
     score: 19.721,
@@ -99934,6 +102709,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2776,
   },
   {
     score: 19.714,
@@ -99970,6 +102746,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2777,
   },
   {
     score: 19.714,
@@ -100006,6 +102783,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2778,
   },
   {
     score: 19.714,
@@ -100042,6 +102820,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2779,
   },
   {
     score: 19.689,
@@ -100078,6 +102857,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2780,
   },
   {
     score: 19.689,
@@ -100114,6 +102894,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2781,
   },
   {
     score: 19.689,
@@ -100150,6 +102931,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2782,
   },
   {
     score: 19.689,
@@ -100186,6 +102968,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2783,
   },
   {
     score: 19.689,
@@ -100222,6 +103005,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2784,
   },
   {
     score: 19.668,
@@ -100258,6 +103042,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2785,
   },
   {
     score: 19.668,
@@ -100294,6 +103079,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2786,
   },
   {
     score: 19.668,
@@ -100330,6 +103116,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2787,
   },
   {
     score: 19.636,
@@ -100366,6 +103153,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2788,
   },
   {
     score: 19.636,
@@ -100402,6 +103190,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2789,
   },
   {
     score: 19.636,
@@ -100438,6 +103227,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2790,
   },
   {
     score: 19.636,
@@ -100474,6 +103264,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2791,
   },
   {
     score: 19.636,
@@ -100510,6 +103301,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2792,
   },
   {
     score: 19.636,
@@ -100546,6 +103338,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2793,
   },
   {
     score: 19.61,
@@ -100582,6 +103375,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2794,
   },
   {
     score: 19.61,
@@ -100618,6 +103412,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2795,
   },
   {
     score: 19.589,
@@ -100654,6 +103449,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2796,
   },
   {
     score: 19.589,
@@ -100690,6 +103486,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2797,
   },
   {
     score: 19.589,
@@ -100726,6 +103523,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2798,
   },
   {
     score: 19.557,
@@ -100762,6 +103560,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2799,
   },
   {
     score: 19.557,
@@ -100798,6 +103597,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2800,
   },
   {
     score: 19.504,
@@ -100834,6 +103634,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2801,
   },
   {
     score: 19.504,
@@ -100870,6 +103671,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2802,
   },
   {
     score: 19.504,
@@ -100906,6 +103708,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2803,
   },
   {
     score: 19.478,
@@ -100942,6 +103745,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2804,
   },
   {
     score: 19.478,
@@ -100978,6 +103782,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2805,
   },
   {
     score: 19.478,
@@ -101014,6 +103819,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2806,
   },
   {
     score: 19.478,
@@ -101050,6 +103856,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2807,
   },
   {
     score: 19.437,
@@ -101086,6 +103893,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2808,
   },
   {
     score: 19.437,
@@ -101122,6 +103930,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2809,
   },
   {
     score: 19.437,
@@ -101158,6 +103967,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2810,
   },
   {
     score: 19.358,
@@ -101194,6 +104004,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2811,
   },
   {
     score: 19.358,
@@ -101230,6 +104041,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2812,
   },
   {
     score: 19.326,
@@ -101266,6 +104078,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2813,
   },
   {
     score: 19.326,
@@ -101302,6 +104115,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2814,
   },
   {
     score: 19.326,
@@ -101338,6 +104152,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2815,
   },
   {
     score: 19.322,
@@ -101374,6 +104189,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2816,
   },
   {
     score: 19.322,
@@ -101410,6 +104226,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2817,
   },
   {
     score: 19.322,
@@ -101446,6 +104263,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2818,
   },
   {
     score: 19.273,
@@ -101482,6 +104300,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2819,
   },
   {
     score: 19.273,
@@ -101518,6 +104337,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2820,
   },
   {
     score: 19.273,
@@ -101554,6 +104374,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2821,
   },
   {
     score: 19.273,
@@ -101590,6 +104411,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2822,
   },
   {
     score: 19.273,
@@ -101626,6 +104448,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2823,
   },
   {
     score: 19.247,
@@ -101662,6 +104485,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2824,
   },
   {
     score: 19.247,
@@ -101698,6 +104522,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2825,
   },
   {
     score: 19.247,
@@ -101734,6 +104559,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2826,
   },
   {
     score: 19.247,
@@ -101770,6 +104596,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2827,
   },
   {
     score: 19.243,
@@ -101806,6 +104633,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2828,
   },
   {
     score: 19.243,
@@ -101842,6 +104670,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2829,
   },
   {
     score: 19.243,
@@ -101878,6 +104707,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2830,
   },
   {
     score: 19.243,
@@ -101914,6 +104744,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2831,
   },
   {
     score: 19.069,
@@ -101950,6 +104781,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2832,
   },
   {
     score: 19.069,
@@ -101986,6 +104818,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2833,
   },
   {
     score: 18.99,
@@ -102022,6 +104855,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2834,
   },
   {
     score: 18.99,
@@ -102058,6 +104892,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2835,
   },
   {
     score: 18.99,
@@ -102094,6 +104929,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2836,
   },
   {
     score: 18.99,
@@ -102130,6 +104966,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2837,
   },
   {
     score: 18.99,
@@ -102166,6 +105003,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2838,
   },
   {
     score: 18.99,
@@ -102202,6 +105040,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2839,
   },
   {
     score: 18.959,
@@ -102238,6 +105077,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2840,
   },
   {
     score: 18.959,
@@ -102274,6 +105114,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2841,
   },
   {
     score: 18.959,
@@ -102310,6 +105151,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2842,
   },
   {
     score: 18.911,
@@ -102346,6 +105188,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2843,
   },
   {
     score: 18.911,
@@ -102382,6 +105225,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2844,
   },
   {
     score: 18.911,
@@ -102418,6 +105262,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2845,
   },
   {
     score: 18.911,
@@ -102454,6 +105299,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2846,
   },
   {
     score: 18.906,
@@ -102490,6 +105336,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2847,
   },
   {
     score: 18.906,
@@ -102526,6 +105373,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2848,
   },
   {
     score: 18.906,
@@ -102562,6 +105410,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2849,
   },
   {
     score: 18.906,
@@ -102598,6 +105447,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2850,
   },
   {
     score: 18.906,
@@ -102634,6 +105484,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2851,
   },
   {
     score: 18.906,
@@ -102670,6 +105521,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2852,
   },
   {
     score: 18.906,
@@ -102706,6 +105558,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2853,
   },
   {
     score: 18.88,
@@ -102742,6 +105595,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2854,
   },
   {
     score: 18.88,
@@ -102778,6 +105632,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2855,
   },
   {
     score: 18.88,
@@ -102814,6 +105669,7 @@ export const tigerNftRarity = [
         value: "NONE",
       },
     ],
+    rank: 2856,
   },
   {
     score: 18.759,
@@ -102850,6 +105706,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2857,
   },
   {
     score: 18.759,
@@ -102886,6 +105743,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2858,
   },
   {
     score: 18.68,
@@ -102922,6 +105780,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2859,
   },
   {
     score: 18.68,
@@ -102958,6 +105817,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2860,
   },
   {
     score: 18.68,
@@ -102994,6 +105854,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2861,
   },
   {
     score: 18.392,
@@ -103030,6 +105891,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2862,
   },
   {
     score: 18.392,
@@ -103066,6 +105928,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2863,
   },
   {
     score: 18.392,
@@ -103102,6 +105965,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2864,
   },
   {
     score: 18.392,
@@ -103138,6 +106002,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2865,
   },
   {
     score: 18.392,
@@ -103174,6 +106039,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2866,
   },
   {
     score: 18.313,
@@ -103210,6 +106076,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2867,
   },
   {
     score: 18.313,
@@ -103246,6 +106113,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2868,
   },
   {
     score: 18.313,
@@ -103282,6 +106150,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2869,
   },
   {
     score: 18.313,
@@ -103318,6 +106187,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2870,
   },
   {
     score: 18.313,
@@ -103354,6 +106224,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2871,
   },
   {
     score: 18.313,
@@ -103390,6 +106261,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2872,
   },
   {
     score: 18.313,
@@ -103426,6 +106298,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2873,
   },
   {
     score: 18.26,
@@ -103462,6 +106335,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2874,
   },
   {
     score: 18.26,
@@ -103498,6 +106372,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2875,
   },
   {
     score: 18.26,
@@ -103534,6 +106409,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2876,
   },
   {
     score: 18.26,
@@ -103570,6 +106446,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2877,
   },
   {
     score: 18.26,
@@ -103606,6 +106483,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2878,
   },
   {
     score: 18.26,
@@ -103642,6 +106520,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2879,
   },
   {
     score: 18.181,
@@ -103678,6 +106557,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2880,
   },
   {
     score: 18.181,
@@ -103714,6 +106594,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2881,
   },
   {
     score: 18.181,
@@ -103750,6 +106631,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2882,
   },
   {
     score: 18.156,
@@ -103786,6 +106668,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2883,
   },
   {
     score: 18.156,
@@ -103822,6 +106705,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2884,
   },
   {
     score: 18.156,
@@ -103858,6 +106742,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2885,
   },
   {
     score: 18.156,
@@ -103894,6 +106779,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2886,
   },
   {
     score: 18.156,
@@ -103930,6 +106816,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2887,
   },
   {
     score: 18.156,
@@ -103966,6 +106853,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2888,
   },
   {
     score: 18.077,
@@ -104002,6 +106890,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2889,
   },
   {
     score: 18.077,
@@ -104038,6 +106927,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2890,
   },
   {
     score: 18.077,
@@ -104074,6 +106964,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2891,
   },
   {
     score: 18.077,
@@ -104110,6 +107001,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2892,
   },
   {
     score: 18.077,
@@ -104146,6 +107038,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2893,
   },
   {
     score: 18.077,
@@ -104182,6 +107075,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2894,
   },
   {
     score: 18.029,
@@ -104218,6 +107112,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2895,
   },
   {
     score: 18.029,
@@ -104254,6 +107149,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2896,
   },
   {
     score: 18.029,
@@ -104290,6 +107186,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2897,
   },
   {
     score: 18.029,
@@ -104326,6 +107223,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2898,
   },
   {
     score: 18.029,
@@ -104362,6 +107260,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2899,
   },
   {
     score: 18.029,
@@ -104398,6 +107297,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2900,
   },
   {
     score: 17.95,
@@ -104434,6 +107334,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2901,
   },
   {
     score: 17.925,
@@ -104470,6 +107371,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2902,
   },
   {
     score: 17.925,
@@ -104506,6 +107408,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2903,
   },
   {
     score: 17.925,
@@ -104542,6 +107445,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2904,
   },
   {
     score: 17.846,
@@ -104578,6 +107482,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2905,
   },
   {
     score: 17.846,
@@ -104614,6 +107519,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2906,
   },
   {
     score: 17.846,
@@ -104650,6 +107556,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2907,
   },
   {
     score: 17.846,
@@ -104686,6 +107593,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2908,
   },
   {
     score: 17.846,
@@ -104722,6 +107630,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2909,
   },
   {
     score: 17.846,
@@ -104758,6 +107667,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2910,
   },
   {
     score: 17.846,
@@ -104794,6 +107704,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2911,
   },
   {
     score: 17.846,
@@ -104830,6 +107741,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2912,
   },
   {
     score: 17.846,
@@ -104866,6 +107778,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2913,
   },
   {
     score: 17.661,
@@ -104902,6 +107815,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2914,
   },
   {
     score: 17.661,
@@ -104938,6 +107852,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2915,
   },
   {
     score: 17.661,
@@ -104974,6 +107889,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2916,
   },
   {
     score: 17.661,
@@ -105010,6 +107926,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2917,
   },
   {
     score: 17.661,
@@ -105046,6 +107963,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2918,
   },
   {
     score: 17.582,
@@ -105082,6 +108000,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2919,
   },
   {
     score: 17.582,
@@ -105118,6 +108037,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2920,
   },
   {
     score: 17.582,
@@ -105154,6 +108074,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2921,
   },
   {
     score: 17.582,
@@ -105190,6 +108111,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2922,
   },
   {
     score: 17.582,
@@ -105226,6 +108148,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2923,
   },
   {
     score: 17.582,
@@ -105262,6 +108185,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2924,
   },
   {
     score: 17.582,
@@ -105298,6 +108222,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2925,
   },
   {
     score: 17.582,
@@ -105334,6 +108259,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2926,
   },
   {
     score: 17.582,
@@ -105370,6 +108296,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2927,
   },
   {
     score: 17.582,
@@ -105406,6 +108333,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2928,
   },
   {
     score: 17.582,
@@ -105442,6 +108370,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2929,
   },
   {
     score: 17.558,
@@ -105478,6 +108407,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2930,
   },
   {
     score: 17.558,
@@ -105514,6 +108444,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2931,
   },
   {
     score: 17.558,
@@ -105550,6 +108481,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2932,
   },
   {
     score: 17.558,
@@ -105586,6 +108518,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2933,
   },
   {
     score: 17.558,
@@ -105622,6 +108555,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2934,
   },
   {
     score: 17.558,
@@ -105658,6 +108592,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2935,
   },
   {
     score: 17.558,
@@ -105694,6 +108629,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2936,
   },
   {
     score: 17.558,
@@ -105730,6 +108666,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2937,
   },
   {
     score: 17.479,
@@ -105766,6 +108703,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2938,
   },
   {
     score: 17.479,
@@ -105802,6 +108740,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2939,
   },
   {
     score: 17.479,
@@ -105838,6 +108777,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2940,
   },
   {
     score: 17.479,
@@ -105874,6 +108814,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2941,
   },
   {
     score: 17.426,
@@ -105910,6 +108851,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2942,
   },
   {
     score: 17.426,
@@ -105946,6 +108888,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2943,
   },
   {
     score: 17.426,
@@ -105982,6 +108925,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2944,
   },
   {
     score: 17.426,
@@ -106018,6 +108962,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2945,
   },
   {
     score: 17.426,
@@ -106054,6 +108999,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2946,
   },
   {
     score: 17.426,
@@ -106090,6 +109036,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2947,
   },
   {
     score: 17.426,
@@ -106126,6 +109073,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2948,
   },
   {
     score: 17.347,
@@ -106162,6 +109110,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2949,
   },
   {
     score: 17.347,
@@ -106198,6 +109147,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2950,
   },
   {
     score: 17.347,
@@ -106234,6 +109184,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2951,
   },
   {
     score: 17.347,
@@ -106270,6 +109221,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2952,
   },
   {
     score: 17.347,
@@ -106306,6 +109258,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2953,
   },
   {
     score: 17.347,
@@ -106342,6 +109295,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2954,
   },
   {
     score: 17.347,
@@ -106378,6 +109332,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2955,
   },
   {
     score: 17.347,
@@ -106414,6 +109369,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2956,
   },
   {
     score: 17.195,
@@ -106450,6 +109406,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2957,
   },
   {
     score: 17.195,
@@ -106486,6 +109443,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2958,
   },
   {
     score: 17.195,
@@ -106522,6 +109480,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2959,
   },
   {
     score: 17.195,
@@ -106558,6 +109517,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2960,
   },
   {
     score: 17.116,
@@ -106594,6 +109554,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2961,
   },
   {
     score: 17.116,
@@ -106630,6 +109591,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2962,
   },
   {
     score: 17.116,
@@ -106666,6 +109628,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2963,
   },
   {
     score: 17.116,
@@ -106702,6 +109665,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2964,
   },
   {
     score: 17.116,
@@ -106738,6 +109702,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2965,
   },
   {
     score: 17.116,
@@ -106774,6 +109739,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2966,
   },
   {
     score: 17.116,
@@ -106810,6 +109776,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2967,
   },
   {
     score: 17.116,
@@ -106846,6 +109813,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2968,
   },
   {
     score: 17.116,
@@ -106882,6 +109850,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2969,
   },
   {
     score: 16.827,
@@ -106918,6 +109887,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2970,
   },
   {
     score: 16.827,
@@ -106954,6 +109924,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2971,
   },
   {
     score: 16.827,
@@ -106990,6 +109961,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2972,
   },
   {
     score: 16.827,
@@ -107026,6 +109998,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2973,
   },
   {
     score: 16.827,
@@ -107062,6 +110035,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2974,
   },
   {
     score: 16.827,
@@ -107098,6 +110072,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2975,
   },
   {
     score: 16.827,
@@ -107134,6 +110109,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2976,
   },
   {
     score: 16.827,
@@ -107170,6 +110146,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2977,
   },
   {
     score: 16.827,
@@ -107206,6 +110183,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2978,
   },
   {
     score: 16.827,
@@ -107242,6 +110220,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2979,
   },
   {
     score: 16.827,
@@ -107278,6 +110257,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2980,
   },
   {
     score: 16.827,
@@ -107314,6 +110294,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2981,
   },
   {
     score: 16.748,
@@ -107350,6 +110331,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2982,
   },
   {
     score: 16.748,
@@ -107386,6 +110368,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2983,
   },
   {
     score: 16.748,
@@ -107422,6 +110405,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2984,
   },
   {
     score: 16.748,
@@ -107458,6 +110442,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2985,
   },
   {
     score: 16.748,
@@ -107494,6 +110479,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2986,
   },
   {
     score: 16.748,
@@ -107530,6 +110516,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2987,
   },
   {
     score: 16.748,
@@ -107566,6 +110553,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2988,
   },
   {
     score: 16.748,
@@ -107602,6 +110590,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2989,
   },
   {
     score: 16.748,
@@ -107638,6 +110627,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2990,
   },
   {
     score: 16.748,
@@ -107674,6 +110664,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2991,
   },
   {
     score: 16.748,
@@ -107710,6 +110701,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2992,
   },
   {
     score: 16.748,
@@ -107746,6 +110738,7 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2993,
   },
   {
     score: 16.748,
@@ -107782,5 +110775,6 @@ export const tigerNftRarity = [
         value: "HANDS",
       },
     ],
+    rank: 2994,
   },
 ]

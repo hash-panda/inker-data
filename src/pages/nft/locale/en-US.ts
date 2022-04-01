@@ -9,4 +9,10 @@ export default {
   'nft.holder.info': 'NFT Holder Info',
   'nft.holder.owner': 'Owner of NFT',
   'nft.holder.nftCount': 'Count of NFT',
+
+  'nft.tiger.rarity.rank': 'Rank',
+  'nft.tiger.rarity.tokenId': 'Id',
+  'nft.tiger.rarity.image': '',
+  'nft.tiger.rarity.attributes': 'Attributes',
+  'nft.tiger.rarity.score': 'Score',
 };
