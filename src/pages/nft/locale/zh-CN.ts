@@ -10,6 +10,8 @@ export default {
   'nft.holder.owner': 'NFT 拥有者',
   'nft.holder.nftCount': 'NFT 数量',
 
+  'nft.tiger.rarity.title': '稀有度计算公式',
+  'nft.tiger.rarity.description': '稀有度得分 = 各个特征稀有度分数相加，特征稀有度分数= 1 / ([具有该特性值的项目数] / [NFT总数])',
   'nft.tiger.rarity.search': '查询',
   'nft.tiger.rarity.placeholder': '输入 token id',
   'nft.tiger.rarity.rank': '排名',

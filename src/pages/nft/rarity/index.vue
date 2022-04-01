@@ -1,6 +1,7 @@
 <template>
   <a-card class="general-card" :bordered="false">
     <a-space direction="vertical">
+      <a-alert :title="$t('nft.tiger.rarity.title')">{{ $t('nft.tiger.rarity.description') }}</a-alert>
       <a-input-search
         :style="{ width: '320px' }"
         :placeholder="$t('nft.tiger.rarity.placeholder')"
