@@ -39,6 +39,7 @@
             :title="$t('nft.tiger.rarity.score')"
             data-index="score"
             :width="80"
+            fixed="left"
             :filterable="scoreFilter"
           >
           </a-table-column>
@@ -46,6 +47,7 @@
             :title="$t('nft.tiger.rarity.tokenId')"
             data-index="tokenId"
             :width="120"
+            fixed="left"
             :sortable="{
               sortDirections: ['ascend', 'descend'],
             }"
@@ -59,6 +61,7 @@
           <a-table-column
             :title="$t('nft.tiger.rarity.image')"
             data-index="image"
+            fixed="left"
             :width="100"
           >
             <template #cell="{ record }">
