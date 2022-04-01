@@ -5,8 +5,8 @@ import { tigerNftRarity } from './tigerNftRarity';
 export const useNftState = defineStore('nftState', {
   state: () => {
     return {
-      tigerNftList: [],
-      tigerNftRarityRank: [],
+      tigerNftList,
+      tigerNftRarityRank: tigerNftRarity,
     };
   },
   getters: {
