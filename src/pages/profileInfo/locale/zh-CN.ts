@@ -24,4 +24,5 @@ export default {
   'nftAirdrop.eligible': '符合资格',
   'nftAirdrop.notEligible': '不符合资格',
   'nftAirdrop.checkEligible': '检查资格',
+  'nftAirdrop.openWeb': '查看你的 NFT'
 };

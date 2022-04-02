@@ -25,4 +25,5 @@ export default {
   'nftAirdrop.eligible': 'eligible',
   'nftAirdrop.notEligible': 'not eligible',
   'nftAirdrop.checkEligible': 'Check Eligible',
+  'nftAirdrop.openWeb': 'Check Your NFT'
 };

@@ -34,7 +34,7 @@
           <template #cell="{ record }">
             <a-tag v-if="record.isAirdropNft" size="small" color="purple">{{
               $t('nftAirdrop.eligible')
-            }}</a-tag>
+            }} <span @click="openWeb(record.address)">{{ $t('nftAirdrop.openWeb') }}</span></a-tag>
             <a-tag v-else size="small">{{
               $t('nftAirdrop.notEligible')
             }}</a-tag>
@@ -101,9 +101,18 @@ export default defineComponent({
       );
     };
 
+    const openWeb = (address: string) => {
+      window.open(
+        `https://knowhere.art/profile/${address}`,
+        '_blank'
+      );
+      
+    }
+
     return {
       loading,
       nftAirdropInfo,
+      openWeb,
       encodeAddress,
       checkEligible,
     };
