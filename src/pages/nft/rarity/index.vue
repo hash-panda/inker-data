@@ -593,7 +593,7 @@ export default defineComponent({
     const doSearch = (value: any) => {
       if (value) {
         const nft = nftStore.tigerNftRarityRank.find((v: any) => {
-          return v.tokenId === value;
+          return v.tokenId === Number(value);
         });
         if (nft) {
           nftRarityList.value = [nft]
