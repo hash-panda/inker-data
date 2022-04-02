@@ -34,7 +34,7 @@
           <template #cell="{ record }">
             <a-tag v-if="record.isAirdropNft" size="small" color="purple">{{
               $t('nftAirdrop.eligible')
-            }} <a-button type="outline" @click="openWeb(record.address)"> {{ $t('nftAirdrop.openWeb') }}</a-button></a-tag>
+            }} <a-button type="outline" size="mini" @click="openWeb(record.address)"> {{ $t('nftAirdrop.openWeb') }}</a-button></a-tag>
             <a-tag v-else size="small">{{
               $t('nftAirdrop.notEligible')
             }}</a-tag>
