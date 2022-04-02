@@ -23,5 +23,6 @@ export default defineComponent({
 <style lang="less" scoped>
 .general-card {
   min-height: 188px;
+  width: 80vw;
 }
 </style>

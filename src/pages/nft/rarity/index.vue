@@ -1,6 +1,6 @@
 <template>
   <a-card class="general-card" :bordered="false">
-    <a-space direction="vertical">
+    <a-space direction="vertical" style="width:80vw">
       <a-alert :title="$t('nft.tiger.rarity.title')">{{ $t('nft.tiger.rarity.description') }}</a-alert>
       <a-input-search
         :style="{ width: '320px' }"
@@ -16,7 +16,9 @@
         </template>
       </a-input-search>
       <div style="width:100%">
-      <a-table
+      <a-row class="grid-demo">
+        <a-col :span="24">
+          <a-table
         :data="nftRarityList"
         :pagination="true"
         :split="false"
@@ -27,12 +29,11 @@
           <a-table-column
             :title="$t('nft.tiger.rarity.rank')"
             data-index="rank"
-            :width="120"
+            :width="90"
             fixed="left"
             :sortable="{
               sortDirections: ['ascend', 'descend'],
             }"
-            :filterable="rankFilter"
           >
           </a-table-column>
           <a-table-column
@@ -144,6 +145,8 @@
         </a-table-column> -->
         </template>
       </a-table>
+        </a-col>
+      </a-row>
       </div>
     </a-space>
   </a-card>
