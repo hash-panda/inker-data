@@ -21,7 +21,7 @@ export default {
   'navbar.action.locale': 'Switch to English',
   'http.error': 'The server is busy. Refresh or re-enter the information',
   'alert.info':
-    '稍后会出 CYIO 的排行信息 和 Tiger NFT 的稀有度排行榜信息，请耐心等待',
+    'Rarity rank of Tiger NFT had released!',
   ...localeNft,
   ...localeAnalysis,
   ...localeSettings,
