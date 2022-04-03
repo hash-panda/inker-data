@@ -4,6 +4,7 @@ import { AccountInfoState } from './types';
 
 export const useAccountInfoState = defineStore('accountInfoState', {
   state: (): AccountInfoState => ({
+    totalCyoiDeposit: 0,
     totalDeposit: 0,
     totalAwards: 0,
     awardCount: 0,
@@ -13,7 +14,7 @@ export const useAccountInfoState = defineStore('accountInfoState', {
   }),
   getters: {
     total(state) {
-      return accAdd(state.totalDepositInParty ?? 0, state.totalDeposit ?? 0);
+      return accAdd(accAdd(state.totalDepositInParty ?? 0, state.totalDeposit ?? 0), state.totalCyoiDeposit ?? 0);
     },
   },
   actions: {

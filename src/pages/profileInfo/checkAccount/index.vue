@@ -53,6 +53,10 @@
               :accounts="searchedTerraAddress"
               :checkProfile="false"
             />
+            <cyoi-info
+              :accounts="searchedTerraAddress"
+              :checkProfile="false"
+            />
             <account-info
               :accounts="searchedTerraAddress"
               :checkProfile="false"
@@ -81,6 +85,7 @@ import PartyDepositInfo from '../components/party-deposit-info.vue';
 import AwardInfo from '../components/award-info.vue';
 import DataOverview from '../components/data-overview.vue';
 import NftAirdrop from '../components/nft-airdrop.vue';
+import CyoiInfo from '../components/cyoi-info.vue';
 
 export default defineComponent({
   components: {
@@ -89,6 +94,7 @@ export default defineComponent({
     AwardInfo,
     DataOverview,
     NftAirdrop,
+    CyoiInfo,
   },
   setup() {
     const { loading, setLoading } = useLoading(false);

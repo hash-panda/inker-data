@@ -4,6 +4,7 @@ import { ProfileInfoState } from './types';
 
 export const useProfileInfoState = defineStore('profileInfoState', {
   state: (): ProfileInfoState => ({
+    totalCyoiDeposit: 0,
     totalDeposit: 0,
     totalAwards: 0,
     awardCount: 0,
@@ -13,7 +14,7 @@ export const useProfileInfoState = defineStore('profileInfoState', {
   }),
   getters: {
     total(state) {
-      return accAdd(state.totalDepositInParty ?? 0, state.totalDeposit ?? 0);
+      return accAdd(accAdd(state.totalDepositInParty ?? 0, state.totalDeposit ?? 0), state.totalCyoiDeposit ?? 0);
     },
   },
   actions: {

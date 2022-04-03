@@ -24,4 +24,6 @@ export default {
   'nftAirdrop.eligible': '符合资格',
   'nftAirdrop.notEligible': '不符合资格',
   'nftAirdrop.checkEligible': '检查资格',
+  'profileInfo.cyoiInfo': 'CYOI Info',
+  'profileInfo.dataOverview.accountCyoiDeposit': 'CYOI 存款'
 };

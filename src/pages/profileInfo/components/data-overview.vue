@@ -9,7 +9,7 @@
         <a-col
           v-for="(item, idx) in renderData"
           :key="idx"
-          :span="6"
+          :span="4"
           style="
             display: flex;
             align-content: space-around;
@@ -105,6 +105,18 @@ export default defineComponent({
           value: props.checkProfile
             ? profileInfoState.totalDepositInParty
             : accountInfoState.totalDepositInParty,
+          precision: 2,
+          // prefix: {
+          //   icon: 'icon-fire',
+          //   background: isDark.value ? '#593E2F' : '#FFE4BA',
+          //   iconColor: isDark.value ? '#F29A43' : '#F77234',
+          // },
+        },
+         {
+          title: t('profileInfo.dataOverview.accountCyoiDeposit'),
+          value: props.checkProfile
+            ? profileInfoState.totalCyoiDeposit
+            : accountInfoState.totalCyoiDeposit,
           precision: 2,
           // prefix: {
           //   icon: 'icon-fire',

@@ -25,4 +25,6 @@ export default {
   'nftAirdrop.eligible': 'eligible',
   'nftAirdrop.notEligible': 'not eligible',
   'nftAirdrop.checkEligible': 'Check Eligible',
+  'profileInfo.cyoiInfo': 'CYOI Info',
+  'profileInfo.dataOverview.accountCyoiDeposit': 'CYOI Deposit'
 };

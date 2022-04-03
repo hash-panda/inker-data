@@ -92,3 +92,37 @@ export function queryDepositInfo(address: string) {
     requestParams
   );
 }
+
+export interface CyoiInfoRes {
+  height: string;
+  result: {
+    is_created: boolean;
+    vault_addr: string;
+    info: {
+      aust_rate: string;
+      aust: string;
+      current_ust: string;
+      initial_ust: string;
+      core: string;
+      total: string;
+    };
+  };
+}
+
+export function queryCyoiInfo(address: string) {
+  const queryMsg = {
+    vault: {
+      address,
+    },
+  };
+  const encodeQueryMsg = JSON.stringify(queryMsg);
+  const requestParams = {
+    params: {
+      query_msg: encodeQueryMsg,
+    },
+  };
+  return axios.get<CyoiInfoRes>(
+    'https://lcd.terra.dev/wasm/contracts/terra1v579mvp2xxw3st7glgaurfla5pxses0jdwedde/store',
+    requestParams
+  );
+}
