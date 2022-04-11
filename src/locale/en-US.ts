@@ -21,7 +21,7 @@ export default {
   'navbar.action.locale': 'Switch to English',
   'http.error': 'The server is busy. Refresh or re-enter the information',
   'alert.info':
-    'Rarity rank of Tiger NFT had released!',
+    'CYOI deposit analysis And Rarity rank of Tiger NFT had released!',
   ...localeNft,
   ...localeAnalysis,
   ...localeSettings,

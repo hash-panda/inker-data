@@ -21,7 +21,7 @@ export default {
   'navbar.action.locale': '切换为中文',
   'http.error': '服务器繁忙，请刷新或者重新输入信息',
   'alert.info':
-    'Tiger NFT 的稀有度排行榜信息，已经发布！去看看吧！',
+    'CYOI 统计信息 和 Tiger NFT 的稀有度排行榜信息，已经发布！去看看吧！',
   ...localeNft,
   ...localeAnalysis,
   ...localeSettings,
