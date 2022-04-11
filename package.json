@@ -6,7 +6,7 @@
     "author": "ArcoDesign Team",
     "license": "MIT",
     "scripts": {
-        "dev": "vite --config ./config/vite.config.dev.ts",
+        "dev": "vite --config ./config/vite.config.dev.ts --mode development",
         "build": "vue-tsc --noEmit && vite build --config ./config/vite.config.prod.ts",
         "lint-staged": "npx lint-staged"
     },
