@@ -9,9 +9,9 @@
                 <div class="panel">
                     <ContentChart :chart-data="chart1" />
                 </div>
-                <!-- <div class="panel">
+                <div class="panel">
                     <CyoiChart />
-                </div> -->
+                </div>
                 <div class="panel">
                     <PrizeInfo />
                 </div>
@@ -131,7 +131,7 @@ export default defineComponent({
         const convertPlayersData = (players: Player[]) => {
             const tempAmountNumber = playersAmountConvertNumber(players)
             sortPlayers.value = playersSortByAmount(tempAmountNumber)
-            num2500.value = sortPlayers.value[2499].amount
+            // num2500.value = sortPlayers.value[2499].amount
             playersConvertCharts1Data(sortPlayers.value)
         }
 

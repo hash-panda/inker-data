@@ -6,7 +6,8 @@ export const useNftState = defineStore('nftState', {
     state: () => {
         return {
             tigerNftList: [],
-            tigerNftRarityRank: tigerNftRarity,
+            tigerNftRarityRank: [],
+            // tigerNftRarityRank: import.meta.env.MODE === 'development' ? [] : tigerNftRarity,
         }
     },
     getters: {
