@@ -130,7 +130,8 @@ export default defineComponent({
       try {
         setLoading(true);
         const currentAwardRes = await queryCurrentAward(block);
-        currentTotalPrizeAmount.value = (totalDeposit.value * 7 * 0.2055) / 365;
+        currentTotalPrizeAmount.value =
+          (totalDeposit.value * 7 * 0.2055) / 365 / 2;
         const totalAward = currentAwardRes.data?.result?.total_award.amount;
         const winnerAwards = currentAwardRes.data?.result?.winner_awards;
         const winnerAward1 = winnerAwards[0].amount;
