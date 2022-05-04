@@ -47,6 +47,12 @@
             </a-col>
           </a-row>
         </a-card>
+        <div>
+          <nft-prosper-peacock-airdrop
+            :accounts="profileStore.currentProfile?.address ?? []"
+            :checkProfile="true"
+          />
+        </div>
         <div
           ><award-info
             :accounts="profileStore.currentProfile?.address ?? []"
@@ -92,6 +98,7 @@ import AwardInfo from '../components/award-info.vue';
 import CyoiInfo from '../components/cyoi-info.vue';
 import DataOverview from '../components/data-overview.vue';
 import NftAirdrop from '../components/nft-airdrop.vue';
+import NftProsperPeacockAirdrop from '../components/prosper-peacock-nft-airdrop.vue';
 
 export default defineComponent({
   components: {
@@ -100,6 +107,7 @@ export default defineComponent({
     AwardInfo,
     DataOverview,
     NftAirdrop,
+    NftProsperPeacockAirdrop,
     CyoiInfo,
   },
   setup() {
