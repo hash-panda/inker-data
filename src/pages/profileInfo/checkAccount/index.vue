@@ -49,14 +49,15 @@
             ></template
           >
           <a-space direction="vertical" size="large" fill>
+            <nft-prosper-peacock-airdrop
+              :accounts="searchedTerraAddress"
+              :checkProfile="false"
+            />
             <award-info
               :accounts="searchedTerraAddress"
               :checkProfile="false"
             />
-            <cyoi-info
-              :accounts="searchedTerraAddress"
-              :checkProfile="false"
-            />
+            <cyoi-info :accounts="searchedTerraAddress" :checkProfile="false" />
             <account-info
               :accounts="searchedTerraAddress"
               :checkProfile="false"
@@ -85,6 +86,7 @@ import PartyDepositInfo from '../components/party-deposit-info.vue';
 import AwardInfo from '../components/award-info.vue';
 import DataOverview from '../components/data-overview.vue';
 import NftAirdrop from '../components/nft-airdrop.vue';
+import NftProsperPeacockAirdrop from '../components/prosper-peacock-nft-airdrop.vue';
 import CyoiInfo from '../components/cyoi-info.vue';
 
 export default defineComponent({
@@ -94,6 +96,7 @@ export default defineComponent({
     AwardInfo,
     DataOverview,
     NftAirdrop,
+    NftProsperPeacockAirdrop,
     CyoiInfo,
   },
   setup() {

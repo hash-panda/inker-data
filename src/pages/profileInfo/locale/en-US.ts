@@ -20,6 +20,7 @@ export default {
   'profileInfo.dataOverview.depositInPartyCount': 'Party Deposit Count',
   'profileInfo.dataOverview.totalDepositInParty': 'Deposit In Party',
   'nftAirdrop.title': 'Tiger NFT Airdrop',
+  'nftProsperPeacockAirdrop.title': 'Prosper Peacock NFT Airdrop',
   'nftAirdrop.address': 'Address',
   'nftAirdrop.isAirdropNft': 'is eligible?',
   'nftAirdrop.eligible': 'eligible',
@@ -27,5 +28,5 @@ export default {
   'nftAirdrop.checkEligible': 'Check Eligible',
   'profileInfo.cyoiInfo': 'CYOI Info',
   'profileInfo.dataOverview.accountCyoiDeposit': 'CYOI Deposit',
-  'nftAirdrop.openWeb': 'Check Your NFT'
+  'nftAirdrop.openWeb': 'Check Your NFT',
 };

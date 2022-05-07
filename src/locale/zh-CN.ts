@@ -21,7 +21,7 @@ export default {
   'navbar.action.locale': '切换为中文',
   'http.error': '服务器繁忙，请刷新或者重新输入信息',
   'alert.info':
-    'CYOI 统计信息 和 Tiger NFT 的稀有度排行榜信息，已经发布！去看看吧！',
+    '孔雀 NFT 中奖名单已经发布！去「多账户中奖情况」和「查看账户」菜单查询吧！',
   ...localeNft,
   ...localeAnalysis,
   ...localeSettings,

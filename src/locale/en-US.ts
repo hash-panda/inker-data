@@ -21,7 +21,7 @@ export default {
   'navbar.action.locale': 'Switch to English',
   'http.error': 'The server is busy. Refresh or re-enter the information',
   'alert.info':
-    'CYOI deposit analysis And Rarity rank of Tiger NFT had released!',
+    'Prosper Peacock NFT giveaway winners had released, please Check Accout and Check Profile Awards on Menu!',
   ...localeNft,
   ...localeAnalysis,
   ...localeSettings,
