@@ -176,16 +176,16 @@ export default defineComponent({
     const scoreFilter = ref({
       filters: [
         {
-          text: '> 60',
-          value: '60',
+          text: '> 100',
+          value: '100',
+        },
+        {
+          text: '> 80',
+          value: '80',
         },
         {
           text: '> 50',
           value: '50',
-        },
-        {
-          text: '> 40',
-          value: '40',
         },
         {
           text: '> 30',
