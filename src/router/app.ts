@@ -68,6 +68,16 @@ export default [
     },
   },
   {
+    path: 'prosper-nft',
+    name: 'prosperNft',
+    component: () => import('@/pages/prosperNft/list/index.vue'),
+    meta: {
+      locale: 'menu.prosper.nft',
+      icon: 'icon-code-square',
+      keepAlive: true,
+    },
+  },
+  {
     path: 'faq',
     name: 'faq',
     component: () => import('@/pages/faq/index.vue'),
