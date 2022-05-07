@@ -1,5 +1,5 @@
 export default {
-  'menu.nft': 'NFT稀有度排行',
+  'menu.nft': '老虎 NFT 稀有度排行',
   'menu.nft.list': 'Tiger NFT 列表',
   'menu.nft.holder': 'Tiger NFT 稀有度排行',
   'menu.nft.rarity.info': '稀有度说明',
@@ -12,7 +12,8 @@ export default {
   'nft.holder.nftCount': 'NFT 数量',
 
   'nft.tiger.rarity.title': '稀有度计算公式',
-  'nft.tiger.rarity.description': '稀有度得分 = 各个特征稀有度分数相加，特征稀有度分数= 1 / ([具有该特性值的项目数] / [NFT总数])',
+  'nft.tiger.rarity.description':
+    '稀有度得分 = 各个特征稀有度分数相加，特征稀有度分数= 1 / ([具有该特性值的项目数] / [NFT总数])',
   'nft.tiger.rarity.search': '查询',
   'nft.tiger.rarity.placeholder': '输入 token id',
   'nft.tiger.rarity.rank': '排名',

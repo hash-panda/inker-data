@@ -1,5 +1,5 @@
 export default {
-  'menu.nft': 'NFT Rarity Rank',
+  'menu.nft': 'Tiger NFT Rarity Rank',
   'menu.nft.list': 'Terra Tiger NFT',
   'menu.nft.holder': 'Tiger NFT Rarity Rank',
   'menu.nft.rarity.info': 'Rarity Description',
@@ -10,9 +10,10 @@ export default {
   'nft.holder.info': 'NFT Holder Info',
   'nft.holder.owner': 'Owner of NFT',
   'nft.holder.nftCount': 'Count of NFT',
-  
+
   'nft.tiger.rarity.title': 'Rarity Calculation',
-  'nft.tiger.rarity.description': 'Rarity Score = SUM ([Rarity Score for a Trait Value]) , [Rarity Score for a Trait Value] = 1 / ([Number of Items with that Trait Value] / [Total Number of Items in Collection])',
+  'nft.tiger.rarity.description':
+    'Rarity Score = SUM ([Rarity Score for a Trait Value]) , [Rarity Score for a Trait Value] = 1 / ([Number of Items with that Trait Value] / [Total Number of Items in Collection])',
   'nft.tiger.rarity.search': 'Search',
   'nft.tiger.rarity.placeholder': 'enter token id',
   'nft.tiger.rarity.rank': 'Rank',

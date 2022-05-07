@@ -10,6 +10,7 @@ import localeAirdrop from '@/pages/airdrop/locale/en-US';
 import localeMessageBox from '@/components/message-box/locale/en-US';
 import localeAnalysis from '@/components/analysis/locale/en-US';
 import localeNft from '@/pages/nft/locale/en-US';
+import localeProsperNft from '@/pages/prosperNft/locale/en-US';
 
 import locale403 from '@/pages/exception/403/locale/en-US';
 import locale404 from '@/pages/exception/404/locale/en-US';
@@ -21,8 +22,9 @@ export default {
   'navbar.action.locale': 'Switch to English',
   'http.error': 'The server is busy. Refresh or re-enter the information',
   'alert.info':
-    'Prosper Peacock NFT giveaway winners had released, please Check Accout and Check Profile Awards on Menu!',
+    '1. Rarity Rank of Prosper Peacock NFT had released! 2. Prosper Peacock NFT giveaway winners had released, please Check Accout and Check Profile Awards on Menu!',
   ...localeNft,
+  ...localeProsperNft,
   ...localeAnalysis,
   ...localeSettings,
   ...localeMessageBox,

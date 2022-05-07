@@ -10,6 +10,7 @@ import localeAirdrop from '@/pages/airdrop/locale/zh-CN';
 import localeAnalysis from '@/components/analysis/locale/zh-CN';
 import localeMessageBox from '@/components/message-box/locale/zh-CN';
 import localeNft from '@/pages/nft/locale/zh-CN';
+import localeProsperNft from '@/pages/prosperNft/locale/zh-CN';
 
 import locale403 from '@/pages/exception/403/locale/zh-CN';
 import locale404 from '@/pages/exception/404/locale/zh-CN';
@@ -21,8 +22,9 @@ export default {
   'navbar.action.locale': '切换为中文',
   'http.error': '服务器繁忙，请刷新或者重新输入信息',
   'alert.info':
-    '孔雀 NFT 中奖名单已经发布！去「多账户中奖情况」和「查看账户」菜单查询吧！',
+    '1. 孔雀稀有度已经发布！2. 孔雀 NFT 中奖名单已经发布！去「多账户中奖情况」和「查看账户」菜单查询吧！',
   ...localeNft,
+  ...localeProsperNft,
   ...localeAnalysis,
   ...localeSettings,
   ...localeMessageBox,
